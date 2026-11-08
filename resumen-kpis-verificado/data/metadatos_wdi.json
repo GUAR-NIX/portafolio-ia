@@ -1,0 +1,78 @@
+{
+  "fuente": "World Development Indicators (Banco Mundial), API v2",
+  "licencia": "CC BY 4.0",
+  "url": "https://api.worldbank.org/v2",
+  "descargado": "2026-10-27",
+  "indicadores": {
+    "pib_usd": {
+      "codigo": "NY.GDP.MKTP.CD",
+      "nombre_bm": "GDP (current US$)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "pib_pc": {
+      "codigo": "NY.GDP.PCAP.CD",
+      "nombre_bm": "GDP per capita (current US$)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "crecimiento": {
+      "codigo": "NY.GDP.MKTP.KD.ZG",
+      "nombre_bm": "GDP growth (annual %)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "inflacion": {
+      "codigo": "FP.CPI.TOTL.ZG",
+      "nombre_bm": "Inflation, consumer prices (annual %)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "desempleo": {
+      "codigo": "SL.UEM.TOTL.ZS",
+      "nombre_bm": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "exportaciones": {
+      "codigo": "NE.EXP.GNFS.ZS",
+      "nombre_bm": "Exports of goods and services (% of GDP)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "importaciones": {
+      "codigo": "NE.IMP.GNFS.ZS",
+      "nombre_bm": "Imports of goods and services (% of GDP)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "cuenta_corriente": {
+      "codigo": "BN.CAB.XOKA.GD.ZS",
+      "nombre_bm": "Current account balance (% of GDP)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "ied": {
+      "codigo": "BX.KLT.DINV.WD.GD.ZS",
+      "nombre_bm": "Foreign direct investment, net inflows (% of GDP)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "remesas": {
+      "codigo": "BX.TRF.PWKR.DT.GD.ZS",
+      "nombre_bm": "Personal remittances, received (% of GDP)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "deuda_externa": {
+      "codigo": "DT.DOD.DECT.GN.ZS",
+      "nombre_bm": "External debt stocks (% of GNI)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "pobreza": {
+      "codigo": "SI.POV.DDAY",
+      "nombre_bm": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "gini": {
+      "codigo": "SI.POV.GINI",
+      "nombre_bm": "Gini index",
+      "ultima_actualizacion": "2026-10-08"
+    },
+    "poblacion": {
+      "codigo": "SP.POP.TOTL",
+      "nombre_bm": "Population, total",
+      "ultima_actualizacion": "2026-10-08"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+ "ruc_emisor": "2122007004001",
+ "razon_social_emisor": "María Ana Andrade Zambrano - Ferretería Del Pacífico",
+ "numero_factura": "001-100-000201282",
+ "numero_autorizacion": "1504202301212200700400120011000002012822667593315",
+ "fecha_emision": "2023-04-15",
+ "cliente_nombre": "Inversiones Puerto Bolívar Cía. Ltda.",
+ "cliente_identificacion": "0890570305001",
+ "items": [
+  {
+   "descripcion": "Llave de paso 1/2 pulgada",
+   "cantidad": 5,
+   "precio_unitario": 6.93,
+   "total": 34.65
+  },
+  {
+   "descripcion": "Cinta métrica 5 m",
+   "cantidad": 1,
+   "precio_unitario": 4.47,
+   "total": 4.47
+  },
+  {
+   "descripcion": "Arena fina (m3)",
+   "cantidad": 21.5,
+   "precio_unitario": 23.97,
+   "total": 515.36
+  }
+ ],
+ "subtotal": 554.48,
+ "descuento": 0.0,
+ "iva": 66.54,
+ "total": 621.02
+}

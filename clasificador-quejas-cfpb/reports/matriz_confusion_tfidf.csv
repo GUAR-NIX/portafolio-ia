@@ -1,0 +1,7 @@
+,reporte_credito,cobranza_deudas,hipotecas,tarjetas_credito,cuentas_bancarias,prestamos_consumo
+reporte_credito,37,1,2,4,0,6
+cobranza_deudas,6,36,2,1,2,3
+hipotecas,2,0,45,0,1,2
+tarjetas_credito,1,1,1,41,6,0
+cuentas_bancarias,0,1,1,4,43,1
+prestamos_consumo,1,1,0,0,2,46

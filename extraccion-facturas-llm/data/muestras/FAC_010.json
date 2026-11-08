@@ -1,0 +1,39 @@
+{
+ "ruc_emisor": "1495506203001",
+ "razon_social_emisor": "Servicios Puerto Bolívar Cía. Ltda.",
+ "numero_factura": "002-002-000034236",
+ "numero_autorizacion": "1511202401149550620300120020020000342367770554319",
+ "fecha_emision": "2024-11-15",
+ "cliente_nombre": "Santiago Elena Naranjo Sarmiento",
+ "cliente_identificacion": "1635003146",
+ "items": [
+  {
+   "descripcion": "Mantenimiento preventivo de equipos",
+   "cantidad": 4,
+   "precio_unitario": 41.71,
+   "total": 166.84
+  },
+  {
+   "descripcion": "Traducción de documento (página)",
+   "cantidad": 5,
+   "precio_unitario": 13.39,
+   "total": 66.95
+  },
+  {
+   "descripcion": "Diseño de logotipo",
+   "cantidad": 1,
+   "precio_unitario": 96.25,
+   "total": 96.25
+  },
+  {
+   "descripcion": "Desarrollo de reporte en Power BI",
+   "cantidad": 2,
+   "precio_unitario": 181.43,
+   "total": 362.86
+  }
+ ],
+ "subtotal": 692.9,
+ "descuento": 0.0,
+ "iva": 103.94,
+ "total": 796.84
+}

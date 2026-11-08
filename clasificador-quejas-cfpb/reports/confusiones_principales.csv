@@ -1,0 +1,65 @@
+enfoque,real,predicha,n,pct_de_errores
+1. TF-IDF + LR (25.722 ej.),reporte_credito,prestamos_consumo,6,11.538461538461538
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,reporte_credito,6,11.538461538461538
+1. TF-IDF + LR (25.722 ej.),tarjetas_credito,cuentas_bancarias,6,11.538461538461538
+1. TF-IDF + LR (25.722 ej.),reporte_credito,tarjetas_credito,4,7.6923076923076925
+1. TF-IDF + LR (25.722 ej.),cuentas_bancarias,tarjetas_credito,4,7.6923076923076925
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,prestamos_consumo,3,5.769230769230769
+1. TF-IDF + LR (25.722 ej.),reporte_credito,hipotecas,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,hipotecas,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,cuentas_bancarias,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),hipotecas,reporte_credito,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),hipotecas,prestamos_consumo,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),prestamos_consumo,cuentas_bancarias,2,3.8461538461538463
+1. TF-IDF + LR (25.722 ej.),reporte_credito,cobranza_deudas,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,tarjetas_credito,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),hipotecas,cuentas_bancarias,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),tarjetas_credito,reporte_credito,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),tarjetas_credito,cobranza_deudas,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),tarjetas_credito,hipotecas,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),cuentas_bancarias,cobranza_deudas,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),cuentas_bancarias,hipotecas,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),cuentas_bancarias,prestamos_consumo,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),prestamos_consumo,reporte_credito,1,1.9230769230769231
+1. TF-IDF + LR (25.722 ej.),prestamos_consumo,cobranza_deudas,1,1.9230769230769231
+4. LLM zero-shot (qwen2.5:7b),cobranza_deudas,reporte_credito,19,20.43010752688172
+4. LLM zero-shot (qwen2.5:7b),tarjetas_credito,reporte_credito,16,17.20430107526882
+4. LLM zero-shot (qwen2.5:7b),tarjetas_credito,cuentas_bancarias,6,6.451612903225806
+4. LLM zero-shot (qwen2.5:7b),cuentas_bancarias,reporte_credito,6,6.451612903225806
+4. LLM zero-shot (qwen2.5:7b),cuentas_bancarias,tarjetas_credito,6,6.451612903225806
+4. LLM zero-shot (qwen2.5:7b),prestamos_consumo,reporte_credito,6,6.451612903225806
+4. LLM zero-shot (qwen2.5:7b),prestamos_consumo,cobranza_deudas,6,6.451612903225806
+4. LLM zero-shot (qwen2.5:7b),hipotecas,reporte_credito,5,5.376344086021505
+4. LLM zero-shot (qwen2.5:7b),hipotecas,cobranza_deudas,4,4.301075268817205
+4. LLM zero-shot (qwen2.5:7b),reporte_credito,prestamos_consumo,3,3.225806451612903
+4. LLM zero-shot (qwen2.5:7b),cobranza_deudas,hipotecas,2,2.1505376344086025
+4. LLM zero-shot (qwen2.5:7b),cobranza_deudas,tarjetas_credito,2,2.1505376344086025
+4. LLM zero-shot (qwen2.5:7b),cobranza_deudas,cuentas_bancarias,2,2.1505376344086025
+4. LLM zero-shot (qwen2.5:7b),hipotecas,cuentas_bancarias,2,2.1505376344086025
+4. LLM zero-shot (qwen2.5:7b),prestamos_consumo,tarjetas_credito,2,2.1505376344086025
+4. LLM zero-shot (qwen2.5:7b),reporte_credito,hipotecas,1,1.0752688172043012
+4. LLM zero-shot (qwen2.5:7b),tarjetas_credito,cobranza_deudas,1,1.0752688172043012
+4. LLM zero-shot (qwen2.5:7b),tarjetas_credito,hipotecas,1,1.0752688172043012
+4. LLM zero-shot (qwen2.5:7b),cuentas_bancarias,cobranza_deudas,1,1.0752688172043012
+4. LLM zero-shot (qwen2.5:7b),cuentas_bancarias,prestamos_consumo,1,1.0752688172043012
+4. LLM zero-shot (qwen2.5:7b),prestamos_consumo,hipotecas,1,1.0752688172043012
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,reporte_credito,12,20.0
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",reporte_credito,prestamos_consumo,5,8.333333333333332
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",hipotecas,prestamos_consumo,5,8.333333333333332
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",tarjetas_credito,reporte_credito,5,8.333333333333332
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",tarjetas_credito,cuentas_bancarias,4,6.666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cuentas_bancarias,prestamos_consumo,4,6.666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,cuentas_bancarias,3,5.0
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cuentas_bancarias,tarjetas_credito,3,5.0
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",reporte_credito,cobranza_deudas,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",reporte_credito,hipotecas,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,hipotecas,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,tarjetas_credito,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,prestamos_consumo,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cuentas_bancarias,reporte_credito,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",prestamos_consumo,reporte_credito,2,3.3333333333333335
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",hipotecas,cuentas_bancarias,1,1.6666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",tarjetas_credito,cobranza_deudas,1,1.6666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",tarjetas_credito,prestamos_consumo,1,1.6666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cuentas_bancarias,cobranza_deudas,1,1.6666666666666667
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",prestamos_consumo,cobranza_deudas,1,1.6666666666666667

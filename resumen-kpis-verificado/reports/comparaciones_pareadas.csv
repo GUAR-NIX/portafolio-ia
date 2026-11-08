@@ -1,0 +1,9 @@
+a,b,metrica,diferencia,ic_inf,ic_sup
+verificado,estructurado,tasa_alucinacion,-0.0297,-0.0689,0.0000
+verificado,estructurado,cobertura,0.0000,0.0000,0.0000
+estructurado,libre,tasa_alucinacion,0.0210,-0.0515,0.1093
+estructurado,libre,cobertura,0.1458,0.0625,0.2500
+verificado,libre,tasa_alucinacion,-0.0087,-0.0631,0.0506
+verificado,libre,cobertura,0.1458,0.0625,0.2500
+plantilla,verificado,tasa_alucinacion,-0.0309,-0.0804,0.0000
+plantilla,verificado,cobertura,-0.1667,-0.2917,-0.0417

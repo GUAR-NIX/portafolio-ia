@@ -1,0 +1,63 @@
+{
+ "ruc_emisor": "0995358131001",
+ "razon_social_emisor": "Restaurante Nueva Loja C.A.",
+ "numero_factura": "002-001-000020768",
+ "numero_autorizacion": "3107202501099535813100120020010000207682359686311",
+ "fecha_emision": "2025-07-31",
+ "cliente_nombre": "CONSUMIDOR FINAL",
+ "cliente_identificacion": "9999999999999",
+ "items": [
+  {
+   "descripcion": "Café pasado",
+   "cantidad": 12,
+   "precio_unitario": 1.35,
+   "total": 16.2
+  },
+  {
+   "descripcion": "Ceviche de camarón",
+   "cantidad": 1,
+   "precio_unitario": 7.19,
+   "total": 7.19
+  },
+  {
+   "descripcion": "Agua sin gas 500 ml",
+   "cantidad": 10,
+   "precio_unitario": 1.07,
+   "total": 10.7
+  },
+  {
+   "descripcion": "Humita",
+   "cantidad": 2,
+   "precio_unitario": 1.85,
+   "total": 3.7
+  },
+  {
+   "descripcion": "Jugo natural de naranjilla",
+   "cantidad": 6,
+   "precio_unitario": 2.66,
+   "total": 15.96
+  },
+  {
+   "descripcion": "Almuerzo ejecutivo",
+   "cantidad": 3,
+   "precio_unitario": 5.73,
+   "total": 17.19
+  },
+  {
+   "descripcion": "Seco de pollo",
+   "cantidad": 2,
+   "precio_unitario": 5.42,
+   "total": 10.84
+  },
+  {
+   "descripcion": "Bolón de verde mixto",
+   "cantidad": 5,
+   "precio_unitario": 2.68,
+   "total": 13.4
+  }
+ ],
+ "subtotal": 95.18,
+ "descuento": 4.76,
+ "iva": 13.56,
+ "total": 103.98
+}

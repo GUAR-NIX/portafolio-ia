@@ -1,0 +1,27 @@
+{
+ "ruc_emisor": "0599325832001",
+ "razon_social_emisor": "Restaurante Austral S.A.",
+ "numero_factura": "002-001-000231613",
+ "numero_autorizacion": "1910202401059932583200120020010002316132898108816",
+ "fecha_emision": "2024-10-19",
+ "cliente_nombre": "Esteban Sofía Mora Rivadeneira",
+ "cliente_identificacion": "1426428940",
+ "items": [
+  {
+   "descripcion": "Humita",
+   "cantidad": 1,
+   "precio_unitario": 1.4,
+   "total": 1.4
+  },
+  {
+   "descripcion": "Agua sin gas 500 ml",
+   "cantidad": 1,
+   "precio_unitario": 0.85,
+   "total": 0.85
+  }
+ ],
+ "subtotal": 2.25,
+ "descuento": 0.0,
+ "iva": 0.34,
+ "total": 2.59
+}

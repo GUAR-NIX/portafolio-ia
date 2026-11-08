@@ -1,0 +1,45 @@
+{
+ "ruc_emisor": "1061622980001",
+ "razon_social_emisor": "Empresa Pública Municipal de Servicios Cumbayá EP",
+ "numero_factura": "002-100-000102343",
+ "numero_autorizacion": "0111202301106162298000120021000001023436979736810",
+ "fecha_emision": "2023-11-01",
+ "cliente_nombre": "Comercial Sierra Verde C.A.",
+ "cliente_identificacion": "0390550081001",
+ "items": [
+  {
+   "descripcion": "Diseño de logotipo",
+   "cantidad": 20,
+   "precio_unitario": 177.18,
+   "total": 3543.6
+  },
+  {
+   "descripcion": "Traducción de documento (página)",
+   "cantidad": 6,
+   "precio_unitario": 9.54,
+   "total": 57.24
+  },
+  {
+   "descripcion": "Capacitación en Excel (hora)",
+   "cantidad": 15.8,
+   "precio_unitario": 30.84,
+   "total": 487.27
+  },
+  {
+   "descripcion": "Asesoría contable mensual",
+   "cantidad": 2,
+   "precio_unitario": 329.47,
+   "total": 658.94
+  },
+  {
+   "descripcion": "Mantenimiento preventivo de equipos",
+   "cantidad": 5,
+   "precio_unitario": 40.91,
+   "total": 204.55
+  }
+ ],
+ "subtotal": 4951.6,
+ "descuento": 0.0,
+ "iva": 594.19,
+ "total": 5545.79
+}

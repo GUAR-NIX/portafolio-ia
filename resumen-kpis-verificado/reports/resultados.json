@@ -1,0 +1,667 @@
+{
+  "version_prompt_elegida": "v1",
+  "regla_eleccion": "Entre las versiones de prompt que en validación promedian al menos 4 cifras correctas por informe con (b), gana la de menor tasa de cifras alucinadas; si empatan, la de mayor cobertura. La versión ganadora se usa en (a), (b) y (c) en prueba.",
+  "modelo": "qwen2.5:7b",
+  "descargado": "2026-10-27",
+  "n_validacion": 5,
+  "n_prueba": 12,
+  "validacion": {
+    "estructurado_v1": {
+      "informes": 5,
+      "cifras": 34,
+      "correctas": 34,
+      "incorrectas": 0,
+      "sin_fuente": 0,
+      "cifras_por_informe": 6.8,
+      "llamadas_llm": 1.0,
+      "palabras": 143.6,
+      "referencias_ok": 0.8846,
+      "refs_en_linea": 3.0,
+      "comparaciones": 21,
+      "comparaciones_mal_n": 6,
+      "tasa_alucinacion": 0.0,
+      "tasa_incorrecta": 0.0,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.6,
+      "informes_sin_error": 1.0,
+      "correctas_por_informe": 6.8,
+      "comparaciones_mal": 0.2857,
+      "segundos_por_informe": 126.4141,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.4,
+        0.8
+      ],
+      "informes_sin_error_ic": [
+        1.0,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        5.2,
+        8.6
+      ],
+      "comparaciones_mal_ic": [
+        0.15,
+        0.4118
+      ]
+    },
+    "estructurado_v2": {
+      "informes": 5,
+      "cifras": 24,
+      "correctas": 23,
+      "incorrectas": 1,
+      "sin_fuente": 0,
+      "cifras_por_informe": 4.8,
+      "llamadas_llm": 1.0,
+      "palabras": 124.2,
+      "referencias_ok": 0.9726,
+      "refs_en_linea": 0.0,
+      "comparaciones": 22,
+      "comparaciones_mal_n": 6,
+      "tasa_alucinacion": 0.0417,
+      "tasa_incorrecta": 0.0417,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.8,
+      "informes_sin_error": 0.6,
+      "correctas_por_informe": 4.6,
+      "comparaciones_mal": 0.2727,
+      "segundos_por_informe": 130.8572,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.15
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.15
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.75,
+        0.9
+      ],
+      "informes_sin_error_ic": [
+        0.2,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        2.0,
+        7.2
+      ],
+      "comparaciones_mal_ic": [
+        0.125,
+        0.45
+      ]
+    },
+    "verificado_v1": {
+      "informes": 5,
+      "cifras": 34,
+      "correctas": 34,
+      "incorrectas": 0,
+      "sin_fuente": 0,
+      "cifras_por_informe": 6.8,
+      "llamadas_llm": 1.0,
+      "palabras": 143.6,
+      "referencias_ok": 0.8846,
+      "refs_en_linea": 3.0,
+      "comparaciones": 21,
+      "comparaciones_mal_n": 6,
+      "tasa_alucinacion": 0.0,
+      "tasa_incorrecta": 0.0,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.6,
+      "informes_sin_error": 1.0,
+      "correctas_por_informe": 6.8,
+      "comparaciones_mal": 0.2857,
+      "segundos_por_informe": 126.4141,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.4,
+        0.8
+      ],
+      "informes_sin_error_ic": [
+        1.0,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        5.2,
+        8.6
+      ],
+      "comparaciones_mal_ic": [
+        0.15,
+        0.4118
+      ]
+    },
+    "verificado_v2": {
+      "informes": 5,
+      "cifras": 40,
+      "correctas": 39,
+      "incorrectas": 1,
+      "sin_fuente": 0,
+      "cifras_por_informe": 8.0,
+      "llamadas_llm": 1.6,
+      "palabras": 137.6,
+      "referencias_ok": 0.971,
+      "refs_en_linea": 0.0,
+      "comparaciones": 24,
+      "comparaciones_mal_n": 7,
+      "tasa_alucinacion": 0.025,
+      "tasa_incorrecta": 0.025,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.75,
+      "informes_sin_error": 0.8,
+      "correctas_por_informe": 7.8,
+      "comparaciones_mal": 0.2917,
+      "segundos_por_informe": 230.1481,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.1034
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.1034
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.75,
+        0.75
+      ],
+      "informes_sin_error_ic": [
+        0.4,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        4.6,
+        11.8
+      ],
+      "comparaciones_mal_ic": [
+        0.1786,
+        0.45
+      ]
+    },
+    "libre": {
+      "informes": 5,
+      "cifras": 41,
+      "correctas": 40,
+      "incorrectas": 1,
+      "sin_fuente": 0,
+      "cifras_por_informe": 8.2,
+      "llamadas_llm": 1.0,
+      "palabras": 189.6,
+      "referencias_ok": NaN,
+      "refs_en_linea": 0.0,
+      "comparaciones": 24,
+      "comparaciones_mal_n": 7,
+      "tasa_alucinacion": 0.0244,
+      "tasa_incorrecta": 0.0244,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.65,
+      "informes_sin_error": 0.8,
+      "correctas_por_informe": 8.0,
+      "comparaciones_mal": 0.2917,
+      "segundos_por_informe": 81.8622,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0639
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0639
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.55,
+        0.75
+      ],
+      "informes_sin_error_ic": [
+        0.4,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        5.8,
+        9.8
+      ],
+      "comparaciones_mal_ic": [
+        0.25,
+        0.3478
+      ]
+    },
+    "plantilla": {
+      "informes": 5,
+      "cifras": 120,
+      "correctas": 120,
+      "incorrectas": 0,
+      "sin_fuente": 0,
+      "cifras_por_informe": 24.0,
+      "llamadas_llm": 0.0,
+      "palabras": 178.4,
+      "referencias_ok": 1.0,
+      "refs_en_linea": 0.0,
+      "comparaciones": 10,
+      "comparaciones_mal_n": 0,
+      "tasa_alucinacion": 0.0,
+      "tasa_incorrecta": 0.0,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.9,
+      "informes_sin_error": 1.0,
+      "correctas_por_informe": 24.0,
+      "comparaciones_mal": 0.0,
+      "segundos_por_informe": 0.0123,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.8,
+        1.0
+      ],
+      "informes_sin_error_ic": [
+        1.0,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        24.0,
+        24.0
+      ],
+      "comparaciones_mal_ic": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "prueba": {
+    "libre": {
+      "informes": 12,
+      "cifras": 101,
+      "correctas": 97,
+      "incorrectas": 4,
+      "sin_fuente": 0,
+      "cifras_por_informe": 8.4167,
+      "llamadas_llm": 1.0,
+      "palabras": 192.9167,
+      "referencias_ok": NaN,
+      "refs_en_linea": 0.0,
+      "comparaciones": 46,
+      "comparaciones_mal_n": 12,
+      "tasa_alucinacion": 0.0396,
+      "tasa_incorrecta": 0.0396,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.6667,
+      "informes_sin_error": 0.6667,
+      "correctas_por_informe": 8.0833,
+      "comparaciones_mal": 0.2609,
+      "segundos_por_informe": 55.9003,
+      "tasa_alucinacion_ic": [
+        0.0106,
+        0.068
+      ],
+      "tasa_incorrecta_ic": [
+        0.0106,
+        0.068
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.5625,
+        0.7708
+      ],
+      "informes_sin_error_ic": [
+        0.4167,
+        0.9167
+      ],
+      "correctas_por_informe_ic": [
+        6.8333,
+        9.5833
+      ],
+      "comparaciones_mal_ic": [
+        0.1522,
+        0.3864
+      ]
+    },
+    "estructurado": {
+      "informes": 12,
+      "cifras": 99,
+      "correctas": 93,
+      "incorrectas": 6,
+      "sin_fuente": 0,
+      "cifras_por_informe": 8.25,
+      "llamadas_llm": 1.0,
+      "palabras": 188.6667,
+      "referencias_ok": 0.7786,
+      "refs_en_linea": 3.1667,
+      "comparaciones": 44,
+      "comparaciones_mal_n": 15,
+      "tasa_alucinacion": 0.0606,
+      "tasa_incorrecta": 0.0606,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.8125,
+      "informes_sin_error": 0.8333,
+      "correctas_por_informe": 7.75,
+      "comparaciones_mal": 0.3409,
+      "segundos_por_informe": 144.3969,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.1405
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.1405
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.6875,
+        0.9375
+      ],
+      "informes_sin_error_ic": [
+        0.5833,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        5.8333,
+        9.75
+      ],
+      "comparaciones_mal_ic": [
+        0.1892,
+        0.48
+      ]
+    },
+    "verificado": {
+      "informes": 12,
+      "cifras": 97,
+      "correctas": 94,
+      "incorrectas": 3,
+      "sin_fuente": 0,
+      "cifras_por_informe": 8.0833,
+      "llamadas_llm": 1.5,
+      "palabras": 183.4167,
+      "referencias_ok": 0.8281,
+      "refs_en_linea": 2.8333,
+      "comparaciones": 42,
+      "comparaciones_mal_n": 13,
+      "tasa_alucinacion": 0.0309,
+      "tasa_incorrecta": 0.0309,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.8125,
+      "informes_sin_error": 0.9167,
+      "correctas_por_informe": 7.8333,
+      "comparaciones_mal": 0.3095,
+      "segundos_por_informe": 230.1135,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0789
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0789
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.6875,
+        0.9375
+      ],
+      "informes_sin_error_ic": [
+        0.75,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        6.0833,
+        9.9167
+      ],
+      "comparaciones_mal_ic": [
+        0.1818,
+        0.4524
+      ]
+    },
+    "plantilla": {
+      "informes": 12,
+      "cifras": 288,
+      "correctas": 288,
+      "incorrectas": 0,
+      "sin_fuente": 0,
+      "cifras_por_informe": 24.0,
+      "llamadas_llm": 0.0,
+      "palabras": 170.6667,
+      "referencias_ok": 1.0,
+      "refs_en_linea": 0.0,
+      "comparaciones": 24,
+      "comparaciones_mal_n": 0,
+      "tasa_alucinacion": 0.0,
+      "tasa_incorrecta": 0.0,
+      "tasa_sin_fuente": 0.0,
+      "cobertura": 0.6458,
+      "informes_sin_error": 1.0,
+      "correctas_por_informe": 24.0,
+      "comparaciones_mal": 0.0,
+      "segundos_por_informe": 0.0119,
+      "tasa_alucinacion_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_incorrecta_ic": [
+        0.0,
+        0.0
+      ],
+      "tasa_sin_fuente_ic": [
+        0.0,
+        0.0
+      ],
+      "cobertura_ic": [
+        0.5417,
+        0.7292
+      ],
+      "informes_sin_error_ic": [
+        1.0,
+        1.0
+      ],
+      "correctas_por_informe_ic": [
+        24.0,
+        24.0
+      ],
+      "comparaciones_mal_ic": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "pareadas_prueba": [
+    {
+      "a": "verificado",
+      "b": "estructurado",
+      "metrica": "tasa_alucinacion",
+      "diferencia": -0.0297,
+      "ic_inf": -0.0689,
+      "ic_sup": 0.0
+    },
+    {
+      "a": "verificado",
+      "b": "estructurado",
+      "metrica": "cobertura",
+      "diferencia": 0.0,
+      "ic_inf": 0.0,
+      "ic_sup": 0.0
+    },
+    {
+      "a": "estructurado",
+      "b": "libre",
+      "metrica": "tasa_alucinacion",
+      "diferencia": 0.021,
+      "ic_inf": -0.0515,
+      "ic_sup": 0.1093
+    },
+    {
+      "a": "estructurado",
+      "b": "libre",
+      "metrica": "cobertura",
+      "diferencia": 0.1458,
+      "ic_inf": 0.0625,
+      "ic_sup": 0.25
+    },
+    {
+      "a": "verificado",
+      "b": "libre",
+      "metrica": "tasa_alucinacion",
+      "diferencia": -0.0087,
+      "ic_inf": -0.0631,
+      "ic_sup": 0.0506
+    },
+    {
+      "a": "verificado",
+      "b": "libre",
+      "metrica": "cobertura",
+      "diferencia": 0.1458,
+      "ic_inf": 0.0625,
+      "ic_sup": 0.25
+    },
+    {
+      "a": "plantilla",
+      "b": "verificado",
+      "metrica": "tasa_alucinacion",
+      "diferencia": -0.0309,
+      "ic_inf": -0.0804,
+      "ic_sup": 0.0
+    },
+    {
+      "a": "plantilla",
+      "b": "verificado",
+      "metrica": "cobertura",
+      "diferencia": -0.1667,
+      "ic_inf": -0.2917,
+      "ic_sup": -0.0417
+    }
+  ],
+  "reintentos_prueba": {
+    "informes_que_reintentan": 5,
+    "informes_aprobados_primer_intento": 10,
+    "informes_aprobados_final": 11
+  },
+  "marcas_unidad_prueba": {
+    "libre": 1,
+    "estructurado": 1,
+    "verificado": 1,
+    "plantilla": 0
+  },
+  "atribucion_debil_prueba": {
+    "libre": 0,
+    "estructurado": 0,
+    "verificado": 0,
+    "plantilla": 0
+  },
+  "figuras": [
+    "reports/figures/01_ecuador_vs_region.png",
+    "reports/figures/02_mapa_anomalias.png",
+    "reports/figures/03_alucinacion_y_cobertura.png",
+    "reports/figures/04_cifras_y_lecturas_enganosas.png",
+    "reports/figures/05_reintentos.png",
+    "reports/figures/06_mejora_prompt_validacion.png",
+    "reports/figures/08_tiempo_por_informe.png",
+    "reports/figures/07_legibilidad_rubrica.png"
+  ],
+  "lecturas_mal_por_tipo_prueba": {
+    "libre": {
+      "frente_a_region": 4,
+      "frente_al_anio_anterior": 3,
+      "pib_nominal_como_crecimiento": 5
+    },
+    "estructurado": {
+      "frente_a_region": 8,
+      "frente_al_anio_anterior": 2,
+      "pib_nominal_como_crecimiento": 5
+    },
+    "verificado": {
+      "frente_a_region": 7,
+      "frente_al_anio_anterior": 2,
+      "pib_nominal_como_crecimiento": 4
+    },
+    "plantilla": {
+      "frente_a_region": 0,
+      "frente_al_anio_anterior": 0,
+      "pib_nominal_como_crecimiento": 0
+    }
+  },
+  "auditoria": {
+    "marcadas_mal": 13,
+    "marcadas_mal_confirmadas": 10,
+    "muestra_correctas": 40,
+    "muestra_correctas_confirmadas": 38,
+    "enganosas_en_muestra": 8,
+    "precision_marcadas_mal": 0.7692,
+    "precision_correctas": 0.95
+  },
+  "legibilidad": {
+    "n_informes": 6,
+    "estructurado": {
+      "claridad": 2.83,
+      "concision": 3.17,
+      "utilidad": 2.33,
+      "tono": 2.83,
+      "total": 2.79
+    },
+    "libre": {
+      "claridad": 4.0,
+      "concision": 3.83,
+      "utilidad": 3.0,
+      "tono": 4.0,
+      "total": 3.71
+    },
+    "plantilla": {
+      "claridad": 4.0,
+      "concision": 4.0,
+      "utilidad": 3.5,
+      "tono": 3.0,
+      "total": 3.62
+    },
+    "verificado": {
+      "claridad": 2.83,
+      "concision": 3.17,
+      "utilidad": 2.5,
+      "tono": 2.83,
+      "total": 2.83
+    }
+  }
+}

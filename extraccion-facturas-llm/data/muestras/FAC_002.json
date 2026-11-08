@@ -1,0 +1,45 @@
+{
+ "ruc_emisor": "0496897684001",
+ "razon_social_emisor": "Ferretería Samborondón Tech C.A.",
+ "numero_factura": "002-100-000147850",
+ "numero_autorizacion": "0809202501049689768400120021000001478506884690519",
+ "fecha_emision": "2025-09-08",
+ "cliente_nombre": "María Verónica Torres Naranjo",
+ "cliente_identificacion": "0508196722",
+ "items": [
+  {
+   "descripcion": "Pintura látex blanca galón",
+   "cantidad": 3,
+   "precio_unitario": 19.36,
+   "total": 58.08
+  },
+  {
+   "descripcion": "Varilla corrugada 12 mm x 12 m",
+   "cantidad": 2,
+   "precio_unitario": 11.8,
+   "total": 23.6
+  },
+  {
+   "descripcion": "Cinta métrica 5 m",
+   "cantidad": 3,
+   "precio_unitario": 4.68,
+   "total": 14.04
+  },
+  {
+   "descripcion": "Bloque de hormigón 15 cm",
+   "cantidad": 12,
+   "precio_unitario": 0.45,
+   "total": 5.4
+  },
+  {
+   "descripcion": "Tubo PVC 1/2 pulgada x 6 m",
+   "cantidad": 1,
+   "precio_unitario": 3.71,
+   "total": 3.71
+  }
+ ],
+ "subtotal": 104.83,
+ "descuento": 3.14,
+ "iva": 15.25,
+ "total": 116.94
+}

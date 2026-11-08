@@ -1,0 +1,14 @@
+{
+  "codigo_trabajo.pdf": {
+    "url": "https://portal.compraspublicas.gob.ec/sercop/wp-content/uploads/2026/08/CODIGO-DEL-TRABAJO.pdf",
+    "fecha_descarga": "2026-10-25",
+    "bytes": 1043832,
+    "sha256": "94d87989023bb40b456319aba9f6c7f72426232c9e5f62c07ae120dc3739a84d"
+  },
+  "constitucion.pdf": {
+    "url": "https://www.defensa.gob.ec/wp-content/uploads/downloads/2021/02/Constitucion-de-la-Republica-del-Ecuador_act_ene-2021.pdf",
+    "fecha_descarga": "2026-10-25",
+    "bytes": 605489,
+    "sha256": "6dd464c37069f68e4b19f6e3232e438d57e308dc8fbb43a61e1838e6cc97208f"
+  }
+}

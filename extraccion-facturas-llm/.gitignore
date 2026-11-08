@@ -1,0 +1,23 @@
+# 200 facturas generadas (12 MB): se regeneran idénticas con  python generar_datos.py
+data/raw/
+
+# data/muestras (10 PDF + verdad), data/catalogo.csv, data/textos.jsonl y data/grabacion_llm.jsonl SÍ se versionan:
+# permiten las pruebas y la demo sin Ollama
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini
+
+# Registros de depuración locales (pueden traer rutas personales y trazas)
+reports/log_*.txt

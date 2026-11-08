@@ -1,0 +1,21 @@
+conjunto,version_prompt,responsable,etapa,valor
+validacion,v2,LLM,Elige la combinación exacta de herramientas en el 1.er turno,0.8611
+validacion,v2,LLM,Elige la combinación exacta de herramientas (todos los turnos),0.9444
+validacion,v2,LLM,"Herramientas y argumentos exactos (año, país, ciudad, cifras)",0.8611
+validacion,v2,LLM,Exactitud media de argumentos,0.9792
+validacion,v2,LLM,Se abstiene solo (no llama herramientas) fuera de dominio,0.375
+validacion,v2,Código,Abstención final fuera de dominio (tras Pydantic + anclaje),1.0
+validacion,v2,Código,Falsa abstención en dominio (anclaje/validación demasiado estrictos),0.0
+validacion,v2,LLM,Fidelidad numérica del texto que redacta el LLM,0.7639
+validacion,v2,Código,Fidelidad de la respuesta final (plantilla: por construcción),0.9722
+validacion,v2,Sistema,Respuesta correcta (todas las preguntas),0.9318
+prueba,v2,LLM,Elige la combinación exacta de herramientas en el 1.er turno,0.7727
+prueba,v2,LLM,Elige la combinación exacta de herramientas (todos los turnos),0.9545
+prueba,v2,LLM,"Herramientas y argumentos exactos (año, país, ciudad, cifras)",0.9545
+prueba,v2,LLM,Exactitud media de argumentos,0.9545
+prueba,v2,LLM,Se abstiene solo (no llama herramientas) fuera de dominio,0.5625
+prueba,v2,Código,Abstención final fuera de dominio (tras Pydantic + anclaje),1.0
+prueba,v2,Código,Falsa abstención en dominio (anclaje/validación demasiado estrictos),0.0682
+prueba,v2,LLM,Fidelidad numérica del texto que redacta el LLM,0.8068
+prueba,v2,Código,Fidelidad de la respuesta final (plantilla: por construcción),0.9318
+prueba,v2,Sistema,Respuesta correcta (todas las preguntas),0.95

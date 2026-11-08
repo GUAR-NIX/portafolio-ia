@@ -1,0 +1,2189 @@
+{
+ "fecha": "2026-10-20 17:20",
+ "modelo": "qwen2.5:7b",
+ "datos": {
+  "facturas": 200,
+  "muestra_llm": 50,
+  "plantillas": [
+   "A_ride_sri",
+   "B_moderna",
+   "C_ticket",
+   "D_servicios",
+   "E_compacta"
+  ],
+  "escaneadas_o_giradas": 29,
+  "con_faltantes": 22
+ },
+ "texto": {
+  "pypdf": 171,
+  "ocr": 29,
+  "ocr_segundos_medio": 0.33,
+  "rotaciones_detectadas": 7,
+  "rotadas": 7
+ },
+ "regex_200": {
+  "global": {
+   "n": 200,
+   "exactitud_campos": 0.8409,
+   "por_campo": {
+    "ruc_emisor": 0.8,
+    "razon_social_emisor": 0.77,
+    "numero_factura": 1.0,
+    "numero_autorizacion": 0.985,
+    "fecha_emision": 0.8,
+    "cliente_nombre": 0.805,
+    "cliente_identificacion": 0.805,
+    "subtotal": 0.8,
+    "descuento": 0.935,
+    "iva": 0.76,
+    "total": 0.79
+   },
+   "items_f1": 0.8522,
+   "items_precision": 0.9763,
+   "items_recall": 0.756,
+   "facturas_perfectas": 0.69,
+   "ic95": {
+    "exactitud_campos": [
+     0.7986,
+     0.8791
+    ],
+    "items_f1": [
+     0.8069,
+     0.8912
+    ],
+    "facturas_perfectas": [
+     0.6228,
+     0.75
+    ]
+   }
+  },
+  "por_plantilla": {
+   "A_ride_sri": {
+    "n": 40,
+    "exactitud_campos": 0.9955,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.975,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 1.0,
+     "cliente_identificacion": 1.0,
+     "subtotal": 1.0,
+     "descuento": 1.0,
+     "iva": 0.975,
+     "total": 1.0
+    },
+    "items_f1": 0.9113,
+    "items_precision": 0.9158,
+    "items_recall": 0.9069,
+    "facturas_perfectas": 0.775,
+    "ic95": {
+     "exactitud_campos": [
+      0.9886,
+      1.0
+     ],
+     "items_f1": [
+      0.8356,
+      0.9691
+     ],
+     "facturas_perfectas": [
+      0.625,
+      0.8768
+     ]
+    }
+   },
+   "B_moderna": {
+    "n": 40,
+    "exactitud_campos": 0.9977,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 1.0,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 1.0,
+     "cliente_identificacion": 1.0,
+     "subtotal": 1.0,
+     "descuento": 1.0,
+     "iva": 0.975,
+     "total": 1.0
+    },
+    "items_f1": 0.9857,
+    "items_precision": 1.0,
+    "items_recall": 0.9718,
+    "facturas_perfectas": 0.925,
+    "ic95": {
+     "exactitud_campos": [
+      0.9932,
+      1.0
+     ],
+     "items_f1": [
+      0.963,
+      1.0
+     ],
+     "facturas_perfectas": [
+      0.8014,
+      0.9742
+     ]
+    }
+   },
+   "C_ticket": {
+    "n": 40,
+    "exactitud_campos": 0.9591,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.875,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 0.925,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 0.975,
+     "cliente_identificacion": 0.975,
+     "subtotal": 1.0,
+     "descuento": 0.975,
+     "iva": 0.85,
+     "total": 0.975
+    },
+    "items_f1": 0.9522,
+    "items_precision": 0.99,
+    "items_recall": 0.9171,
+    "facturas_perfectas": 0.85,
+    "ic95": {
+     "exactitud_campos": [
+      0.9205,
+      0.9886
+     ],
+     "items_f1": [
+      0.9116,
+      0.985
+     ],
+     "facturas_perfectas": [
+      0.7093,
+      0.9294
+     ]
+    }
+   },
+   "D_servicios": {
+    "n": 40,
+    "exactitud_campos": 0.9955,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 1.0,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 1.0,
+     "cliente_identificacion": 1.0,
+     "subtotal": 1.0,
+     "descuento": 0.975,
+     "iva": 1.0,
+     "total": 0.975
+    },
+    "items_f1": 0.9674,
+    "items_precision": 1.0,
+    "items_recall": 0.9369,
+    "facturas_perfectas": 0.9,
+    "ic95": {
+     "exactitud_campos": [
+      0.9886,
+      1.0
+     ],
+     "items_f1": [
+      0.9255,
+      0.9945
+     ],
+     "facturas_perfectas": [
+      0.7695,
+      0.9604
+     ]
+    }
+   },
+   "E_compacta": {
+    "n": 40,
+    "exactitud_campos": 0.2568,
+    "por_campo": {
+     "ruc_emisor": 0.0,
+     "razon_social_emisor": 0.0,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 0.0,
+     "cliente_nombre": 0.05,
+     "cliente_identificacion": 0.05,
+     "subtotal": 0.0,
+     "descuento": 0.725,
+     "iva": 0.0,
+     "total": 0.0
+    },
+    "items_f1": 0.0,
+    "items_precision": 0.0,
+    "items_recall": 0.0,
+    "facturas_perfectas": 0.0,
+    "ic95": {
+     "exactitud_campos": [
+      0.2432,
+      0.2705
+     ],
+     "items_f1": [
+      0.0,
+      0.0
+     ],
+     "facturas_perfectas": [
+      0.0,
+      0.0876
+     ]
+    }
+   }
+  },
+  "por_condicion": {
+   "digital": {
+    "n": 171,
+    "exactitud_campos": 0.8442,
+    "por_campo": {
+     "ruc_emisor": 0.7895,
+     "razon_social_emisor": 0.7895,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 0.7895,
+     "cliente_nombre": 0.8012,
+     "cliente_identificacion": 0.8012,
+     "subtotal": 0.7895,
+     "descuento": 0.9474,
+     "iva": 0.7895,
+     "total": 0.7895
+    },
+    "items_f1": 0.8893,
+    "items_precision": 1.0,
+    "items_recall": 0.8007,
+    "facturas_perfectas": 0.7895,
+    "ic95": {
+     "exactitud_campos": [
+      0.7969,
+      0.8884
+     ],
+     "items_f1": [
+      0.8432,
+      0.9279
+     ],
+     "facturas_perfectas": [
+      0.7223,
+      0.8439
+     ]
+    }
+   },
+   "escaneada/girada": {
+    "n": 29,
+    "exactitud_campos": 0.8213,
+    "por_campo": {
+     "ruc_emisor": 0.8621,
+     "razon_social_emisor": 0.6552,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 0.8966,
+     "fecha_emision": 0.8621,
+     "cliente_nombre": 0.8276,
+     "cliente_identificacion": 0.8276,
+     "subtotal": 0.8621,
+     "descuento": 0.8621,
+     "iva": 0.5862,
+     "total": 0.7931
+    },
+    "items_f1": 0.6343,
+    "items_precision": 0.8173,
+    "items_recall": 0.5183,
+    "facturas_perfectas": 0.1034,
+    "ic95": {
+     "exactitud_campos": [
+      0.7116,
+      0.9123
+     ],
+     "items_f1": [
+      0.513,
+      0.7338
+     ],
+     "facturas_perfectas": [
+      0.0358,
+      0.2639
+     ]
+    }
+   }
+  },
+  "ms_por_factura": 0.53,
+  "pasa_validacion": 0.695
+ },
+ "muestra_50": {
+  "regex": {
+   "global": {
+    "n": 50,
+    "exactitud_campos": 0.8182,
+    "por_campo": {
+     "ruc_emisor": 0.8,
+     "razon_social_emisor": 0.7,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 0.96,
+     "fecha_emision": 0.8,
+     "cliente_nombre": 0.8,
+     "cliente_identificacion": 0.8,
+     "subtotal": 0.8,
+     "descuento": 0.88,
+     "iva": 0.7,
+     "total": 0.76
+    },
+    "items_f1": 0.7822,
+    "items_precision": 0.9653,
+    "items_recall": 0.6575,
+    "facturas_perfectas": 0.52,
+    "ic95": {
+     "exactitud_campos": [
+      0.7327,
+      0.8964
+     ],
+     "items_f1": [
+      0.6803,
+      0.8648
+     ],
+     "facturas_perfectas": [
+      0.3851,
+      0.652
+     ]
+    }
+   },
+   "por_plantilla": {
+    "A_ride_sri": {
+     "n": 10,
+     "exactitud_campos": 0.9909,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.8866,
+     "items_precision": 0.8958,
+     "items_recall": 0.8776,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9727,
+       1.0
+      ],
+      "items_f1": [
+       0.7407,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "B_moderna": {
+     "n": 10,
+     "exactitud_campos": 0.9909,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 0.9,
+      "total": 1.0
+     },
+     "items_f1": 0.9412,
+     "items_precision": 1.0,
+     "items_recall": 0.8889,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9727,
+       1.0
+      ],
+      "items_f1": [
+       0.8624,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "C_ticket": {
+     "n": 10,
+     "exactitud_campos": 0.8727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.6,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 0.8,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.9,
+      "cliente_identificacion": 0.9,
+      "subtotal": 1.0,
+      "descuento": 0.9,
+      "iva": 0.6,
+      "total": 0.9
+     },
+     "items_f1": 0.8889,
+     "items_precision": 0.9811,
+     "items_recall": 0.8125,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.7636,
+       0.9636
+      ],
+      "items_f1": [
+       0.775,
+       0.9737
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    },
+    "D_servicios": {
+     "n": 10,
+     "exactitud_campos": 0.9818,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 0.9,
+      "iva": 1.0,
+      "total": 0.9
+     },
+     "items_f1": 0.7869,
+     "items_precision": 1.0,
+     "items_recall": 0.6486,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       1.0
+      ],
+      "items_f1": [
+       0.4208,
+       0.962
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    },
+    "E_compacta": {
+     "n": 10,
+     "exactitud_campos": 0.2545,
+     "por_campo": {
+      "ruc_emisor": 0.0,
+      "razon_social_emisor": 0.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 0.0,
+      "cliente_nombre": 0.1,
+      "cliente_identificacion": 0.1,
+      "subtotal": 0.0,
+      "descuento": 0.6,
+      "iva": 0.0,
+      "total": 0.0
+     },
+     "items_f1": 0.0,
+     "items_precision": 0.0,
+     "items_recall": 0.0,
+     "facturas_perfectas": 0.0,
+     "ic95": {
+      "exactitud_campos": [
+       0.2182,
+       0.2909
+      ],
+      "items_f1": [
+       0.0,
+       0.0
+      ],
+      "facturas_perfectas": [
+       0.0,
+       0.2775
+      ]
+     }
+    }
+   },
+   "por_condicion": {
+    "digital": {
+     "n": 30,
+     "exactitud_campos": 0.8545,
+     "por_campo": {
+      "ruc_emisor": 0.8,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 0.8,
+      "cliente_nombre": 0.8333,
+      "cliente_identificacion": 0.8333,
+      "subtotal": 0.8,
+      "descuento": 0.9333,
+      "iva": 0.8,
+      "total": 0.8
+     },
+     "items_f1": 0.8966,
+     "items_precision": 1.0,
+     "items_recall": 0.8125,
+     "facturas_perfectas": 0.8,
+     "ic95": {
+      "exactitud_campos": [
+       0.7423,
+       0.9515
+      ],
+      "items_f1": [
+       0.7826,
+       0.9752
+      ],
+      "facturas_perfectas": [
+       0.6269,
+       0.905
+      ]
+     }
+    },
+    "escaneada/girada": {
+     "n": 20,
+     "exactitud_campos": 0.7636,
+     "por_campo": {
+      "ruc_emisor": 0.8,
+      "razon_social_emisor": 0.55,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 0.9,
+      "fecha_emision": 0.8,
+      "cliente_nombre": 0.75,
+      "cliente_identificacion": 0.75,
+      "subtotal": 0.8,
+      "descuento": 0.8,
+      "iva": 0.55,
+      "total": 0.7
+     },
+     "items_f1": 0.6024,
+     "items_precision": 0.8929,
+     "items_recall": 0.4545,
+     "facturas_perfectas": 0.1,
+     "ic95": {
+      "exactitud_campos": [
+       0.6273,
+       0.8774
+      ],
+      "items_f1": [
+       0.4151,
+       0.7349
+      ],
+      "facturas_perfectas": [
+       0.0279,
+       0.301
+      ]
+     }
+    }
+   },
+   "por_faltantes": {
+    "completa": {
+     "n": 40,
+     "exactitud_campos": 0.8068,
+     "por_campo": {
+      "ruc_emisor": 0.8,
+      "razon_social_emisor": 0.675,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 0.95,
+      "fecha_emision": 0.8,
+      "cliente_nombre": 0.775,
+      "cliente_identificacion": 0.775,
+      "subtotal": 0.8,
+      "descuento": 0.875,
+      "iva": 0.675,
+      "total": 0.75
+     },
+     "items_f1": 0.7245,
+     "items_precision": 0.9512,
+     "items_recall": 0.585,
+     "facturas_perfectas": 0.45,
+     "ic95": {
+      "exactitud_campos": [
+       0.7045,
+       0.891
+      ],
+      "items_f1": [
+       0.5896,
+       0.8272
+      ],
+      "facturas_perfectas": [
+       0.3071,
+       0.6017
+      ]
+     }
+    },
+    "con faltantes": {
+     "n": 10,
+     "exactitud_campos": 0.8636,
+     "por_campo": {
+      "ruc_emisor": 0.8,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 0.8,
+      "cliente_nombre": 0.9,
+      "cliente_identificacion": 0.9,
+      "subtotal": 0.8,
+      "descuento": 0.9,
+      "iva": 0.8,
+      "total": 0.8
+     },
+     "items_f1": 0.9615,
+     "items_precision": 1.0,
+     "items_recall": 0.9259,
+     "facturas_perfectas": 0.8,
+     "ic95": {
+      "exactitud_campos": [
+       0.6727,
+       1.0
+      ],
+      "items_f1": [
+       0.8529,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.4902,
+       0.9433
+      ]
+     }
+    }
+   },
+   "abstencion": {
+    "campos_ausentes": 12,
+    "devuelve_null": 12,
+    "inventa": 0,
+    "tasa_null": 1.0
+   }
+  },
+  "llm_1": {
+   "global": {
+    "n": 50,
+    "exactitud_campos": 0.9745,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.9,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 0.84,
+     "cliente_identificacion": 1.0,
+     "subtotal": 0.98,
+     "descuento": 1.0,
+     "iva": 1.0,
+     "total": 1.0
+    },
+    "items_f1": 0.9606,
+    "items_precision": 0.9606,
+    "items_recall": 0.9606,
+    "facturas_perfectas": 0.7,
+    "ic95": {
+     "exactitud_campos": [
+      0.96,
+      0.9873
+     ],
+     "items_f1": [
+      0.9156,
+      0.9925
+     ],
+     "facturas_perfectas": [
+      0.5625,
+      0.809
+     ]
+    }
+   },
+   "por_plantilla": {
+    "A_ride_sri": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9796,
+     "items_precision": 0.9796,
+     "items_recall": 0.9796,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9091,
+       1.0
+      ],
+      "items_f1": [
+       0.9302,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "B_moderna": {
+     "n": 10,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.7,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9455,
+       0.9909
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "C_ticket": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.7,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.9,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9531,
+     "items_precision": 0.9531,
+     "items_recall": 0.9531,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       0.9909
+      ],
+      "items_f1": [
+       0.8372,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    },
+    "D_servicios": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9459,
+     "items_precision": 0.9459,
+     "items_recall": 0.9459,
+     "facturas_perfectas": 0.9,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       0.7931,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5958,
+       0.9821
+      ]
+     }
+    },
+    "E_compacta": {
+     "n": 10,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.7,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.92,
+     "items_precision": 0.92,
+     "items_recall": 0.92,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.9455,
+       1.0
+      ],
+      "items_f1": [
+       0.7376,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    }
+   },
+   "por_condicion": {
+    "digital": {
+     "n": 30,
+     "exactitud_campos": 0.9758,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8333,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9931,
+     "items_precision": 0.9931,
+     "items_recall": 0.9931,
+     "facturas_perfectas": 0.7667,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       0.9909
+      ],
+      "items_f1": [
+       0.9756,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5907,
+       0.8821
+      ]
+     }
+    },
+    "escaneada/girada": {
+     "n": 20,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.85,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.95,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9182,
+     "items_precision": 0.9182,
+     "items_recall": 0.9182,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.95,
+       0.9909
+      ],
+      "items_f1": [
+       0.8165,
+       0.9864
+      ],
+      "facturas_perfectas": [
+       0.3866,
+       0.7812
+      ]
+     }
+    }
+   },
+   "por_faltantes": {
+    "completa": {
+     "n": 40,
+     "exactitud_campos": 0.9773,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.925,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.85,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.975,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.95,
+     "items_precision": 0.95,
+     "items_recall": 0.95,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9614,
+       0.9909
+      ],
+      "items_f1": [
+       0.8936,
+       0.9904
+      ],
+      "facturas_perfectas": [
+       0.5457,
+       0.8193
+      ]
+     }
+    },
+    "con faltantes": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    }
+   },
+   "abstencion": {
+    "campos_ausentes": 12,
+    "devuelve_null": 11,
+    "inventa": 1,
+    "tasa_null": 0.9167
+   }
+  },
+  "llm": {
+   "global": {
+    "n": 50,
+    "exactitud_campos": 0.9745,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.9,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 0.84,
+     "cliente_identificacion": 1.0,
+     "subtotal": 0.98,
+     "descuento": 1.0,
+     "iva": 1.0,
+     "total": 1.0
+    },
+    "items_f1": 0.9606,
+    "items_precision": 0.9606,
+    "items_recall": 0.9606,
+    "facturas_perfectas": 0.7,
+    "ic95": {
+     "exactitud_campos": [
+      0.96,
+      0.9873
+     ],
+     "items_f1": [
+      0.9156,
+      0.9925
+     ],
+     "facturas_perfectas": [
+      0.5625,
+      0.809
+     ]
+    }
+   },
+   "por_plantilla": {
+    "A_ride_sri": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9796,
+     "items_precision": 0.9796,
+     "items_recall": 0.9796,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9091,
+       1.0
+      ],
+      "items_f1": [
+       0.9302,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "B_moderna": {
+     "n": 10,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.7,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9455,
+       0.9909
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "C_ticket": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.7,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.9,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9531,
+     "items_precision": 0.9531,
+     "items_recall": 0.9531,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       0.9909
+      ],
+      "items_f1": [
+       0.8372,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    },
+    "D_servicios": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9459,
+     "items_precision": 0.9459,
+     "items_recall": 0.9459,
+     "facturas_perfectas": 0.9,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       0.7931,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5958,
+       0.9821
+      ]
+     }
+    },
+    "E_compacta": {
+     "n": 10,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.7,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.92,
+     "items_precision": 0.92,
+     "items_recall": 0.92,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.9455,
+       1.0
+      ],
+      "items_f1": [
+       0.7376,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3127,
+       0.8318
+      ]
+     }
+    }
+   },
+   "por_condicion": {
+    "digital": {
+     "n": 30,
+     "exactitud_campos": 0.9758,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8333,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9931,
+     "items_precision": 0.9931,
+     "items_recall": 0.9931,
+     "facturas_perfectas": 0.7667,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       0.9909
+      ],
+      "items_f1": [
+       0.9756,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5907,
+       0.8821
+      ]
+     }
+    },
+    "escaneada/girada": {
+     "n": 20,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.85,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.95,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9182,
+     "items_precision": 0.9182,
+     "items_recall": 0.9182,
+     "facturas_perfectas": 0.6,
+     "ic95": {
+      "exactitud_campos": [
+       0.95,
+       0.9909
+      ],
+      "items_f1": [
+       0.8165,
+       0.9864
+      ],
+      "facturas_perfectas": [
+       0.3866,
+       0.7812
+      ]
+     }
+    }
+   },
+   "por_faltantes": {
+    "completa": {
+     "n": 40,
+     "exactitud_campos": 0.9773,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.925,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.85,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.975,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.95,
+     "items_precision": 0.95,
+     "items_recall": 0.95,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9614,
+       0.9909
+      ],
+      "items_f1": [
+       0.8936,
+       0.9904
+      ],
+      "facturas_perfectas": [
+       0.5457,
+       0.8193
+      ]
+     }
+    },
+    "con faltantes": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    }
+   },
+   "abstencion": {
+    "campos_ausentes": 12,
+    "devuelve_null": 11,
+    "inventa": 1,
+    "tasa_null": 0.9167
+   }
+  },
+  "llm_rep": {
+   "global": {
+    "n": 50,
+    "exactitud_campos": 0.9818,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.9,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 0.92,
+     "cliente_identificacion": 1.0,
+     "subtotal": 0.98,
+     "descuento": 1.0,
+     "iva": 1.0,
+     "total": 1.0
+    },
+    "items_f1": 0.9724,
+    "items_precision": 0.9724,
+    "items_recall": 0.9724,
+    "facturas_perfectas": 0.82,
+    "ic95": {
+     "exactitud_campos": [
+      0.9673,
+      0.9945
+     ],
+     "items_f1": [
+      0.9301,
+      1.0
+     ],
+     "facturas_perfectas": [
+      0.692,
+      0.9023
+     ]
+    }
+   },
+   "por_plantilla": {
+    "A_ride_sri": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9796,
+     "items_precision": 0.9796,
+     "items_recall": 0.9796,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9091,
+       1.0
+      ],
+      "items_f1": [
+       0.9302,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "B_moderna": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 1.0,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7225,
+       1.0
+      ]
+     }
+    },
+    "C_ticket": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.7,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.9,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9688,
+     "items_precision": 0.9688,
+     "items_recall": 0.9688,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       0.9909
+      ],
+      "items_f1": [
+       0.8788,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    },
+    "D_servicios": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 1.0,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7225,
+       1.0
+      ]
+     }
+    },
+    "E_compacta": {
+     "n": 10,
+     "exactitud_campos": 0.9818,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.92,
+     "items_precision": 0.92,
+     "items_recall": 0.92,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       1.0
+      ],
+      "items_f1": [
+       0.7376,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    }
+   },
+   "por_condicion": {
+    "digital": {
+     "n": 30,
+     "exactitud_campos": 0.9818,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.9,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.8667,
+     "ic95": {
+      "exactitud_campos": [
+       0.9636,
+       0.997
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7032,
+       0.9469
+      ]
+     }
+    },
+    "escaneada/girada": {
+     "n": 20,
+     "exactitud_campos": 0.9818,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.95,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.95,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9364,
+     "items_precision": 0.9364,
+     "items_recall": 0.9364,
+     "facturas_perfectas": 0.75,
+     "ic95": {
+      "exactitud_campos": [
+       0.9591,
+       1.0
+      ],
+      "items_f1": [
+       0.8435,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5313,
+       0.8881
+      ]
+     }
+    }
+   },
+   "por_faltantes": {
+    "completa": {
+     "n": 40,
+     "exactitud_campos": 0.9864,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.925,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.95,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.975,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.965,
+     "items_precision": 0.965,
+     "items_recall": 0.965,
+     "facturas_perfectas": 0.85,
+     "ic95": {
+      "exactitud_campos": [
+       0.9705,
+       0.9977
+      ],
+      "items_f1": [
+       0.9149,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7093,
+       0.9294
+      ]
+     }
+    },
+    "con faltantes": {
+     "n": 10,
+     "exactitud_campos": 0.9636,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9273,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    }
+   },
+   "abstencion": {
+    "campos_ausentes": 12,
+    "devuelve_null": 11,
+    "inventa": 1,
+    "tasa_null": 0.9167
+   }
+  },
+  "cascada": {
+   "global": {
+    "n": 50,
+    "exactitud_campos": 0.9891,
+    "por_campo": {
+     "ruc_emisor": 1.0,
+     "razon_social_emisor": 0.94,
+     "numero_factura": 1.0,
+     "numero_autorizacion": 1.0,
+     "fecha_emision": 1.0,
+     "cliente_nombre": 0.96,
+     "cliente_identificacion": 1.0,
+     "subtotal": 0.98,
+     "descuento": 1.0,
+     "iva": 1.0,
+     "total": 1.0
+    },
+    "items_f1": 0.9724,
+    "items_precision": 0.9724,
+    "items_recall": 0.9724,
+    "facturas_perfectas": 0.86,
+    "ic95": {
+     "exactitud_campos": [
+      0.9782,
+      0.9982
+     ],
+     "items_f1": [
+      0.9301,
+      1.0
+     ],
+     "facturas_perfectas": [
+      0.7381,
+      0.9305
+     ]
+    }
+   },
+   "por_plantilla": {
+    "A_ride_sri": {
+     "n": 10,
+     "exactitud_campos": 0.9909,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.9,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9796,
+     "items_precision": 0.9796,
+     "items_recall": 0.9796,
+     "facturas_perfectas": 0.8,
+     "ic95": {
+      "exactitud_campos": [
+       0.9727,
+       1.0
+      ],
+      "items_f1": [
+       0.9302,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.4902,
+       0.9433
+      ]
+     }
+    },
+    "B_moderna": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 1.0,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7225,
+       1.0
+      ]
+     }
+    },
+    "C_ticket": {
+     "n": 10,
+     "exactitud_campos": 0.9727,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.8,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.9,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9688,
+     "items_precision": 0.9688,
+     "items_recall": 0.9688,
+     "facturas_perfectas": 0.8,
+     "ic95": {
+      "exactitud_campos": [
+       0.9364,
+       1.0
+      ],
+      "items_f1": [
+       0.8788,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.4902,
+       0.9433
+      ]
+     }
+    },
+    "D_servicios": {
+     "n": 10,
+     "exactitud_campos": 1.0,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 1.0,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 1.0,
+     "ic95": {
+      "exactitud_campos": [
+       1.0,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7225,
+       1.0
+      ]
+     }
+    },
+    "E_compacta": {
+     "n": 10,
+     "exactitud_campos": 0.9818,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.8,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.92,
+     "items_precision": 0.92,
+     "items_recall": 0.92,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       1.0
+      ],
+      "items_f1": [
+       0.7376,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.3968,
+       0.8922
+      ]
+     }
+    }
+   },
+   "por_condicion": {
+    "digital": {
+     "n": 30,
+     "exactitud_campos": 0.997,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.9667,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.9667,
+     "ic95": {
+      "exactitud_campos": [
+       0.9909,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.8333,
+       0.9941
+      ]
+     }
+    },
+    "escaneada/girada": {
+     "n": 20,
+     "exactitud_campos": 0.9773,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.85,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.95,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.95,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.9364,
+     "items_precision": 0.9364,
+     "items_recall": 0.9364,
+     "facturas_perfectas": 0.7,
+     "ic95": {
+      "exactitud_campos": [
+       0.9545,
+       0.9955
+      ],
+      "items_f1": [
+       0.8435,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.481,
+       0.8545
+      ]
+     }
+    }
+   },
+   "por_faltantes": {
+    "completa": {
+     "n": 40,
+     "exactitud_campos": 0.9886,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 0.925,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.975,
+      "cliente_identificacion": 1.0,
+      "subtotal": 0.975,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 0.965,
+     "items_precision": 0.965,
+     "items_recall": 0.965,
+     "facturas_perfectas": 0.85,
+     "ic95": {
+      "exactitud_campos": [
+       0.9773,
+       0.9977
+      ],
+      "items_f1": [
+       0.9149,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.7093,
+       0.9294
+      ]
+     }
+    },
+    "con faltantes": {
+     "n": 10,
+     "exactitud_campos": 0.9909,
+     "por_campo": {
+      "ruc_emisor": 1.0,
+      "razon_social_emisor": 1.0,
+      "numero_factura": 1.0,
+      "numero_autorizacion": 1.0,
+      "fecha_emision": 1.0,
+      "cliente_nombre": 0.9,
+      "cliente_identificacion": 1.0,
+      "subtotal": 1.0,
+      "descuento": 1.0,
+      "iva": 1.0,
+      "total": 1.0
+     },
+     "items_f1": 1.0,
+     "items_precision": 1.0,
+     "items_recall": 1.0,
+     "facturas_perfectas": 0.9,
+     "ic95": {
+      "exactitud_campos": [
+       0.9727,
+       1.0
+      ],
+      "items_f1": [
+       1.0,
+       1.0
+      ],
+      "facturas_perfectas": [
+       0.5958,
+       0.9821
+      ]
+     }
+    }
+   },
+   "abstencion": {
+    "campos_ausentes": 12,
+    "devuelve_null": 11,
+    "inventa": 1,
+    "tasa_null": 0.9167
+   }
+  }
+ },
+ "validacion": {
+  "llm_1": {
+   "aprobada_correcta": 45,
+   "aprobada_con_error": 2,
+   "marcada_con_error": 3,
+   "errores_silenciosos_pct_aprobadas": 0.0426,
+   "errores_detectados_pct": 0.6
+  },
+  "llm": {
+   "aprobada_correcta": 45,
+   "aprobada_con_error": 2,
+   "marcada_con_error": 3,
+   "errores_silenciosos_pct_aprobadas": 0.0426,
+   "errores_detectados_pct": 0.6
+  },
+  "llm_rep": {
+   "aprobada_correcta": 47,
+   "marcada_con_error": 3,
+   "errores_silenciosos_pct_aprobadas": 0.0,
+   "errores_detectados_pct": 1.0
+  },
+  "regex": {
+   "aprobada_correcta": 27,
+   "marcada_con_error": 23,
+   "errores_silenciosos_pct_aprobadas": 0.0,
+   "errores_detectados_pct": 1.0
+  },
+  "cascada": {
+   "aprobada_correcta": 47,
+   "marcada_con_error": 3,
+   "errores_silenciosos_pct_aprobadas": 0.0,
+   "errores_detectados_pct": 1.0
+  }
+ },
+ "reintentos": {
+  "facturas_con_reintento": 3,
+  "arregladas_por_reintento": 0,
+  "reintentos_medios": 0.06,
+  "estados_finales": {
+   "valida": 43,
+   "con_advertencias": 4,
+   "revisar": 3,
+   "error": 0
+  }
+ },
+ "costo": {
+  "llm_segundos_medio": 133.9,
+  "llm_segundos_mediana": 119.9,
+  "llm_segundos_p90": 205.0,
+  "llamadas_medias": 1.06,
+  "tokens_entrada_medios": 879,
+  "tokens_salida_medios": 504,
+  "cascada_usa_llm_pct_200": 0.305,
+  "cascada_usa_llm_pct_muestra": 0.46
+ }
+}

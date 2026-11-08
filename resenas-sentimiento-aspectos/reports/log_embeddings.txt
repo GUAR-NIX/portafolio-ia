@@ -1,0 +1,13 @@
+6091 textos únicos, 0 ya en caché
+  embeddings: 512/6091 · 0.17 s/texto
+  embeddings: 1024/6091 · 0.17 s/texto
+  embeddings: 1536/6091 · 0.18 s/texto
+  embeddings: 2048/6091 · 0.18 s/texto
+  embeddings: 2560/6091 · 0.18 s/texto
+  embeddings: 3072/6091 · 0.20 s/texto
+  embeddings: 3584/6091 · 0.21 s/texto
+  embeddings: 4096/6091 · 0.22 s/texto
+  embeddings: 4608/6091 · 0.23 s/texto
+  embeddings: 5120/6091 · 0.23 s/texto
+  embeddings: 5632/6091 · 0.23 s/texto
+Listo: 6091 textos nuevos · 0.2338000689213594 s/texto

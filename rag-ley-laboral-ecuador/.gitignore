@@ -1,0 +1,20 @@
+# PDF oficiales y caché completa de embeddings: se bajan/recalculan con  python descargar_datos.py  y  python -m rag_laboral.indexar
+data/raw/
+
+# data/articulos.jsonl, data/indice/, data/evaluacion/ y data/grabacion_llm.jsonl SÍ se versionan:
+# permiten las pruebas y la demo sin Ollama
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini

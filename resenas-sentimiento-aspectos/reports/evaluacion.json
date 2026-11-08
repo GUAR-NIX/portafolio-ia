@@ -1,0 +1,809 @@
+{
+ "n_test": 320,
+ "n_dev": 300,
+ "enfoques": {
+  "clasico": {
+   "f1_aspectos": 0.7222699914015478,
+   "precision_aspectos": 0.6807131280388979,
+   "exhaustividad_aspectos": 0.7692307692307693,
+   "f1_aspecto_polaridad": 0.5503009458297506,
+   "exactitud_polaridad": 0.7619047619047619,
+   "exactitud_global": 0.796875,
+   "f1_macro_global": 0.6998071923644521,
+   "ic95": {
+    "f1_aspectos": [
+     0.6952632118112381,
+     0.7473294358931973
+    ],
+    "precision_aspectos": [
+     0.6496651406130431,
+     0.7114150548343651
+    ],
+    "exhaustividad_aspectos": [
+     0.7362402538268129,
+     0.804236673340878
+    ],
+    "f1_aspecto_polaridad": [
+     0.5127654556416557,
+     0.5849774260226284
+    ],
+    "exactitud_polaridad": [
+     0.7212684549558022,
+     0.8015125885129819
+    ],
+    "exactitud_global": [
+     0.75,
+     0.840625
+    ]
+   },
+   "por_aspecto": {
+    "bateria": {
+     "precision": 0.8214285714285714,
+     "exhaustividad": 0.7419354838709677,
+     "f1": 0.7796610169491526,
+     "tp": 23,
+     "fp": 5,
+     "fn": 8,
+     "soporte": 31,
+     "exactitud_polaridad": 0.782608695652174
+    },
+    "carga": {
+     "precision": 0.5897435897435898,
+     "exhaustividad": 1.0,
+     "f1": 0.7419354838709677,
+     "tp": 46,
+     "fp": 32,
+     "fn": 0,
+     "soporte": 46,
+     "exactitud_polaridad": 0.7391304347826086
+    },
+    "pantalla": {
+     "precision": 0.6538461538461539,
+     "exhaustividad": 0.7727272727272727,
+     "f1": 0.7083333333333333,
+     "tp": 17,
+     "fp": 9,
+     "fn": 5,
+     "soporte": 22,
+     "exactitud_polaridad": 0.5882352941176471
+    },
+    "sonido": {
+     "precision": 0.8421052631578947,
+     "exhaustividad": 0.9696969696969697,
+     "f1": 0.9014084507042254,
+     "tp": 32,
+     "fp": 6,
+     "fn": 1,
+     "soporte": 33,
+     "exactitud_polaridad": 0.75
+    },
+    "calidad": {
+     "precision": 0.7659574468085106,
+     "exhaustividad": 0.7272727272727273,
+     "f1": 0.7461139896373057,
+     "tp": 72,
+     "fp": 22,
+     "fn": 27,
+     "soporte": 99,
+     "exactitud_polaridad": 0.7777777777777778
+    },
+    "ajuste": {
+     "precision": 0.8311688311688312,
+     "exhaustividad": 0.6274509803921569,
+     "f1": 0.7150837988826816,
+     "tp": 64,
+     "fp": 13,
+     "fn": 38,
+     "soporte": 102,
+     "exactitud_polaridad": 0.59375
+    },
+    "diseno": {
+     "precision": 0.5882352941176471,
+     "exhaustividad": 0.6122448979591837,
+     "f1": 0.6000000000000001,
+     "tp": 30,
+     "fp": 21,
+     "fn": 19,
+     "soporte": 49,
+     "exactitud_polaridad": 0.7666666666666667
+    },
+    "proteccion": {
+     "precision": 0.3541666666666667,
+     "exhaustividad": 0.8947368421052632,
+     "f1": 0.5074626865671642,
+     "tp": 17,
+     "fp": 31,
+     "fn": 2,
+     "soporte": 19,
+     "exactitud_polaridad": 0.7058823529411765
+    },
+    "precio": {
+     "precision": 0.7,
+     "exhaustividad": 0.9333333333333333,
+     "f1": 0.8,
+     "tp": 42,
+     "fp": 18,
+     "fn": 3,
+     "soporte": 45,
+     "exactitud_polaridad": 0.9285714285714286
+    },
+    "envio": {
+     "precision": 0.6129032258064516,
+     "exhaustividad": 0.8260869565217391,
+     "f1": 0.7037037037037037,
+     "tp": 19,
+     "fp": 12,
+     "fn": 4,
+     "soporte": 23,
+     "exactitud_polaridad": 0.7894736842105263
+    },
+    "atencion": {
+     "precision": 0.5714285714285714,
+     "exhaustividad": 0.8571428571428571,
+     "f1": 0.6857142857142857,
+     "tp": 12,
+     "fp": 9,
+     "fn": 2,
+     "soporte": 14,
+     "exactitud_polaridad": 0.9166666666666666
+    },
+    "facilidad_uso": {
+     "precision": 0.7076923076923077,
+     "exhaustividad": 0.7301587301587301,
+     "f1": 0.7187500000000001,
+     "tp": 46,
+     "fp": 19,
+     "fn": 17,
+     "soporte": 63,
+     "exactitud_polaridad": 0.8695652173913043
+    }
+   },
+   "f1_macro_aspectos": 0.7173472291135684,
+   "costo": {
+    "segundos_por_resena": 0.0014050024999960442,
+    "umbral_clausula": 0.4
+   },
+   "por_estrellas": {
+    "1": {
+     "f1_aspectos": 0.7040000000000001,
+     "precision_aspectos": 0.6567164179104478,
+     "exhaustividad_aspectos": 0.7586206896551724,
+     "f1_aspecto_polaridad": 0.5599999999999999,
+     "exactitud_polaridad": 0.7954545454545454,
+     "exactitud_global": 0.8243243243243243,
+     "f1_macro_global": 0.3034825870646766,
+     "f1_macro_aspectos": 0.6934840955252839
+    },
+    "2": {
+     "f1_aspectos": 0.7051282051282052,
+     "precision_aspectos": 0.6707317073170732,
+     "exhaustividad_aspectos": 0.7432432432432432,
+     "f1_aspecto_polaridad": 0.5128205128205128,
+     "exactitud_polaridad": 0.7272727272727273,
+     "exactitud_global": 0.5434782608695652,
+     "f1_macro_global": 0.31005291005291,
+     "f1_macro_aspectos": 0.7760408050730631
+    },
+    "3": {
+     "f1_aspectos": 0.7282051282051282,
+     "precision_aspectos": 0.6761904761904762,
+     "exhaustividad_aspectos": 0.7888888888888889,
+     "f1_aspecto_polaridad": 0.41025641025641024,
+     "exactitud_polaridad": 0.5633802816901409,
+     "exactitud_global": 0.717391304347826,
+     "f1_macro_global": 0.5161411411411412,
+     "f1_macro_aspectos": 0.7538419720114766
+    },
+    "4": {
+     "f1_aspectos": 0.7354260089686099,
+     "precision_aspectos": 0.6721311475409836,
+     "exhaustividad_aspectos": 0.8118811881188119,
+     "f1_aspecto_polaridad": 0.5381165919282511,
+     "exactitud_polaridad": 0.7317073170731707,
+     "exactitud_global": 0.7288135593220338,
+     "f1_macro_global": 0.544973544973545,
+     "f1_macro_aspectos": 0.7594423788773721
+    },
+    "5": {
+     "f1_aspectos": 0.7315634218289085,
+     "precision_aspectos": 0.7126436781609196,
+     "exhaustividad_aspectos": 0.7515151515151515,
+     "f1_aspecto_polaridad": 0.6489675516224189,
+     "exactitud_polaridad": 0.8870967741935484,
+     "exactitud_global": 0.9789473684210527,
+     "f1_macro_global": 0.3297872340425532,
+     "f1_macro_aspectos": 0.7472771827912954
+    }
+   }
+  },
+  "embeddings": {
+   "f1_aspectos": 0.7385677308024159,
+   "precision_aspectos": 0.6982055464926591,
+   "exhaustividad_aspectos": 0.7838827838827839,
+   "f1_aspecto_polaridad": 0.6212251941328732,
+   "exactitud_polaridad": 0.8411214953271028,
+   "exactitud_global": 0.815625,
+   "f1_macro_global": 0.750436206957946,
+   "ic95": {
+    "f1_aspectos": [
+     0.7089523138208439,
+     0.7651012682414198
+    ],
+    "precision_aspectos": [
+     0.6644197383185485,
+     0.7295094855139705
+    ],
+    "exhaustividad_aspectos": [
+     0.7486126221283338,
+     0.8154192174868534
+    ],
+    "f1_aspecto_polaridad": [
+     0.5842604740662992,
+     0.65427254285522
+    ],
+    "exactitud_polaridad": [
+     0.8048767115960633,
+     0.8771550924852811
+    ],
+    "exactitud_global": [
+     0.775,
+     0.859375
+    ]
+   },
+   "por_aspecto": {
+    "bateria": {
+     "precision": 0.84,
+     "exhaustividad": 0.6774193548387096,
+     "f1": 0.75,
+     "tp": 21,
+     "fp": 4,
+     "fn": 10,
+     "soporte": 31,
+     "exactitud_polaridad": 0.8571428571428571
+    },
+    "carga": {
+     "precision": 0.7090909090909091,
+     "exhaustividad": 0.8478260869565217,
+     "f1": 0.7722772277227722,
+     "tp": 39,
+     "fp": 16,
+     "fn": 7,
+     "soporte": 46,
+     "exactitud_polaridad": 0.7692307692307693
+    },
+    "pantalla": {
+     "precision": 0.6,
+     "exhaustividad": 0.5454545454545454,
+     "f1": 0.5714285714285713,
+     "tp": 12,
+     "fp": 8,
+     "fn": 10,
+     "soporte": 22,
+     "exactitud_polaridad": 0.8333333333333334
+    },
+    "sonido": {
+     "precision": 0.9090909090909091,
+     "exhaustividad": 0.9090909090909091,
+     "f1": 0.9090909090909091,
+     "tp": 30,
+     "fp": 3,
+     "fn": 3,
+     "soporte": 33,
+     "exactitud_polaridad": 0.9
+    },
+    "calidad": {
+     "precision": 0.6774193548387096,
+     "exhaustividad": 0.8484848484848485,
+     "f1": 0.7533632286995515,
+     "tp": 84,
+     "fp": 40,
+     "fn": 15,
+     "soporte": 99,
+     "exactitud_polaridad": 0.8928571428571429
+    },
+    "ajuste": {
+     "precision": 0.7572815533980582,
+     "exhaustividad": 0.7647058823529411,
+     "f1": 0.7609756097560975,
+     "tp": 78,
+     "fp": 25,
+     "fn": 24,
+     "soporte": 102,
+     "exactitud_polaridad": 0.7564102564102564
+    },
+    "diseno": {
+     "precision": 0.5245901639344263,
+     "exhaustividad": 0.6530612244897959,
+     "f1": 0.5818181818181818,
+     "tp": 32,
+     "fp": 29,
+     "fn": 17,
+     "soporte": 49,
+     "exactitud_polaridad": 0.78125
+    },
+    "proteccion": {
+     "precision": 0.4838709677419355,
+     "exhaustividad": 0.7894736842105263,
+     "f1": 0.6,
+     "tp": 15,
+     "fp": 16,
+     "fn": 4,
+     "soporte": 19,
+     "exactitud_polaridad": 0.8666666666666667
+    },
+    "precio": {
+     "precision": 0.8148148148148148,
+     "exhaustividad": 0.9777777777777777,
+     "f1": 0.8888888888888888,
+     "tp": 44,
+     "fp": 10,
+     "fn": 1,
+     "soporte": 45,
+     "exactitud_polaridad": 0.9318181818181818
+    },
+    "envio": {
+     "precision": 0.75,
+     "exhaustividad": 0.782608695652174,
+     "f1": 0.7659574468085107,
+     "tp": 18,
+     "fp": 6,
+     "fn": 5,
+     "soporte": 23,
+     "exactitud_polaridad": 0.9444444444444444
+    },
+    "atencion": {
+     "precision": 0.6666666666666666,
+     "exhaustividad": 0.42857142857142855,
+     "f1": 0.5217391304347826,
+     "tp": 6,
+     "fp": 3,
+     "fn": 8,
+     "soporte": 14,
+     "exactitud_polaridad": 0.8333333333333334
+    },
+    "facilidad_uso": {
+     "precision": 0.6621621621621622,
+     "exhaustividad": 0.7777777777777778,
+     "f1": 0.7153284671532847,
+     "tp": 49,
+     "fp": 25,
+     "fn": 14,
+     "soporte": 63,
+     "exactitud_polaridad": 0.8163265306122449
+    }
+   },
+   "f1_macro_aspectos": 0.7159056384834624,
+   "costo": {
+    "C_aspecto": 8.0,
+    "umbral": 0.6,
+    "f1_cv_dev": 0.5875927835869164,
+    "segundos_clasificadores": 0.0017823217500017564,
+    "textos_por_resena": 4.9225,
+    "segundos_por_texto": 0.19585265312501102,
+    "segundos_por_resena": 0.9658670067578685
+   },
+   "por_estrellas": {
+    "1": {
+     "f1_aspectos": 0.676923076923077,
+     "precision_aspectos": 0.6111111111111112,
+     "exhaustividad_aspectos": 0.7586206896551724,
+     "f1_aspecto_polaridad": 0.5923076923076923,
+     "exactitud_polaridad": 0.875,
+     "exactitud_global": 0.8108108108108109,
+     "f1_macro_global": 0.3007518796992481,
+     "f1_macro_aspectos": 0.6343294234242394
+    },
+    "2": {
+     "f1_aspectos": 0.7682119205298014,
+     "precision_aspectos": 0.7532467532467533,
+     "exhaustividad_aspectos": 0.7837837837837838,
+     "f1_aspecto_polaridad": 0.6490066225165563,
+     "exactitud_polaridad": 0.8448275862068966,
+     "exactitud_global": 0.717391304347826,
+     "f1_macro_global": 0.45083612040133775,
+     "f1_macro_aspectos": 0.7581699346405228
+    },
+    "3": {
+     "f1_aspectos": 0.7872340425531914,
+     "precision_aspectos": 0.7551020408163265,
+     "exhaustividad_aspectos": 0.8222222222222222,
+     "f1_aspecto_polaridad": 0.5531914893617021,
+     "exactitud_polaridad": 0.7027027027027027,
+     "exactitud_global": 0.6739130434782609,
+     "f1_macro_global": 0.6212592976993601,
+     "f1_macro_aspectos": 0.7898250107705432
+    },
+    "4": {
+     "f1_aspectos": 0.7557603686635945,
+     "precision_aspectos": 0.7068965517241379,
+     "exhaustividad_aspectos": 0.8118811881188119,
+     "f1_aspecto_polaridad": 0.6451612903225806,
+     "exactitud_polaridad": 0.8536585365853658,
+     "exactitud_global": 0.7796610169491526,
+     "f1_macro_global": 0.639930475679268,
+     "f1_macro_aspectos": 0.7780363233958005
+    },
+    "5": {
+     "f1_aspectos": 0.7346938775510203,
+     "precision_aspectos": 0.7078651685393258,
+     "exhaustividad_aspectos": 0.7636363636363637,
+     "f1_aspecto_polaridad": 0.6530612244897959,
+     "exactitud_polaridad": 0.8888888888888888,
+     "exactitud_global": 0.9578947368421052,
+     "f1_macro_global": 0.3261648745519713,
+     "f1_macro_aspectos": 0.7206215204220524
+    }
+   }
+  },
+  "llm": {
+   "f1_aspectos": 0.6883720930232559,
+   "precision_aspectos": 0.6994328922495274,
+   "exhaustividad_aspectos": 0.6776556776556777,
+   "f1_aspecto_polaridad": 0.6288372093023257,
+   "exactitud_polaridad": 0.9135135135135135,
+   "exactitud_global": 0.69375,
+   "f1_macro_global": 0.6181252408510552,
+   "ic95": {
+    "f1_aspectos": [
+     0.6541299472390344,
+     0.7196366023433823
+    ],
+    "precision_aspectos": [
+     0.6599596781082882,
+     0.7375091019417476
+    ],
+    "exhaustividad_aspectos": [
+     0.6398580078458128,
+     0.712733164983165
+    ],
+    "f1_aspecto_polaridad": [
+     0.5893157359995553,
+     0.6635692774884965
+    ],
+    "exactitud_polaridad": [
+     0.8835946573751452,
+     0.9408696500331629
+    ],
+    "exactitud_global": [
+     0.640625,
+     0.74375
+    ]
+   },
+   "por_aspecto": {
+    "bateria": {
+     "precision": 0.7931034482758621,
+     "exhaustividad": 0.7419354838709677,
+     "f1": 0.7666666666666667,
+     "tp": 23,
+     "fp": 6,
+     "fn": 8,
+     "soporte": 31,
+     "exactitud_polaridad": 0.9565217391304348
+    },
+    "carga": {
+     "precision": 0.6964285714285714,
+     "exhaustividad": 0.8478260869565217,
+     "f1": 0.7647058823529412,
+     "tp": 39,
+     "fp": 17,
+     "fn": 7,
+     "soporte": 46,
+     "exactitud_polaridad": 0.9487179487179487
+    },
+    "pantalla": {
+     "precision": 0.7,
+     "exhaustividad": 0.6363636363636364,
+     "f1": 0.6666666666666666,
+     "tp": 14,
+     "fp": 6,
+     "fn": 8,
+     "soporte": 22,
+     "exactitud_polaridad": 1.0
+    },
+    "sonido": {
+     "precision": 0.8181818181818182,
+     "exhaustividad": 0.8181818181818182,
+     "f1": 0.8181818181818182,
+     "tp": 27,
+     "fp": 6,
+     "fn": 6,
+     "soporte": 33,
+     "exactitud_polaridad": 0.8518518518518519
+    },
+    "calidad": {
+     "precision": 0.6608695652173913,
+     "exhaustividad": 0.7676767676767676,
+     "f1": 0.7102803738317758,
+     "tp": 76,
+     "fp": 39,
+     "fn": 23,
+     "soporte": 99,
+     "exactitud_polaridad": 0.9210526315789473
+    },
+    "ajuste": {
+     "precision": 0.7777777777777778,
+     "exhaustividad": 0.6862745098039216,
+     "f1": 0.7291666666666667,
+     "tp": 70,
+     "fp": 20,
+     "fn": 32,
+     "soporte": 102,
+     "exactitud_polaridad": 0.8714285714285714
+    },
+    "diseno": {
+     "precision": 0.7428571428571429,
+     "exhaustividad": 0.5306122448979592,
+     "f1": 0.6190476190476191,
+     "tp": 26,
+     "fp": 9,
+     "fn": 23,
+     "soporte": 49,
+     "exactitud_polaridad": 0.9615384615384616
+    },
+    "proteccion": {
+     "precision": 0.7647058823529411,
+     "exhaustividad": 0.6842105263157895,
+     "f1": 0.7222222222222222,
+     "tp": 13,
+     "fp": 4,
+     "fn": 6,
+     "soporte": 19,
+     "exactitud_polaridad": 0.7692307692307693
+    },
+    "precio": {
+     "precision": 0.5434782608695652,
+     "exhaustividad": 0.5555555555555556,
+     "f1": 0.5494505494505495,
+     "tp": 25,
+     "fp": 21,
+     "fn": 20,
+     "soporte": 45,
+     "exactitud_polaridad": 0.84
+    },
+    "envio": {
+     "precision": 1.0,
+     "exhaustividad": 0.391304347826087,
+     "f1": 0.5625,
+     "tp": 9,
+     "fp": 0,
+     "fn": 14,
+     "soporte": 23,
+     "exactitud_polaridad": 1.0
+    },
+    "atencion": {
+     "precision": 0.41379310344827586,
+     "exhaustividad": 0.8571428571428571,
+     "f1": 0.5581395348837208,
+     "tp": 12,
+     "fp": 17,
+     "fn": 2,
+     "soporte": 14,
+     "exactitud_polaridad": 1.0
+    },
+    "facilidad_uso": {
+     "precision": 0.72,
+     "exhaustividad": 0.5714285714285714,
+     "f1": 0.6371681415929202,
+     "tp": 36,
+     "fp": 14,
+     "fn": 27,
+     "soporte": 63,
+     "exactitud_polaridad": 0.9444444444444444
+    }
+   },
+   "f1_macro_aspectos": 0.6753496784636307,
+   "costo": {
+    "segundos_por_resena": 19.50925,
+    "mediana_segundos": 17.965,
+    "p90_segundos": 32.95400000000001,
+    "tokens_salida_medios": 108.259375,
+    "errores": 0,
+    "citas_no_literales": 16,
+    "menciones": 529,
+    "n": 320
+   },
+   "por_estrellas": {
+    "1": {
+     "f1_aspectos": 0.7136929460580912,
+     "precision_aspectos": 0.688,
+     "exhaustividad_aspectos": 0.7413793103448276,
+     "f1_aspecto_polaridad": 0.6887966804979253,
+     "exactitud_polaridad": 0.9651162790697675,
+     "exactitud_global": 0.9594594594594594,
+     "f1_macro_global": 0.3264367816091954,
+     "f1_macro_aspectos": 0.6647472897472898
+    },
+    "2": {
+     "f1_aspectos": 0.5786163522012578,
+     "precision_aspectos": 0.5411764705882353,
+     "exhaustividad_aspectos": 0.6216216216216216,
+     "f1_aspecto_polaridad": 0.5283018867924529,
+     "exactitud_polaridad": 0.9130434782608695,
+     "exactitud_global": 0.8260869565217391,
+     "f1_macro_global": 0.4933757286698463,
+     "f1_macro_aspectos": 0.4935805422647528
+    },
+    "3": {
+     "f1_aspectos": 0.7344632768361581,
+     "precision_aspectos": 0.7471264367816092,
+     "exhaustividad_aspectos": 0.7222222222222222,
+     "f1_aspecto_polaridad": 0.5988700564971752,
+     "exactitud_polaridad": 0.8153846153846154,
+     "exactitud_global": 0.717391304347826,
+     "f1_macro_global": 0.47142857142857136,
+     "f1_macro_aspectos": 0.7547140359640359
+    },
+    "4": {
+     "f1_aspectos": 0.7040816326530612,
+     "precision_aspectos": 0.7263157894736842,
+     "exhaustividad_aspectos": 0.6831683168316832,
+     "f1_aspecto_polaridad": 0.6020408163265306,
+     "exactitud_polaridad": 0.855072463768116,
+     "exactitud_global": 0.3898305084745763,
+     "f1_macro_global": 0.39261258559504175,
+     "f1_macro_aspectos": 0.703995394208376
+    },
+    "5": {
+     "f1_aspectos": 0.6887417218543046,
+     "precision_aspectos": 0.7591240875912408,
+     "exhaustividad_aspectos": 0.6303030303030303,
+     "f1_aspecto_polaridad": 0.6688741721854304,
+     "exactitud_polaridad": 0.9711538461538461,
+     "exactitud_global": 0.6,
+     "f1_macro_global": 0.26555555555555554,
+     "f1_macro_aspectos": 0.6935374448822591
+    }
+   }
+  }
+ },
+ "acuerdo_anotacion": {
+  "n_resenas": 160,
+  "f1_aspectos_entre_pasadas": 0.96309963099631,
+  "kappa_aspectos_medio": 0.9604782304208902,
+  "kappa_por_aspecto": {
+   "bateria": 1.0,
+   "carga": 0.9731363331094696,
+   "pantalla": 1.0,
+   "sonido": 1.0,
+   "calidad": 0.9545282303902992,
+   "ajuste": 0.9284180386542591,
+   "diseno": 0.9194089993284081,
+   "proteccion": 0.9300699300699303,
+   "precio": 0.9492385786802032,
+   "envio": 1.0,
+   "atencion": 0.9490445859872614,
+   "facilidad_uso": 0.9218940688308518
+  },
+  "acuerdo_polaridad": 0.9770114942528736,
+  "kappa_polaridad": 0.9553388090349076,
+  "kappa_global": 0.9693114251006968,
+  "acuerdo_global": 0.98125
+ },
+ "soporte_test": {
+  "bateria": 31,
+  "carga": 46,
+  "pantalla": 22,
+  "sonido": 33,
+  "calidad": 99,
+  "ajuste": 102,
+  "diseno": 49,
+  "proteccion": 19,
+  "precio": 45,
+  "envio": 23,
+  "atencion": 14,
+  "facilidad_uso": 63
+ },
+ "espanol": {
+  "n": 80,
+  "enfoques": {
+   "clasico": {
+    "f1_aspectos": 0.5000000000000001,
+    "precision_aspectos": 0.6935483870967742,
+    "exhaustividad_aspectos": 0.39090909090909093,
+    "f1_aspecto_polaridad": 0.41860465116279066,
+    "exactitud_polaridad": 0.8372093023255814,
+    "exactitud_global": 0.925,
+    "f1_macro_global": 0.6985972683647103,
+    "ic95": {
+     "f1_aspectos": [
+      0.40236355822948,
+      0.5869718742323753
+     ],
+     "precision_aspectos": [
+      0.5806290322580645,
+      0.7966167902542373
+     ],
+     "exhaustividad_aspectos": [
+      0.29626593806921675,
+      0.48214285714285715
+     ],
+     "f1_aspecto_polaridad": [
+      0.32767334360554695,
+      0.5033135108347975
+     ],
+     "exactitud_polaridad": [
+      0.7368421052631579,
+      0.9444444444444444
+     ],
+     "exactitud_global": [
+      0.8625,
+      0.975
+     ]
+    },
+    "f1_macro_aspectos": 0.42604341432092635
+   },
+   "embeddings": {
+    "f1_aspectos": 0.704225352112676,
+    "precision_aspectos": 0.7281553398058253,
+    "exhaustividad_aspectos": 0.6818181818181818,
+    "f1_aspecto_polaridad": 0.6384976525821596,
+    "exactitud_polaridad": 0.9066666666666666,
+    "exactitud_global": 0.9125,
+    "f1_macro_global": 0.7615495431492115,
+    "ic95": {
+     "f1_aspectos": [
+      0.6330037216548381,
+      0.7663710189637964
+     ],
+     "precision_aspectos": [
+      0.6494511263841161,
+      0.8090140449438202
+     ],
+     "exhaustividad_aspectos": [
+      0.5981232222673709,
+      0.7528524004085801
+     ],
+     "f1_aspecto_polaridad": [
+      0.5529862963861266,
+      0.7164278166688681
+     ],
+     "exactitud_polaridad": [
+      0.8399876543209877,
+      0.9620253164556962
+     ],
+     "exactitud_global": [
+      0.85,
+      0.9625
+     ]
+    },
+    "f1_macro_aspectos": 0.6797668526605493
+   },
+   "llm": {
+    "f1_aspectos": 0.6893203883495145,
+    "precision_aspectos": 0.7395833333333334,
+    "exhaustividad_aspectos": 0.6454545454545455,
+    "f1_aspecto_polaridad": 0.6601941747572815,
+    "exactitud_polaridad": 0.9577464788732394,
+    "exactitud_global": 0.575,
+    "f1_macro_global": 0.5339952197095055,
+    "ic95": {
+     "f1_aspectos": [
+      0.609613453133907,
+      0.7659673891429708
+     ],
+     "precision_aspectos": [
+      0.6451213669754072,
+      0.8316831683168316
+     ],
+     "exhaustividad_aspectos": [
+      0.5684054415700267,
+      0.7238177339901477
+     ],
+     "f1_aspecto_polaridad": [
+      0.5754561631454073,
+      0.7343276792097225
+     ],
+     "exactitud_polaridad": [
+      0.9047619047619048,
+      1.0
+     ],
+     "exactitud_global": [
+      0.4625,
+      0.6875
+     ]
+    },
+    "f1_macro_aspectos": 0.6971157274098451
+   }
+  }
+ }
+}

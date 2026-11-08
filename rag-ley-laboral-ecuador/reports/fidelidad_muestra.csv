@@ -1,0 +1,51 @@
+id,conjunto,juicio,nota
+P003,"principal (30 al azar, semilla 7)",fiel_completa,
+P006,"principal (30 al azar, semilla 7)",fiel_completa,
+P012,"principal (30 al azar, semilla 7)",fiel_incompleta,"Dice «hasta siete horas, de las cuales una suplementaria»: correcto pero omite que la jornada ordinaria en el subsuelo es de seis."
+P013,"principal (30 al azar, semilla 7)",fiel_completa,
+P014,"principal (30 al azar, semilla 7)",fiel_completa,
+P016,"principal (30 al azar, semilla 7)",fiel_completa,
+P018,"principal (30 al azar, semilla 7)",fiel_incompleta,Omite que la jornada prolongada es excepcional y debe pactarse por escrito.
+P019,"principal (30 al azar, semilla 7)",fiel_completa,
+P021,"principal (30 al azar, semilla 7)",fiel_completa,"Cita también el art. 65, que empieza «Además de los sábados y domingos…»: válido."
+P023,"principal (30 al azar, semilla 7)",fiel_incompleta,Dice que se paga mensualmente; omite la opción de recibirlo acumulado hasta el 24 de diciembre a pedido escrito.
+P027,"principal (30 al azar, semilla 7)",fiel_completa,
+P031,"principal (30 al azar, semilla 7)",fiel_completa,
+P038,"principal (30 al azar, semilla 7)",fiel_completa,
+P041,"principal (30 al azar, semilla 7)",fiel_completa,
+P046,"principal (30 al azar, semilla 7)",fiel_completa,
+P050,"principal (30 al azar, semilla 7)",fiel_completa,
+P051,"principal (30 al azar, semilla 7)",fiel_incompleta,«Puede retener hasta el 10 %» equivale a la prohibición de retener más; omite que solo valen multas del reglamento interno aprobado.
+P052,"principal (30 al azar, semilla 7)",abstencion_indebida,"El art. 44 estaba primero en el contexto (re-ranker 0,92) y el modelo dijo que la ley no lo cubre."
+P053,"principal (30 al azar, semilla 7)",fiel_completa,
+P067,"principal (30 al azar, semilla 7)",fiel_completa,
+P072,"principal (30 al azar, semilla 7)",abstencion_indebida,"El art. 188 estaba primero en el contexto (0,97); el modelo respondió con confianza baja que no está cubierto."
+P075,"principal (30 al azar, semilla 7)",fiel_completa,
+P079,"principal (30 al azar, semilla 7)",fiel_completa,
+P086,"principal (30 al azar, semilla 7)",fiel_completa,
+P087,"principal (30 al azar, semilla 7)",fiel_incompleta,Da el mínimo de 30 dólares; omite el de 20 dólares para quien tiene doble jubilación.
+P089,"principal (30 al azar, semilla 7)",fiel_completa,
+P092,"principal (30 al azar, semilla 7)",fiel_completa,
+P094,"principal (30 al azar, semilla 7)",fiel_completa,
+P097,"principal (30 al azar, semilla 7)",no_fiel,Atribuye el art. 326 al «Código del Trabajo» cuando es de la Constitución (el contexto lo decía). El contenido sí es correcto.
+P098,"principal (30 al azar, semilla 7)",fiel_incompleta,"Responde con el art. 46.1 del Código (contenido fiel) en vez del art. 331 de la Constitución, que también estaba en el contexto."
+N001,nuevas (las 20 respondibles),no_fiel,Cita bien el art. 188 pero calcula «3 meses por cada año = 18 sueldos»; el artículo da un mes por año después de tres años: seis meses.
+N002,nuevas (las 20 respondibles),fiel_incompleta,Dice que se paga cada mes; omite que puede pedirse acumulado hasta el 24 de diciembre.
+N003,nuevas (las 20 respondibles),fiel_completa,
+N004,nuevas (las 20 respondibles),no_fiel,Dice 30 días por gemelos sumando los «diez días adicionales» que el artículo da a la MADRE; al padre le corresponden 15 + 5 = 20.
+N005,nuevas (las 20 respondibles),fiel_completa,
+N006,nuevas (las 20 respondibles),abstencion_sin_contexto,El art. 44 no llegó a los 5 artículos del contexto; abstenerse era lo correcto con ese contexto (fallo de recuperación).
+N007,nuevas (las 20 respondibles),no_responde,"El art. 353 no estaba en el contexto; el modelo resume los arts. 368, 367 y 402 sin responder quién paga."
+N008,nuevas (las 20 respondibles),fiel_completa,
+N009,nuevas (las 20 respondibles),fiel_completa,
+N010,nuevas (las 20 respondibles),fiel_incompleta,Idea correcta (despido ineficaz) pero redacta de forma confusa el año adicional de protección.
+N011,nuevas (las 20 respondibles),no_responde,El art. 636 (prescripción en un mes) no estaba en el contexto; responde con el visto bueno del art. 172.
+N012,nuevas (las 20 respondibles),no_fiel,Presenta como generales los límites de dos años (artesanal) y seis meses (industrial) que el art. 157 fija solo para adolescentes.
+N013,nuevas (las 20 respondibles),fiel_completa,
+N014,nuevas (las 20 respondibles),fiel_completa,
+N015,nuevas (las 20 respondibles),fiel_completa,
+N016,nuevas (las 20 respondibles),no_fiel,Inventa la condición «siempre que el empleador acepte»: la aceptación del empleador solo sirve para acortar el plazo de 15 días.
+N017,nuevas (las 20 respondibles),fiel_completa,
+N018,nuevas (las 20 respondibles),fiel_incompleta,Dice desde cuándo nace el derecho pero no cuánto es (un mes por año posterior al primero).
+N019,nuevas (las 20 respondibles),fiel_incompleta,Habla de «límites a los sueldos» de gerentes; el artículo habla de límites a la brecha con la remuneración más baja.
+N020,nuevas (las 20 respondibles),fiel_completa,

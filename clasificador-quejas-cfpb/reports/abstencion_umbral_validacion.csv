@@ -1,0 +1,3 @@
+enfoque,elegido_en,evaluado_en,umbral,cobertura_automatizada_pct,exactitud_sin_abstencion,exactitud_en_automatizadas,costo_operativo_1k_usd,costo_sin_abstencion_1k_usd,ahorro_pct
+1. TF-IDF + LR (25.722 ej.),val_emb (n=600),test_comun (n=300),0.75,72.33333333333334,0.8266666666666667,0.9170506912442397,1808.333333333333,2426.666666666667,25.48076923076925
+3. bge-m3 + LR (1.800 ej.),val_emb (n=600),test_comun (n=300),0.775,60.333333333333336,0.8,0.9171270718232044,2088.3333333333335,2799.999999999999,25.416666666666632

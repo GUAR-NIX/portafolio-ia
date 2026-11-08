@@ -1,0 +1,26 @@
+# Datos crudos: se bajan con  python descargar_datos.py
+data/raw/
+
+# data/embeddings_bge_m3.npz, data/grabacion_llm.jsonl, data/ejemplos_few_shot.json,
+# data/quejas_es_traducidas.jsonl, models/ y reports/ SÍ se versionan: permiten reproducir
+# la evaluación, las pruebas, la API y la app sin requerir Ollama abierto.
+# data/experimento_confianza_autodeclarada.jsonl (54 respuestas) también se versiona: es la evidencia del experimento
+# de pedirle al LLM su propia confianza.
+
+# Material descartado que ya no se usa (no se sube)
+data/version_anterior/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

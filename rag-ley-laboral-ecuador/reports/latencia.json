@@ -1,0 +1,14 @@
+{
+  "nota": "Medido en la corrida del 2026-10-25 sin caché (Ryzen 5 4600G, CPU, sin GPU; otra sesión usaba la CPU a la vez). Las demás variantes del re-ranker salieron de la caché y su tiempo no es representativo.",
+  "reranker_20_pares_s": {
+    "mediana": 8.46,
+    "p90": 10.91,
+    "n": 145
+  },
+  "bm25_ms_mediana": 1.0,
+  "vectorial_ms_mediana_con_embedding_guardado": 0.3,
+  "llm_qwen2.5_7b_s": {
+    "mediana": 38.1,
+    "p90": 52.3
+  }
+}

@@ -1,0 +1,23 @@
+# Datos crudos completos de las APIs: se descargan con  python descargar_datos.py
+data/raw/
+# Caché en disco del cliente HTTP (modo "vivo"); se regenera sola
+data/cache_api/
+
+# data/instantanea_indicadores.json, data/instantanea_clima.json, data/conjunto_*.json,
+# data/grabacion_llm.jsonl, models/ y reports/ SÍ se versionan (< 5 MB en total):
+# permiten reproducir la evaluación, las herramientas deterministas, las pruebas y la API sin Ollama ni red.
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

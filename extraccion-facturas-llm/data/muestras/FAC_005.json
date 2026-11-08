@@ -1,0 +1,63 @@
+{
+ "ruc_emisor": "0996861643001",
+ "razon_social_emisor": "Tecnología Chimborazo C.A.",
+ "numero_factura": "001-002-000045796",
+ "numero_autorizacion": "2306202401099686164300120010020000457966226565114",
+ "fecha_emision": "2024-06-23",
+ "cliente_nombre": "Isabel Elena Moreira Ortiz",
+ "cliente_identificacion": "1515877189",
+ "items": [
+  {
+   "descripcion": "Disco SSD 1 TB",
+   "cantidad": 2,
+   "precio_unitario": 86.33,
+   "total": 172.66
+  },
+  {
+   "descripcion": "Mouse inalámbrico",
+   "cantidad": 10,
+   "precio_unitario": 15.37,
+   "total": 153.7
+  },
+  {
+   "descripcion": "Monitor LED 24 pulgadas",
+   "cantidad": 25,
+   "precio_unitario": 137.88,
+   "total": 3447.0
+  },
+  {
+   "descripcion": "Servicio de instalación de red",
+   "cantidad": 1,
+   "precio_unitario": 84.96,
+   "total": 84.96
+  },
+  {
+   "descripcion": "Laptop 15.6 pulgadas 16 GB RAM",
+   "cantidad": 3,
+   "precio_unitario": 719.2,
+   "total": 2157.6
+  },
+  {
+   "descripcion": "Cable HDMI 2 m",
+   "cantidad": 1,
+   "precio_unitario": 7.58,
+   "total": 7.58
+  },
+  {
+   "descripcion": "Impresora multifunción tinta continua",
+   "cantidad": 3,
+   "precio_unitario": 216.8,
+   "total": 650.4
+  },
+  {
+   "descripcion": "Teclado USB español",
+   "cantidad": 1,
+   "precio_unitario": 12.83,
+   "total": 12.83
+  }
+ ],
+ "subtotal": 6686.73,
+ "descuento": 0.0,
+ "iva": 1003.01,
+ "total": 7689.74
+}

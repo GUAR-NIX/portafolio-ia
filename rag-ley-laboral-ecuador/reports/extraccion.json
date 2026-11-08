@@ -1,0 +1,16 @@
+{
+  "codigo_trabajo": {
+    "articulos": 607,
+    "derogados_excluidos": 61,
+    "innumerados": 3
+  },
+  "constitucion": {
+    "articulos": 20
+  },
+  "total": 627,
+  "caracteres_mediana": 342,
+  "caracteres_max": 15011,
+  "con_notas_editoriales": 297,
+  "duplicados_con_sufijo": 1,
+  "sin_epigrafe": 7
+}

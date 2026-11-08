@@ -1,0 +1,17 @@
+[project]
+name = "facturas"
+version = "1.0.0"
+description = "Extracción estructurada de facturas ecuatorianas en PDF a JSON validado: pypdf + OCR de Windows + LLM local (Ollama) con reglas del SRI"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]

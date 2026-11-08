@@ -1,0 +1,97 @@
+codigo_pais,pais,indicador,codigo_bm,n_observaciones,anio_min,anio_max,ultimo_valor
+ECU,Ecuador,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,6826.5294
+ECU,Ecuador,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,-1.9441
+ECU,Ecuador,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,1.5473
+ECU,Ecuador,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,3.453
+ECU,Ecuador,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,18.9
+ECU,Ecuador,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,77.579
+ECU,Ecuador,usuarios_internet_pct,IT.NET.USER.ZS,34,1990,2024,77.1727
+ECU,Ecuador,indice_gini,SI.POV.GINI,27,1994,2024,45.2
+COL,Colombia,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,7951.0862
+COL,Colombia,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,1.4933
+COL,Colombia,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,6.6091
+COL,Colombia,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,9.619
+COL,Colombia,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,29.7
+COL,Colombia,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,77.913
+COL,Colombia,usuarios_internet_pct,IT.NET.USER.ZS,32,1990,2024,79.3454
+COL,Colombia,indice_gini,SI.POV.GINI,27,1991,2024,54.4
+PER,Perú,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,8526.2967
+PER,Perú,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,3.5153
+PER,Perú,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,2.0077
+PER,Perú,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,5.199
+PER,Perú,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,30.6
+PER,Perú,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,77.941
+PER,Perú,usuarios_internet_pct,IT.NET.USER.ZS,32,1990,2024,81.9571
+PER,Perú,indice_gini,SI.POV.GINI,29,1994,2024,40.1
+CHL,Chile,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,16658.9653
+CHL,Chile,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,2.8051
+CHL,Chile,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,4.2976
+CHL,Chile,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,8.718
+CHL,Chile,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,24.2
+CHL,Chile,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,81.359
+CHL,Chile,usuarios_internet_pct,IT.NET.USER.ZS,34,1990,2024,95.5902
+CHL,Chile,indice_gini,SI.POV.GINI,16,1990,2024,43.0
+ARG,Argentina,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,13969.7837
+ARG,Argentina,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,-1.3429
+ARG,Argentina,inflacion_anual_pct,FP.CPI.TOTL.ZG,7,2018,2024,219.8839
+ARG,Argentina,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,7.15
+ARG,Argentina,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,9.2
+ARG,Argentina,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,77.543
+ARG,Argentina,usuarios_internet_pct,IT.NET.USER.ZS,34,1990,2024,89.6672
+ARG,Argentina,indice_gini,SI.POV.GINI,33,1991,2024,42.4
+BRA,Brasil,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,10310.5487
+BRA,Brasil,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,3.4193
+BRA,Brasil,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,4.3675
+BRA,Brasil,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,6.801
+BRA,Brasil,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,46.5
+BRA,Brasil,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,76.023
+BRA,Brasil,usuarios_internet_pct,IT.NET.USER.ZS,35,1990,2024,84.4635
+BRA,Brasil,indice_gini,SI.POV.GINI,31,1990,2024,50.3
+MEX,México,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,13988.0424
+MEX,México,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,1.3506
+MEX,México,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,4.7223
+MEX,México,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,2.678
+MEX,México,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,13.0
+MEX,México,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,75.264
+MEX,México,usuarios_internet_pct,IT.NET.USER.ZS,35,1990,2024,83.1223
+MEX,México,indice_gini,SI.POV.GINI,18,1992,2024,42.6
+URY,Uruguay,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,24308.4955
+URY,Uruguay,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,3.3258
+URY,Uruguay,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,4.8491
+URY,Uruguay,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,8.209
+URY,Uruguay,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,57.8
+URY,Uruguay,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,78.287
+URY,Uruguay,usuarios_internet_pct,IT.NET.USER.ZS,32,1990,2024,91.9911
+URY,Uruguay,indice_gini,SI.POV.GINI,30,1992,2024,40.0
+CRI,Costa Rica,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,18853.2829
+CRI,Costa Rica,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,4.0829
+CRI,Costa Rica,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,-0.4129
+CRI,Costa Rica,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,6.936
+CRI,Costa Rica,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,34.2
+CRI,Costa Rica,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,80.996
+CRI,Costa Rica,usuarios_internet_pct,IT.NET.USER.ZS,34,1990,2024,87.1702
+CRI,Costa Rica,indice_gini,SI.POV.GINI,35,1990,2024,45.8
+BOL,Bolivia,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,4421.1661
+BOL,Bolivia,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,-1.1234
+BOL,Bolivia,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,5.0998
+BOL,Bolivia,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,3.274
+BOL,Bolivia,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,12.8
+BOL,Bolivia,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,68.739
+BOL,Bolivia,usuarios_internet_pct,IT.NET.USER.ZS,31,1990,2024,79.7047
+BOL,Bolivia,indice_gini,SI.POV.GINI,27,1990,2024,40.9
+PRY,Paraguay,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,6456.6072
+PRY,Paraguay,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,4.6691
+PRY,Paraguay,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,3.8354
+PRY,Paraguay,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,5.686
+PRY,Paraguay,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,58.8
+PRY,Paraguay,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,73.982
+PRY,Paraguay,usuarios_internet_pct,IT.NET.USER.ZS,30,1990,2024,81.5781
+PRY,Paraguay,indice_gini,SI.POV.GINI,28,1990,2024,44.2
+USA,Estados Unidos,pib_per_capita_usd,NY.GDP.PCAP.CD,35,1990,2024,86169.6642
+USA,Estados Unidos,crecimiento_pib_pct,NY.GDP.MKTP.KD.ZG,35,1990,2024,2.7932
+USA,Estados Unidos,inflacion_anual_pct,FP.CPI.TOTL.ZG,35,1990,2024,2.9495
+USA,Estados Unidos,desempleo_pct,SL.UEM.TOTL.ZS,34,1991,2024,4.022
+USA,Estados Unidos,energias_renovables_pct,EG.FEC.RNEW.ZS,32,1990,2021,10.9
+USA,Estados Unidos,esperanza_vida_anios,SP.DYN.LE00.IN,35,1990,2024,78.8902
+USA,Estados Unidos,usuarios_internet_pct,IT.NET.USER.ZS,35,1990,2024,94.6938
+USA,Estados Unidos,indice_gini,SI.POV.GINI,35,1990,2024,41.8

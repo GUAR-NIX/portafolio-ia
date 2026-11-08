@@ -1,0 +1,1964 @@
+{
+  "metadata": {
+    "nombre_modelo": "clasificador_quejas_cfpb",
+    "version": "2.0.0",
+    "fuente_datos": "CFPB Consumer Complaint Database (milesbutler/consumer_complaints, Parquet)",
+    "categorias": [
+      "reporte_credito",
+      "cobranza_deudas",
+      "hipotecas",
+      "tarjetas_credito",
+      "cuentas_bancarias",
+      "prestamos_consumo"
+    ],
+    "etiquetas_categoria": {
+      "reporte_credito": "Reporte y burós de crédito",
+      "cobranza_deudas": "Cobranza de deudas",
+      "hipotecas": "Hipotecas y préstamos de vivienda",
+      "tarjetas_credito": "Tarjetas de crédito y prepago",
+      "cuentas_bancarias": "Cuentas bancarias y transferencias",
+      "prestamos_consumo": "Préstamos estudiantiles, auto y consumo"
+    },
+    "modelos_ollama": {
+      "embeddings": "bge-m3",
+      "llm": "qwen2.5:7b"
+    },
+    "tamanos_particion": {
+      "corpus_total": 50568,
+      "train_tfidf": 25722,
+      "train_embeddings": 1800,
+      "val": 11076,
+      "val_emb": 600,
+      "test_reciente": 10770,
+      "test_misma_epoca": 3000,
+      "test_comun": 300,
+      "test_espanol": 60
+    },
+    "fechas": {
+      "train_hasta": "2017-03-31",
+      "val": "2017-04-01 a 2017-09-30",
+      "test_desde": "2017-10-01",
+      "fecha_min": "2015-03-19",
+      "fecha_max": "2018-04-25"
+    },
+    "umbral_abstencion": 0.75,
+    "umbral_cascada": 0.7038,
+    "fraccion_al_llm_objetivo": 0.25,
+    "umbral_urgencia": 0.65,
+    "temperaturas": {
+      "tfidf": 0.9571,
+      "bge_m3_lr": 0.8225
+    },
+    "supuestos_operativos": {
+      "costo_mal_enrutamiento_usd": 14.0,
+      "costo_triaje_humano_usd": 3.5
+    },
+    "comparacion_enfoques": [
+      {
+        "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.8266666666666667,
+        "exactitud_ic95_bajo": 0.7833333333333333,
+        "exactitud_ic95_alto": 0.8666666666666667,
+        "f1_macro": 0.8254584392706606,
+        "f1_ic95_bajo": 0.7792006577889042,
+        "f1_ic95_alto": 0.865022551975163,
+        "exactitud_top2": 0.9333333333333333,
+        "brier_multiclase": 0.2549473246870998,
+        "ece": 0.03144949113777769,
+        "ms_por_queja": 0.09771266666575684,
+        "segundos_por_10k_quejas": 0.9771266666575684,
+        "costo_retrabajo_1k_usd": 2426.666666666667
+      },
+      {
+        "enfoque": "1a. TF-IDF + LR (1.800 ej.)",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.82,
+        "exactitud_ic95_bajo": 0.7733333333333333,
+        "exactitud_ic95_alto": 0.86,
+        "f1_macro": 0.8197277247092933,
+        "f1_ic95_bajo": 0.772665571781888,
+        "f1_ic95_alto": 0.85960235297759,
+        "exactitud_top2": 0.9366666666666666,
+        "brier_multiclase": 0.2837971789900608,
+        "ece": 0.08163098710095072,
+        "ms_por_queja": 0.08524433333150228,
+        "segundos_por_10k_quejas": 0.8524433333150228,
+        "costo_retrabajo_1k_usd": 2520.000000000001
+      },
+      {
+        "enfoque": "2. Zero-Shot prototipos bge-m3",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.6933333333333334,
+        "exactitud_ic95_bajo": 0.6433333333333333,
+        "exactitud_ic95_alto": 0.7433333333333333,
+        "f1_macro": 0.689539774782843,
+        "f1_ic95_bajo": 0.6386632163401168,
+        "f1_ic95_alto": 0.7366674902421494,
+        "exactitud_top2": 0.8366666666666667,
+        "brier_multiclase": 0.5318157505904031,
+        "ece": 0.2734636984268824,
+        "ms_por_queja": 788.6919379234314,
+        "segundos_por_10k_quejas": 7886.919379234314,
+        "costo_retrabajo_1k_usd": 4293.333333333333
+      },
+      {
+        "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.8,
+        "exactitud_ic95_bajo": 0.7566666666666667,
+        "exactitud_ic95_alto": 0.8466666666666667,
+        "f1_macro": 0.7983964183964184,
+        "f1_ic95_bajo": 0.7519956108447884,
+        "f1_ic95_alto": 0.8417834337862534,
+        "exactitud_top2": 0.9,
+        "brier_multiclase": 0.2984167888692326,
+        "ece": 0.04616608053445814,
+        "ms_por_queja": 788.6919379234314,
+        "segundos_por_10k_quejas": 7886.919379234314,
+        "costo_retrabajo_1k_usd": 2799.999999999999
+      },
+      {
+        "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.69,
+        "exactitud_ic95_bajo": 0.6366666666666667,
+        "exactitud_ic95_alto": 0.74,
+        "f1_macro": 0.694548252677603,
+        "f1_ic95_bajo": 0.6427670020339222,
+        "f1_ic95_alto": 0.7416272466293553,
+        "exactitud_top2": 0.8433333333333334,
+        "brier_multiclase": 0.5990562754003922,
+        "ece": 0.27536565029708737,
+        "ms_por_queja": 13941.796666666665,
+        "segundos_por_10k_quejas": 139417.96666666665,
+        "costo_retrabajo_1k_usd": 4340.000000000001
+      },
+      {
+        "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.8,
+        "exactitud_ic95_bajo": 0.7566666666666667,
+        "exactitud_ic95_alto": 0.8433333333333334,
+        "f1_macro": 0.7985422332426811,
+        "f1_ic95_bajo": 0.7536897694676543,
+        "f1_ic95_alto": 0.8424329335437627,
+        "exactitud_top2": 0.8933333333333333,
+        "brier_multiclase": 0.39908558243850467,
+        "ece": 0.19590882503841137,
+        "ms_por_queja": 12326.393333333332,
+        "segundos_por_10k_quejas": 123263.93333333332,
+        "costo_retrabajo_1k_usd": 2799.999999999999
+      },
+      {
+        "enfoque": "6. Cascada TF-IDF → LLM zero-shot",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.83,
+        "exactitud_ic95_bajo": 0.7866666666666666,
+        "exactitud_ic95_alto": 0.87,
+        "f1_macro": 0.8303490681494622,
+        "f1_ic95_bajo": 0.7867130363483955,
+        "f1_ic95_alto": 0.8673215071534894,
+        "exactitud_top2": 0.9066666666666666,
+        "brier_multiclase": 0.31544564700710226,
+        "ece": 0.09040004799914612,
+        "ms_por_queja": 3253.1836015555546,
+        "segundos_por_10k_quejas": 32531.836015555546,
+        "costo_retrabajo_1k_usd": 2380.0000000000005
+      },
+      {
+        "enfoque": "7. Cascada TF-IDF → LLM few-shot",
+        "conjunto": "test_comun",
+        "n_quejas": 300,
+        "exactitud": 0.8433333333333334,
+        "exactitud_ic95_bajo": 0.8033333333333333,
+        "exactitud_ic95_alto": 0.8833333333333333,
+        "f1_macro": 0.8421939816590336,
+        "f1_ic95_bajo": 0.7988685149124589,
+        "f1_ic95_alto": 0.8798872205148527,
+        "exactitud_top2": 0.9166666666666666,
+        "brier_multiclase": 0.2842585865131555,
+        "ece": 0.07582933925693311,
+        "ms_por_queja": 2876.25615711111,
+        "segundos_por_10k_quejas": 28762.561571111102,
+        "costo_retrabajo_1k_usd": 2193.333333333333
+      }
+    ]
+  },
+  "resumen_fuente": {
+    "fuente_url": "https://huggingface.co/datasets/milesbutler/consumer_complaints/resolve/main/data/test-00000-of-00001.parquet",
+    "filas_totales_parquet": 69416,
+    "fecha_min": "2015-03-19",
+    "fecha_max": "2018-04-25",
+    "filas_validas_15_260_palabras": 50568,
+    "distribucion_original_por_producto": {
+      "Debt collection": 15611,
+      "Credit reporting, credit repair services, or other personal consumer reports": 12335,
+      "Mortgage": 11014,
+      "Credit reporting": 7947,
+      "Credit card": 4650,
+      "Student loan": 4231,
+      "Bank account or service": 3707,
+      "Credit card or prepaid card": 2698,
+      "Consumer Loan": 2358,
+      "Checking or savings account": 1696,
+      "Money transfer, virtual currency, or money service": 744,
+      "Vehicle loan or lease": 659,
+      "Payday loan, title loan, or personal loan": 509,
+      "Payday loan": 445,
+      "Money transfers": 388,
+      "Prepaid card": 346,
+      "Other financial service": 72,
+      "Virtual currency": 6
+    },
+    "filas_por_particion": {
+      "train": 25722,
+      "val": 11076,
+      "test": 10770,
+      "test_misma_epoca": 3000
+    },
+    "distribucion_por_categoria": {
+      "reporte_credito": 15957,
+      "cobranza_deudas": 12535,
+      "hipotecas": 6494,
+      "prestamos_consumo": 5754,
+      "tarjetas_credito": 5405,
+      "cuentas_bancarias": 4423
+    },
+    "pct_urgente": 7.615488055687392
+  },
+  "particiones_temporales": [
+    {
+      "categoria": "reporte_credito",
+      "test": 4747,
+      "test_misma_epoca": 663,
+      "train": 5481,
+      "val": 5066
+    },
+    {
+      "categoria": "cobranza_deudas",
+      "test": 2436,
+      "test_misma_epoca": 805,
+      "train": 6955,
+      "val": 2339
+    },
+    {
+      "categoria": "hipotecas",
+      "test": 781,
+      "test_misma_epoca": 503,
+      "train": 4324,
+      "val": 886
+    },
+    {
+      "categoria": "tarjetas_credito",
+      "test": 995,
+      "test_misma_epoca": 343,
+      "train": 3131,
+      "val": 936
+    },
+    {
+      "categoria": "cuentas_bancarias",
+      "test": 969,
+      "test_misma_epoca": 298,
+      "train": 2417,
+      "val": 739
+    },
+    {
+      "categoria": "prestamos_consumo",
+      "test": 842,
+      "test_misma_epoca": 388,
+      "train": 3414,
+      "val": 1110
+    }
+  ],
+  "resumen_categorias_cfpb": [
+    {
+      "categoria": "reporte_credito",
+      "n_quejas": 15957,
+      "palabras_media": 103.52622673434855,
+      "palabras_mediana": 91.0,
+      "pct_con_xxxx": 83.22993043805226,
+      "mascaras_xxxx_media": 7.88255937832926,
+      "pct_menciona_monto": 12.076204800401078,
+      "n_subproductos": 4,
+      "n_motivos": 20,
+      "etiqueta": "Reporte y burós de crédito"
+    },
+    {
+      "categoria": "cobranza_deudas",
+      "n_quejas": 12535,
+      "palabras_media": 104.02385321100917,
+      "palabras_mediana": 91.0,
+      "pct_con_xxxx": 77.83007578779417,
+      "mascaras_xxxx_media": 5.16130833665736,
+      "pct_menciona_monto": 22.201834862385322,
+      "n_subproductos": 17,
+      "n_motivos": 10,
+      "etiqueta": "Cobranza de deudas"
+    },
+    {
+      "categoria": "hipotecas",
+      "n_quejas": 6494,
+      "palabras_media": 137.38296889436404,
+      "palabras_mediana": 133.0,
+      "pct_con_xxxx": 84.60117031105636,
+      "mascaras_xxxx_media": 5.927933477055744,
+      "pct_menciona_monto": 27.810286418232216,
+      "n_subproductos": 10,
+      "n_motivos": 15,
+      "etiqueta": "Hipotecas y préstamos de vivienda"
+    },
+    {
+      "categoria": "tarjetas_credito",
+      "n_quejas": 5405,
+      "palabras_media": 129.1185938945421,
+      "palabras_mediana": 124.0,
+      "pct_con_xxxx": 82.71970397779833,
+      "mascaras_xxxx_media": 5.056244218316373,
+      "pct_menciona_monto": 36.78075855689177,
+      "n_subproductos": 14,
+      "n_motivos": 57,
+      "etiqueta": "Tarjetas de crédito y prepago"
+    },
+    {
+      "categoria": "cuentas_bancarias",
+      "n_quejas": 4423,
+      "palabras_media": 131.40198959981913,
+      "palabras_mediana": 127.0,
+      "pct_con_xxxx": 83.24666515939407,
+      "mascaras_xxxx_media": 5.521139498078227,
+      "pct_menciona_monto": 45.4668776848293,
+      "n_subproductos": 17,
+      "n_motivos": 31,
+      "etiqueta": "Cuentas bancarias y transferencias"
+    },
+    {
+      "categoria": "prestamos_consumo",
+      "n_quejas": 5754,
+      "palabras_media": 125.82707681612791,
+      "palabras_mediana": 119.0,
+      "pct_con_xxxx": 79.78797358359402,
+      "mascaras_xxxx_media": 4.729058046576295,
+      "pct_menciona_monto": 30.083420229405633,
+      "n_subproductos": 13,
+      "n_motivos": 44,
+      "etiqueta": "Préstamos estudiantiles, auto y consumo"
+    }
+  ],
+  "comparacion_enfoques": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.8266666666666667,
+      "exactitud_ic95_bajo": 0.7833333333333333,
+      "exactitud_ic95_alto": 0.8666666666666667,
+      "f1_macro": 0.8254584392706606,
+      "f1_ic95_bajo": 0.7792006577889042,
+      "f1_ic95_alto": 0.865022551975163,
+      "exactitud_top2": 0.9333333333333333,
+      "brier_multiclase": 0.2549473246870998,
+      "ece": 0.03144949113777769,
+      "ms_por_queja": 0.09771266666575684,
+      "segundos_por_10k_quejas": 0.9771266666575684,
+      "costo_retrabajo_1k_usd": 2426.666666666667
+    },
+    {
+      "enfoque": "1a. TF-IDF + LR (1.800 ej.)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.82,
+      "exactitud_ic95_bajo": 0.7733333333333333,
+      "exactitud_ic95_alto": 0.86,
+      "f1_macro": 0.8197277247092933,
+      "f1_ic95_bajo": 0.772665571781888,
+      "f1_ic95_alto": 0.85960235297759,
+      "exactitud_top2": 0.9366666666666666,
+      "brier_multiclase": 0.2837971789900608,
+      "ece": 0.08163098710095072,
+      "ms_por_queja": 0.08524433333150228,
+      "segundos_por_10k_quejas": 0.8524433333150228,
+      "costo_retrabajo_1k_usd": 2520.000000000001
+    },
+    {
+      "enfoque": "2. Zero-Shot prototipos bge-m3",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.6933333333333334,
+      "exactitud_ic95_bajo": 0.6433333333333333,
+      "exactitud_ic95_alto": 0.7433333333333333,
+      "f1_macro": 0.689539774782843,
+      "f1_ic95_bajo": 0.6386632163401168,
+      "f1_ic95_alto": 0.7366674902421494,
+      "exactitud_top2": 0.8366666666666667,
+      "brier_multiclase": 0.5318157505904031,
+      "ece": 0.2734636984268824,
+      "ms_por_queja": 788.6919379234314,
+      "segundos_por_10k_quejas": 7886.919379234314,
+      "costo_retrabajo_1k_usd": 4293.333333333333
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.8,
+      "exactitud_ic95_bajo": 0.7566666666666667,
+      "exactitud_ic95_alto": 0.8466666666666667,
+      "f1_macro": 0.7983964183964184,
+      "f1_ic95_bajo": 0.7519956108447884,
+      "f1_ic95_alto": 0.8417834337862534,
+      "exactitud_top2": 0.9,
+      "brier_multiclase": 0.2984167888692326,
+      "ece": 0.04616608053445814,
+      "ms_por_queja": 788.6919379234314,
+      "segundos_por_10k_quejas": 7886.919379234314,
+      "costo_retrabajo_1k_usd": 2799.999999999999
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.69,
+      "exactitud_ic95_bajo": 0.6366666666666667,
+      "exactitud_ic95_alto": 0.74,
+      "f1_macro": 0.694548252677603,
+      "f1_ic95_bajo": 0.6427670020339222,
+      "f1_ic95_alto": 0.7416272466293553,
+      "exactitud_top2": 0.8433333333333334,
+      "brier_multiclase": 0.5990562754003922,
+      "ece": 0.27536565029708737,
+      "ms_por_queja": 13941.796666666665,
+      "segundos_por_10k_quejas": 139417.96666666665,
+      "costo_retrabajo_1k_usd": 4340.000000000001
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.8,
+      "exactitud_ic95_bajo": 0.7566666666666667,
+      "exactitud_ic95_alto": 0.8433333333333334,
+      "f1_macro": 0.7985422332426811,
+      "f1_ic95_bajo": 0.7536897694676543,
+      "f1_ic95_alto": 0.8424329335437627,
+      "exactitud_top2": 0.8933333333333333,
+      "brier_multiclase": 0.39908558243850467,
+      "ece": 0.19590882503841137,
+      "ms_por_queja": 12326.393333333332,
+      "segundos_por_10k_quejas": 123263.93333333332,
+      "costo_retrabajo_1k_usd": 2799.999999999999
+    },
+    {
+      "enfoque": "6. Cascada TF-IDF → LLM zero-shot",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.83,
+      "exactitud_ic95_bajo": 0.7866666666666666,
+      "exactitud_ic95_alto": 0.87,
+      "f1_macro": 0.8303490681494622,
+      "f1_ic95_bajo": 0.7867130363483955,
+      "f1_ic95_alto": 0.8673215071534894,
+      "exactitud_top2": 0.9066666666666666,
+      "brier_multiclase": 0.31544564700710226,
+      "ece": 0.09040004799914612,
+      "ms_por_queja": 3253.1836015555546,
+      "segundos_por_10k_quejas": 32531.836015555546,
+      "costo_retrabajo_1k_usd": 2380.0000000000005
+    },
+    {
+      "enfoque": "7. Cascada TF-IDF → LLM few-shot",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "exactitud": 0.8433333333333334,
+      "exactitud_ic95_bajo": 0.8033333333333333,
+      "exactitud_ic95_alto": 0.8833333333333333,
+      "f1_macro": 0.8421939816590336,
+      "f1_ic95_bajo": 0.7988685149124589,
+      "f1_ic95_alto": 0.8798872205148527,
+      "exactitud_top2": 0.9166666666666666,
+      "brier_multiclase": 0.2842585865131555,
+      "ece": 0.07582933925693311,
+      "ms_por_queja": 2876.25615711111,
+      "segundos_por_10k_quejas": 28762.561571111102,
+      "costo_retrabajo_1k_usd": 2193.333333333333
+    }
+  ],
+  "diferencias_pareadas": [
+    {
+      "enfoque_a": "1. TF-IDF + LR (25.722 ej.)",
+      "enfoque_b": "4. LLM zero-shot (qwen2.5:7b)",
+      "diferencia": 0.13091018659305764,
+      "ic95_bajo": 0.07241620980202695,
+      "ic95_alto": 0.18982999325089658,
+      "distinguible": true
+    },
+    {
+      "enfoque_a": "1. TF-IDF + LR (25.722 ej.)",
+      "enfoque_b": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "diferencia": 0.026916206027979506,
+      "ic95_bajo": -0.021783274443709998,
+      "ic95_alto": 0.07484432753333883,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "enfoque_b": "4. LLM zero-shot (qwen2.5:7b)",
+      "diferencia": 0.10399398056507814,
+      "ic95_bajo": 0.058823156848711686,
+      "ic95_alto": 0.15233929978696492,
+      "distinguible": true
+    },
+    {
+      "enfoque_a": "3. bge-m3 + LR (1.800 ej.)",
+      "enfoque_b": "4. LLM zero-shot (qwen2.5:7b)",
+      "diferencia": 0.10384816571881539,
+      "ic95_bajo": 0.046166823734868155,
+      "ic95_alto": 0.16354540427156927,
+      "distinguible": true
+    },
+    {
+      "enfoque_a": "3. bge-m3 + LR (1.800 ej.)",
+      "enfoque_b": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "diferencia": -0.00014581484626274843,
+      "ic95_bajo": -0.046545577252042815,
+      "ic95_alto": 0.046068660704633446,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "1. TF-IDF + LR (25.722 ej.)",
+      "enfoque_b": "3. bge-m3 + LR (1.800 ej.)",
+      "diferencia": 0.027062020874242254,
+      "ic95_bajo": -0.012366633025216092,
+      "ic95_alto": 0.06501224989301636,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "3. bge-m3 + LR (1.800 ej.)",
+      "enfoque_b": "1a. TF-IDF + LR (1.800 ej.)",
+      "diferencia": -0.021331306312874942,
+      "ic95_bajo": -0.0632470337917211,
+      "ic95_alto": 0.020896004874021202,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "7. Cascada TF-IDF → LLM few-shot",
+      "enfoque_b": "1. TF-IDF + LR (25.722 ej.)",
+      "diferencia": 0.016735542388372937,
+      "ic95_bajo": -0.01831107030518823,
+      "ic95_alto": 0.05099410742936994,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "6. Cascada TF-IDF → LLM zero-shot",
+      "enfoque_b": "1. TF-IDF + LR (25.722 ej.)",
+      "diferencia": 0.0048906288788015395,
+      "ic95_bajo": -0.030956459492700532,
+      "ic95_alto": 0.040011915320778114,
+      "distinguible": false
+    },
+    {
+      "enfoque_a": "1. TF-IDF + LR (25.722 ej.)",
+      "enfoque_b": "2. Zero-Shot prototipos bge-m3",
+      "diferencia": 0.13591866448781764,
+      "ic95_bajo": 0.07921291756836647,
+      "ic95_alto": 0.18867685219326577,
+      "distinguible": true
+    }
+  ],
+  "cascada": {
+    "umbral": 0.7038163256488841,
+    "pct_al_llm_test": 23.333333333333332,
+    "curva": [
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 0.0,
+        "f1_macro": 0.8254584392706606,
+        "exactitud": 0.8266666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 0.0,
+        "f1_macro": 0.8254584392706606,
+        "exactitud": 0.8266666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 5.0,
+        "f1_macro": 0.8386739874177856,
+        "exactitud": 0.84
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 5.0,
+        "f1_macro": 0.8355085083751094,
+        "exactitud": 0.8366666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 10.0,
+        "f1_macro": 0.846055551830658,
+        "exactitud": 0.8466666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 10.0,
+        "f1_macro": 0.8550482531004976,
+        "exactitud": 0.8566666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 15.0,
+        "f1_macro": 0.8422707516504575,
+        "exactitud": 0.8433333333333334
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 15.0,
+        "f1_macro": 0.8483429718046106,
+        "exactitud": 0.85
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 20.0,
+        "f1_macro": 0.8300886081735842,
+        "exactitud": 0.83
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 20.0,
+        "f1_macro": 0.8452779524117727,
+        "exactitud": 0.8466666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 25.0,
+        "f1_macro": 0.8271005846005846,
+        "exactitud": 0.8266666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 25.0,
+        "f1_macro": 0.8389622467208339,
+        "exactitud": 0.84
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 30.0,
+        "f1_macro": 0.8174517439530082,
+        "exactitud": 0.8166666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 30.0,
+        "f1_macro": 0.8356970283806913,
+        "exactitud": 0.8366666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 35.0,
+        "f1_macro": 0.8251332995780584,
+        "exactitud": 0.8233333333333334
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 35.0,
+        "f1_macro": 0.8423681758345904,
+        "exactitud": 0.8433333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 40.0,
+        "f1_macro": 0.8184363723569138,
+        "exactitud": 0.8166666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 40.0,
+        "f1_macro": 0.8353984284420749,
+        "exactitud": 0.8366666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 45.0,
+        "f1_macro": 0.8055758189735246,
+        "exactitud": 0.8033333333333333
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 45.0,
+        "f1_macro": 0.8318060761546192,
+        "exactitud": 0.8333333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 50.0,
+        "f1_macro": 0.798543552097145,
+        "exactitud": 0.7966666666666666
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 50.0,
+        "f1_macro": 0.8317199220141408,
+        "exactitud": 0.8333333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 55.00000000000001,
+        "f1_macro": 0.7854208747443933,
+        "exactitud": 0.7833333333333333
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 55.00000000000001,
+        "f1_macro": 0.8252047961403521,
+        "exactitud": 0.8266666666666667
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 60.0,
+        "f1_macro": 0.7749398896020195,
+        "exactitud": 0.7733333333333333
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 60.0,
+        "f1_macro": 0.8212866487621269,
+        "exactitud": 0.8233333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 65.0,
+        "f1_macro": 0.7568338025000254,
+        "exactitud": 0.7533333333333333
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 65.0,
+        "f1_macro": 0.8112877975825685,
+        "exactitud": 0.8133333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 70.0,
+        "f1_macro": 0.7497281899792042,
+        "exactitud": 0.7466666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 70.0,
+        "f1_macro": 0.811583459302483,
+        "exactitud": 0.8133333333333334
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 75.0,
+        "f1_macro": 0.733025837891199,
+        "exactitud": 0.73
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 75.0,
+        "f1_macro": 0.8078964644390175,
+        "exactitud": 0.81
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 80.0,
+        "f1_macro": 0.7195582226198017,
+        "exactitud": 0.7166666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 80.0,
+        "f1_macro": 0.804705717951811,
+        "exactitud": 0.8066666666666666
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 85.0,
+        "f1_macro": 0.706926603954392,
+        "exactitud": 0.7033333333333334
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 85.0,
+        "f1_macro": 0.8016136880740667,
+        "exactitud": 0.8033333333333333
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 90.0,
+        "f1_macro": 0.7007617806241098,
+        "exactitud": 0.6966666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 90.0,
+        "f1_macro": 0.7985422332426811,
+        "exactitud": 0.8
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 95.0,
+        "f1_macro": 0.7007617806241098,
+        "exactitud": 0.6966666666666667
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 95.0,
+        "f1_macro": 0.7985422332426811,
+        "exactitud": 0.8
+      },
+      {
+        "llm": "zero-shot",
+        "pct_al_llm": 100.0,
+        "f1_macro": 0.694548252677603,
+        "exactitud": 0.69
+      },
+      {
+        "llm": "few-shot",
+        "pct_al_llm": 100.0,
+        "f1_macro": 0.7985422332426811,
+        "exactitud": 0.8
+      }
+    ]
+  },
+  "curva_few_shot": [
+    {
+      "ejemplos_por_clase": 2,
+      "total_ejemplos": 12,
+      "f1_macro_bge_m3_media": 0.4593111564787911,
+      "f1_macro_bge_m3_std": 0.01571406769086622,
+      "f1_macro_tfidf_media": 0.3943114753068344,
+      "f1_macro_tfidf_std": 0.05879987313674505
+    },
+    {
+      "ejemplos_por_clase": 5,
+      "total_ejemplos": 30,
+      "f1_macro_bge_m3_media": 0.5977452137137853,
+      "f1_macro_bge_m3_std": 0.04590808183698245,
+      "f1_macro_tfidf_media": 0.5200283640991508,
+      "f1_macro_tfidf_std": 0.027279414152500975
+    },
+    {
+      "ejemplos_por_clase": 10,
+      "total_ejemplos": 60,
+      "f1_macro_bge_m3_media": 0.7028485294146629,
+      "f1_macro_bge_m3_std": 0.023303499190972597,
+      "f1_macro_tfidf_media": 0.635030529900322,
+      "f1_macro_tfidf_std": 0.00806353087220894
+    },
+    {
+      "ejemplos_por_clase": 30,
+      "total_ejemplos": 180,
+      "f1_macro_bge_m3_media": 0.752654264252677,
+      "f1_macro_bge_m3_std": 0.011773665099184866,
+      "f1_macro_tfidf_media": 0.7123933547324285,
+      "f1_macro_tfidf_std": 0.02114079328706269
+    },
+    {
+      "ejemplos_por_clase": 100,
+      "total_ejemplos": 600,
+      "f1_macro_bge_m3_media": 0.7897429096057447,
+      "f1_macro_bge_m3_std": 0.005673596777546741,
+      "f1_macro_tfidf_media": 0.7784777643216577,
+      "f1_macro_tfidf_std": 0.0034624097806325383
+    },
+    {
+      "ejemplos_por_clase": 300,
+      "total_ejemplos": 1800,
+      "f1_macro_bge_m3_media": 0.7983964183964184,
+      "f1_macro_bge_m3_std": 0.0,
+      "f1_macro_tfidf_media": 0.8197277247092934,
+      "f1_macro_tfidf_std": 1.1102230246251565e-16
+    }
+  ],
+  "metricas_por_categoria": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "reporte_credito",
+      "etiqueta": "Reporte y burós de crédito",
+      "precision": 0.7872340425531915,
+      "exhaustividad": 0.74,
+      "f1": 0.7628865979381443,
+      "soporte": 50
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "cobranza_deudas",
+      "etiqueta": "Cobranza de deudas",
+      "precision": 0.9,
+      "exhaustividad": 0.72,
+      "f1": 0.8,
+      "soporte": 50
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "hipotecas",
+      "etiqueta": "Hipotecas y préstamos de vivienda",
+      "precision": 0.8823529411764706,
+      "exhaustividad": 0.9,
+      "f1": 0.8910891089108911,
+      "soporte": 50
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "tarjetas_credito",
+      "etiqueta": "Tarjetas de crédito y prepago",
+      "precision": 0.82,
+      "exhaustividad": 0.82,
+      "f1": 0.82,
+      "soporte": 50
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "cuentas_bancarias",
+      "etiqueta": "Cuentas bancarias y transferencias",
+      "precision": 0.7962962962962963,
+      "exhaustividad": 0.86,
+      "f1": 0.8269230769230769,
+      "soporte": 50
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "categoria": "prestamos_consumo",
+      "etiqueta": "Préstamos estudiantiles, auto y consumo",
+      "precision": 0.7931034482758621,
+      "exhaustividad": 0.92,
+      "f1": 0.8518518518518519,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "reporte_credito",
+      "etiqueta": "Reporte y burós de crédito",
+      "precision": 0.8048780487804879,
+      "exhaustividad": 0.66,
+      "f1": 0.7252747252747253,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "cobranza_deudas",
+      "etiqueta": "Cobranza de deudas",
+      "precision": 0.8536585365853658,
+      "exhaustividad": 0.7,
+      "f1": 0.7692307692307693,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "hipotecas",
+      "etiqueta": "Hipotecas y préstamos de vivienda",
+      "precision": 0.88,
+      "exhaustividad": 0.88,
+      "f1": 0.88,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "tarjetas_credito",
+      "etiqueta": "Tarjetas de crédito y prepago",
+      "precision": 0.7241379310344828,
+      "exhaustividad": 0.84,
+      "f1": 0.7777777777777778,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "cuentas_bancarias",
+      "etiqueta": "Cuentas bancarias y transferencias",
+      "precision": 0.7818181818181819,
+      "exhaustividad": 0.86,
+      "f1": 0.819047619047619,
+      "soporte": 50
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "categoria": "prestamos_consumo",
+      "etiqueta": "Préstamos estudiantiles, auto y consumo",
+      "precision": 0.7818181818181819,
+      "exhaustividad": 0.86,
+      "f1": 0.819047619047619,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "reporte_credito",
+      "etiqueta": "Reporte y burós de crédito",
+      "precision": 0.46938775510204084,
+      "exhaustividad": 0.92,
+      "f1": 0.6216216216216216,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "cobranza_deudas",
+      "etiqueta": "Cobranza de deudas",
+      "precision": 0.6756756756756757,
+      "exhaustividad": 0.5,
+      "f1": 0.5747126436781609,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "hipotecas",
+      "etiqueta": "Hipotecas y préstamos de vivienda",
+      "precision": 0.8863636363636364,
+      "exhaustividad": 0.78,
+      "f1": 0.8297872340425532,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "tarjetas_credito",
+      "etiqueta": "Tarjetas de crédito y prepago",
+      "precision": 0.7222222222222222,
+      "exhaustividad": 0.52,
+      "f1": 0.6046511627906976,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "cuentas_bancarias",
+      "etiqueta": "Cuentas bancarias y transferencias",
+      "precision": 0.782608695652174,
+      "exhaustividad": 0.72,
+      "f1": 0.75,
+      "soporte": 50
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "categoria": "prestamos_consumo",
+      "etiqueta": "Préstamos estudiantiles, auto y consumo",
+      "precision": 0.8974358974358975,
+      "exhaustividad": 0.7,
+      "f1": 0.7865168539325843,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "reporte_credito",
+      "etiqueta": "Reporte y burós de crédito",
+      "precision": 0.6612903225806451,
+      "exhaustividad": 0.82,
+      "f1": 0.7321428571428571,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "cobranza_deudas",
+      "etiqueta": "Cobranza de deudas",
+      "precision": 0.8529411764705882,
+      "exhaustividad": 0.58,
+      "f1": 0.6904761904761905,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "hipotecas",
+      "etiqueta": "Hipotecas y préstamos de vivienda",
+      "precision": 0.9166666666666666,
+      "exhaustividad": 0.88,
+      "f1": 0.8979591836734694,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "tarjetas_credito",
+      "etiqueta": "Tarjetas de crédito y prepago",
+      "precision": 0.8863636363636364,
+      "exhaustividad": 0.78,
+      "f1": 0.8297872340425532,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "cuentas_bancarias",
+      "etiqueta": "Cuentas bancarias y transferencias",
+      "precision": 0.8333333333333334,
+      "exhaustividad": 0.8,
+      "f1": 0.8163265306122449,
+      "soporte": 50
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "categoria": "prestamos_consumo",
+      "etiqueta": "Préstamos estudiantiles, auto y consumo",
+      "precision": 0.734375,
+      "exhaustividad": 0.94,
+      "f1": 0.8245614035087719,
+      "soporte": 50
+    }
+  ],
+  "confusiones_principales": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "reporte_credito",
+      "predicha": "prestamos_consumo",
+      "n": 6,
+      "pct_de_errores": 11.538461538461538
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "reporte_credito",
+      "n": 6,
+      "pct_de_errores": 11.538461538461538
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "cuentas_bancarias",
+      "n": 6,
+      "pct_de_errores": 11.538461538461538
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "reporte_credito",
+      "predicha": "tarjetas_credito",
+      "n": 4,
+      "pct_de_errores": 7.6923076923076925
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "tarjetas_credito",
+      "n": 4,
+      "pct_de_errores": 7.6923076923076925
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "prestamos_consumo",
+      "n": 3,
+      "pct_de_errores": 5.769230769230769
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "reporte_credito",
+      "predicha": "hipotecas",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "hipotecas",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "cuentas_bancarias",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "hipotecas",
+      "predicha": "reporte_credito",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "hipotecas",
+      "predicha": "prestamos_consumo",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "prestamos_consumo",
+      "predicha": "cuentas_bancarias",
+      "n": 2,
+      "pct_de_errores": 3.8461538461538463
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "reporte_credito",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "tarjetas_credito",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "hipotecas",
+      "predicha": "cuentas_bancarias",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "reporte_credito",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "hipotecas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "hipotecas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "prestamos_consumo",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "prestamos_consumo",
+      "predicha": "reporte_credito",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "real": "prestamos_consumo",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.9230769230769231
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cobranza_deudas",
+      "predicha": "reporte_credito",
+      "n": 19,
+      "pct_de_errores": 20.43010752688172
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "tarjetas_credito",
+      "predicha": "reporte_credito",
+      "n": 16,
+      "pct_de_errores": 17.20430107526882
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "tarjetas_credito",
+      "predicha": "cuentas_bancarias",
+      "n": 6,
+      "pct_de_errores": 6.451612903225806
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cuentas_bancarias",
+      "predicha": "reporte_credito",
+      "n": 6,
+      "pct_de_errores": 6.451612903225806
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cuentas_bancarias",
+      "predicha": "tarjetas_credito",
+      "n": 6,
+      "pct_de_errores": 6.451612903225806
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "prestamos_consumo",
+      "predicha": "reporte_credito",
+      "n": 6,
+      "pct_de_errores": 6.451612903225806
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "prestamos_consumo",
+      "predicha": "cobranza_deudas",
+      "n": 6,
+      "pct_de_errores": 6.451612903225806
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "hipotecas",
+      "predicha": "reporte_credito",
+      "n": 5,
+      "pct_de_errores": 5.376344086021505
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "hipotecas",
+      "predicha": "cobranza_deudas",
+      "n": 4,
+      "pct_de_errores": 4.301075268817205
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "reporte_credito",
+      "predicha": "prestamos_consumo",
+      "n": 3,
+      "pct_de_errores": 3.225806451612903
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cobranza_deudas",
+      "predicha": "hipotecas",
+      "n": 2,
+      "pct_de_errores": 2.1505376344086025
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cobranza_deudas",
+      "predicha": "tarjetas_credito",
+      "n": 2,
+      "pct_de_errores": 2.1505376344086025
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cobranza_deudas",
+      "predicha": "cuentas_bancarias",
+      "n": 2,
+      "pct_de_errores": 2.1505376344086025
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "hipotecas",
+      "predicha": "cuentas_bancarias",
+      "n": 2,
+      "pct_de_errores": 2.1505376344086025
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "prestamos_consumo",
+      "predicha": "tarjetas_credito",
+      "n": 2,
+      "pct_de_errores": 2.1505376344086025
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "reporte_credito",
+      "predicha": "hipotecas",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "tarjetas_credito",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "tarjetas_credito",
+      "predicha": "hipotecas",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cuentas_bancarias",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "cuentas_bancarias",
+      "predicha": "prestamos_consumo",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "real": "prestamos_consumo",
+      "predicha": "hipotecas",
+      "n": 1,
+      "pct_de_errores": 1.0752688172043012
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "reporte_credito",
+      "n": 12,
+      "pct_de_errores": 20.0
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "reporte_credito",
+      "predicha": "prestamos_consumo",
+      "n": 5,
+      "pct_de_errores": 8.333333333333332
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "hipotecas",
+      "predicha": "prestamos_consumo",
+      "n": 5,
+      "pct_de_errores": 8.333333333333332
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "reporte_credito",
+      "n": 5,
+      "pct_de_errores": 8.333333333333332
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "cuentas_bancarias",
+      "n": 4,
+      "pct_de_errores": 6.666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "prestamos_consumo",
+      "n": 4,
+      "pct_de_errores": 6.666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "cuentas_bancarias",
+      "n": 3,
+      "pct_de_errores": 5.0
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "tarjetas_credito",
+      "n": 3,
+      "pct_de_errores": 5.0
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "reporte_credito",
+      "predicha": "cobranza_deudas",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "reporte_credito",
+      "predicha": "hipotecas",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "hipotecas",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "tarjetas_credito",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cobranza_deudas",
+      "predicha": "prestamos_consumo",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "reporte_credito",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "prestamos_consumo",
+      "predicha": "reporte_credito",
+      "n": 2,
+      "pct_de_errores": 3.333333333333333
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "hipotecas",
+      "predicha": "cuentas_bancarias",
+      "n": 1,
+      "pct_de_errores": 1.6666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.6666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "tarjetas_credito",
+      "predicha": "prestamos_consumo",
+      "n": 1,
+      "pct_de_errores": 1.6666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "cuentas_bancarias",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.6666666666666667
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "real": "prestamos_consumo",
+      "predicha": "cobranza_deudas",
+      "n": 1,
+      "pct_de_errores": 1.6666666666666667
+    }
+  ],
+  "senales_confianza_llm": [
+    {
+      "llm": "4. LLM zero-shot (qwen2.5:7b)",
+      "senal": "Probabilidad de la ficha (logprobs del LLM)",
+      "auroc_acierto_vs_error": 0.6123837722715704,
+      "pct_con_senal_maxima": 66.33333333333333
+    },
+    {
+      "llm": "4. LLM zero-shot (qwen2.5:7b)",
+      "senal": "Acuerdo zero-shot = few-shot",
+      "auroc_acierto_vs_error": 0.7554153031011376,
+      "pct_con_senal_maxima": 79.33333333333333
+    },
+    {
+      "llm": "4. LLM zero-shot (qwen2.5:7b)",
+      "senal": "Acuerdo LLM = TF-IDF",
+      "auroc_acierto_vs_error": 0.8315412186379927,
+      "pct_con_senal_maxima": 68.33333333333333
+    },
+    {
+      "llm": "4. LLM zero-shot (qwen2.5:7b)",
+      "senal": "Probabilidad calibrada de TF-IDF",
+      "auroc_acierto_vs_error": 0.6095267778297231,
+      "pct_con_senal_maxima": 12.666666666666668
+    },
+    {
+      "llm": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "senal": "Probabilidad de la ficha (logprobs del LLM)",
+      "auroc_acierto_vs_error": 0.6618750000000001,
+      "pct_con_senal_maxima": 65.33333333333333
+    },
+    {
+      "llm": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "senal": "Acuerdo zero-shot = few-shot",
+      "auroc_acierto_vs_error": 0.56875,
+      "pct_con_senal_maxima": 79.33333333333333
+    },
+    {
+      "llm": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "senal": "Acuerdo LLM = TF-IDF",
+      "auroc_acierto_vs_error": 0.7625,
+      "pct_con_senal_maxima": 80.33333333333333
+    },
+    {
+      "llm": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "senal": "Probabilidad calibrada de TF-IDF",
+      "auroc_acierto_vs_error": 0.7054166666666667,
+      "pct_con_senal_maxima": 12.666666666666668
+    }
+  ],
+  "acuerdo_zero_few": {
+    "pct_acuerdo_zero_few": 79.33333333333333,
+    "exactitud_few_si_acuerdan": 0.8277310924369747,
+    "exactitud_few_si_discrepan": 0.6935483870967742,
+    "n_discrepan": 62
+  },
+  "confianza_autodeclarada": {
+    "n_respuestas": 54,
+    "n_con_0_99": 53,
+    "valores_distintos": [
+      0.85,
+      0.99
+    ]
+  },
+  "llm_respuestas_invalidas": 0,
+  "deriva_temporal": [
+    {
+      "conjunto": "misma época que train (2015–T1 2017, reserva aleatoria)",
+      "n_quejas": 3000,
+      "f1_macro": 0.8460859632582624,
+      "f1_ic95_bajo": 0.831996148213446,
+      "f1_ic95_alto": 0.859291682828373,
+      "exactitud": 0.856
+    },
+    {
+      "conjunto": "recientes (T4 2017 – 2018)",
+      "n_quejas": 10770,
+      "f1_macro": 0.7743360646869849,
+      "f1_ic95_bajo": 0.7654457922862107,
+      "f1_ic95_alto": 0.7825030303408785,
+      "exactitud": 0.7838440111420613
+    }
+  ],
+  "deriva_diferencia_ic95": [
+    -0.08710609321252989,
+    -0.0558121415879314
+  ],
+  "deriva_por_trimestre": [
+    {
+      "trimestre": "2017Q2",
+      "n_quejas": 4866,
+      "f1_macro": 0.8057148195990966,
+      "exactitud": 0.8109330045211672
+    },
+    {
+      "trimestre": "2017Q3",
+      "n_quejas": 6210,
+      "f1_macro": 0.7932480340922389,
+      "exactitud": 0.8157809983896941
+    },
+    {
+      "trimestre": "2017Q4",
+      "n_quejas": 5206,
+      "f1_macro": 0.774047943044379,
+      "exactitud": 0.7827506723011909
+    },
+    {
+      "trimestre": "2018Q1",
+      "n_quejas": 5054,
+      "f1_macro": 0.7775130861110284,
+      "exactitud": 0.7861100118717848
+    },
+    {
+      "trimestre": "2018Q2",
+      "n_quejas": 510,
+      "f1_macro": 0.730599626209124,
+      "exactitud": 0.7725490196078432
+    }
+  ],
+  "deriva_f1_por_mesa": [
+    {
+      "categoria": "reporte_credito",
+      "f1_misma_epoca": 0.8795180722891566,
+      "f1_recientes": 0.8069470699432892
+    },
+    {
+      "categoria": "cobranza_deudas",
+      "f1_misma_epoca": 0.8644278606965174,
+      "f1_recientes": 0.7914634146341464
+    },
+    {
+      "categoria": "hipotecas",
+      "f1_misma_epoca": 0.9175050301810865,
+      "f1_recientes": 0.8576470588235294
+    },
+    {
+      "categoria": "tarjetas_credito",
+      "f1_misma_epoca": 0.7884892086330936,
+      "f1_recientes": 0.7003044802087864
+    },
+    {
+      "categoria": "cuentas_bancarias",
+      "f1_misma_epoca": 0.8150572831423896,
+      "f1_recientes": 0.8220380302291566
+    },
+    {
+      "categoria": "prestamos_consumo",
+      "f1_misma_epoca": 0.8115183246073299,
+      "f1_recientes": 0.6676163342830009
+    }
+  ],
+  "calibracion": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "temperatura": 0.9571069421766464,
+      "brier_sin_calibrar": 0.2557025175991336,
+      "brier_calibrado": 0.2549473246870998,
+      "ece_sin_calibrar": 0.029891780086943175,
+      "ece_calibrado": 0.03144949113777769,
+      "confianza_media_sin_calibrar": 0.8077238467939417,
+      "confianza_media_calibrado": 0.8178355172300374,
+      "exactitud": 0.8266666666666667
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "temperatura": 0.82248282931832,
+      "brier_sin_calibrar": 0.3071229792225159,
+      "brier_calibrado": 0.2984167888692326,
+      "ece_sin_calibrar": 0.07930518100659055,
+      "ece_calibrado": 0.04616608053445814,
+      "confianza_media_sin_calibrar": 0.7243523001670837,
+      "confianza_media_calibrado": 0.7791569232940674,
+      "exactitud": 0.8
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "temperatura": NaN,
+      "brier_sin_calibrar": 0.5990562754003922,
+      "brier_calibrado": NaN,
+      "ece_sin_calibrar": 0.27536565029708737,
+      "ece_calibrado": NaN,
+      "confianza_media_sin_calibrar": 0.8888261505056596,
+      "confianza_media_calibrado": NaN,
+      "exactitud": 0.69
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "temperatura": NaN,
+      "brier_sin_calibrar": 0.39908558243850467,
+      "brier_calibrado": NaN,
+      "ece_sin_calibrar": 0.19590882503841137,
+      "ece_calibrado": NaN,
+      "confianza_media_sin_calibrar": 0.8814087947013045,
+      "confianza_media_calibrado": NaN,
+      "exactitud": 0.8
+    }
+  ],
+  "abstencion_umbral_validacion": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "elegido_en": "val_emb (n=600)",
+      "evaluado_en": "test_comun (n=300)",
+      "umbral": 0.75,
+      "cobertura_automatizada_pct": 72.33333333333334,
+      "exactitud_sin_abstencion": 0.8266666666666667,
+      "exactitud_en_automatizadas": 0.9170506912442397,
+      "costo_operativo_1k_usd": 1808.333333333333,
+      "costo_sin_abstencion_1k_usd": 2426.666666666667,
+      "ahorro_pct": 25.48076923076925
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "elegido_en": "val_emb (n=600)",
+      "evaluado_en": "test_comun (n=300)",
+      "umbral": 0.775,
+      "cobertura_automatizada_pct": 60.333333333333336,
+      "exactitud_sin_abstencion": 0.8,
+      "exactitud_en_automatizadas": 0.9171270718232044,
+      "costo_operativo_1k_usd": 2088.3333333333335,
+      "costo_sin_abstencion_1k_usd": 2799.999999999999,
+      "ahorro_pct": 25.416666666666632
+    }
+  ],
+  "urgencia": [
+    {
+      "enfoque": "Reglas (palabras clave)",
+      "conjunto": "test_reciente",
+      "n_quejas": 10770,
+      "n_urgentes": 642,
+      "precision": 0.16910785619174434,
+      "exhaustividad": 0.5934579439252337,
+      "exhaustividad_ic95_bajo": 0.5547220611574027,
+      "exhaustividad_ic95_alto": 0.6303352101208262,
+      "f1": 0.2632124352331606,
+      "f1_ic95_bajo": 0.24215006491915925,
+      "f1_ic95_alto": 0.28379415723965257,
+      "pct_marcadas": 20.919220055710305,
+      "pr_auc": NaN
+    },
+    {
+      "enfoque": "TF-IDF + LR (umbral en val)",
+      "conjunto": "test_reciente",
+      "n_quejas": 10770,
+      "n_urgentes": 642,
+      "precision": 0.4676113360323887,
+      "exhaustividad": 0.3598130841121495,
+      "exhaustividad_ic95_bajo": 0.3222188139059305,
+      "exhaustividad_ic95_alto": 0.39711585878256317,
+      "f1": 0.40669014084507044,
+      "f1_ic95_bajo": 0.36900102093245163,
+      "f1_ic95_alto": 0.4440470119808227,
+      "pct_marcadas": 4.586815227483751,
+      "pr_auc": 0.41089271135862593
+    },
+    {
+      "enfoque": "Reglas (palabras clave)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "n_urgentes": 26,
+      "precision": 0.2857142857142857,
+      "exhaustividad": 0.6923076923076923,
+      "exhaustividad_ic95_bajo": 0.5,
+      "exhaustividad_ic95_alto": 0.8666666666666667,
+      "f1": 0.4044943820224719,
+      "f1_ic95_bajo": 0.26373626373626374,
+      "f1_ic95_alto": 0.5238210818307906,
+      "pct_marcadas": 21.0,
+      "pr_auc": NaN
+    },
+    {
+      "enfoque": "TF-IDF + LR (umbral en val)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "n_urgentes": 26,
+      "precision": 0.6086956521739131,
+      "exhaustividad": 0.5384615384615384,
+      "exhaustividad_ic95_bajo": 0.35294117647058826,
+      "exhaustividad_ic95_alto": 0.75,
+      "f1": 0.5714285714285714,
+      "f1_ic95_bajo": 0.3888888888888889,
+      "f1_ic95_alto": 0.7334210526315789,
+      "pct_marcadas": 7.666666666666666,
+      "pr_auc": 0.5559603042521271
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "n_urgentes": 26,
+      "precision": 0.375,
+      "exhaustividad": 0.46153846153846156,
+      "exhaustividad_ic95_bajo": 0.260829307568438,
+      "exhaustividad_ic95_alto": 0.6554597701149423,
+      "f1": 0.41379310344827586,
+      "f1_ic95_bajo": 0.23807506053268765,
+      "f1_ic95_alto": 0.5556010928961749,
+      "pct_marcadas": 10.666666666666668,
+      "pr_auc": 0.2734198923759503
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "conjunto": "test_comun",
+      "n_quejas": 300,
+      "n_urgentes": 26,
+      "precision": 0.38,
+      "exhaustividad": 0.7307692307692307,
+      "exhaustividad_ic95_bajo": 0.55,
+      "exhaustividad_ic95_alto": 0.8928571428571429,
+      "f1": 0.5,
+      "f1_ic95_bajo": 0.3548387096774194,
+      "f1_ic95_alto": 0.631612258494337,
+      "pct_marcadas": 16.666666666666664,
+      "pr_auc": 0.38577722944289955
+    }
+  ],
+  "urgencia_por_tipo": [
+    {
+      "tipo_urgencia": "amenaza_legal_embargo",
+      "n": 74,
+      "exhaustividad_tfidf": 0.1891891891891892,
+      "exhaustividad_reglas": 0.6081081081081081
+    },
+    {
+      "tipo_urgencia": "ejecucion_hipotecaria",
+      "n": 220,
+      "exhaustividad_tfidf": 0.6590909090909091,
+      "exhaustividad_reglas": 0.5818181818181818
+    },
+    {
+      "tipo_urgencia": "fraude",
+      "n": 311,
+      "exhaustividad_tfidf": 0.2315112540192926,
+      "exhaustividad_reglas": 0.5980707395498392
+    },
+    {
+      "tipo_urgencia": "reposesion",
+      "n": 37,
+      "exhaustividad_tfidf": 0.0,
+      "exhaustividad_reglas": 0.5945945945945946
+    }
+  ],
+  "transferencia_espanol": [
+    {
+      "enfoque": "1. TF-IDF + LR (25.722 ej.)",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.8666666666666667,
+      "exactitud_espanol": 0.48333333333333334,
+      "exactitud_espanol_ic95_bajo": 0.35,
+      "exactitud_espanol_ic95_alto": 0.6,
+      "aciertos_ingles": 52,
+      "aciertos_espanol": 29,
+      "f1_macro_espanol": 0.48780805251393483
+    },
+    {
+      "enfoque": "2. Zero-Shot prototipos bge-m3",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.6333333333333333,
+      "exactitud_espanol": 0.6333333333333333,
+      "exactitud_espanol_ic95_bajo": 0.5,
+      "exactitud_espanol_ic95_alto": 0.75,
+      "aciertos_ingles": 38,
+      "aciertos_espanol": 38,
+      "f1_macro_espanol": 0.6383899655958478
+    },
+    {
+      "enfoque": "3. bge-m3 + LR (1.800 ej.)",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.8166666666666667,
+      "exactitud_espanol": 0.7,
+      "exactitud_espanol_ic95_bajo": 0.5666666666666667,
+      "exactitud_espanol_ic95_alto": 0.8,
+      "aciertos_ingles": 49,
+      "aciertos_espanol": 42,
+      "f1_macro_espanol": 0.7104736193994506
+    },
+    {
+      "enfoque": "4. LLM zero-shot (qwen2.5:7b)",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.6166666666666667,
+      "exactitud_espanol": 0.5833333333333334,
+      "exactitud_espanol_ic95_bajo": 0.46625000000000005,
+      "exactitud_espanol_ic95_alto": 0.7166666666666667,
+      "aciertos_ingles": 37,
+      "aciertos_espanol": 35,
+      "f1_macro_espanol": 0.5916548012543436
+    },
+    {
+      "enfoque": "5. LLM few-shot (qwen2.5:7b, 6 ej.)",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.8,
+      "exactitud_espanol": 0.7166666666666667,
+      "exactitud_espanol_ic95_bajo": 0.6,
+      "exactitud_espanol_ic95_alto": 0.8170833333333329,
+      "aciertos_ingles": 48,
+      "aciertos_espanol": 43,
+      "f1_macro_espanol": 0.7097242787275094
+    },
+    {
+      "enfoque": "7. Cascada TF-IDF → LLM few-shot",
+      "n_quejas": 60,
+      "exactitud_ingles": 0.85,
+      "exactitud_espanol": 0.7166666666666667,
+      "exactitud_espanol_ic95_bajo": 0.5833333333333334,
+      "exactitud_espanol_ic95_alto": 0.8333333333333334,
+      "aciertos_ingles": 51,
+      "aciertos_espanol": 43,
+      "f1_macro_espanol": 0.711026936026936
+    }
+  ],
+  "espanol_pct_al_llm_en_cascada": {
+    "espanol": 80.0,
+    "ingles": 28.333333333333332
+  }
+}

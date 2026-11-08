@@ -1,0 +1,18 @@
+[project]
+name = "quejas"
+version = "2.0.0"
+description = "Enrutamiento de quejas financieras CFPB: TF-IDF vs embeddings bge-m3 vs LLM qwen2.5:7b, cascada, deriva temporal y urgencia"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]

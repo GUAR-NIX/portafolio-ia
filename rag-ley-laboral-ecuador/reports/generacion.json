@@ -1,0 +1,98 @@
+{
+  "modelo": "qwen2.5:7b",
+  "respuestas": 145,
+  "errores": 0,
+  "citas_inventadas_total": 1,
+  "respuestas_con_cita_inventada": 1,
+  "segundos_llm": {
+    "mediana": 38.1,
+    "p90": 52.3
+  },
+  "por_conjunto": {
+    "nuevas": {
+      "sin_umbral": {
+        "umbral": null,
+        "respondibles": 20,
+        "trampas": 5,
+        "cita_exacta": 0.85,
+        "cita_exacta_si_estaba_en_contexto": 1.0,
+        "abstencion_indebida": 0.05,
+        "rechazo_correcto": 0.8,
+        "rechazo_trampa_cercana": 0.6667,
+        "rechazo_trampa_lejana": 1.0
+      },
+      "con_umbral": {
+        "umbral": 0.098,
+        "respondibles": 20,
+        "trampas": 5,
+        "cita_exacta": 0.85,
+        "cita_exacta_si_estaba_en_contexto": 1.0,
+        "abstencion_indebida": 0.05,
+        "rechazo_correcto": 0.8,
+        "rechazo_trampa_cercana": 0.6667,
+        "rechazo_trampa_lejana": 1.0
+      }
+    },
+    "principal": {
+      "sin_umbral": {
+        "umbral": null,
+        "respondibles": 100,
+        "trampas": 20,
+        "cita_exacta": 0.87,
+        "cita_exacta_si_estaba_en_contexto": 0.8969,
+        "abstencion_indebida": 0.06,
+        "rechazo_correcto": 0.95,
+        "rechazo_trampa_cercana": 0.8889,
+        "rechazo_trampa_lejana": 1.0
+      },
+      "con_umbral": {
+        "umbral": 0.098,
+        "respondibles": 100,
+        "trampas": 20,
+        "cita_exacta": 0.87,
+        "cita_exacta_si_estaba_en_contexto": 0.8969,
+        "abstencion_indebida": 0.07,
+        "rechazo_correcto": 1.0,
+        "rechazo_trampa_cercana": 1.0,
+        "rechazo_trampa_lejana": 1.0
+      }
+    }
+  },
+  "umbral": {
+    "elegido_en": "principal",
+    "valor": 0.098,
+    "criterio": "max(cita_exacta + 0.5 * rechazo_correcto) en el conjunto principal"
+  },
+  "fidelidad_muestra": {
+    "total": {
+      "n": 50,
+      "fiel_completa": 30,
+      "fiel_incompleta": 10,
+      "no_fiel": 5,
+      "abstencion_indebida": 2,
+      "no_responde": 2,
+      "abstencion_sin_contexto": 1,
+      "fieles": 0.8,
+      "con_afirmacion_falsa": 0.1
+    },
+    "nuevas": {
+      "n": 20,
+      "fiel_completa": 9,
+      "no_fiel": 4,
+      "fiel_incompleta": 4,
+      "no_responde": 2,
+      "abstencion_sin_contexto": 1,
+      "fieles": 0.65,
+      "con_afirmacion_falsa": 0.2
+    },
+    "principal": {
+      "n": 30,
+      "fiel_completa": 21,
+      "fiel_incompleta": 6,
+      "abstencion_indebida": 2,
+      "no_fiel": 1,
+      "fieles": 0.9,
+      "con_afirmacion_falsa": 0.0333
+    }
+  }
+}

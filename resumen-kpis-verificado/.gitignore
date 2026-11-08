@@ -1,0 +1,21 @@
+# Respuestas crudas de la API del Banco Mundial (caché); se regeneran con  python -m kpis.descargar
+/data/raw/
+
+# data/instantanea_wdi.csv, data/metadatos_wdi.json, data/grabacion_llm.jsonl, data/hallazgos_referencia.json,
+# data/rubrica_*.{csv,json} y reports/ SÍ se versionan (< 5 MB en total): permiten reproducir la evaluación,
+# las pruebas, la app y la API sin red ni Ollama.
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

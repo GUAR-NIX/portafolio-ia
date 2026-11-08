@@ -1,0 +1,21 @@
+{
+ "ruc_emisor": "1091189557001",
+ "razon_social_emisor": "Papelería Andina C.A.",
+ "numero_factura": "003-001-000242417",
+ "numero_autorizacion": "0704202501109118955700120030010002424174242135517",
+ "fecha_emision": "2025-04-07",
+ "cliente_nombre": "Javier Paola Moreira Calderón",
+ "cliente_identificacion": "0455846451",
+ "items": [
+  {
+   "descripcion": "Marcadores permanentes (set x 4)",
+   "cantidad": 12,
+   "precio_unitario": 3.42,
+   "total": 41.04
+  }
+ ],
+ "subtotal": 41.04,
+ "descuento": 0.0,
+ "iva": 6.16,
+ "total": 47.2
+}

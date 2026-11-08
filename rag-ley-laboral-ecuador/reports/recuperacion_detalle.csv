@@ -1,0 +1,1596 @@
+id,conjunto,tipo,tema,metodo,sinonimos,posicion,top5,puntaje_top1,segundos
+P001,principal,respondible,vacaciones,bm25,no,3.0,CT-74|CT-75|CT-69|CT-71|CT-70,10.05923,0.1128
+P001,principal,respondible,vacaciones,vectorial,no,1.0,CT-69|CT-75|CT-72|CT-71|CT-73,0.7253,0.0055
+P001,principal,respondible,vacaciones,hibrido,no,1.0,CT-69|CT-75|CT-74|CT-71|CT-72,0.03227,0.0012
+P001,principal,respondible,vacaciones,rerank,no,1.0,CT-69|CT-65|CT-268.inn1|CT-17|CT-75,0.9568,0.0209
+P001,principal,respondible,vacaciones,bm25,v1,1.0,CT-69|CT-72|CT-74|CT-75|CT-71,22.52625,0.0032
+P001,principal,respondible,vacaciones,vectorial,v1,1.0,CT-69|CT-72|CT-75|CT-65|CT-71,0.74277,0.0004
+P001,principal,respondible,vacaciones,hibrido,v1,1.0,CT-69|CT-72|CT-75|CT-74|CT-71,0.03279,0.0016
+P001,principal,respondible,vacaciones,bm25,v2,1.0,CT-69|CT-72|CT-74|CT-75|CT-71,22.52625,0.0017
+P001,principal,respondible,vacaciones,vectorial,v2,1.0,CT-69|CT-72|CT-75|CT-65|CT-71,0.74277,0.0004
+P001,principal,respondible,vacaciones,hibrido,v2,1.0,CT-69|CT-72|CT-75|CT-74|CT-71,0.03279,0.0016
+P001,principal,respondible,vacaciones,rerank,v2,1.0,CT-69|CT-65|CT-268.inn1|CT-72|CT-50,0.99167,0.0017
+P002,principal,respondible,vacaciones,bm25,no,1.0,CT-69|CT-75|CT-378|CT-185|CT-71,16.28331,0.0012
+P002,principal,respondible,vacaciones,vectorial,no,1.0,CT-69|CT-75|CT-74|CT-77|CT-71,0.66641,0.0003
+P002,principal,respondible,vacaciones,hibrido,no,1.0,CT-69|CT-75|CT-71|CT-74|CT-72,0.03279,0.0017
+P002,principal,respondible,vacaciones,rerank,no,1.0,CT-69|CT-70|CT-75|CT-74|CT-71,0.96097,0.0019
+P002,principal,respondible,vacaciones,bm25,v1,1.0,CT-69|CT-72|CT-75|CT-71|CT-338,29.35759,0.0015
+P002,principal,respondible,vacaciones,vectorial,v1,1.0,CT-69|CT-72|CT-75|CT-74|CT-71,0.69177,0.0003
+P002,principal,respondible,vacaciones,hibrido,v1,1.0,CT-69|CT-72|CT-75|CT-71|CT-74,0.03279,0.0019
+P002,principal,respondible,vacaciones,bm25,v2,1.0,CT-69|CT-72|CT-75|CT-71|CT-338,29.35759,0.0019
+P002,principal,respondible,vacaciones,vectorial,v2,1.0,CT-69|CT-72|CT-75|CT-74|CT-71,0.69177,0.0006
+P002,principal,respondible,vacaciones,hibrido,v2,1.0,CT-69|CT-72|CT-75|CT-71|CT-74,0.03279,0.0023
+P002,principal,respondible,vacaciones,rerank,v2,1.0,CT-69|CT-72|CT-70|CT-268.inn1|CT-75,0.99249,0.0021
+P003,principal,respondible,vacaciones,bm25,no,1.0,CT-69|CT-75|CT-17|CT-74|CT-77,15.11499,0.0009
+P003,principal,respondible,vacaciones,vectorial,no,1.0,CT-69|CT-75|CT-72|CT-71|CT-77,0.6702,0.0005
+P003,principal,respondible,vacaciones,hibrido,no,1.0,CT-69|CT-75|CT-72|CT-77|CT-71,0.03279,0.0014
+P003,principal,respondible,vacaciones,rerank,no,1.0,CT-69|CT-75|CT-268.inn1|CT-73|CT-17,0.88921,0.0015
+P003,principal,respondible,vacaciones,bm25,v1,1.0,CT-69|CT-72|CT-75|CT-74|CT-73,28.18926,0.0011
+P003,principal,respondible,vacaciones,vectorial,v1,1.0,CT-69|CT-72|CT-75|CT-73|CT-65,0.71948,0.0006
+P003,principal,respondible,vacaciones,hibrido,v1,1.0,CT-69|CT-72|CT-75|CT-73|CT-74,0.03279,0.0016
+P003,principal,respondible,vacaciones,bm25,v2,1.0,CT-69|CT-72|CT-75|CT-74|CT-73,28.18926,0.001
+P003,principal,respondible,vacaciones,vectorial,v2,1.0,CT-69|CT-72|CT-75|CT-73|CT-65,0.71948,0.0003
+P003,principal,respondible,vacaciones,hibrido,v2,1.0,CT-69|CT-72|CT-75|CT-73|CT-74,0.03279,0.0021
+P003,principal,respondible,vacaciones,rerank,v2,1.0,CT-69|CT-268.inn1|CT-65|CT-72|CT-75,0.97682,0.002
+P004,principal,respondible,vacaciones,bm25,no,1.0,CT-70|CT-69|CT-72|CT-224|CT-89,22.25652,0.0011
+P004,principal,respondible,vacaciones,vectorial,no,1.0,CT-70|CT-71|CT-69|CT-77|CT-72,0.65585,0.0003
+P004,principal,respondible,vacaciones,hibrido,no,1.0,CT-70|CT-69|CT-72|CT-74|CT-71,0.03279,0.0016
+P004,principal,respondible,vacaciones,rerank,no,1.0,CT-70|CT-69|CT-72|CT-393|CT-71,0.9989,0.0016
+P004,principal,respondible,vacaciones,bm25,v1,2.0,CT-69|CT-70|CT-72|CT-112|CT-224,33.49411,0.0016
+P004,principal,respondible,vacaciones,vectorial,v1,1.0,CT-70|CT-69|CT-72|CT-71|CT-77,0.66967,0.0006
+P004,principal,respondible,vacaciones,hibrido,v1,2.0,CT-69|CT-70|CT-72|CT-75|CT-74,0.03252,0.0019
+P004,principal,respondible,vacaciones,bm25,v2,2.0,CT-69|CT-70|CT-72|CT-112|CT-224,33.49411,0.0016
+P004,principal,respondible,vacaciones,vectorial,v2,1.0,CT-70|CT-69|CT-72|CT-71|CT-77,0.66967,0.0006
+P004,principal,respondible,vacaciones,hibrido,v2,2.0,CT-69|CT-70|CT-72|CT-75|CT-74,0.03252,0.0031
+P004,principal,respondible,vacaciones,rerank,v2,1.0,CT-70|CT-69|CT-72|CT-71|CT-393,0.99828,0.0023
+P005,principal,respondible,vacaciones,bm25,no,1.0,CT-71|CT-112|CT-70|CT-72|CT-69,8.63247,0.0006
+P005,principal,respondible,vacaciones,vectorial,no,1.0,CT-71|CT-76|CT-73|CT-69|CT-77,0.73626,0.0003
+P005,principal,respondible,vacaciones,hibrido,no,1.0,CT-71|CT-69|CT-76|CT-72|CT-73,0.03279,0.001
+P005,principal,respondible,vacaciones,rerank,no,1.0,CT-71|CT-53|CT-76|CT-69|CT-112,0.98318,0.001
+P005,principal,respondible,vacaciones,bm25,v1,4.0,CT-69|CT-72|CT-112|CT-71|CT-75,19.27789,0.0011
+P005,principal,respondible,vacaciones,vectorial,v1,1.0,CT-71|CT-69|CT-72|CT-76|CT-53,0.71526,0.0004
+P005,principal,respondible,vacaciones,hibrido,v1,2.0,CT-69|CT-71|CT-72|CT-76|CT-75,0.03252,0.0012
+P005,principal,respondible,vacaciones,bm25,v2,4.0,CT-69|CT-72|CT-112|CT-71|CT-75,19.27789,0.0009
+P005,principal,respondible,vacaciones,vectorial,v2,1.0,CT-71|CT-69|CT-72|CT-76|CT-53,0.71526,0.0009
+P005,principal,respondible,vacaciones,hibrido,v2,2.0,CT-69|CT-71|CT-72|CT-76|CT-75,0.03252,0.0014
+P005,principal,respondible,vacaciones,rerank,v2,1.0,CT-71|CT-69|CT-72|CT-53|CT-112,0.86141,0.0013
+P006,principal,respondible,vacaciones,bm25,no,1.0,CT-71|CT-72|CT-69|CT-75|CT-606,9.14901,0.001
+P006,principal,respondible,vacaciones,vectorial,no,1.0,CT-76|CT-77|CT-72|CT-71|CT-74,0.66625,0.0004
+P006,principal,respondible,vacaciones,hibrido,no,1.0,CT-71|CT-72|CT-76|CT-69|CT-77,0.03202,0.0017
+P006,principal,respondible,vacaciones,rerank,no,1.0,CT-71|CT-76|CT-72|CT-74|CT-69,0.74414,0.0016
+P006,principal,respondible,vacaciones,bm25,v1,3.0,CT-69|CT-72|CT-71|CT-185|CT-75,19.27789,0.0016
+P006,principal,respondible,vacaciones,vectorial,v1,4.0,CT-190|CT-185|CT-72|CT-76|CT-184,0.67175,0.0004
+P006,principal,respondible,vacaciones,hibrido,v1,3.0,CT-72|CT-185|CT-71|CT-69|CT-76,0.032,0.0022
+P006,principal,respondible,vacaciones,bm25,v2,3.0,CT-69|CT-72|CT-71|CT-185|CT-75,19.27789,0.0017
+P006,principal,respondible,vacaciones,vectorial,v2,3.0,CT-190|CT-72|CT-76|CT-185|CT-71,0.67144,0.0003
+P006,principal,respondible,vacaciones,hibrido,v2,2.0,CT-72|CT-71|CT-185|CT-69|CT-76,0.03226,0.0023
+P006,principal,respondible,vacaciones,rerank,v2,2.0,CT-72|CT-71|CT-76|CT-69|CT-184,0.76399,0.0022
+P007,principal,respondible,vacaciones,bm25,no,1.0,CT-72|CT-69|CT-70|CT-75|CT-74,10.50488,0.0005
+P007,principal,respondible,vacaciones,vectorial,no,2.0,CT-77|CT-72|CT-71|CT-87|CT-74,0.5966,0.0003
+P007,principal,respondible,vacaciones,hibrido,no,1.0,CT-72|CT-77|CT-69|CT-74|CT-71,0.03252,0.0012
+P007,principal,respondible,vacaciones,rerank,no,1.0,CT-72|CT-70|CT-69|CT-71|CT-77,0.40098,0.0015
+P007,principal,respondible,vacaciones,bm25,v1,2.0,CT-69|CT-72|CT-70|CT-75|CT-338,22.30089,0.0012
+P007,principal,respondible,vacaciones,vectorial,v1,1.0,CT-72|CT-77|CT-69|CT-71|CT-74,0.63033,0.0004
+P007,principal,respondible,vacaciones,hibrido,v1,1.0,CT-72|CT-69|CT-75|CT-74|CT-77,0.03252,0.0014
+P007,principal,respondible,vacaciones,bm25,v2,2.0,CT-69|CT-72|CT-70|CT-75|CT-338,22.30089,0.0009
+P007,principal,respondible,vacaciones,vectorial,v2,1.0,CT-72|CT-77|CT-69|CT-71|CT-74,0.63033,0.0004
+P007,principal,respondible,vacaciones,hibrido,v2,1.0,CT-72|CT-69|CT-75|CT-74|CT-77,0.03252,0.0014
+P007,principal,respondible,vacaciones,rerank,v2,1.0,CT-72|CT-69|CT-70|CT-71|CT-74,0.89139,0.0013
+P008,principal,respondible,vacaciones,bm25,no,1.0,CT-73|CT-74|CT-69|CT-77|CT-72,12.13682,0.0008
+P008,principal,respondible,vacaciones,vectorial,no,1.0,CT-73|CT-69|CT-77|CT-74|CT-71,0.66353,0.0003
+P008,principal,respondible,vacaciones,hibrido,no,1.0,CT-73|CT-69|CT-74|CT-77|CT-71,0.03279,0.0012
+P008,principal,respondible,vacaciones,rerank,no,1.0,CT-73|CT-74|CT-535|CT-69|CT-193,0.97474,0.0013
+P008,principal,respondible,vacaciones,bm25,v1,2.0,CT-69|CT-73|CT-72|CT-74|CT-75,19.62055,0.0011
+P008,principal,respondible,vacaciones,vectorial,v1,1.0,CT-73|CT-69|CT-74|CT-77|CT-72,0.6639,0.0008
+P008,principal,respondible,vacaciones,hibrido,v1,2.0,CT-69|CT-73|CT-74|CT-72|CT-77,0.03252,0.0021
+P008,principal,respondible,vacaciones,bm25,v2,2.0,CT-69|CT-73|CT-72|CT-74|CT-75,19.62055,0.0015
+P008,principal,respondible,vacaciones,vectorial,v2,1.0,CT-73|CT-69|CT-74|CT-77|CT-72,0.6639,0.0004
+P008,principal,respondible,vacaciones,hibrido,v2,2.0,CT-69|CT-73|CT-74|CT-72|CT-77,0.03252,0.0016
+P008,principal,respondible,vacaciones,rerank,v2,1.0,CT-73|CT-69|CT-74|CT-72|CT-535,0.94494,0.0016
+P009,principal,respondible,vacaciones,bm25,no,2.0,CT-69|CT-75|CT-72|CT-74|CT-76,9.76939,0.0006
+P009,principal,respondible,vacaciones,vectorial,no,1.0,CT-75|CT-69|CT-72|CT-71|CT-74,0.69938,0.0003
+P009,principal,respondible,vacaciones,hibrido,no,2.0,CT-69|CT-75|CT-72|CT-74|CT-71,0.03252,0.0009
+P009,principal,respondible,vacaciones,rerank,no,1.0,CT-75|CT-74|CT-69|CT-72|CT-71,0.98842,0.001
+P009,principal,respondible,vacaciones,bm25,v1,3.0,CT-69|CT-72|CT-75|CT-338|CT-74,22.84367,0.001
+P009,principal,respondible,vacaciones,vectorial,v1,1.0,CT-75|CT-69|CT-72|CT-74|CT-71,0.70858,0.0004
+P009,principal,respondible,vacaciones,hibrido,v1,2.0,CT-69|CT-75|CT-72|CT-74|CT-73,0.03252,0.0016
+P009,principal,respondible,vacaciones,bm25,v2,3.0,CT-69|CT-72|CT-75|CT-338|CT-74,22.84367,0.0009
+P009,principal,respondible,vacaciones,vectorial,v2,1.0,CT-75|CT-69|CT-72|CT-74|CT-71,0.70858,0.0003
+P009,principal,respondible,vacaciones,hibrido,v2,2.0,CT-69|CT-75|CT-72|CT-74|CT-73,0.03252,0.0013
+P009,principal,respondible,vacaciones,rerank,v2,1.0,CT-75|CT-69|CT-74|CT-72|CT-71,0.95634,0.0019
+P010,principal,respondible,vacaciones,bm25,no,1.0,CT-74|CT-75|CT-71|CT-302|CT-32,22.99256,0.0015
+P010,principal,respondible,vacaciones,vectorial,no,1.0,CT-74|CT-77|CT-72|CT-75|CT-270,0.60862,0.0004
+P010,principal,respondible,vacaciones,hibrido,no,1.0,CT-74|CT-75|CT-72|CT-77|CT-69,0.03279,0.0017
+P010,principal,respondible,vacaciones,rerank,no,1.0,CT-74|CT-77|CT-72|CT-69|CT-75,0.98906,0.0017
+P010,principal,respondible,vacaciones,bm25,v1,1.0,CT-74|CT-69|CT-72|CT-75|CT-71,29.67959,0.0018
+P010,principal,respondible,vacaciones,vectorial,v1,1.0,CT-74|CT-72|CT-77|CT-75|CT-69,0.67674,0.0004
+P010,principal,respondible,vacaciones,hibrido,v1,1.0,CT-74|CT-72|CT-69|CT-75|CT-77,0.03279,0.0024
+P010,principal,respondible,vacaciones,bm25,v2,1.0,CT-74|CT-69|CT-72|CT-75|CT-71,29.67959,0.0018
+P010,principal,respondible,vacaciones,vectorial,v2,1.0,CT-74|CT-72|CT-77|CT-75|CT-69,0.67674,0.0004
+P010,principal,respondible,vacaciones,hibrido,v2,1.0,CT-74|CT-72|CT-69|CT-75|CT-77,0.03279,0.0021
+P010,principal,respondible,vacaciones,rerank,v2,1.0,CT-74|CT-69|CT-72|CT-77|CT-75,0.99327,0.0028
+P011,principal,respondible,jornada,bm25,no,1.0,CT-47|CT-48|CT-57|CT-49|CT-50,10.95582,0.0008
+P011,principal,respondible,jornada,vectorial,no,1.0,CT-47|CT-48|CT-50|CT-47.2|CT-55,0.63803,0.0004
+P011,principal,respondible,jornada,hibrido,no,1.0,CT-47|CT-48|CT-50|CT-57|CT-49,0.03279,0.0011
+P011,principal,respondible,jornada,rerank,no,1.0,CT-47|CT-47.2|CT-48|CT-50|CT-136,0.40752,0.0012
+P011,principal,respondible,jornada,bm25,v1,1.0,CT-47|CT-48|CT-57|CT-49|CT-50,10.95582,0.0007
+P011,principal,respondible,jornada,vectorial,v1,1.0,CT-47|CT-48|CT-50|CT-47.2|CT-55,0.63803,0.0003
+P011,principal,respondible,jornada,hibrido,v1,1.0,CT-47|CT-48|CT-50|CT-57|CT-49,0.03279,0.0011
+P011,principal,respondible,jornada,bm25,v2,1.0,CT-47|CT-48|CT-57|CT-49|CT-50,10.95582,0.0008
+P011,principal,respondible,jornada,vectorial,v2,1.0,CT-47|CT-48|CT-50|CT-47.2|CT-55,0.63803,0.0003
+P011,principal,respondible,jornada,hibrido,v2,1.0,CT-47|CT-48|CT-50|CT-57|CT-49,0.03279,0.001
+P011,principal,respondible,jornada,rerank,v2,1.0,CT-47|CT-47.2|CT-48|CT-50|CT-136,0.40752,0.0013
+P012,principal,respondible,jornada,bm25,no,1.0,CT-47|CT-47.2|CT-363|CT-55|CT-475,10.59929,0.0009
+P012,principal,respondible,jornada,vectorial,no,1.0,CT-47|CT-140|CT-144|CT-141|CT-325,0.58432,0.0003
+P012,principal,respondible,jornada,hibrido,no,1.0,CT-47|CT-55|CT-47.2|CT-363|CT-304,0.03279,0.0011
+P012,principal,respondible,jornada,rerank,no,1.0,CT-47|CT-47.2|CT-48|CT-55|CT-50,0.90346,0.0014
+P012,principal,respondible,jornada,bm25,v1,1.0,CT-47|CT-47.2|CT-363|CT-55|CT-475,10.59929,0.0016
+P012,principal,respondible,jornada,vectorial,v1,1.0,CT-47|CT-140|CT-144|CT-141|CT-325,0.58432,0.0004
+P012,principal,respondible,jornada,hibrido,v1,1.0,CT-47|CT-55|CT-47.2|CT-363|CT-304,0.03279,0.0015
+P012,principal,respondible,jornada,bm25,v2,1.0,CT-47|CT-47.2|CT-363|CT-55|CT-475,10.59929,0.0008
+P012,principal,respondible,jornada,vectorial,v2,1.0,CT-47|CT-140|CT-144|CT-141|CT-325,0.58432,0.0003
+P012,principal,respondible,jornada,hibrido,v2,1.0,CT-47|CT-55|CT-47.2|CT-363|CT-304,0.03279,0.0011
+P012,principal,respondible,jornada,rerank,v2,1.0,CT-47|CT-47.2|CT-48|CT-55|CT-50,0.90346,0.0016
+P013,principal,respondible,horas extra,bm25,no,15.0,CT-369|CT-57|CT-473|CT-447|CT-12,7.42059,0.0012
+P013,principal,respondible,horas extra,vectorial,no,2.0,CT-49|CT-55|CT-60|CT-82|CT-58,0.64957,0.0006
+P013,principal,respondible,horas extra,hibrido,no,2.0,CT-57|CT-55|CT-47|CT-132|CT-327,0.02946,0.0014
+P013,principal,respondible,horas extra,rerank,no,2.0,CT-49|CT-55|CT-47.2|CT-60|CT-82,0.38104,0.0015
+P013,principal,respondible,horas extra,bm25,v1,1.0,CT-55|CT-47|CT-60|CT-327|CT-71,22.54694,0.0017
+P013,principal,respondible,horas extra,vectorial,v1,1.0,CT-55|CT-60|CT-49|CT-327|CT-58,0.72602,0.0003
+P013,principal,respondible,horas extra,hibrido,v1,1.0,CT-55|CT-60|CT-327|CT-47|CT-57,0.03279,0.0027
+P013,principal,respondible,horas extra,bm25,v2,1.0,CT-55|CT-47|CT-60|CT-327|CT-71,22.54694,0.0019
+P013,principal,respondible,horas extra,vectorial,v2,1.0,CT-55|CT-60|CT-49|CT-327|CT-58,0.72602,0.0004
+P013,principal,respondible,horas extra,hibrido,v2,1.0,CT-55|CT-60|CT-327|CT-47|CT-57,0.03279,0.0026
+P013,principal,respondible,horas extra,rerank,v2,1.0,CT-55|CT-47|CT-60|CT-71|CT-47.2,0.93452,0.0024
+P014,principal,respondible,horas extra,bm25,no,1.0,CT-55|CT-47|CT-339|CT-60|CT-71,22.2749,0.001
+P014,principal,respondible,horas extra,vectorial,no,1.0,CT-55|CT-60|CT-58|CT-326|CT-132,0.72123,0.0005
+P014,principal,respondible,horas extra,hibrido,no,1.0,CT-55|CT-60|CT-47|CT-71|CT-47.2,0.03279,0.0017
+P014,principal,respondible,horas extra,rerank,no,1.0,CT-55|CT-60|CT-47|CT-57|CT-71,0.99443,0.0015
+P014,principal,respondible,horas extra,bm25,v1,1.0,CT-55|CT-47|CT-339|CT-60|CT-71,22.2749,0.001
+P014,principal,respondible,horas extra,vectorial,v1,1.0,CT-55|CT-60|CT-58|CT-326|CT-132,0.72123,0.0004
+P014,principal,respondible,horas extra,hibrido,v1,1.0,CT-55|CT-60|CT-47|CT-71|CT-47.2,0.03279,0.0019
+P014,principal,respondible,horas extra,bm25,v2,1.0,CT-55|CT-47|CT-339|CT-60|CT-71,22.2749,0.0011
+P014,principal,respondible,horas extra,vectorial,v2,1.0,CT-55|CT-60|CT-58|CT-326|CT-132,0.72123,0.0005
+P014,principal,respondible,horas extra,hibrido,v2,1.0,CT-55|CT-60|CT-47|CT-71|CT-47.2,0.03279,0.0014
+P014,principal,respondible,horas extra,rerank,v2,1.0,CT-55|CT-60|CT-47|CT-57|CT-71,0.99443,0.0016
+P015,principal,respondible,horas extra,bm25,no,10.0,CT-48|CT-47.2|CT-47|CT-50|CT-268.inn1,11.22833,0.0008
+P015,principal,respondible,horas extra,vectorial,no,1.0,CT-55|CT-47.2|CT-50|CT-47|CT-48,0.66863,0.0003
+P015,principal,respondible,horas extra,hibrido,no,5.0,CT-47.2|CT-48|CT-47|CT-50|CT-55,0.03226,0.0011
+P015,principal,respondible,horas extra,rerank,no,6.0,CT-47|CT-47.2|CT-48|CT-50|CT-224,0.87059,0.0013
+P015,principal,respondible,horas extra,bm25,v1,2.0,CT-47|CT-55|CT-60|CT-327|CT-48,25.80654,0.0013
+P015,principal,respondible,horas extra,vectorial,v1,1.0,CT-55|CT-60|CT-47.2|CT-50|CT-47,0.76906,0.0005
+P015,principal,respondible,horas extra,hibrido,v1,1.0,CT-55|CT-60|CT-47|CT-47.2|CT-48,0.03252,0.002
+P015,principal,respondible,horas extra,bm25,v2,2.0,CT-47|CT-55|CT-60|CT-327|CT-48,25.80654,0.0013
+P015,principal,respondible,horas extra,vectorial,v2,1.0,CT-55|CT-60|CT-47.2|CT-50|CT-47,0.76906,0.0004
+P015,principal,respondible,horas extra,hibrido,v2,1.0,CT-55|CT-60|CT-47|CT-47.2|CT-48,0.03252,0.0022
+P015,principal,respondible,horas extra,rerank,v2,2.0,CT-47|CT-55|CT-224|CT-47.2|CT-48,0.96855,0.0022
+P016,principal,respondible,jornada,bm25,no,1.0,CT-49|CT-55|CT-47|CT-60|CT-76,15.96989,0.0008
+P016,principal,respondible,jornada,vectorial,no,1.0,CT-49|CT-55|CT-60|CT-47|CT-58,0.64412,0.0003
+P016,principal,respondible,jornada,hibrido,no,1.0,CT-49|CT-55|CT-47|CT-60|CT-50,0.03279,0.0011
+P016,principal,respondible,jornada,rerank,no,2.0,CT-55|CT-49|CT-60|CT-47|CT-58,0.81328,0.0011
+P016,principal,respondible,jornada,bm25,v1,1.0,CT-49|CT-55|CT-47|CT-60|CT-76,15.96989,0.0007
+P016,principal,respondible,jornada,vectorial,v1,1.0,CT-49|CT-55|CT-60|CT-47|CT-58,0.64412,0.0008
+P016,principal,respondible,jornada,hibrido,v1,1.0,CT-49|CT-55|CT-47|CT-60|CT-50,0.03279,0.0012
+P016,principal,respondible,jornada,bm25,v2,1.0,CT-49|CT-55|CT-47|CT-60|CT-76,15.96989,0.0007
+P016,principal,respondible,jornada,vectorial,v2,1.0,CT-49|CT-55|CT-60|CT-47|CT-58,0.64412,0.0003
+P016,principal,respondible,jornada,hibrido,v2,1.0,CT-49|CT-55|CT-47|CT-60|CT-50,0.03279,0.0009
+P016,principal,respondible,jornada,rerank,v2,2.0,CT-55|CT-49|CT-60|CT-47|CT-58,0.81328,0.0011
+P017,principal,respondible,jornada,bm25,no,1.0,CT-49|CT-47|CT-57|CT-48|CT-47.2,13.6771,0.0008
+P017,principal,respondible,jornada,vectorial,no,1.0,CT-49|CT-47|CT-48|CT-61|CT-66,0.66626,0.0003
+P017,principal,respondible,jornada,hibrido,no,1.0,CT-49|CT-47|CT-48|CT-57|CT-325,0.03279,0.0013
+P017,principal,respondible,jornada,rerank,no,1.0,CT-49|CT-61|CT-47.2|CT-55|CT-47,0.99406,0.0018
+P017,principal,respondible,jornada,bm25,v1,1.0,CT-49|CT-47|CT-57|CT-48|CT-47.2,13.6771,0.0008
+P017,principal,respondible,jornada,vectorial,v1,1.0,CT-49|CT-47|CT-48|CT-61|CT-66,0.66626,0.0003
+P017,principal,respondible,jornada,hibrido,v1,1.0,CT-49|CT-47|CT-48|CT-57|CT-325,0.03279,0.0011
+P017,principal,respondible,jornada,bm25,v2,1.0,CT-49|CT-47|CT-57|CT-48|CT-47.2,13.6771,0.0008
+P017,principal,respondible,jornada,vectorial,v2,1.0,CT-49|CT-47|CT-48|CT-61|CT-66,0.66626,0.0003
+P017,principal,respondible,jornada,hibrido,v2,1.0,CT-49|CT-47|CT-48|CT-57|CT-325,0.03279,0.001
+P017,principal,respondible,jornada,rerank,v2,1.0,CT-49|CT-61|CT-47.2|CT-55|CT-47,0.99406,0.0012
+P018,principal,respondible,jornada,bm25,no,1.0,CT-47.2|CT-47|CT-325|CT-136|CT-48,13.05155,0.0008
+P018,principal,respondible,jornada,vectorial,no,1.0,CT-47.2|CT-47|CT-55|CT-50|CT-48,0.65993,0.0003
+P018,principal,respondible,jornada,hibrido,no,1.0,CT-47.2|CT-47|CT-325|CT-48|CT-82,0.03279,0.0012
+P018,principal,respondible,jornada,rerank,no,1.0,CT-47.2|CT-47.1|CT-47|CT-325|CT-48,0.89884,0.0013
+P018,principal,respondible,jornada,bm25,v1,1.0,CT-47.2|CT-47|CT-325|CT-136|CT-48,13.05155,0.0007
+P018,principal,respondible,jornada,vectorial,v1,1.0,CT-47.2|CT-47|CT-55|CT-50|CT-48,0.65993,0.0003
+P018,principal,respondible,jornada,hibrido,v1,1.0,CT-47.2|CT-47|CT-325|CT-48|CT-82,0.03279,0.0014
+P018,principal,respondible,jornada,bm25,v2,1.0,CT-47.2|CT-47|CT-325|CT-136|CT-48,13.05155,0.0009
+P018,principal,respondible,jornada,vectorial,v2,1.0,CT-47.2|CT-47|CT-55|CT-50|CT-48,0.65993,0.0005
+P018,principal,respondible,jornada,hibrido,v2,1.0,CT-47.2|CT-47|CT-325|CT-48|CT-82,0.03279,0.0017
+P018,principal,respondible,jornada,rerank,v2,1.0,CT-47.2|CT-47.1|CT-47|CT-325|CT-48,0.89884,0.0016
+P019,principal,respondible,descanso,bm25,no,1.0,CT-65|CT-62|CT-150|CT-50|CT-338,19.26937,0.0008
+P019,principal,respondible,descanso,vectorial,no,1.0,CT-65|CT-50|CT-62|CT-68|CT-69,0.80232,0.0003
+P019,principal,respondible,descanso,hibrido,no,1.0,CT-65|CT-62|CT-50|CT-68|CT-150,0.03279,0.0013
+P019,principal,respondible,descanso,rerank,no,1.0,CT-65|CT-50|CT-68|CT-62|CT-93,0.99947,0.0013
+P019,principal,respondible,descanso,bm25,v1,1.0,CT-65|CT-62|CT-50|CT-150|CT-93,35.73372,0.0013
+P019,principal,respondible,descanso,vectorial,v1,1.0,CT-65|CT-50|CT-62|CT-68|CT-53,0.83292,0.0003
+P019,principal,respondible,descanso,hibrido,v1,1.0,CT-65|CT-62|CT-50|CT-68|CT-93,0.03279,0.0016
+P019,principal,respondible,descanso,bm25,v2,1.0,CT-65|CT-62|CT-50|CT-150|CT-93,35.73372,0.0012
+P019,principal,respondible,descanso,vectorial,v2,1.0,CT-65|CT-50|CT-62|CT-68|CT-53,0.83292,0.0003
+P019,principal,respondible,descanso,hibrido,v2,1.0,CT-65|CT-62|CT-50|CT-68|CT-93,0.03279,0.0017
+P019,principal,respondible,descanso,rerank,v2,1.0,CT-65|CT-50|CT-62|CT-268.inn1|CT-68,0.99962,0.0018
+P020,principal,respondible,descanso,bm25,no,1.0,CT-65|CT-93|CT-49|CT-47.2|CT-55,24.81594,0.0012
+P020,principal,respondible,descanso,vectorial,no,1.0,CT-65|CT-53|CT-77|CT-268.inn1|CT-71,0.69928,0.0005
+P020,principal,respondible,descanso,hibrido,no,1.0,CT-65|CT-93|CT-53|CT-69|CT-268.inn1,0.03279,0.0015
+P020,principal,respondible,descanso,rerank,no,1.0,CT-65|CT-268.inn1|CT-50|CT-53|CT-150,0.99053,0.0014
+P020,principal,respondible,descanso,bm25,v1,1.0,CT-65|CT-93|CT-62|CT-50|CT-150,41.28029,0.0013
+P020,principal,respondible,descanso,vectorial,v1,1.0,CT-65|CT-53|CT-50|CT-93|CT-268.inn1,0.78314,0.0004
+P020,principal,respondible,descanso,hibrido,v1,1.0,CT-65|CT-93|CT-50|CT-53|CT-62,0.03279,0.002
+P020,principal,respondible,descanso,bm25,v2,1.0,CT-65|CT-93|CT-62|CT-50|CT-150,41.28029,0.0012
+P020,principal,respondible,descanso,vectorial,v2,1.0,CT-65|CT-53|CT-50|CT-93|CT-268.inn1,0.78314,0.0005
+P020,principal,respondible,descanso,hibrido,v2,1.0,CT-65|CT-93|CT-50|CT-53|CT-62,0.03279,0.002
+P020,principal,respondible,descanso,rerank,v2,1.0,CT-65|CT-50|CT-268.inn1|CT-224|CT-150,0.99718,0.002
+P021,principal,respondible,descanso,bm25,no,3.0,CT-150|CT-65|CT-50|CT-325|CT-268.inn1,18.90198,0.0008
+P021,principal,respondible,descanso,vectorial,no,2.0,CT-65|CT-50|CT-52|CT-268.inn1|CT-150,0.75923,0.0004
+P021,principal,respondible,descanso,hibrido,no,2.0,CT-65|CT-50|CT-150|CT-52|CT-268.inn1,0.03252,0.0015
+P021,principal,respondible,descanso,rerank,no,2.0,CT-65|CT-50|CT-268.inn1|CT-325|CT-52,0.99964,0.0013
+P021,principal,respondible,descanso,bm25,v1,3.0,CT-65|CT-150|CT-50|CT-268.inn1|CT-62,34.86008,0.0012
+P021,principal,respondible,descanso,vectorial,v1,2.0,CT-65|CT-50|CT-52|CT-62|CT-150,0.79285,0.0003
+P021,principal,respondible,descanso,hibrido,v1,2.0,CT-65|CT-50|CT-150|CT-62|CT-268.inn1,0.03279,0.0014
+P021,principal,respondible,descanso,bm25,v2,3.0,CT-65|CT-150|CT-50|CT-268.inn1|CT-62,34.86008,0.001
+P021,principal,respondible,descanso,vectorial,v2,2.0,CT-65|CT-50|CT-52|CT-62|CT-150,0.79285,0.0003
+P021,principal,respondible,descanso,hibrido,v2,2.0,CT-65|CT-50|CT-150|CT-62|CT-268.inn1,0.03279,0.0015
+P021,principal,respondible,descanso,rerank,v2,2.0,CT-65|CT-50|CT-268.inn1|CT-150|CT-325,0.99973,0.0016
+P022,principal,respondible,horas extra,bm25,no,1.0,CT-58|CT-355|CT-268.inn1|CT-308|CT-305,12.75045,0.0009
+P022,principal,respondible,horas extra,vectorial,no,1.0,CT-58|CT-55|CT-60|CT-216|CT-392,0.66615,0.0003
+P022,principal,respondible,horas extra,hibrido,no,1.0,CT-58|CT-133.1|CT-55|CT-268.inn1|CT-60,0.03279,0.0015
+P022,principal,respondible,horas extra,rerank,no,1.0,CT-58|CT-36|CT-133.1|CT-82|CT-47.1,0.68052,0.0015
+P022,principal,respondible,horas extra,bm25,v1,4.0,CT-55|CT-47|CT-60|CT-58|CT-327,22.54694,0.0014
+P022,principal,respondible,horas extra,vectorial,v1,1.0,CT-58|CT-55|CT-60|CT-100|CT-327,0.6848,0.0006
+P022,principal,respondible,horas extra,hibrido,v1,2.0,CT-55|CT-58|CT-60|CT-327|CT-47.2,0.03252,0.0025
+P022,principal,respondible,horas extra,bm25,v2,4.0,CT-55|CT-47|CT-60|CT-58|CT-327,22.54694,0.0014
+P022,principal,respondible,horas extra,vectorial,v2,1.0,CT-58|CT-55|CT-60|CT-100|CT-327,0.6848,0.0004
+P022,principal,respondible,horas extra,hibrido,v2,2.0,CT-55|CT-58|CT-60|CT-327|CT-47.2,0.03252,0.0018
+P022,principal,respondible,horas extra,rerank,v2,1.0,CT-58|CT-55|CT-47|CT-60|CT-74,0.80322,0.0023
+P023,principal,respondible,décimos,bm25,no,,CT-357|CT-131|CRE-43|CT-537|CT-520,11.55365,0.0006
+P023,principal,respondible,décimos,vectorial,no,1.0,CT-111|CT-113|CT-112|CT-131|CT-105,0.64646,0.0003
+P023,principal,respondible,décimos,hibrido,no,7.0,CT-131|CT-357|CT-87|CT-188|CT-193,0.03175,0.001
+P023,principal,respondible,décimos,rerank,no,1.0,CT-111|CT-112|CT-113|CT-131|CT-357,0.81214,0.0011
+P023,principal,respondible,décimos,bm25,v1,,CT-357|CT-112|CT-95|CT-131|CT-87,11.55365,0.0008
+P023,principal,respondible,décimos,vectorial,v1,1.0,CT-111|CT-113|CT-112|CT-131|CT-105,0.73853,0.0003
+P023,principal,respondible,décimos,hibrido,v1,5.0,CT-112|CT-131|CT-95|CT-87|CT-111,0.032,0.0011
+P023,principal,respondible,décimos,bm25,v2,1.0,CT-111|CT-357|CT-112|CT-95|CT-113,23.66036,0.0013
+P023,principal,respondible,décimos,vectorial,v2,1.0,CT-111|CT-113|CT-112|CT-131|CT-185,0.77006,0.0006
+P023,principal,respondible,décimos,hibrido,v2,1.0,CT-111|CT-112|CT-113|CT-131|CT-87,0.03279,0.002
+P023,principal,respondible,décimos,rerank,v2,1.0,CT-111|CT-112|CT-113|CT-95|CT-131,0.98,0.0019
+P024,principal,respondible,décimos,bm25,no,,CT-131|CT-178|CT-621|CT-43|CT-80,7.24484,0.0007
+P024,principal,respondible,décimos,vectorial,no,1.0,CT-111|CT-112|CT-113|CT-131|CT-213,0.66781,0.0006
+P024,principal,respondible,décimos,hibrido,no,17.0,CT-131|CT-117|CT-80|CT-114|CT-81,0.03202,0.0011
+P024,principal,respondible,décimos,rerank,no,1.0,CT-111|CT-112|CT-95|CT-131|CT-117,0.74637,0.0013
+P024,principal,respondible,décimos,bm25,v1,,CT-112|CT-95|CT-131|CT-80|CT-117,18.59034,0.0013
+P024,principal,respondible,décimos,vectorial,v1,1.0,CT-111|CT-112|CT-113|CT-95|CT-114,0.69131,0.0004
+P024,principal,respondible,décimos,hibrido,v1,9.0,CT-112|CT-95|CT-131|CT-80|CT-117,0.03252,0.0018
+P024,principal,respondible,décimos,bm25,v2,1.0,CT-111|CT-112|CT-95|CT-131|CT-85,31.78096,0.0016
+P024,principal,respondible,décimos,vectorial,v2,1.0,CT-111|CT-112|CT-113|CT-114|CT-95,0.76702,0.0004
+P024,principal,respondible,décimos,hibrido,v2,1.0,CT-111|CT-112|CT-95|CT-113|CT-131,0.03279,0.0029
+P024,principal,respondible,décimos,rerank,v2,1.0,CT-111|CT-112|CT-95|CT-80|CT-113,0.9771,0.0025
+P025,principal,respondible,décimos,bm25,no,8.0,CT-16|CT-357|CRE-371|CT-368|CT-102,7.88828,0.0009
+P025,principal,respondible,décimos,vectorial,no,1.0,CT-112|CT-34.3|CT-368|CT-111|CT-113,0.56122,0.0003
+P025,principal,respondible,décimos,hibrido,no,2.0,CT-368|CT-112|CRE-371|CT-143|CT-367,0.0315,0.0012
+P025,principal,respondible,décimos,rerank,no,1.0,CT-112|CT-34.3|CRE-371|CT-113|CT-102,0.88716,0.0015
+P025,principal,respondible,décimos,bm25,v1,1.0,CT-112|CT-16|CT-357|CT-102|CT-95,14.65199,0.0012
+P025,principal,respondible,décimos,vectorial,v1,1.0,CT-112|CT-111|CT-113|CT-34.3|CT-368,0.6797,0.0005
+P025,principal,respondible,décimos,hibrido,v1,1.0,CT-112|CT-113|CT-368|CT-95|CT-102,0.03279,0.0018
+P025,principal,respondible,décimos,bm25,v2,2.0,CT-111|CT-112|CT-113|CT-16|CRE-371,23.66036,0.0016
+P025,principal,respondible,décimos,vectorial,v2,2.0,CT-111|CT-112|CT-113|CT-368|CT-34.3,0.6519,0.0003
+P025,principal,respondible,décimos,hibrido,v2,2.0,CT-111|CT-112|CT-113|CT-368|CT-95,0.03279,0.002
+P025,principal,respondible,décimos,rerank,v2,1.0,CT-112|CT-111|CT-95|CT-113|CT-34.3,0.882,0.0026
+P026,principal,respondible,décimos,bm25,no,2.0,CT-75|CT-113|CT-131|CT-42,7.06351,0.0008
+P026,principal,respondible,décimos,vectorial,no,1.0,CT-113|CT-111|CT-131|CT-112|CT-132,0.52375,0.0004
+P026,principal,respondible,décimos,hibrido,no,1.0,CT-113|CT-131|CT-75|CT-111|CT-42,0.03252,0.0011
+P026,principal,respondible,décimos,rerank,no,1.0,CT-113|CT-111|CT-131|CT-105|CT-75,0.88165,0.0011
+P026,principal,respondible,décimos,bm25,v1,1.0,CT-113|CT-75|CT-95|CT-131|CT-224,11.36429,0.0009
+P026,principal,respondible,décimos,vectorial,v1,1.0,CT-113|CT-111|CT-112|CT-131|CT-114,0.62983,0.0003
+P026,principal,respondible,décimos,hibrido,v1,1.0,CT-113|CT-131|CT-112|CT-95|CT-114,0.03279,0.0013
+P026,principal,respondible,décimos,bm25,v2,1.0,CT-113|CT-111|CT-75|CT-95|CT-131,20.30004,0.0013
+P026,principal,respondible,décimos,vectorial,v2,1.0,CT-113|CT-111|CT-112|CT-131|CT-114,0.6329,0.0003
+P026,principal,respondible,décimos,hibrido,v2,1.0,CT-113|CT-111|CT-131|CT-95|CT-112,0.03279,0.0016
+P026,principal,respondible,décimos,rerank,v2,1.0,CT-113|CT-114|CT-111|CT-95|CT-131,0.94382,0.0018
+P027,principal,respondible,décimos,bm25,no,10.0,CT-80|CT-75|CT-395|CT-577|CT-588,7.65289,0.0007
+P027,principal,respondible,décimos,vectorial,no,1.0,CT-113|CT-131|CT-111|CT-112|CT-132,0.53882,0.0003
+P027,principal,respondible,décimos,hibrido,no,2.0,CT-131|CT-113|CT-75|CT-94|CT-80,0.03105,0.0012
+P027,principal,respondible,décimos,rerank,no,1.0,CT-113|CT-111|CT-131|CT-75|CT-112,0.91759,0.0018
+P027,principal,respondible,décimos,bm25,v1,1.0,CT-113|CT-80|CT-75|CT-95|CT-395,10.17145,0.0011
+P027,principal,respondible,décimos,vectorial,v1,1.0,CT-113|CT-111|CT-112|CT-131|CT-114,0.65464,0.0004
+P027,principal,respondible,décimos,hibrido,v1,1.0,CT-113|CT-131|CT-95|CT-112|CT-111,0.03279,0.0014
+P027,principal,respondible,décimos,bm25,v2,1.0,CT-113|CT-80|CT-111|CT-75|CT-95,19.10719,0.0013
+P027,principal,respondible,décimos,vectorial,v2,1.0,CT-113|CT-111|CT-112|CT-114|CT-131,0.65844,0.0004
+P027,principal,respondible,décimos,hibrido,v2,1.0,CT-113|CT-111|CT-131|CT-95|CT-112,0.03279,0.0019
+P027,principal,respondible,décimos,rerank,v2,1.0,CT-113|CT-114|CT-111|CT-95|CT-131,0.94523,0.0018
+P028,principal,respondible,décimos,bm25,no,2.0,CT-95|CT-113|CT-224|CT-91|CT-93,6.79335,0.0004
+P028,principal,respondible,décimos,vectorial,no,1.0,CT-113|CT-111|CT-112|CT-114|CRE-328,0.61894,0.0003
+P028,principal,respondible,décimos,hibrido,no,1.0,CT-113|CT-95|CT-112|CT-114|CT-111,0.03252,0.0009
+P028,principal,respondible,décimos,rerank,no,1.0,CT-113|CT-95|CT-114|CT-111|CT-112,0.92193,0.0008
+P028,principal,respondible,décimos,bm25,v1,2.0,CT-95|CT-113|CT-224|CT-91|CT-93,13.58671,0.0006
+P028,principal,respondible,décimos,vectorial,v1,1.0,CT-113|CT-114|CT-112|CT-111|CT-82,0.64163,0.0003
+P028,principal,respondible,décimos,hibrido,v1,1.0,CT-113|CT-95|CT-114|CT-112|CT-82,0.03252,0.001
+P028,principal,respondible,décimos,bm25,v2,1.0,CT-113|CT-95|CT-111|CT-224|CRE-43,21.89942,0.001
+P028,principal,respondible,décimos,vectorial,v2,1.0,CT-113|CT-114|CT-111|CT-112|CT-82,0.64754,0.0007
+P028,principal,respondible,décimos,hibrido,v2,1.0,CT-113|CT-111|CT-95|CT-114|CT-112,0.03279,0.0016
+P028,principal,respondible,décimos,rerank,v2,1.0,CT-113|CT-95|CT-114|CT-111|CT-112,0.96508,0.0016
+P029,principal,respondible,utilidades,bm25,no,3.0,CT-98|CT-103.1|CT-97|CT-95|CT-107,9.52906,0.0007
+P029,principal,respondible,utilidades,vectorial,no,1.0,CT-97|CT-108|CT-97.1|CT-99|CT-98,0.73099,0.0003
+P029,principal,respondible,utilidades,hibrido,no,1.0,CT-97|CT-98|CT-108|CT-100|CT-103.1,0.03227,0.0011
+P029,principal,respondible,utilidades,rerank,no,1.0,CT-97|CT-108|CT-100|CRE-328|CT-98,0.9982,0.0012
+P029,principal,respondible,utilidades,bm25,v1,1.0,CT-97|CT-108|CT-99|CT-109|CT-107,22.53751,0.0013
+P029,principal,respondible,utilidades,vectorial,v1,1.0,CT-97|CT-99|CT-108|CT-97.1|CT-98,0.76688,0.0003
+P029,principal,respondible,utilidades,hibrido,v1,1.0,CT-97|CT-108|CT-99|CT-109|CT-98,0.03279,0.0021
+P029,principal,respondible,utilidades,bm25,v2,2.0,CT-109|CT-97|CT-103.1|CT-108|CT-98,15.41445,0.001
+P029,principal,respondible,utilidades,vectorial,v2,1.0,CT-97|CT-108|CT-99|CT-97.1|CT-98,0.76292,0.0007
+P029,principal,respondible,utilidades,hibrido,v2,1.0,CT-97|CT-108|CT-109|CT-98|CT-99,0.03252,0.0014
+P029,principal,respondible,utilidades,rerank,v2,1.0,CT-97|CT-108|CT-100|CT-99|CRE-328,0.99901,0.002
+P030,principal,respondible,utilidades,bm25,no,16.0,CT-109|CT-101|CT-108|CT-110|CT-102,4.11911,0.0006
+P030,principal,respondible,utilidades,vectorial,no,1.0,CT-97|CT-99|CT-108|CT-97.1|CT-103,0.65771,0.0003
+P030,principal,respondible,utilidades,hibrido,no,8.0,CT-108|CT-99|CT-109|CT-97.1|CT-103,0.03175,0.0011
+P030,principal,respondible,utilidades,rerank,no,1.0,CT-97|CT-100|CT-103|CT-99|CRE-328,0.97059,0.001
+P030,principal,respondible,utilidades,bm25,v1,3.0,CT-99|CT-108|CT-97|CT-109|CT-102,20.47458,0.0011
+P030,principal,respondible,utilidades,vectorial,v1,1.0,CT-97|CT-99|CT-108|CT-97.1|CT-105,0.75425,0.0007
+P030,principal,respondible,utilidades,hibrido,v1,2.0,CT-99|CT-97|CT-108|CT-109|CT-105,0.03252,0.0015
+P030,principal,respondible,utilidades,bm25,v2,7.0,CT-109|CT-99|CT-101|CT-108|CT-102,13.66958,0.0008
+P030,principal,respondible,utilidades,vectorial,v2,1.0,CT-97|CT-99|CT-97.1|CT-108|CT-103,0.70403,0.0003
+P030,principal,respondible,utilidades,hibrido,v2,2.0,CT-99|CT-97|CT-108|CT-109|CT-103,0.03226,0.0011
+P030,principal,respondible,utilidades,rerank,v2,1.0,CT-97|CT-100|CT-103|CT-99|CT-108,0.98668,0.0012
+P031,principal,respondible,utilidades,bm25,no,11.0,CT-87|CT-537|CT-101|CT-109|CT-108,5.43787,0.0004
+P031,principal,respondible,utilidades,vectorial,no,1.0,CT-105|CT-106|CT-104|CT-97.1|CT-100,0.69308,0.0003
+P031,principal,respondible,utilidades,hibrido,no,2.0,CT-108|CT-105|CT-110|CT-101|CT-97.1,0.03054,0.0007
+P031,principal,respondible,utilidades,rerank,no,1.0,CT-105|CT-106|CT-97.1|CRE-328|CT-100,0.99504,0.0008
+P031,principal,respondible,utilidades,bm25,v1,8.0,CT-99|CT-108|CT-97|CT-109|CT-102,20.47458,0.001
+P031,principal,respondible,utilidades,vectorial,v1,1.0,CT-105|CT-97|CT-106|CT-99|CT-108,0.73831,0.0004
+P031,principal,respondible,utilidades,hibrido,v1,4.0,CT-99|CT-97|CT-108|CT-105|CT-109,0.03202,0.0022
+P031,principal,respondible,utilidades,bm25,v2,14.0,CT-109|CT-99|CT-101|CT-108|CT-102,13.66958,0.0008
+P031,principal,respondible,utilidades,vectorial,v2,1.0,CT-105|CT-106|CT-100|CT-97|CT-97.1,0.71847,0.0005
+P031,principal,respondible,utilidades,hibrido,v2,5.0,CT-99|CT-108|CT-97|CT-109|CT-105,0.03062,0.0011
+P031,principal,respondible,utilidades,rerank,v2,1.0,CT-105|CT-106|CT-97.1|CRE-328|CT-97,0.98108,0.0012
+P032,principal,respondible,utilidades,bm25,no,15.0,CT-378|CT-109|CT-101|CT-108|CT-110,4.9086,0.0006
+P032,principal,respondible,utilidades,vectorial,no,1.0,CT-106|CT-102|CT-98|CT-101|CT-100,0.66904,0.0003
+P032,principal,respondible,utilidades,hibrido,no,5.0,CT-101|CT-102|CT-98|CT-108|CT-106,0.0315,0.0009
+P032,principal,respondible,utilidades,rerank,no,1.0,CT-106|CT-105|CRE-328|CT-98|CT-102,0.95158,0.001
+P032,principal,respondible,utilidades,bm25,v1,14.0,CT-99|CT-108|CT-97|CT-109|CT-102,20.47458,0.0011
+P032,principal,respondible,utilidades,vectorial,v1,2.0,CT-97|CT-106|CT-99|CT-102|CT-98,0.69556,0.0008
+P032,principal,respondible,utilidades,hibrido,v1,6.0,CT-99|CT-97|CT-108|CT-102|CT-101,0.03227,0.0014
+P032,principal,respondible,utilidades,bm25,v2,20.0,CT-109|CT-99|CT-101|CT-108|CT-102,13.66958,0.0008
+P032,principal,respondible,utilidades,vectorial,v2,1.0,CT-106|CT-102|CT-98|CT-97|CT-101,0.67631,0.0003
+P032,principal,respondible,utilidades,hibrido,v2,8.0,CT-102|CT-101|CT-109|CT-108|CT-97,0.03151,0.0013
+P032,principal,respondible,utilidades,rerank,v2,1.0,CT-106|CT-98|CT-97|CRE-328|CT-102,0.93654,0.0014
+P033,principal,respondible,utilidades,bm25,no,1.0,CT-100|CT-105.1|CT-97|CT-346|CT-107,20.51458,0.0018
+P033,principal,respondible,utilidades,vectorial,no,1.0,CT-100|CT-106|CT-103|CT-97|CT-108,0.72827,0.0004
+P033,principal,respondible,utilidades,hibrido,no,1.0,CT-100|CT-97|CT-109|CT-105.1|CT-108,0.03279,0.0018
+P033,principal,respondible,utilidades,rerank,no,1.0,CT-100|CT-97|CRE-328|CT-105.1|CT-105,0.92194,0.0019
+P033,principal,respondible,utilidades,bm25,v1,4.0,CT-99|CT-97|CT-108|CT-100|CT-109,26.79062,0.0019
+P033,principal,respondible,utilidades,vectorial,v1,1.0,CT-100|CT-97|CT-106|CT-109|CT-108,0.74699,0.0003
+P033,principal,respondible,utilidades,hibrido,v1,2.0,CT-97|CT-100|CT-99|CT-108|CT-109,0.03226,0.0025
+P033,principal,respondible,utilidades,bm25,v2,1.0,CT-100|CT-109|CT-99|CT-97|CT-108,23.96984,0.0016
+P033,principal,respondible,utilidades,vectorial,v2,1.0,CT-100|CT-106|CT-103|CT-109|CT-97,0.75672,0.0005
+P033,principal,respondible,utilidades,hibrido,v2,1.0,CT-100|CT-109|CT-97|CT-103|CT-102,0.03279,0.0022
+P033,principal,respondible,utilidades,rerank,v2,1.0,CT-100|CT-97|CRE-328|CT-109|CT-13,0.95386,0.0028
+P034,principal,respondible,remuneración,bm25,no,17.0,CT-128|CT-133|CT-394|CT-336|CT-107,8.12433,0.0007
+P034,principal,respondible,remuneración,vectorial,no,7.0,CT-81|CT-82|CT-281|CT-113|CT-53,0.63637,0.0003
+P034,principal,respondible,remuneración,hibrido,no,6.0,CT-81|CT-82|CT-133|CT-336|CT-281,0.03154,0.0008
+P034,principal,respondible,remuneración,rerank,no,6.0,CT-81|CT-133|CT-281|CT-82|CT-394,0.21332,0.001
+P034,principal,respondible,remuneración,bm25,v1,8.0,CT-128|CT-394|CT-133|CT-81|CT-80,15.72071,0.0009
+P034,principal,respondible,remuneración,vectorial,v1,3.0,CT-81|CT-82|CT-83|CT-281|CT-80,0.66933,0.0003
+P034,principal,respondible,remuneración,hibrido,v1,3.0,CT-81|CT-80|CT-83|CT-82|CT-281,0.03202,0.002
+P034,principal,respondible,remuneración,bm25,v2,8.0,CT-128|CT-394|CT-133|CT-81|CT-80,15.72071,0.0009
+P034,principal,respondible,remuneración,vectorial,v2,3.0,CT-81|CT-82|CT-83|CT-281|CT-80,0.66933,0.0008
+P034,principal,respondible,remuneración,hibrido,v2,3.0,CT-81|CT-80|CT-83|CT-82|CT-281,0.03202,0.0014
+P034,principal,respondible,remuneración,rerank,v2,8.0,CT-81|CT-281|CT-80|CT-133|CT-394,0.50531,0.0016
+P035,principal,respondible,remuneración,bm25,no,,CT-80|CT-117|CT-83|CT-126|CT-86,3.43812,0.0004
+P035,principal,respondible,remuneración,vectorial,no,3.0,CT-90|CT-44|CT-91|CT-87|CT-200,0.65364,0.0002
+P035,principal,respondible,remuneración,hibrido,no,3.0,CT-90|CT-96|CT-91|CT-130|CT-83,0.02955,0.0008
+P035,principal,respondible,remuneración,rerank,no,1.0,CT-91|CT-90|CT-200|CT-495|CT-81,0.77619,0.001
+P035,principal,respondible,remuneración,bm25,v1,17.0,CT-80|CT-117|CT-126|CT-83|CT-281,12.06397,0.0012
+P035,principal,respondible,remuneración,vectorial,v1,2.0,CT-90|CT-91|CT-44|CT-96|CT-87,0.67265,0.0005
+P035,principal,respondible,remuneración,hibrido,v1,3.0,CT-90|CT-96|CT-91|CT-80|CT-83,0.03028,0.0015
+P035,principal,respondible,remuneración,bm25,v2,17.0,CT-80|CT-117|CT-126|CT-83|CT-281,12.06397,0.0008
+P035,principal,respondible,remuneración,vectorial,v2,2.0,CT-90|CT-91|CT-44|CT-96|CT-87,0.67265,0.0003
+P035,principal,respondible,remuneración,hibrido,v2,3.0,CT-90|CT-96|CT-91|CT-80|CT-83,0.03028,0.0011
+P035,principal,respondible,remuneración,rerank,v2,1.0,CT-91|CT-90|CT-80|CT-81|CT-95,0.92139,0.0012
+P036,principal,respondible,remuneración,bm25,no,3.0,CT-80|CT-395|CT-94|CT-133|CT-631,11.55393,0.0008
+P036,principal,respondible,remuneración,vectorial,no,1.0,CT-94|CT-42.4|CT-179|CT-492|CT-516,0.68158,0.0006
+P036,principal,respondible,remuneración,hibrido,no,1.0,CT-94|CT-42.4|CT-89|CT-537|CT-492,0.03227,0.0011
+P036,principal,respondible,remuneración,rerank,no,1.0,CT-94|CT-42.4|CT-588|CT-537|CT-492,0.76493,0.0014
+P036,principal,respondible,remuneración,bm25,v1,10.0,CT-80|CT-117|CT-126|CT-133|CT-88,20.17977,0.0013
+P036,principal,respondible,remuneración,vectorial,v1,1.0,CT-94|CT-179|CT-42.4|CT-492|CT-537,0.68156,0.0003
+P036,principal,respondible,remuneración,hibrido,v1,1.0,CT-94|CT-90|CT-394|CT-95|CT-80,0.03068,0.0018
+P036,principal,respondible,remuneración,bm25,v2,10.0,CT-80|CT-117|CT-126|CT-133|CT-88,20.17977,0.0014
+P036,principal,respondible,remuneración,vectorial,v2,1.0,CT-94|CT-179|CT-42.4|CT-492|CT-537,0.68156,0.0006
+P036,principal,respondible,remuneración,hibrido,v2,1.0,CT-94|CT-90|CT-394|CT-95|CT-80,0.03068,0.0024
+P036,principal,respondible,remuneración,rerank,v2,1.0,CT-94|CT-42.4|CT-80|CT-95|CT-394,0.73213,0.0018
+P037,principal,respondible,remuneración,bm25,no,,CT-55|CT-81|CT-390|CT-391|CT-393,6.19729,0.0007
+P037,principal,respondible,remuneración,vectorial,no,1.0,CT-95|CT-402|CT-392|CT-393|CT-367,0.63944,0.0003
+P037,principal,respondible,remuneración,hibrido,no,4.0,CT-393|CT-392|CT-383|CT-95|CT-390,0.03101,0.0011
+P037,principal,respondible,remuneración,rerank,no,1.0,CT-95|CRE-328|CT-188|CT-392|CT-112,0.94466,0.0011
+P037,principal,respondible,remuneración,bm25,v1,,CT-55|CT-81|CT-390|CT-391|CT-393,6.19729,0.0007
+P037,principal,respondible,remuneración,vectorial,v1,1.0,CT-95|CT-402|CT-392|CT-393|CT-367,0.63944,0.0003
+P037,principal,respondible,remuneración,hibrido,v1,4.0,CT-393|CT-392|CT-383|CT-95|CT-390,0.03101,0.0011
+P037,principal,respondible,remuneración,bm25,v2,,CT-55|CT-81|CT-390|CT-391|CT-393,6.19729,0.0006
+P037,principal,respondible,remuneración,vectorial,v2,1.0,CT-95|CT-402|CT-392|CT-393|CT-367,0.63944,0.0003
+P037,principal,respondible,remuneración,hibrido,v2,4.0,CT-393|CT-392|CT-383|CT-95|CT-390,0.03101,0.0011
+P037,principal,respondible,remuneración,rerank,v2,1.0,CT-95|CRE-328|CT-188|CT-392|CT-112,0.94466,0.0013
+P038,principal,respondible,remuneración,bm25,no,,CT-210|CT-212|CT-90|CT-34.3|CT-466,7.7467,0.0008
+P038,principal,respondible,remuneración,vectorial,no,1.0,CT-88|CT-401|CT-206|CT-210|CT-208,0.61316,0.0006
+P038,principal,respondible,remuneración,hibrido,no,9.0,CT-210|CT-212|CT-90|CT-42.3|CT-44,0.03202,0.0018
+P038,principal,respondible,remuneración,rerank,no,1.0,CT-88|CT-89|CT-210|CT-212|CT-205,0.93313,0.0016
+P038,principal,respondible,remuneración,bm25,v1,,CT-210|CT-212|CT-90|CT-34.3|CT-466,7.7467,0.0009
+P038,principal,respondible,remuneración,vectorial,v1,1.0,CT-88|CT-401|CT-206|CT-210|CT-208,0.61316,0.0004
+P038,principal,respondible,remuneración,hibrido,v1,9.0,CT-210|CT-212|CT-90|CT-42.3|CT-44,0.03202,0.0013
+P038,principal,respondible,remuneración,bm25,v2,,CT-210|CT-212|CT-90|CT-34.3|CT-466,7.7467,0.0008
+P038,principal,respondible,remuneración,vectorial,v2,1.0,CT-88|CT-401|CT-206|CT-210|CT-208,0.61316,0.0003
+P038,principal,respondible,remuneración,hibrido,v2,9.0,CT-210|CT-212|CT-90|CT-42.3|CT-44,0.03202,0.0014
+P038,principal,respondible,remuneración,rerank,v2,1.0,CT-88|CT-89|CT-210|CT-212|CT-205,0.93313,0.0014
+P039,principal,respondible,contratos,bm25,no,1.0,CT-15|CT-265|CT-48|CT-195.2|CT-19,10.22558,0.0007
+P039,principal,respondible,contratos,vectorial,no,1.0,CT-15|CT-479|CT-50|CT-421|CT-57,0.67049,0.0003
+P039,principal,respondible,contratos,hibrido,no,1.0,CT-15|CT-479|CT-48|CT-265|CT-57,0.03279,0.0011
+P039,principal,respondible,contratos,rerank,no,1.0,CT-15|CT-479|CT-265|CT-19|CT-195.2,0.99369,0.0013
+P039,principal,respondible,contratos,bm25,v1,1.0,CT-15|CT-265|CT-19|CT-195.2|CT-479,20.45116,0.0009
+P039,principal,respondible,contratos,vectorial,v1,1.0,CT-15|CT-479|CT-57|CT-50|CT-47,0.69611,0.0005
+P039,principal,respondible,contratos,hibrido,v1,1.0,CT-15|CT-479|CT-265|CT-48|CT-421,0.03279,0.0017
+P039,principal,respondible,contratos,bm25,v2,1.0,CT-15|CT-265|CT-19|CT-195.2|CT-479,20.45116,0.0012
+P039,principal,respondible,contratos,vectorial,v2,1.0,CT-15|CT-479|CT-57|CT-50|CT-47,0.69611,0.0004
+P039,principal,respondible,contratos,hibrido,v2,1.0,CT-15|CT-479|CT-265|CT-48|CT-421,0.03279,0.0014
+P039,principal,respondible,contratos,rerank,v2,1.0,CT-15|CT-479|CT-265|CT-19|CT-195.2,0.99368,0.0014
+P040,principal,respondible,contratos,bm25,no,2.0,CT-265|CT-15|CT-262.1|CT-262|CT-266,16.33864,0.0009
+P040,principal,respondible,contratos,vectorial,no,1.0,CT-15|CT-265|CT-268.inn1|CT-155|CT-152.2,0.6453,0.0003
+P040,principal,respondible,contratos,hibrido,no,2.0,CT-265|CT-15|CT-262|CT-479|CT-153,0.03252,0.0012
+P040,principal,respondible,contratos,rerank,no,1.0,CT-15|CT-265|CT-262|CT-479|CT-268.inn1,0.98441,0.0017
+P040,principal,respondible,contratos,bm25,v1,1.0,CT-15|CT-265|CT-268|CT-262|CRE-333,31.48939,0.0014
+P040,principal,respondible,contratos,vectorial,v1,1.0,CT-15|CT-265|CT-268.inn1|CT-272|CT-271,0.69793,0.0003
+P040,principal,respondible,contratos,hibrido,v1,1.0,CT-15|CT-265|CT-268.inn1|CT-272|CT-262,0.03279,0.0022
+P040,principal,respondible,contratos,bm25,v2,1.0,CT-15|CT-265|CT-268|CT-262|CRE-333,31.48939,0.0016
+P040,principal,respondible,contratos,vectorial,v2,1.0,CT-15|CT-265|CT-268.inn1|CT-272|CT-271,0.69793,0.0005
+P040,principal,respondible,contratos,hibrido,v2,1.0,CT-15|CT-265|CT-268.inn1|CT-272|CT-262,0.03279,0.0022
+P040,principal,respondible,contratos,rerank,v2,1.0,CT-15|CT-265|CT-262|CT-268.inn1|CT-479,0.99592,0.0023
+P041,principal,respondible,contratos,bm25,no,1.0,CT-15|CT-71|CT-265|CT-379|CT-92,12.2707,0.0008
+P041,principal,respondible,contratos,vectorial,no,1.0,CT-15|CT-42.2|CT-249|CT-42.1|CT-265,0.67224,0.0003
+P041,principal,respondible,contratos,hibrido,no,1.0,CT-15|CT-265|CT-479|CT-42.1|CT-69,0.03279,0.0012
+P041,principal,respondible,contratos,rerank,no,1.0,CT-15|CT-265|CT-19|CT-69|CT-479,0.99566,0.0013
+P041,principal,respondible,contratos,bm25,v1,1.0,CT-15|CT-265|CT-19|CT-71|CT-73,22.49628,0.0011
+P041,principal,respondible,contratos,vectorial,v1,1.0,CT-15|CT-42.2|CT-249|CT-265|CT-142,0.68285,0.0004
+P041,principal,respondible,contratos,hibrido,v1,1.0,CT-15|CT-265|CT-479|CT-577|CT-69,0.03279,0.0015
+P041,principal,respondible,contratos,bm25,v2,1.0,CT-15|CT-265|CT-19|CT-71|CT-73,22.49628,0.001
+P041,principal,respondible,contratos,vectorial,v2,1.0,CT-15|CT-42.2|CT-249|CT-265|CT-142,0.68285,0.0004
+P041,principal,respondible,contratos,hibrido,v2,1.0,CT-15|CT-265|CT-479|CT-577|CT-69,0.03279,0.0014
+P041,principal,respondible,contratos,rerank,v2,1.0,CT-15|CT-265|CT-19|CT-479|CT-69,0.99785,0.002
+P042,principal,respondible,contratos,bm25,no,2.0,CT-34.2|CT-14|CT-34.3|CT-137|CT-120,8.68886,0.0011
+P042,principal,respondible,contratos,vectorial,no,1.0,CT-14|CT-16|CT-19|CT-17|CT-11,0.6183,0.0004
+P042,principal,respondible,contratos,hibrido,no,1.0,CT-14|CT-34.2|CT-157|CT-34.3|CT-237,0.03252,0.0013
+P042,principal,respondible,contratos,rerank,no,1.0,CT-14|CT-34.2|CT-11|CT-17|CT-34.3,0.99565,0.0012
+P042,principal,respondible,contratos,bm25,v1,2.0,CT-34.2|CT-14|CT-34.3|CT-137|CT-120,8.68886,0.0007
+P042,principal,respondible,contratos,vectorial,v1,1.0,CT-14|CT-16|CT-19|CT-17|CT-11,0.6183,0.0003
+P042,principal,respondible,contratos,hibrido,v1,1.0,CT-14|CT-34.2|CT-157|CT-34.3|CT-237,0.03252,0.0011
+P042,principal,respondible,contratos,bm25,v2,2.0,CT-34.2|CT-14|CT-34.3|CT-137|CT-120,8.68886,0.0008
+P042,principal,respondible,contratos,vectorial,v2,1.0,CT-14|CT-16|CT-19|CT-17|CT-11,0.6183,0.0003
+P042,principal,respondible,contratos,hibrido,v2,1.0,CT-14|CT-34.2|CT-157|CT-34.3|CT-237,0.03252,0.001
+P042,principal,respondible,contratos,rerank,v2,1.0,CT-14|CT-34.2|CT-11|CT-17|CT-34.3,0.99565,0.0013
+P043,principal,respondible,contratos,bm25,no,1.0,CT-17|CT-532|CT-11|CT-241|CT-14,12.7937,0.001
+P043,principal,respondible,contratos,vectorial,no,1.0,CT-17|CT-168|CT-15|CT-14|CT-258,0.68169,0.0003
+P043,principal,respondible,contratos,hibrido,no,1.0,CT-17|CT-14|CT-241|CT-60|CT-239,0.03279,0.0014
+P043,principal,respondible,contratos,rerank,no,1.0,CT-17|CT-19|CT-14|CT-258|CT-239,0.98953,0.0017
+P043,principal,respondible,contratos,bm25,v1,2.0,CT-11|CT-17|CT-14|CT-239|CT-19,24.44849,0.0026
+P043,principal,respondible,contratos,vectorial,v1,1.0,CT-17|CT-14|CT-239|CT-168|CT-16,0.72856,0.0004
+P043,principal,respondible,contratos,hibrido,v1,1.0,CT-17|CT-14|CT-239|CT-16|CT-19,0.03252,0.0022
+P043,principal,respondible,contratos,bm25,v2,2.0,CT-11|CT-17|CT-14|CT-239|CT-19,24.44849,0.0017
+P043,principal,respondible,contratos,vectorial,v2,1.0,CT-17|CT-14|CT-239|CT-168|CT-16,0.72856,0.0003
+P043,principal,respondible,contratos,hibrido,v2,1.0,CT-17|CT-14|CT-239|CT-16|CT-19,0.03252,0.002
+P043,principal,respondible,contratos,rerank,v2,1.0,CT-17|CT-239|CT-19|CT-14|CT-11,0.98821,0.0024
+P044,principal,respondible,contratos,bm25,no,3.0,CT-80|CT-395|CT-17|CT-11|CT-14,7.82704,0.0006
+P044,principal,respondible,contratos,vectorial,no,1.0,CT-17|CT-34.3|CT-55|CT-53|CT-82,0.71048,0.0003
+P044,principal,respondible,contratos,hibrido,no,1.0,CT-17|CT-19|CT-14|CT-94|CT-80,0.03227,0.0009
+P044,principal,respondible,contratos,rerank,no,1.0,CT-17|CT-152.1|CT-19|CT-82|CT-34.3,0.87652,0.001
+P044,principal,respondible,contratos,bm25,v1,4.0,CT-11|CT-14|CT-19|CT-17|CT-239,21.90209,0.0015
+P044,principal,respondible,contratos,vectorial,v1,1.0,CT-17|CT-55|CT-374|CT-82|CT-194,0.71405,0.0004
+P044,principal,respondible,contratos,hibrido,v1,1.0,CT-17|CT-19|CT-16|CT-14|CT-374,0.03202,0.0024
+P044,principal,respondible,contratos,bm25,v2,4.0,CT-11|CT-14|CT-19|CT-17|CT-239,21.90209,0.0014
+P044,principal,respondible,contratos,vectorial,v2,1.0,CT-17|CT-55|CT-374|CT-82|CT-194,0.71405,0.0004
+P044,principal,respondible,contratos,hibrido,v2,1.0,CT-17|CT-19|CT-16|CT-14|CT-374,0.03202,0.002
+P044,principal,respondible,contratos,rerank,v2,1.0,CT-17|CT-19|CT-11|CT-16|CT-194,0.95024,0.0021
+P045,principal,respondible,contratos,bm25,no,9.0,CT-309|CT-314|CT-337|CT-18|CT-99,7.68435,0.0008
+P045,principal,respondible,contratos,vectorial,no,1.0,CT-19|CT-309|CT-314|CT-21|CT-18,0.74192,0.0003
+P045,principal,respondible,contratos,hibrido,no,4.0,CT-309|CT-314|CT-18|CT-19|CT-21,0.03252,0.0012
+P045,principal,respondible,contratos,rerank,no,1.0,CT-19|CT-309|CT-314|CT-21|CT-34.4,0.99639,0.0012
+P045,principal,respondible,contratos,bm25,v1,9.0,CT-309|CT-314|CT-337|CT-18|CT-99,7.68435,0.0007
+P045,principal,respondible,contratos,vectorial,v1,1.0,CT-19|CT-309|CT-314|CT-21|CT-18,0.74192,0.0004
+P045,principal,respondible,contratos,hibrido,v1,4.0,CT-309|CT-314|CT-18|CT-19|CT-21,0.03252,0.0013
+P045,principal,respondible,contratos,bm25,v2,9.0,CT-309|CT-314|CT-337|CT-18|CT-99,7.68435,0.0008
+P045,principal,respondible,contratos,vectorial,v2,1.0,CT-19|CT-309|CT-314|CT-21|CT-18,0.74192,0.0005
+P045,principal,respondible,contratos,hibrido,v2,4.0,CT-309|CT-314|CT-18|CT-19|CT-21,0.03252,0.0017
+P045,principal,respondible,contratos,rerank,v2,1.0,CT-19|CT-309|CT-314|CT-21|CT-34.4,0.99639,0.0015
+P046,principal,respondible,contratos,bm25,no,1.0,CT-16.inn1|CRE-328|CT-292|CRE-370|CT-43,7.55705,0.0005
+P046,principal,respondible,contratos,vectorial,no,1.0,CT-16.inn1|CRE-327|CT-271|CT-45|CRE-326,0.73281,0.0003
+P046,principal,respondible,contratos,hibrido,no,1.0,CT-16.inn1|CRE-326|CRE-327|CT-467|CT-47,0.03279,0.0008
+P046,principal,respondible,contratos,rerank,no,1.0,CT-16.inn1|CT-42|CRE-327|CRE-326|CT-271,0.9968,0.0009
+P046,principal,respondible,contratos,bm25,v1,1.0,CT-16.inn1|CRE-328|CT-292|CRE-370|CT-43,15.11409,0.0005
+P046,principal,respondible,contratos,vectorial,v1,1.0,CT-16.inn1|CT-271|CT-45|CT-2|CT-273,0.76098,0.0003
+P046,principal,respondible,contratos,hibrido,v1,1.0,CT-16.inn1|CRE-326|CT-467|CRE-327|CT-8,0.03279,0.0009
+P046,principal,respondible,contratos,bm25,v2,1.0,CT-16.inn1|CRE-328|CT-292|CRE-370|CT-43,15.11409,0.0006
+P046,principal,respondible,contratos,vectorial,v2,1.0,CT-16.inn1|CT-271|CT-45|CT-2|CT-273,0.76098,0.0003
+P046,principal,respondible,contratos,hibrido,v2,1.0,CT-16.inn1|CRE-326|CT-467|CRE-327|CT-8,0.03279,0.0009
+P046,principal,respondible,contratos,rerank,v2,1.0,CT-16.inn1|CT-42|CT-271|CRE-327|CT-3,0.99759,0.0011
+P047,principal,respondible,contratos,bm25,no,2.0,CT-11|CT-16.1|CT-193|CT-100|CT-169,18.56937,0.0011
+P047,principal,respondible,contratos,vectorial,no,1.0,CT-16.1|CT-16|CT-193|CT-296|CT-100,0.74043,0.0003
+P047,principal,respondible,contratos,hibrido,no,1.0,CT-16.1|CT-193|CT-100|CT-296|CT-169,0.03252,0.0015
+P047,principal,respondible,contratos,rerank,no,1.0,CT-16.1|CT-169|CT-11|CT-171|CT-170,0.998,0.0018
+P047,principal,respondible,contratos,bm25,v1,2.0,CT-11|CT-16.1|CT-239|CT-14|CT-19,35.005,0.0023
+P047,principal,respondible,contratos,vectorial,v1,1.0,CT-16.1|CT-17|CT-14|CT-16|CT-260,0.71099,0.0005
+P047,principal,respondible,contratos,hibrido,v1,1.0,CT-16.1|CT-14|CT-17|CT-16|CT-100,0.03252,0.0022
+P047,principal,respondible,contratos,bm25,v2,2.0,CT-11|CT-16.1|CT-239|CT-14|CT-19,35.005,0.0019
+P047,principal,respondible,contratos,vectorial,v2,1.0,CT-16.1|CT-17|CT-14|CT-16|CT-260,0.71099,0.0004
+P047,principal,respondible,contratos,hibrido,v2,1.0,CT-16.1|CT-14|CT-17|CT-16|CT-100,0.03252,0.0025
+P047,principal,respondible,contratos,rerank,v2,1.0,CT-16.1|CT-11|CT-169|CT-17|CT-14,0.99418,0.0025
+P048,principal,respondible,contratos,bm25,no,1.0,CT-34.1|CT-34.2|CT-34.4|CT-34.3|CT-137,14.06753,0.0009
+P048,principal,respondible,contratos,vectorial,no,1.0,CT-34.1|CT-34.4|CT-147|CT-35|CT-34.2,0.77922,0.0003
+P048,principal,respondible,contratos,hibrido,no,1.0,CT-34.1|CT-34.4|CT-34.2|CT-35|CT-34.3,0.03279,0.0011
+P048,principal,respondible,contratos,rerank,no,1.0,CT-34.1|CT-34.4|CT-147|CT-34.3|CT-35,0.9987,0.002
+P048,principal,respondible,contratos,bm25,v1,1.0,CT-34.1|CT-34.2|CT-34.4|CT-34.3|CT-137,14.06753,0.001
+P048,principal,respondible,contratos,vectorial,v1,1.0,CT-34.1|CT-34.4|CT-147|CT-35|CT-34.2,0.77922,0.0005
+P048,principal,respondible,contratos,hibrido,v1,1.0,CT-34.1|CT-34.4|CT-34.2|CT-35|CT-34.3,0.03279,0.0013
+P048,principal,respondible,contratos,bm25,v2,1.0,CT-34.1|CT-34.2|CT-34.4|CT-34.3|CT-137,14.06753,0.0008
+P048,principal,respondible,contratos,vectorial,v2,1.0,CT-34.1|CT-34.4|CT-147|CT-35|CT-34.2,0.77922,0.0003
+P048,principal,respondible,contratos,hibrido,v2,1.0,CT-34.1|CT-34.4|CT-34.2|CT-35|CT-34.3,0.03279,0.0012
+P048,principal,respondible,contratos,rerank,v2,1.0,CT-34.1|CT-34.4|CT-147|CT-34.3|CT-35,0.9987,0.0018
+P049,principal,respondible,principios,bm25,no,3.0,CT-595|CRE-327|CRE-326|CT-545|CT-134,6.14374,0.0009
+P049,principal,respondible,principios,vectorial,no,,CT-173|CT-40|CT-172|CT-310|CT-174,0.63006,0.0003
+P049,principal,respondible,principios,hibrido,no,1.0,CRE-326|CT-173|CRE-332|CT-46|CT-595,0.02822,0.0011
+P049,principal,respondible,principios,rerank,no,1.0,CRE-326|CT-40|CT-595|CRE-332|CT-46,0.09824,0.0015
+P049,principal,respondible,principios,bm25,v1,,CT-185|CT-184|CT-624|CT-170|CT-193,16.88471,0.0014
+P049,principal,respondible,principios,vectorial,v1,,CT-184|CT-624|CT-170|CT-195|CT-185,0.72262,0.0003
+P049,principal,respondible,principios,hibrido,v1,,CT-184|CT-624|CT-185|CT-170|CT-193,0.03252,0.0021
+P049,principal,respondible,principios,bm25,v2,3.0,CT-595|CRE-327|CRE-326|CT-545|CT-134,6.14374,0.0013
+P049,principal,respondible,principios,vectorial,v2,,CT-173|CT-40|CT-172|CT-310|CT-174,0.63006,0.0005
+P049,principal,respondible,principios,hibrido,v2,1.0,CRE-326|CT-173|CRE-332|CT-46|CT-595,0.02822,0.0013
+P049,principal,respondible,principios,rerank,v2,1.0,CRE-326|CT-40|CT-595|CRE-332|CT-46,0.09824,0.0014
+P050,principal,respondible,principios,bm25,no,,CT-134|CT-538|CT-545|CT-521|CT-539,5.62531,0.0007
+P050,principal,respondible,principios,vectorial,no,1.0,CT-7|CT-39|CT-355|CT-521|CT-94,0.60475,0.0005
+P050,principal,respondible,principios,hibrido,no,3.0,CT-521|CT-628|CT-7|CT-380|CT-573,0.03125,0.0009
+P050,principal,respondible,principios,rerank,no,1.0,CT-7|CT-39|CT-628|CT-521|CT-545,0.38019,0.0012
+P050,principal,respondible,principios,bm25,v1,,CT-134|CT-538|CT-545|CT-521|CT-539,5.62531,0.0008
+P050,principal,respondible,principios,vectorial,v1,1.0,CT-7|CT-39|CT-355|CT-521|CT-94,0.60475,0.0003
+P050,principal,respondible,principios,hibrido,v1,3.0,CT-521|CT-628|CT-7|CT-380|CT-573,0.03125,0.0013
+P050,principal,respondible,principios,bm25,v2,,CT-134|CT-538|CT-545|CT-521|CT-539,5.62531,0.0007
+P050,principal,respondible,principios,vectorial,v2,1.0,CT-7|CT-39|CT-355|CT-521|CT-94,0.60475,0.0003
+P050,principal,respondible,principios,hibrido,v2,3.0,CT-521|CT-628|CT-7|CT-380|CT-573,0.03125,0.0011
+P050,principal,respondible,principios,rerank,v2,1.0,CT-7|CT-39|CT-628|CT-521|CT-545,0.38019,0.0011
+P051,principal,respondible,obligaciones,bm25,no,10.0,CT-278|CT-633|CT-629|CT-628|CT-156,5.50944,0.0006
+P051,principal,respondible,obligaciones,vectorial,no,2.0,CT-42.4|CT-44|CT-278|CT-628|CT-107,0.65424,0.0004
+P051,principal,respondible,obligaciones,hibrido,no,6.0,CT-278|CT-42.4|CT-628|CT-633|CT-629,0.03227,0.0016
+P051,principal,respondible,obligaciones,rerank,no,1.0,CT-44|CT-278|CT-42.4|CT-588|CT-628,0.52338,0.0013
+P051,principal,respondible,obligaciones,bm25,v1,14.0,CT-633|CT-631|CT-628|CT-64|CT-629,13.48204,0.0011
+P051,principal,respondible,obligaciones,vectorial,v1,2.0,CT-42.4|CT-44|CT-628|CT-107|CT-547,0.66583,0.0003
+P051,principal,respondible,obligaciones,hibrido,v1,7.0,CT-628|CT-633|CT-42.4|CT-631|CT-629,0.03175,0.0016
+P051,principal,respondible,obligaciones,bm25,v2,14.0,CT-278|CT-633|CT-629|CT-628|CT-156,10.49894,0.0007
+P051,principal,respondible,obligaciones,vectorial,v2,2.0,CT-42.4|CT-44|CT-278|CT-628|CT-400,0.66116,0.0003
+P051,principal,respondible,obligaciones,hibrido,v2,7.0,CT-278|CT-42.4|CT-628|CT-633|CT-629,0.03227,0.0011
+P051,principal,respondible,obligaciones,rerank,v2,1.0,CT-44|CT-42|CT-278|CT-42.4|CT-588,0.66283,0.0013
+P052,principal,respondible,obligaciones,bm25,no,14.0,CT-33|CT-96|CT-31|CT-623|CT-555,6.58022,0.0008
+P052,principal,respondible,obligaciones,vectorial,no,1.0,CT-44|CT-46|CT-253|CT-33|CT-90,0.58356,0.0003
+P052,principal,respondible,obligaciones,hibrido,no,2.0,CT-33|CT-44|CT-96|CT-31|CT-253,0.03202,0.0012
+P052,principal,respondible,obligaciones,rerank,no,1.0,CT-44|CT-90|CT-96|CT-31|CT-33,0.76003,0.0014
+P052,principal,respondible,obligaciones,bm25,v1,8.0,CT-33|CT-31|CT-96|CT-623|CT-555,6.58022,0.001
+P052,principal,respondible,obligaciones,vectorial,v1,1.0,CT-44|CT-46|CT-90|CT-253|CT-33,0.62588,0.0004
+P052,principal,respondible,obligaciones,hibrido,v1,2.0,CT-33|CT-44|CT-31|CT-96|CT-253,0.03178,0.0019
+P052,principal,respondible,obligaciones,bm25,v2,8.0,CT-33|CT-31|CT-96|CT-623|CT-555,6.58022,0.0012
+P052,principal,respondible,obligaciones,vectorial,v2,1.0,CT-44|CT-46|CT-90|CT-253|CT-33,0.62588,0.0005
+P052,principal,respondible,obligaciones,hibrido,v2,2.0,CT-33|CT-44|CT-31|CT-96|CT-253,0.03178,0.0013
+P052,principal,respondible,obligaciones,rerank,v2,1.0,CT-44|CT-90|CT-46|CT-42|CT-253,0.91684,0.0015
+P053,principal,respondible,obligaciones,bm25,no,2.0,CT-150|CT-46|CT-154|CT-3|CT-493,11.89095,0.0006
+P053,principal,respondible,obligaciones,vectorial,no,1.0,CT-46|CT-138|CT-44|CT-68|CT-413,0.61393,0.0002
+P053,principal,respondible,obligaciones,hibrido,no,1.0,CT-46|CT-150|CT-68|CT-96|CT-138,0.03252,0.001
+P053,principal,respondible,obligaciones,rerank,no,1.0,CT-46|CT-96|CT-68|CT-413|CT-150,0.97202,0.0013
+P053,principal,respondible,obligaciones,bm25,v1,2.0,CT-150|CT-46|CT-154|CT-3|CT-493,11.89095,0.0007
+P053,principal,respondible,obligaciones,vectorial,v1,1.0,CT-46|CT-138|CT-44|CT-68|CT-413,0.61393,0.0003
+P053,principal,respondible,obligaciones,hibrido,v1,1.0,CT-46|CT-150|CT-68|CT-96|CT-138,0.03252,0.0011
+P053,principal,respondible,obligaciones,bm25,v2,2.0,CT-150|CT-46|CT-154|CT-3|CT-493,11.89095,0.0007
+P053,principal,respondible,obligaciones,vectorial,v2,1.0,CT-46|CT-138|CT-44|CT-68|CT-413,0.61393,0.0004
+P053,principal,respondible,obligaciones,hibrido,v2,1.0,CT-46|CT-150|CT-68|CT-96|CT-138,0.03252,0.001
+P053,principal,respondible,obligaciones,rerank,v2,1.0,CT-46|CT-96|CT-68|CT-413|CT-150,0.97202,0.0012
+P054,principal,respondible,acoso,bm25,no,1.0,CT-46.1|CT-545|CT-173|CRE-331|CT-44,15.78927,0.0007
+P054,principal,respondible,acoso,vectorial,no,1.0,CT-46.1|CT-545|CT-46|CT-510|CT-44,0.78779,0.0004
+P054,principal,respondible,acoso,hibrido,no,1.0,CT-46.1|CT-545|CT-173|CT-44|CRE-331,0.03279,0.0015
+P054,principal,respondible,acoso,rerank,no,1.0,CT-46.1|CT-545|CT-42|CT-173|CT-172,0.99692,0.0014
+P054,principal,respondible,acoso,bm25,v1,1.0,CT-46.1|CT-545|CT-173|CRE-331|CT-44,15.78927,0.0007
+P054,principal,respondible,acoso,vectorial,v1,1.0,CT-46.1|CT-545|CT-46|CT-510|CT-44,0.78779,0.0003
+P054,principal,respondible,acoso,hibrido,v1,1.0,CT-46.1|CT-545|CT-173|CT-44|CRE-331,0.03279,0.001
+P054,principal,respondible,acoso,bm25,v2,1.0,CT-46.1|CT-545|CT-173|CRE-331|CT-44,15.78927,0.0008
+P054,principal,respondible,acoso,vectorial,v2,1.0,CT-46.1|CT-545|CT-46|CT-510|CT-44,0.78779,0.0003
+P054,principal,respondible,acoso,hibrido,v2,1.0,CT-46.1|CT-545|CT-173|CT-44|CRE-331,0.03279,0.001
+P054,principal,respondible,acoso,rerank,v2,1.0,CT-46.1|CT-545|CT-42|CT-173|CT-172,0.99692,0.0013
+P055,principal,respondible,contratación,bm25,no,3.0,CT-589|CT-297|CT-42.1|CT-291|CT-262.1,7.76635,0.001
+P055,principal,respondible,contratación,vectorial,no,1.0,CT-42.1|CT-380|CT-58|CT-20|CT-44,0.61873,0.0007
+P055,principal,respondible,contratación,hibrido,no,1.0,CT-42.1|CT-21|CT-380|CT-393|CT-205,0.03227,0.0015
+P055,principal,respondible,contratación,rerank,no,1.0,CT-42.1|CT-44|CT-21|CT-558|CT-518,0.61595,0.0017
+P055,principal,respondible,contratación,bm25,v1,3.0,CT-589|CT-297|CT-42.1|CT-291|CT-262.1,7.76635,0.0013
+P055,principal,respondible,contratación,vectorial,v1,1.0,CT-42.1|CT-380|CT-58|CT-20|CT-44,0.61873,0.0004
+P055,principal,respondible,contratación,hibrido,v1,1.0,CT-42.1|CT-21|CT-380|CT-393|CT-205,0.03227,0.002
+P055,principal,respondible,contratación,bm25,v2,3.0,CT-589|CT-297|CT-42.1|CT-291|CT-262.1,7.76635,0.0013
+P055,principal,respondible,contratación,vectorial,v2,1.0,CT-42.1|CT-380|CT-58|CT-20|CT-44,0.61873,0.0004
+P055,principal,respondible,contratación,hibrido,v2,1.0,CT-42.1|CT-21|CT-380|CT-393|CT-205,0.03227,0.0015
+P055,principal,respondible,contratación,rerank,v2,1.0,CT-42.1|CT-44|CT-21|CT-558|CT-518,0.61595,0.0017
+P056,principal,respondible,obligaciones,bm25,no,10.0,CT-368|CT-143|CT-178|CT-432|CT-367,5.87184,0.0006
+P056,principal,respondible,obligaciones,vectorial,no,4.0,CT-34.3|CT-368|CT-42.2|CT-42|CT-42.3,0.58457,0.0003
+P056,principal,respondible,obligaciones,hibrido,no,5.0,CT-368|CT-34.3|CT-178|CT-143|CT-42,0.03252,0.001
+P056,principal,respondible,obligaciones,rerank,no,4.0,CT-368|CT-34.3|CT-178|CT-42|CT-367,0.21181,0.0011
+P056,principal,respondible,obligaciones,bm25,v1,10.0,CT-368|CT-143|CT-178|CT-432|CT-367,5.87184,0.0005
+P056,principal,respondible,obligaciones,vectorial,v1,4.0,CT-34.3|CT-368|CT-42.2|CT-42|CT-42.3,0.58457,0.0003
+P056,principal,respondible,obligaciones,hibrido,v1,5.0,CT-368|CT-34.3|CT-178|CT-143|CT-42,0.03252,0.001
+P056,principal,respondible,obligaciones,bm25,v2,10.0,CT-368|CT-143|CT-178|CT-432|CT-367,5.87184,0.0006
+P056,principal,respondible,obligaciones,vectorial,v2,4.0,CT-34.3|CT-368|CT-42.2|CT-42|CT-42.3,0.58457,0.0003
+P056,principal,respondible,obligaciones,hibrido,v2,5.0,CT-368|CT-34.3|CT-178|CT-143|CT-42,0.03252,0.0009
+P056,principal,respondible,obligaciones,rerank,v2,4.0,CT-368|CT-34.3|CT-178|CT-42|CT-367,0.21181,0.0011
+P057,principal,respondible,licencias,bm25,no,,CT-378|CT-152|CT-152.2|CT-152.1|CT-369,9.63759,0.0011
+P057,principal,respondible,licencias,vectorial,no,,CT-152|CT-152.1|CT-369|CT-402|CT-217,0.56901,0.0007
+P057,principal,respondible,licencias,hibrido,no,,CT-152|CT-152.1|CT-369|CT-378|CT-152.2,0.03252,0.0017
+P057,principal,respondible,licencias,rerank,no,,CT-152|CT-152.3|CT-152.1|CT-378|CT-152.2,0.00933,0.0015
+P057,principal,respondible,licencias,bm25,v1,,CT-378|CT-152|CT-152.2|CT-152.1|CT-369,9.63759,0.0011
+P057,principal,respondible,licencias,vectorial,v1,,CT-152|CT-152.1|CT-369|CT-402|CT-217,0.56901,0.0004
+P057,principal,respondible,licencias,hibrido,v1,,CT-152|CT-152.1|CT-369|CT-378|CT-152.2,0.03252,0.0014
+P057,principal,respondible,licencias,bm25,v2,,CT-378|CT-152|CT-152.2|CT-152.1|CT-369,9.63759,0.001
+P057,principal,respondible,licencias,vectorial,v2,,CT-152|CT-152.1|CT-369|CT-402|CT-217,0.56901,0.0003
+P057,principal,respondible,licencias,hibrido,v2,,CT-152|CT-152.1|CT-369|CT-378|CT-152.2,0.03252,0.0013
+P057,principal,respondible,licencias,rerank,v2,,CT-152|CT-152.3|CT-152.1|CT-378|CT-152.2,0.00933,0.0018
+P058,principal,respondible,maternidad,bm25,no,2.0,CT-152.1|CT-152|CRE-332|CT-155|CT-152.3,13.13943,0.0007
+P058,principal,respondible,maternidad,vectorial,no,1.0,CT-152|CT-152.1|CT-155|CT-154|CT-53,0.69729,0.0006
+P058,principal,respondible,maternidad,hibrido,no,2.0,CT-152.1|CT-152|CT-155|CT-50|CT-152.2,0.03252,0.0011
+P058,principal,respondible,maternidad,rerank,no,1.0,CT-152|CT-152.1|CT-155|CT-153|CT-92,0.92801,0.0012
+P058,principal,respondible,maternidad,bm25,v1,2.0,CT-152.1|CT-152|CRE-332|CT-155|CT-152.3,13.13943,0.0009
+P058,principal,respondible,maternidad,vectorial,v1,1.0,CT-152|CT-152.1|CT-155|CT-154|CT-53,0.69729,0.0006
+P058,principal,respondible,maternidad,hibrido,v1,2.0,CT-152.1|CT-152|CT-155|CT-50|CT-152.2,0.03252,0.0013
+P058,principal,respondible,maternidad,bm25,v2,2.0,CT-152.1|CT-152|CRE-332|CT-155|CT-152.3,13.13943,0.0009
+P058,principal,respondible,maternidad,vectorial,v2,1.0,CT-152|CT-152.1|CT-155|CT-154|CT-53,0.69729,0.0004
+P058,principal,respondible,maternidad,hibrido,v2,2.0,CT-152.1|CT-152|CT-155|CT-50|CT-152.2,0.03252,0.0011
+P058,principal,respondible,maternidad,rerank,v2,1.0,CT-152|CT-152.1|CT-155|CT-153|CT-92,0.92801,0.0011
+P059,principal,respondible,paternidad,bm25,no,1.0,CT-152|CT-152.1|CRE-332|CT-152.2|CT-155,21.72257,0.0011
+P059,principal,respondible,paternidad,vectorial,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.70444,0.0004
+P059,principal,respondible,paternidad,hibrido,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.0014
+P059,principal,respondible,paternidad,rerank,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CRE-332,0.98244,0.0014
+P059,principal,respondible,paternidad,bm25,v1,1.0,CT-152|CT-152.1|CRE-332|CT-152.2|CT-152.3,37.30283,0.0013
+P059,principal,respondible,paternidad,vectorial,v1,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.70043,0.0006
+P059,principal,respondible,paternidad,hibrido,v1,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.002
+P059,principal,respondible,paternidad,bm25,v2,1.0,CT-152|CT-152.1|CRE-332|CT-152.2|CT-152.3,37.30283,0.0012
+P059,principal,respondible,paternidad,vectorial,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.70043,0.0004
+P059,principal,respondible,paternidad,hibrido,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.0022
+P059,principal,respondible,paternidad,rerank,v2,1.0,CT-152|CT-152.1|CT-152.2|CRE-332|CT-155,0.98688,0.0022
+P060,principal,respondible,paternidad,bm25,no,1.0,CT-152|CT-152.1|CT-381|CT-152.2|CRE-332,27.98399,0.001
+P060,principal,respondible,paternidad,vectorial,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-69,0.73467,0.0003
+P060,principal,respondible,paternidad,hibrido,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.0013
+P060,principal,respondible,paternidad,rerank,no,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-69,0.999,0.0018
+P060,principal,respondible,paternidad,bm25,v1,1.0,CT-152|CT-152.1|CT-381|CT-152.2|CRE-332,27.98399,0.0009
+P060,principal,respondible,paternidad,vectorial,v1,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-69,0.73467,0.0007
+P060,principal,respondible,paternidad,hibrido,v1,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.0014
+P060,principal,respondible,paternidad,bm25,v2,1.0,CT-152|CT-152.1|CT-381|CT-152.2|CRE-332,27.98399,0.001
+P060,principal,respondible,paternidad,vectorial,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-69,0.73467,0.0003
+P060,principal,respondible,paternidad,hibrido,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-381,0.03279,0.0013
+P060,principal,respondible,paternidad,rerank,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-155|CT-69,0.999,0.0024
+P061,principal,respondible,maternidad,bm25,no,1.0,CT-155|CT-381|CT-152|CT-57|CT-48,6.43378,0.001
+P061,principal,respondible,maternidad,vectorial,no,1.0,CT-155|CT-152|CT-57|CT-50|CT-47,0.59952,0.0003
+P061,principal,respondible,maternidad,hibrido,no,1.0,CT-155|CT-152|CT-57|CT-50|CT-48,0.03279,0.0012
+P061,principal,respondible,maternidad,rerank,no,1.0,CT-155|CT-47.2|CT-47|CT-57|CT-50,0.90958,0.0012
+P061,principal,respondible,maternidad,bm25,v1,1.0,CT-155|CT-381|CT-152|CT-57|CT-48,6.43378,0.0008
+P061,principal,respondible,maternidad,vectorial,v1,1.0,CT-155|CT-152|CT-57|CT-50|CT-47,0.59952,0.0003
+P061,principal,respondible,maternidad,hibrido,v1,1.0,CT-155|CT-152|CT-57|CT-50|CT-48,0.03279,0.0014
+P061,principal,respondible,maternidad,bm25,v2,1.0,CT-155|CT-381|CT-152|CT-57|CT-48,6.43378,0.001
+P061,principal,respondible,maternidad,vectorial,v2,1.0,CT-155|CT-152|CT-57|CT-50|CT-47,0.59952,0.0004
+P061,principal,respondible,maternidad,hibrido,v2,1.0,CT-155|CT-152|CT-57|CT-50|CT-48,0.03279,0.0012
+P061,principal,respondible,maternidad,rerank,v2,1.0,CT-155|CT-47.2|CT-47|CT-57|CT-50,0.90958,0.0015
+P062,principal,respondible,maternidad,bm25,no,1.0,CT-155|CT-36|CT-17|CT-460|CT-49,11.52918,0.0007
+P062,principal,respondible,maternidad,vectorial,no,1.0,CT-155|CT-42.3|CT-165|CT-429|CT-135,0.67801,0.0003
+P062,principal,respondible,maternidad,hibrido,no,1.0,CT-155|CT-459|CT-459#2|CT-328|CT-165,0.03279,0.001
+P062,principal,respondible,maternidad,rerank,no,1.0,CT-155|CT-42.3|CT-42|CT-459|CT-165,0.98661,0.0014
+P062,principal,respondible,maternidad,bm25,v1,1.0,CT-155|CT-36|CT-17|CT-466|CT-97,11.89993,0.0014
+P062,principal,respondible,maternidad,vectorial,v1,1.0,CT-155|CT-42.3|CT-165|CT-144|CT-429,0.68922,0.0005
+P062,principal,respondible,maternidad,hibrido,v1,1.0,CT-155|CT-459|CT-459#2|CT-165|CT-97,0.03279,0.0014
+P062,principal,respondible,maternidad,bm25,v2,1.0,CT-155|CT-36|CT-17|CT-466|CT-97,11.89993,0.0009
+P062,principal,respondible,maternidad,vectorial,v2,1.0,CT-155|CT-42.3|CT-165|CT-144|CT-429,0.68922,0.0003
+P062,principal,respondible,maternidad,hibrido,v2,1.0,CT-155|CT-459|CT-459#2|CT-165|CT-97,0.03279,0.0013
+P062,principal,respondible,maternidad,rerank,v2,1.0,CT-155|CT-42.3|CT-42|CT-165|CT-240,0.99111,0.0014
+P063,principal,respondible,maternidad,bm25,no,2.0,CRE-43|CT-153|CT-449|CT-527|CT-211,7.40118,0.0006
+P063,principal,respondible,maternidad,vectorial,no,1.0,CT-153|CT-154|CT-195.1|CT-152|CT-173,0.65291,0.0003
+P063,principal,respondible,maternidad,hibrido,no,1.0,CT-153|CRE-43|CT-154|CT-452|CT-449,0.03252,0.0009
+P063,principal,respondible,maternidad,rerank,no,2.0,CT-154|CT-195.1|CT-153|CRE-43|CT-452,0.95259,0.001
+P063,principal,respondible,maternidad,bm25,v1,2.0,CRE-43|CRE-332|CT-153|CT-195.1|CT-154,21.2104,0.0011
+P063,principal,respondible,maternidad,vectorial,v1,1.0,CT-153|CT-154|CRE-43|CT-152|CT-195.1,0.64259,0.0006
+P063,principal,respondible,maternidad,hibrido,v1,2.0,CRE-43|CT-153|CT-154|CT-195.1|CRE-332,0.03227,0.0015
+P063,principal,respondible,maternidad,bm25,v2,2.0,CRE-43|CRE-332|CT-153|CT-195.1|CT-154,21.2104,0.001
+P063,principal,respondible,maternidad,vectorial,v2,1.0,CT-153|CT-154|CRE-43|CT-152|CT-195.1,0.64259,0.0004
+P063,principal,respondible,maternidad,hibrido,v2,2.0,CRE-43|CT-153|CT-154|CT-195.1|CRE-332,0.03227,0.002
+P063,principal,respondible,maternidad,rerank,v2,1.0,CT-195.1|CRE-332|CT-153|CT-154|CRE-43,0.9753,0.0019
+P064,principal,respondible,despido,bm25,no,,CT-365|CT-636|CT-373|CT-272|CRE-43,8.36937,0.001
+P064,principal,respondible,despido,vectorial,no,3.0,CT-153|CT-154|CT-195.3|CT-152|CT-179,0.61601,0.0003
+P064,principal,respondible,despido,hibrido,no,,CT-153|CT-154|CT-373|CT-365|CT-370,0.03132,0.0013
+P064,principal,respondible,despido,rerank,no,,CT-153|CT-154|CT-191|CT-378|CT-179,0.35953,0.0016
+P064,principal,respondible,despido,bm25,v1,,CRE-43|CRE-332|CT-153|CT-195.1|CT-154,21.2104,0.0016
+P064,principal,respondible,despido,vectorial,v1,6.0,CT-154|CT-153|CT-152.1|CT-179|CT-152,0.64752,0.0005
+P064,principal,respondible,despido,hibrido,v1,19.0,CT-153|CT-154|CRE-43|CT-152.1|CT-195.1,0.032,0.0021
+P064,principal,respondible,despido,bm25,v2,,CRE-43|CRE-332|CT-153|CT-195.1|CT-154,21.2104,0.0017
+P064,principal,respondible,despido,vectorial,v2,6.0,CT-154|CT-153|CT-152.1|CT-179|CT-152,0.64752,0.0006
+P064,principal,respondible,despido,hibrido,v2,19.0,CT-153|CT-154|CRE-43|CT-152.1|CT-195.1,0.032,0.0028
+P064,principal,respondible,despido,rerank,v2,6.0,CT-153|CT-154|CRE-332|CT-195.1|CRE-43,0.63975,0.0024
+P065,principal,respondible,despido,bm25,no,2.0,CT-195.1|CT-195.2|CT-187|CT-152.1|CT-184,15.33575,0.0007
+P065,principal,respondible,despido,vectorial,no,1.0,CT-195.2|CT-195.3|CT-188|CT-195.1|CT-187,0.71248,0.0003
+P065,principal,respondible,despido,hibrido,no,1.0,CT-195.2|CT-195.1|CT-187|CT-195.3|CT-188,0.03252,0.0012
+P065,principal,respondible,despido,rerank,no,1.0,CT-195.2|CT-195.1|CT-187|CT-195.3|CT-224,0.99166,0.0013
+P065,principal,respondible,despido,bm25,v1,3.0,CT-195.1|CT-187|CT-195.2|CT-195.3|CT-265,24.61352,0.001
+P065,principal,respondible,despido,vectorial,v1,2.0,CT-188|CT-195.2|CT-195.3|CT-195.1|CT-187,0.71118,0.0003
+P065,principal,respondible,despido,hibrido,v1,2.0,CT-195.1|CT-195.2|CT-187|CT-195.3|CT-188,0.03202,0.0015
+P065,principal,respondible,despido,bm25,v2,3.0,CT-195.1|CT-187|CT-195.2|CT-195.3|CT-265,24.61352,0.0012
+P065,principal,respondible,despido,vectorial,v2,2.0,CT-188|CT-195.2|CT-195.3|CT-195.1|CT-187,0.71118,0.0004
+P065,principal,respondible,despido,hibrido,v2,2.0,CT-195.1|CT-195.2|CT-187|CT-195.3|CT-188,0.03202,0.0014
+P065,principal,respondible,despido,rerank,v2,1.0,CT-195.2|CT-195.3|CT-195.1|CT-187|CT-224,0.97332,0.0017
+P066,principal,respondible,licencias,bm25,no,1.0,CT-152.2|CT-152.1|CT-152|CT-152.3|CRE-332,15.89181,0.0008
+P066,principal,respondible,licencias,vectorial,no,1.0,CT-152.2|CT-152.1|CT-152|CT-157|CT-168,0.70229,0.0006
+P066,principal,respondible,licencias,hibrido,no,1.0,CT-152.2|CT-152.1|CT-152|CT-155|CT-17,0.03279,0.0011
+P066,principal,respondible,licencias,rerank,no,1.0,CT-152.2|CT-152.1|CT-152|CT-42|CT-155,0.98209,0.0013
+P066,principal,respondible,licencias,bm25,v1,1.0,CT-152.2|CT-152.1|CT-152|CT-152.3|CRE-332,15.89181,0.0006
+P066,principal,respondible,licencias,vectorial,v1,1.0,CT-152.2|CT-152.1|CT-152|CT-157|CT-168,0.70229,0.0004
+P066,principal,respondible,licencias,hibrido,v1,1.0,CT-152.2|CT-152.1|CT-152|CT-155|CT-17,0.03279,0.0011
+P066,principal,respondible,licencias,bm25,v2,1.0,CT-152.2|CT-152.1|CT-152|CT-152.3|CRE-332,15.89181,0.0006
+P066,principal,respondible,licencias,vectorial,v2,1.0,CT-152.2|CT-152.1|CT-152|CT-157|CT-168,0.70229,0.0003
+P066,principal,respondible,licencias,hibrido,v2,1.0,CT-152.2|CT-152.1|CT-152|CT-155|CT-17,0.03279,0.0009
+P066,principal,respondible,licencias,rerank,v2,1.0,CT-152.2|CT-152.1|CT-152|CT-42|CT-155,0.98209,0.0011
+P067,principal,respondible,licencias,bm25,no,1.0,CT-152.1|CRE-332|CT-152|CT-253|CT-155,15.09252,0.001
+P067,principal,respondible,licencias,vectorial,no,1.0,CT-152.1|CT-152|CT-152.3|CT-155|CT-154,0.74823,0.0003
+P067,principal,respondible,licencias,hibrido,no,1.0,CT-152.1|CT-152|CT-152.3|CT-155|CT-152.2,0.03279,0.0016
+P067,principal,respondible,licencias,rerank,no,1.0,CT-152.1|CT-152|CT-152.3|CT-155|CRE-332,0.99332,0.0017
+P067,principal,respondible,licencias,bm25,v1,1.0,CT-152.1|CT-128|CT-80|CT-117|CT-126,16.91096,0.0016
+P067,principal,respondible,licencias,vectorial,v1,1.0,CT-152.1|CT-152|CT-152.3|CT-155|CT-154,0.77872,0.0004
+P067,principal,respondible,licencias,hibrido,v1,1.0,CT-152.1|CT-152|CT-92|CT-152.3|CT-95,0.03279,0.0026
+P067,principal,respondible,licencias,bm25,v2,1.0,CT-152.1|CT-128|CT-80|CT-117|CT-126,16.91096,0.0017
+P067,principal,respondible,licencias,vectorial,v2,1.0,CT-152.1|CT-152|CT-152.3|CT-155|CT-154,0.77872,0.0004
+P067,principal,respondible,licencias,hibrido,v2,1.0,CT-152.1|CT-152|CT-92|CT-152.3|CT-95,0.03279,0.0021
+P067,principal,respondible,licencias,rerank,v2,1.0,CT-152.1|CT-152|CT-152.3|CT-80|CT-155,0.99178,0.0023
+P068,principal,respondible,menores,bm25,no,,CT-35|CT-150|CT-154|CT-3|CT-44,6.50126,0.0006
+P068,principal,respondible,menores,vectorial,no,3.0,CT-35|CT-138|CT-134|CT-141|CT-147,0.63906,0.0006
+P068,principal,respondible,menores,hibrido,no,19.0,CT-35|CT-150|CT-137|CT-381|CT-34.1,0.03279,0.001
+P068,principal,respondible,menores,rerank,no,3.0,CT-35|CT-138|CT-134|CT-34.1|CT-137,0.66216,0.0011
+P068,principal,respondible,menores,bm25,v1,,CT-35|CT-150|CT-154|CT-3|CT-44,6.50126,0.0007
+P068,principal,respondible,menores,vectorial,v1,3.0,CT-35|CT-138|CT-134|CT-141|CT-147,0.63906,0.0004
+P068,principal,respondible,menores,hibrido,v1,19.0,CT-35|CT-150|CT-137|CT-381|CT-34.1,0.03279,0.0011
+P068,principal,respondible,menores,bm25,v2,,CT-35|CT-150|CT-154|CT-3|CT-44,6.50126,0.0006
+P068,principal,respondible,menores,vectorial,v2,3.0,CT-35|CT-138|CT-134|CT-141|CT-147,0.63906,0.0004
+P068,principal,respondible,menores,hibrido,v2,19.0,CT-35|CT-150|CT-137|CT-381|CT-34.1,0.03279,0.0014
+P068,principal,respondible,menores,rerank,v2,3.0,CT-35|CT-138|CT-134|CT-34.1|CT-137,0.66216,0.0015
+P069,principal,respondible,menores,bm25,no,7.0,CT-147|CT-135|CT-139|CT-268|CT-157,10.61179,0.001
+P069,principal,respondible,menores,vectorial,no,1.0,CT-136|CT-48|CT-135|CT-150|CT-147,0.73645,0.0004
+P069,principal,respondible,menores,hibrido,no,3.0,CT-135|CT-147|CT-136|CT-157|CT-150,0.032,0.0012
+P069,principal,respondible,menores,rerank,no,1.0,CT-136|CT-48|CT-135|CT-147|CT-139,0.94883,0.0013
+P069,principal,respondible,menores,bm25,v1,6.0,CT-147|CT-139|CT-134|CT-151|CT-150,20.97615,0.0012
+P069,principal,respondible,menores,vectorial,v1,1.0,CT-136|CT-48|CT-135|CT-138|CT-150,0.75778,0.0004
+P069,principal,respondible,menores,hibrido,v1,1.0,CT-136|CT-147|CT-134|CT-135|CT-150,0.03154,0.0019
+P069,principal,respondible,menores,bm25,v2,6.0,CT-147|CT-139|CT-134|CT-151|CT-150,20.97615,0.0014
+P069,principal,respondible,menores,vectorial,v2,1.0,CT-136|CT-48|CT-135|CT-138|CT-150,0.75778,0.0004
+P069,principal,respondible,menores,hibrido,v2,1.0,CT-136|CT-147|CT-134|CT-135|CT-150,0.03154,0.0018
+P069,principal,respondible,menores,rerank,v2,1.0,CT-136|CT-48|CT-135|CT-147|CT-134,0.94585,0.0024
+P070,principal,respondible,menores,bm25,no,2.0,CT-150|CT-137|CT-381|CT-154|CT-149,9.88607,0.0012
+P070,principal,respondible,menores,vectorial,no,1.0,CT-137|CT-134|CT-138|CT-136|CT-150,0.72439,0.0004
+P070,principal,respondible,menores,hibrido,no,1.0,CT-137|CT-150|CT-381|CT-138|CT-135,0.03252,0.0013
+P070,principal,respondible,menores,rerank,no,1.0,CT-137|CT-138|CT-150|CT-135|CT-134,0.98699,0.0012
+P070,principal,respondible,menores,bm25,v1,5.0,CT-150|CT-134|CT-151|CT-149|CT-137,20.61292,0.0011
+P070,principal,respondible,menores,vectorial,v1,1.0,CT-137|CT-138|CT-134|CT-136|CT-150,0.74884,0.0003
+P070,principal,respondible,menores,hibrido,v1,3.0,CT-134|CT-150|CT-137|CT-138|CT-151,0.032,0.0016
+P070,principal,respondible,menores,bm25,v2,5.0,CT-150|CT-134|CT-151|CT-149|CT-137,20.61292,0.0011
+P070,principal,respondible,menores,vectorial,v2,1.0,CT-137|CT-138|CT-134|CT-136|CT-150,0.74884,0.0004
+P070,principal,respondible,menores,hibrido,v2,3.0,CT-134|CT-150|CT-137|CT-138|CT-151,0.032,0.0019
+P070,principal,respondible,menores,rerank,v2,1.0,CT-137|CT-134|CT-138|CT-150|CT-151,0.95094,0.0017
+P071,principal,respondible,despido,bm25,no,8.0,CT-369|CT-403|CT-378|CT-157|CT-370,12.23844,0.0009
+P071,principal,respondible,despido,vectorial,no,2.0,CT-371|CT-188|CT-373|CT-402|CT-370,0.60002,0.0004
+P071,principal,respondible,despido,hibrido,no,1.0,CT-188|CT-370|CT-369|CT-371|CT-378,0.03083,0.002
+P071,principal,respondible,despido,rerank,no,2.0,CT-369|CT-188|CT-403|CT-371|CT-370,0.67364,0.002
+P071,principal,respondible,despido,bm25,v1,8.0,CT-369|CT-403|CT-378|CT-157|CT-370,12.23844,0.001
+P071,principal,respondible,despido,vectorial,v1,2.0,CT-371|CT-188|CT-373|CT-402|CT-370,0.60002,0.0004
+P071,principal,respondible,despido,hibrido,v1,1.0,CT-188|CT-370|CT-369|CT-371|CT-378,0.03083,0.0014
+P071,principal,respondible,despido,bm25,v2,8.0,CT-369|CT-403|CT-378|CT-157|CT-370,12.23844,0.001
+P071,principal,respondible,despido,vectorial,v2,2.0,CT-371|CT-188|CT-373|CT-402|CT-370,0.60002,0.0004
+P071,principal,respondible,despido,hibrido,v2,1.0,CT-188|CT-370|CT-369|CT-371|CT-378,0.03083,0.0014
+P071,principal,respondible,despido,rerank,v2,2.0,CT-369|CT-188|CT-403|CT-371|CT-370,0.67364,0.0015
+P072,principal,respondible,despido,bm25,no,5.0,CT-265|CT-534|CT-195.1|CT-195.3|CT-188,10.34341,0.0007
+P072,principal,respondible,despido,vectorial,no,1.0,CT-188|CT-373|CT-402|CT-195.3|CT-370,0.67102,0.0003
+P072,principal,respondible,despido,hibrido,no,1.0,CT-188|CT-195.3|CT-265|CT-534|CT-187,0.03178,0.001
+P072,principal,respondible,despido,rerank,no,1.0,CT-188|CT-190|CT-195.3|CT-265|CT-192,0.94299,0.0012
+P072,principal,respondible,despido,bm25,v1,5.0,CT-265|CT-534|CT-195.1|CT-195.3|CT-188,20.68683,0.001
+P072,principal,respondible,despido,vectorial,v1,1.0,CT-188|CT-373|CT-402|CT-370|CT-385,0.67658,0.0004
+P072,principal,respondible,despido,hibrido,v1,1.0,CT-188|CT-265|CT-534|CT-195.3|CT-455,0.03178,0.0019
+P072,principal,respondible,despido,bm25,v2,5.0,CT-265|CT-534|CT-195.1|CT-195.3|CT-188,20.68683,0.0013
+P072,principal,respondible,despido,vectorial,v2,1.0,CT-188|CT-373|CT-402|CT-370|CT-385,0.67658,0.0004
+P072,principal,respondible,despido,hibrido,v2,1.0,CT-188|CT-265|CT-534|CT-195.3|CT-455,0.03178,0.0013
+P072,principal,respondible,despido,rerank,v2,1.0,CT-188|CT-195.3|CT-190|CT-265|CT-192,0.96928,0.0014
+P073,principal,respondible,desahucio,bm25,no,1.0,CT-185|CT-191|CT-184|CT-193|CT-132,12.19067,0.0004
+P073,principal,respondible,desahucio,vectorial,no,1.0,CT-185|CT-113|CT-132|CT-191|CT-184,0.67621,0.0003
+P073,principal,respondible,desahucio,hibrido,no,1.0,CT-185|CT-191|CT-184|CT-132|CT-113,0.03279,0.0007
+P073,principal,respondible,desahucio,rerank,no,1.0,CT-185|CT-184|CT-16.1|CT-193|CT-190,0.99481,0.0009
+P073,principal,respondible,desahucio,bm25,v1,1.0,CT-185|CT-191|CT-184|CT-193|CT-132,12.19067,0.0005
+P073,principal,respondible,desahucio,vectorial,v1,1.0,CT-185|CT-113|CT-132|CT-191|CT-184,0.67621,0.0004
+P073,principal,respondible,desahucio,hibrido,v1,1.0,CT-185|CT-191|CT-184|CT-132|CT-113,0.03279,0.0009
+P073,principal,respondible,desahucio,bm25,v2,1.0,CT-185|CT-191|CT-184|CT-193|CT-132,12.19067,0.0005
+P073,principal,respondible,desahucio,vectorial,v2,1.0,CT-185|CT-113|CT-132|CT-191|CT-184,0.67621,0.0004
+P073,principal,respondible,desahucio,hibrido,v2,1.0,CT-185|CT-191|CT-184|CT-132|CT-113,0.03279,0.0008
+P073,principal,respondible,desahucio,rerank,v2,1.0,CT-185|CT-184|CT-16.1|CT-193|CT-190,0.99481,0.0009
+P074,principal,respondible,desahucio,bm25,no,,CT-535|CT-73|CT-470|CT-193|CT-65,7.3201,0.0008
+P074,principal,respondible,desahucio,vectorial,no,1.0,CT-184|CT-177|CT-621|CT-636|CT-634,0.58912,0.0003
+P074,principal,respondible,desahucio,hibrido,no,,CT-535|CT-193|CT-73|CT-177|CT-190,0.03048,0.0014
+P074,principal,respondible,desahucio,rerank,no,,CT-535|CT-470|CT-193|CT-73|CT-224,0.03147,0.0019
+P074,principal,respondible,desahucio,bm25,v1,2.0,CT-185|CT-184|CT-193|CT-624|CT-170,14.55525,0.0015
+P074,principal,respondible,desahucio,vectorial,v1,1.0,CT-184|CT-624|CT-190|CT-185|CT-193,0.69684,0.0004
+P074,principal,respondible,desahucio,hibrido,v1,1.0,CT-184|CT-185|CT-624|CT-193|CT-190,0.03252,0.0018
+P074,principal,respondible,desahucio,bm25,v2,2.0,CT-185|CT-184|CT-193|CT-624|CT-170,14.55525,0.0013
+P074,principal,respondible,desahucio,vectorial,v2,1.0,CT-184|CT-624|CT-190|CT-185|CT-193,0.69684,0.0005
+P074,principal,respondible,desahucio,hibrido,v2,1.0,CT-184|CT-185|CT-624|CT-193|CT-190,0.03252,0.0018
+P074,principal,respondible,desahucio,rerank,v2,1.0,CT-184|CT-193|CT-185|CT-224|CT-624,0.77735,0.0018
+P075,principal,respondible,desahucio,bm25,no,,CT-378,4.9086,0.0007
+P075,principal,respondible,desahucio,vectorial,no,2.0,CT-184|CT-190|CT-195.3|CT-516|CT-193,0.57986,0.0003
+P075,principal,respondible,desahucio,hibrido,no,3.0,CT-378|CT-184|CT-190|CT-195.3|CT-516,0.01639,0.001
+P075,principal,respondible,desahucio,rerank,no,3.0,CT-193|CT-184|CT-190|CT-195.3|CT-188,0.00321,0.0012
+P075,principal,respondible,desahucio,bm25,v1,7.0,CT-185|CT-184|CT-624|CT-170|CT-193,12.7364,0.0016
+P075,principal,respondible,desahucio,vectorial,v1,2.0,CT-184|CT-190|CT-624|CT-193|CT-185,0.69107,0.0005
+P075,principal,respondible,desahucio,hibrido,v1,4.0,CT-184|CT-185|CT-624|CT-190|CT-193,0.03252,0.0019
+P075,principal,respondible,desahucio,bm25,v2,7.0,CT-185|CT-184|CT-624|CT-170|CT-193,12.7364,0.0012
+P075,principal,respondible,desahucio,vectorial,v2,2.0,CT-184|CT-190|CT-624|CT-193|CT-185,0.69107,0.0003
+P075,principal,respondible,desahucio,hibrido,v2,4.0,CT-184|CT-185|CT-624|CT-190|CT-193,0.03252,0.0015
+P075,principal,respondible,desahucio,rerank,v2,5.0,CT-184|CT-624|CT-193|CT-185|CT-190,0.3261,0.0016
+P076,principal,respondible,visto bueno,bm25,no,6.0,CT-183|CT-310|CT-622|CT-589|CT-621,14.53284,0.0008
+P076,principal,respondible,visto bueno,vectorial,no,1.0,CT-172|CT-173|CT-622|CT-621|CT-183,0.7276,0.0002
+P076,principal,respondible,visto bueno,hibrido,no,3.0,CT-183|CT-622|CT-172|CT-310|CT-173,0.03178,0.0011
+P076,principal,respondible,visto bueno,rerank,no,1.0,CT-172|CT-173|CT-310|CT-622|CT-183,0.99268,0.0011
+P076,principal,respondible,visto bueno,bm25,v1,6.0,CT-183|CT-589|CT-622|CT-621|CT-310,31.1359,0.0012
+P076,principal,respondible,visto bueno,vectorial,v1,1.0,CT-172|CT-622|CT-183|CT-621|CT-173,0.73063,0.0003
+P076,principal,respondible,visto bueno,hibrido,v1,3.0,CT-183|CT-622|CT-172|CT-589|CT-621,0.03227,0.0017
+P076,principal,respondible,visto bueno,bm25,v2,6.0,CT-183|CT-589|CT-622|CT-621|CT-310,31.1359,0.0015
+P076,principal,respondible,visto bueno,vectorial,v2,1.0,CT-172|CT-622|CT-183|CT-621|CT-173,0.73063,0.0007
+P076,principal,respondible,visto bueno,hibrido,v2,3.0,CT-183|CT-622|CT-172|CT-589|CT-621,0.03227,0.002
+P076,principal,respondible,visto bueno,rerank,v2,1.0,CT-172|CT-173|CT-622|CT-183|CT-310,0.99105,0.0018
+P077,principal,respondible,visto bueno,bm25,no,1.0,CT-172|CT-589|CT-621|CT-54|CT-622,19.23276,0.0009
+P077,principal,respondible,visto bueno,vectorial,no,2.0,CT-621|CT-172|CT-54|CT-622|CT-152,0.61897,0.0002
+P077,principal,respondible,visto bueno,hibrido,no,1.0,CT-172|CT-621|CT-54|CT-622|CT-183,0.03252,0.0013
+P077,principal,respondible,visto bueno,rerank,no,1.0,CT-172|CT-54|CT-623|CT-621|CT-173,0.9802,0.0014
+P077,principal,respondible,visto bueno,bm25,v1,2.0,CT-589|CT-172|CT-621|CT-183|CT-622,31.35745,0.0013
+P077,principal,respondible,visto bueno,vectorial,v1,3.0,CT-621|CT-622|CT-172|CT-183|CT-54,0.68331,0.0003
+P077,principal,respondible,visto bueno,hibrido,v1,2.0,CT-621|CT-172|CT-589|CT-622|CT-183,0.03227,0.0016
+P077,principal,respondible,visto bueno,bm25,v2,2.0,CT-589|CT-172|CT-621|CT-183|CT-622,31.35745,0.0013
+P077,principal,respondible,visto bueno,vectorial,v2,3.0,CT-621|CT-622|CT-172|CT-183|CT-54,0.68331,0.0003
+P077,principal,respondible,visto bueno,hibrido,v2,2.0,CT-621|CT-172|CT-589|CT-622|CT-183,0.03227,0.0018
+P077,principal,respondible,visto bueno,rerank,v2,1.0,CT-172|CT-621|CT-54|CT-623|CT-183,0.97771,0.0027
+P078,principal,respondible,visto bueno,bm25,no,,CT-511|CT-180|CT-72|CT-13|CT-11,9.41793,0.0009
+P078,principal,respondible,visto bueno,vectorial,no,3.0,CT-174|CT-172|CT-173|CT-195|CT-169,0.68452,0.0003
+P078,principal,respondible,visto bueno,hibrido,no,14.0,CT-180|CT-60|CT-511|CT-83|CT-265,0.03128,0.0012
+P078,principal,respondible,visto bueno,rerank,no,3.0,CT-172|CT-174|CT-173|CT-180|CT-169,0.40083,0.0013
+P078,principal,respondible,visto bueno,bm25,v1,,CT-13|CT-80|CT-117|CT-126|CT-83,12.63352,0.0012
+P078,principal,respondible,visto bueno,vectorial,v1,3.0,CT-174|CT-172|CT-173|CT-60|CT-195,0.6697,0.0004
+P078,principal,respondible,visto bueno,hibrido,v1,14.0,CT-83|CT-96|CT-13|CT-90|CT-82,0.03031,0.0015
+P078,principal,respondible,visto bueno,bm25,v2,,CT-13|CT-80|CT-117|CT-126|CT-83,12.63352,0.0011
+P078,principal,respondible,visto bueno,vectorial,v2,3.0,CT-174|CT-172|CT-173|CT-60|CT-195,0.6697,0.0003
+P078,principal,respondible,visto bueno,hibrido,v2,14.0,CT-83|CT-96|CT-13|CT-90|CT-82,0.03031,0.0014
+P078,principal,respondible,visto bueno,rerank,v2,1.0,CT-173|CT-172|CT-174|CT-80|CT-13,0.61136,0.0016
+P079,principal,respondible,visto bueno,bm25,no,1.0,CT-183|CT-310|CT-589|CT-622|CT-621,14.53284,0.0007
+P079,principal,respondible,visto bueno,vectorial,no,1.0,CT-183|CT-621|CT-622|CT-589|CT-172,0.66955,0.0004
+P079,principal,respondible,visto bueno,hibrido,no,1.0,CT-183|CT-621|CT-589|CT-622|CT-310,0.03279,0.0013
+P079,principal,respondible,visto bueno,rerank,no,1.0,CT-183|CT-310|CT-172|CT-621|CT-173,0.99475,0.0016
+P079,principal,respondible,visto bueno,bm25,v1,1.0,CT-183|CT-589|CT-622|CT-621|CT-310,31.1359,0.0012
+P079,principal,respondible,visto bueno,vectorial,v1,1.0,CT-183|CT-621|CT-589|CT-622|CT-545,0.75151,0.0004
+P079,principal,respondible,visto bueno,hibrido,v1,1.0,CT-183|CT-589|CT-621|CT-622|CT-172,0.03279,0.0016
+P079,principal,respondible,visto bueno,bm25,v2,1.0,CT-183|CT-589|CT-622|CT-621|CT-310,31.1359,0.0011
+P079,principal,respondible,visto bueno,vectorial,v2,1.0,CT-183|CT-621|CT-589|CT-622|CT-545,0.75151,0.0003
+P079,principal,respondible,visto bueno,hibrido,v2,1.0,CT-183|CT-589|CT-621|CT-622|CT-172,0.03279,0.0015
+P079,principal,respondible,visto bueno,rerank,v2,1.0,CT-183|CT-172|CT-621|CT-589|CT-622,0.99834,0.0016
+P080,principal,respondible,visto bueno,bm25,no,1.0,CT-621|CT-622|CT-589|CT-183|CT-623,21.40738,0.001
+P080,principal,respondible,visto bueno,vectorial,no,1.0,CT-621|CT-589|CT-622|CT-183|CT-470,0.73296,0.0003
+P080,principal,respondible,visto bueno,hibrido,no,1.0,CT-621|CT-622|CT-589|CT-183|CT-470,0.03279,0.0012
+P080,principal,respondible,visto bueno,rerank,no,1.0,CT-621|CT-622|CT-589|CT-183|CT-172,0.99762,0.0014
+P080,principal,respondible,visto bueno,bm25,v1,1.0,CT-621|CT-622|CT-589|CT-183|CT-623,36.70693,0.0013
+P080,principal,respondible,visto bueno,vectorial,v1,1.0,CT-621|CT-622|CT-589|CT-183|CT-454,0.79455,0.0004
+P080,principal,respondible,visto bueno,hibrido,v1,1.0,CT-621|CT-622|CT-589|CT-183|CT-172,0.03279,0.0021
+P080,principal,respondible,visto bueno,bm25,v2,1.0,CT-621|CT-622|CT-589|CT-183|CT-623,36.70693,0.0015
+P080,principal,respondible,visto bueno,vectorial,v2,1.0,CT-621|CT-622|CT-589|CT-183|CT-454,0.79455,0.0004
+P080,principal,respondible,visto bueno,hibrido,v2,1.0,CT-621|CT-622|CT-589|CT-183|CT-172,0.03279,0.0018
+P080,principal,respondible,visto bueno,rerank,v2,1.0,CT-621|CT-622|CT-183|CT-589|CT-172,0.99782,0.0022
+P081,principal,respondible,despido,bm25,no,1.0,CT-175|CT-233|CT-163|CT-636|CT-513,10.37033,0.0007
+P081,principal,respondible,despido,vectorial,no,1.0,CT-175|CT-154|CT-177|CT-174|CT-173,0.67813,0.0003
+P081,principal,respondible,despido,hibrido,no,1.0,CT-175|CT-163|CT-233|CT-636|CT-174,0.03279,0.001
+P081,principal,respondible,despido,rerank,no,1.0,CT-175|CT-154|CT-174|CT-177|CT-233,0.85973,0.0012
+P081,principal,respondible,despido,bm25,v1,1.0,CT-175|CT-233|CT-163|CT-636|CT-513,10.37033,0.0007
+P081,principal,respondible,despido,vectorial,v1,1.0,CT-175|CT-154|CT-177|CT-174|CT-173,0.67813,0.0003
+P081,principal,respondible,despido,hibrido,v1,1.0,CT-175|CT-163|CT-233|CT-636|CT-174,0.03279,0.001
+P081,principal,respondible,despido,bm25,v2,1.0,CT-175|CT-233|CT-163|CT-636|CT-513,10.37033,0.0007
+P081,principal,respondible,despido,vectorial,v2,1.0,CT-175|CT-154|CT-177|CT-174|CT-173,0.67813,0.0003
+P081,principal,respondible,despido,hibrido,v2,1.0,CT-175|CT-163|CT-233|CT-636|CT-174,0.03279,0.0011
+P081,principal,respondible,despido,rerank,v2,1.0,CT-175|CT-154|CT-174|CT-177|CT-233,0.85973,0.0016
+P082,principal,respondible,despido,bm25,no,,CT-403|CT-420|CT-177|CT-514|CT-378,6.87084,0.0011
+P082,principal,respondible,despido,vectorial,no,1.0,CT-179|CT-176|CT-177|CT-154|CT-376,0.64946,0.0004
+P082,principal,respondible,despido,hibrido,no,6.0,CT-177|CT-376|CT-175|CT-178|CT-149,0.03175,0.0013
+P082,principal,respondible,despido,rerank,no,1.0,CT-179|CT-176|CT-177|CT-376|CT-175,0.7277,0.0019
+P082,principal,respondible,despido,bm25,v1,,CT-403|CT-420|CT-177|CT-514|CT-376,6.87084,0.0011
+P082,principal,respondible,despido,vectorial,v1,1.0,CT-179|CT-176|CT-177|CT-376|CT-175,0.68492,0.0003
+P082,principal,respondible,despido,hibrido,v1,5.0,CT-177|CT-376|CT-175|CT-178|CT-179,0.03175,0.0016
+P082,principal,respondible,despido,bm25,v2,,CT-403|CT-420|CT-177|CT-514|CT-376,6.87084,0.0011
+P082,principal,respondible,despido,vectorial,v2,1.0,CT-179|CT-176|CT-177|CT-376|CT-175,0.68492,0.0003
+P082,principal,respondible,despido,hibrido,v2,5.0,CT-177|CT-376|CT-175|CT-178|CT-179,0.03175,0.0014
+P082,principal,respondible,despido,rerank,v2,1.0,CT-179|CT-176|CT-177|CT-42|CT-376,0.8797,0.0017
+P083,principal,respondible,despido,bm25,no,1.0,CT-193|CT-466|CT-531|CT-171|CT-105.1,7.74403,0.0007
+P083,principal,respondible,despido,vectorial,no,1.0,CT-193|CT-171|CT-103.1|CT-100|CT-16.1,0.61692,0.0003
+P083,principal,respondible,despido,hibrido,no,1.0,CT-193|CT-171|CT-105.1|CT-198|CT-16.1,0.03279,0.0015
+P083,principal,respondible,despido,rerank,no,1.0,CT-193|CT-171|CT-466|CT-105.1|CT-198,0.17641,0.0017
+P083,principal,respondible,despido,bm25,v1,1.0,CT-193|CT-466|CT-531|CT-171|CT-13,8.37532,0.0009
+P083,principal,respondible,despido,vectorial,v1,1.0,CT-193|CT-171|CT-103.1|CT-100|CT-198,0.63682,0.0003
+P083,principal,respondible,despido,hibrido,v1,1.0,CT-193|CT-171|CT-105.1|CT-198|CT-16.1,0.03279,0.0012
+P083,principal,respondible,despido,bm25,v2,1.0,CT-193|CT-466|CT-531|CT-171|CT-13,8.37532,0.0008
+P083,principal,respondible,despido,vectorial,v2,1.0,CT-193|CT-171|CT-103.1|CT-100|CT-198,0.63682,0.0003
+P083,principal,respondible,despido,hibrido,v2,1.0,CT-193|CT-171|CT-105.1|CT-198|CT-16.1,0.03279,0.0012
+P083,principal,respondible,despido,rerank,v2,1.0,CT-193|CT-171|CT-466|CT-169|CT-105.1,0.37764,0.0014
+P084,principal,respondible,terminación,bm25,no,5.0,CT-180|CT-183|CT-250|CT-310|CT-169,10.61393,0.0007
+P084,principal,respondible,terminación,vectorial,no,1.0,CT-169|CT-173|CT-172|CT-310|CT-180,0.77305,0.0003
+P084,principal,respondible,terminación,hibrido,no,2.0,CT-180|CT-169|CT-310|CT-250|CT-183,0.03178,0.0012
+P084,principal,respondible,terminación,rerank,no,1.0,CT-169|CT-172|CT-310|CT-180|CT-250,0.9994,0.0011
+P084,principal,respondible,terminación,bm25,v1,5.0,CT-180|CT-183|CT-250|CT-310|CT-169,10.61393,0.0007
+P084,principal,respondible,terminación,vectorial,v1,1.0,CT-169|CT-173|CT-172|CT-310|CT-180,0.77305,0.0003
+P084,principal,respondible,terminación,hibrido,v1,2.0,CT-180|CT-169|CT-310|CT-250|CT-183,0.03178,0.001
+P084,principal,respondible,terminación,bm25,v2,5.0,CT-180|CT-183|CT-250|CT-310|CT-169,10.61393,0.0007
+P084,principal,respondible,terminación,vectorial,v2,1.0,CT-169|CT-173|CT-172|CT-310|CT-180,0.77305,0.0005
+P084,principal,respondible,terminación,hibrido,v2,2.0,CT-180|CT-169|CT-310|CT-250|CT-183,0.03178,0.0021
+P084,principal,respondible,terminación,rerank,v2,1.0,CT-169|CT-172|CT-310|CT-180|CT-250,0.9994,0.0016
+P085,principal,respondible,fondo de reserva,bm25,no,11.0,CT-211|CT-205|CT-203|CT-199|CT-200,10.40341,0.0004
+P085,principal,respondible,fondo de reserva,vectorial,no,4.0,CT-200|CT-201|CT-199|CT-196|CT-203,0.6117,0.0003
+P085,principal,respondible,fondo de reserva,hibrido,no,8.0,CT-200|CT-199|CT-203|CT-201|CT-211,0.03178,0.0007
+P085,principal,respondible,fondo de reserva,rerank,no,1.0,CT-196|CT-200|CT-201|CT-202|CT-212,0.94769,0.0007
+P085,principal,respondible,fondo de reserva,bm25,v1,11.0,CT-211|CT-205|CT-203|CT-199|CT-200,10.40341,0.0004
+P085,principal,respondible,fondo de reserva,vectorial,v1,4.0,CT-200|CT-201|CT-199|CT-196|CT-203,0.6117,0.0003
+P085,principal,respondible,fondo de reserva,hibrido,v1,8.0,CT-200|CT-199|CT-203|CT-201|CT-211,0.03178,0.0007
+P085,principal,respondible,fondo de reserva,bm25,v2,11.0,CT-211|CT-205|CT-203|CT-199|CT-200,10.40341,0.0003
+P085,principal,respondible,fondo de reserva,vectorial,v2,4.0,CT-200|CT-201|CT-199|CT-196|CT-203,0.6117,0.0003
+P085,principal,respondible,fondo de reserva,hibrido,v2,8.0,CT-200|CT-199|CT-203|CT-201|CT-211,0.03178,0.0008
+P085,principal,respondible,fondo de reserva,rerank,v2,1.0,CT-196|CT-200|CT-201|CT-202|CT-212,0.94769,0.0008
+P086,principal,respondible,jubilación,bm25,no,1.0,CT-216|CT-188|CT-133|CT-204|CT-198,10.41302,0.0006
+P086,principal,respondible,jubilación,vectorial,no,1.0,CT-216|CT-382|CT-217|CT-378|CT-34.3,0.65146,0.0003
+P086,principal,respondible,jubilación,hibrido,no,1.0,CT-216|CT-219|CT-217|CT-34.3|CT-204,0.03279,0.001
+P086,principal,respondible,jubilación,rerank,no,1.0,CT-216|CT-188|CT-34.3|CT-42.3|CT-637,0.89946,0.001
+P086,principal,respondible,jubilación,bm25,v1,1.0,CT-216|CT-188|CT-133|CT-204|CT-198,23.01329,0.0011
+P086,principal,respondible,jubilación,vectorial,v1,1.0,CT-216|CT-382|CT-42.3|CT-69|CT-34.3,0.6635,0.0004
+P086,principal,respondible,jubilación,hibrido,v1,1.0,CT-216|CT-42.3|CT-34.3|CT-217|CT-69,0.03279,0.0017
+P086,principal,respondible,jubilación,bm25,v2,1.0,CT-216|CT-188|CT-133|CT-204|CT-198,23.01329,0.0017
+P086,principal,respondible,jubilación,vectorial,v2,1.0,CT-216|CT-382|CT-42.3|CT-69|CT-34.3,0.6635,0.0004
+P086,principal,respondible,jubilación,hibrido,v2,1.0,CT-216|CT-42.3|CT-34.3|CT-217|CT-69,0.03279,0.0019
+P086,principal,respondible,jubilación,rerank,v2,1.0,CT-216|CT-188|CT-42.3|CT-144|CT-34.3,0.9589,0.0021
+P087,principal,respondible,jubilación,bm25,no,1.0,CT-216|CT-217|CT-219|CT-133|CT-382,14.00167,0.0006
+P087,principal,respondible,jubilación,vectorial,no,1.0,CT-216|CT-34.3|CT-382|CT-133|CRE-328,0.54213,0.0003
+P087,principal,respondible,jubilación,hibrido,no,1.0,CT-216|CT-382|CT-133|CT-217|CT-219,0.03279,0.001
+P087,principal,respondible,jubilación,rerank,no,1.0,CT-216|CT-133|CT-34.3|CT-113|CT-447,0.93778,0.0011
+P087,principal,respondible,jubilación,bm25,v1,1.0,CT-216|CT-217|CT-219|CT-133|CT-188,26.60194,0.0014
+P087,principal,respondible,jubilación,vectorial,v1,1.0,CT-216|CT-382|CT-34.3|CT-42.3|CT-42,0.60563,0.0003
+P087,principal,respondible,jubilación,hibrido,v1,1.0,CT-216|CT-217|CT-34.3|CT-133|CT-382,0.03279,0.0017
+P087,principal,respondible,jubilación,bm25,v2,1.0,CT-216|CT-217|CT-219|CT-133|CT-188,26.60194,0.0014
+P087,principal,respondible,jubilación,vectorial,v2,1.0,CT-216|CT-382|CT-34.3|CT-42.3|CT-42,0.60563,0.0004
+P087,principal,respondible,jubilación,hibrido,v2,1.0,CT-216|CT-217|CT-34.3|CT-133|CT-382,0.03279,0.0022
+P087,principal,respondible,jubilación,rerank,v2,1.0,CT-216|CT-133|CT-188|CT-42.3|CT-42,0.9898,0.0019
+P088,principal,respondible,jubilación,bm25,no,7.0,CT-216|CT-384|CT-379|CT-113|CT-267,8.49307,0.0008
+P088,principal,respondible,jubilación,vectorial,no,1.0,CT-217|CT-216|CT-382|CT-377|CT-379,0.59387,0.0003
+P088,principal,respondible,jubilación,hibrido,no,2.0,CT-216|CT-217|CT-379|CT-377|CT-267,0.03252,0.001
+P088,principal,respondible,jubilación,rerank,no,1.0,CT-217|CT-216|CT-379|CT-376|CT-377,0.83818,0.0011
+P088,principal,respondible,jubilación,bm25,v1,9.0,CT-216|CT-384|CT-113|CT-379|CT-267,9.1204,0.001
+P088,principal,respondible,jubilación,vectorial,v1,1.0,CT-217|CT-216|CT-382|CT-377|CT-379,0.62994,0.0003
+P088,principal,respondible,jubilación,hibrido,v1,3.0,CT-216|CT-379|CT-217|CT-267|CT-377,0.03252,0.0012
+P088,principal,respondible,jubilación,bm25,v2,1.0,CT-217|CT-216|CT-219|CT-88|CT-133,24.04539,0.0013
+P088,principal,respondible,jubilación,vectorial,v2,1.0,CT-217|CT-216|CT-382|CT-377|CT-379,0.66924,0.0007
+P088,principal,respondible,jubilación,hibrido,v2,1.0,CT-217|CT-216|CT-382|CT-219|CT-171,0.03279,0.0017
+P088,principal,respondible,jubilación,rerank,v2,1.0,CT-217|CT-216|CT-267|CT-379|CT-382,0.96475,0.0019
+P089,principal,respondible,riesgos,bm25,no,4.0,CT-365|CT-374|CT-359|CT-348|CT-369,7.06379,0.0006
+P089,principal,respondible,riesgos,vectorial,no,1.0,CT-348|CT-374|CT-365|CT-347|CT-359,0.74896,0.0005
+P089,principal,respondible,riesgos,hibrido,no,3.0,CT-365|CT-374|CT-348|CT-359|CT-149,0.03227,0.001
+P089,principal,respondible,riesgos,rerank,no,1.0,CT-348|CT-359|CT-354|CT-369|CT-149,0.99897,0.0012
+P089,principal,respondible,riesgos,bm25,v1,12.0,CT-374|CT-359|CT-365|CT-357|CT-368,18.79867,0.0009
+P089,principal,respondible,riesgos,vectorial,v1,1.0,CT-348|CT-347|CT-359|CT-374|CT-377,0.7633,0.0003
+P089,principal,respondible,riesgos,hibrido,v1,3.0,CT-374|CT-359|CT-348|CT-377|CT-365,0.03202,0.0013
+P089,principal,respondible,riesgos,bm25,v2,4.0,CT-365|CT-374|CT-359|CT-348|CT-369,14.12757,0.0006
+P089,principal,respondible,riesgos,vectorial,v2,1.0,CT-348|CT-347|CT-374|CT-365|CT-359,0.78543,0.0003
+P089,principal,respondible,riesgos,hibrido,v2,2.0,CT-365|CT-348|CT-374|CT-359|CT-149,0.03202,0.0009
+P089,principal,respondible,riesgos,rerank,v2,1.0,CT-348|CT-359|CT-354|CT-374|CT-369,0.99858,0.0011
+P090,principal,respondible,riesgos,bm25,no,2.0,CT-364|CT-349|CT-178|CT-175|CT-376,9.50986,0.0004
+P090,principal,respondible,riesgos,vectorial,no,1.0,CT-349|CT-363|CT-364|CT-376|CT-178,0.67977,0.0002
+P090,principal,respondible,riesgos,hibrido,no,1.0,CT-349|CT-364|CT-178|CT-376|CT-175,0.03252,0.0007
+P090,principal,respondible,riesgos,rerank,no,1.0,CT-349|CT-363|CT-364|CT-376|CT-178,0.99612,0.0008
+P090,principal,respondible,riesgos,bm25,v1,2.0,CT-364|CT-349|CT-376|CT-377|CT-178,21.49228,0.0007
+P090,principal,respondible,riesgos,vectorial,v1,1.0,CT-349|CT-364|CT-363|CT-347|CT-376,0.75304,0.0003
+P090,principal,respondible,riesgos,hibrido,v1,2.0,CT-364|CT-349|CT-376|CT-347|CT-178,0.03252,0.0011
+P090,principal,respondible,riesgos,bm25,v2,2.0,CT-364|CT-349|CT-376|CT-377|CT-178,21.49228,0.0008
+P090,principal,respondible,riesgos,vectorial,v2,1.0,CT-349|CT-364|CT-363|CT-347|CT-376,0.75304,0.0003
+P090,principal,respondible,riesgos,hibrido,v2,2.0,CT-364|CT-349|CT-376|CT-347|CT-178,0.03252,0.0011
+P090,principal,respondible,riesgos,rerank,v2,1.0,CT-349|CT-364|CT-363|CT-376|CT-347,0.99242,0.0018
+P091,principal,respondible,colectivo,bm25,no,2.0,CT-452|CT-220|CT-442|CT-444|CT-440,13.86893,0.0011
+P091,principal,respondible,colectivo,vectorial,no,2.0,CT-247|CT-220|CT-244|CT-221|CT-32,0.64254,0.0003
+P091,principal,respondible,colectivo,hibrido,no,1.0,CT-220|CT-441|CT-440|CT-447|CT-452,0.03226,0.0013
+P091,principal,respondible,colectivo,rerank,no,1.0,CT-220|CT-247|CT-221|CT-244|CT-252,0.99936,0.0014
+P091,principal,respondible,colectivo,bm25,v1,10.0,CT-452|CT-440|CT-447|CT-442|CT-444,24.69934,0.0013
+P091,principal,respondible,colectivo,vectorial,v1,2.0,CT-247|CT-220|CT-441|CT-244|CT-221,0.68124,0.0005
+P091,principal,respondible,colectivo,hibrido,v1,2.0,CT-440|CT-220|CT-447|CT-441|CT-442,0.03083,0.0017
+P091,principal,respondible,colectivo,bm25,v2,10.0,CT-452|CT-442|CT-440|CT-444|CT-445,22.07373,0.0012
+P091,principal,respondible,colectivo,vectorial,v2,2.0,CT-247|CT-220|CT-441|CT-244|CT-221,0.6868,0.0003
+P091,principal,respondible,colectivo,hibrido,v2,2.0,CT-440|CT-220|CT-441|CT-447|CT-245,0.03058,0.0017
+P091,principal,respondible,colectivo,rerank,v2,1.0,CT-220|CT-247|CT-221|CT-452|CT-244,0.9993,0.0019
+P092,principal,respondible,sindicatos,bm25,no,1.0,CT-440|CT-442|CT-444|CT-460|CT-290,8.99772,0.0007
+P092,principal,respondible,sindicatos,vectorial,no,1.0,CT-440|CT-443|CT-448|CT-442|CT-452,0.69305,0.0004
+P092,principal,respondible,sindicatos,hibrido,no,1.0,CT-440|CT-442|CT-444|CT-443|CT-445,0.03279,0.0016
+P092,principal,respondible,sindicatos,rerank,no,1.0,CT-440|CRE-326|CT-443|CT-452|CT-442,0.9903,0.0014
+P092,principal,respondible,sindicatos,bm25,v1,1.0,CT-440|CT-447|CT-442|CT-444|CT-445,22.71616,0.0012
+P092,principal,respondible,sindicatos,vectorial,v1,1.0,CT-440|CT-443|CT-448|CT-442|CT-444,0.70913,0.0004
+P092,principal,respondible,sindicatos,hibrido,v1,1.0,CT-440|CT-442|CT-443|CT-444|CT-447,0.03279,0.0015
+P092,principal,respondible,sindicatos,bm25,v2,1.0,CT-440|CT-442|CT-444|CT-445|CT-447,20.22935,0.0009
+P092,principal,respondible,sindicatos,vectorial,v2,1.0,CT-440|CT-443|CT-448|CT-442|CT-444,0.73862,0.0003
+P092,principal,respondible,sindicatos,hibrido,v2,1.0,CT-440|CT-442|CT-443|CT-444|CT-447,0.03279,0.0014
+P092,principal,respondible,sindicatos,rerank,v2,1.0,CT-440|CT-443|CT-452|CT-442|CT-444,0.99691,0.0015
+P093,principal,respondible,sindicatos,bm25,no,2.0,CT-460|CT-459|CT-512|CT-462|CT-459#2,17.63992,0.0009
+P093,principal,respondible,sindicatos,vectorial,no,1.0,CT-459|CT-459#2|CT-452|CT-460|CT-461,0.72116,0.0003
+P093,principal,respondible,sindicatos,hibrido,no,1.0,CT-459|CT-460|CT-459#2|CT-462|CT-461,0.03252,0.0014
+P093,principal,respondible,sindicatos,rerank,no,1.0,CT-459#2|CT-459|CT-452|CT-460|CT-240,0.99477,0.0017
+P093,principal,respondible,sindicatos,bm25,v1,2.0,CT-460|CT-459|CT-512|CT-462|CT-459#2,17.63992,0.0012
+P093,principal,respondible,sindicatos,vectorial,v1,1.0,CT-459|CT-459#2|CT-452|CT-460|CT-461,0.72116,0.0007
+P093,principal,respondible,sindicatos,hibrido,v1,1.0,CT-459|CT-460|CT-459#2|CT-462|CT-461,0.03252,0.0016
+P093,principal,respondible,sindicatos,bm25,v2,2.0,CT-460|CT-459|CT-512|CT-462|CT-459#2,17.63992,0.0009
+P093,principal,respondible,sindicatos,vectorial,v2,1.0,CT-459|CT-459#2|CT-452|CT-460|CT-461,0.72116,0.0003
+P093,principal,respondible,sindicatos,hibrido,v2,1.0,CT-459|CT-460|CT-459#2|CT-462|CT-461,0.03252,0.0012
+P093,principal,respondible,sindicatos,rerank,v2,1.0,CT-459#2|CT-459|CT-452|CT-460|CT-240,0.99477,0.0013
+P094,principal,respondible,huelga,bm25,no,1.0,CT-467|CT-507|CT-508|CT-505|CT-503,7.84558,0.0006
+P094,principal,respondible,huelga,vectorial,no,1.0,CT-467|CT-497|CT-498|CT-511|CT-235,0.76282,0.0003
+P094,principal,respondible,huelga,hibrido,no,1.0,CT-467|CT-511|CT-503|CT-235|CT-498,0.03279,0.0009
+P094,principal,respondible,huelga,rerank,no,1.0,CT-467|CT-511|CT-505|CT-497|CT-513,0.99647,0.001
+P094,principal,respondible,huelga,bm25,v1,1.0,CT-467|CT-505|CT-507|CT-508|CT-498,11.84986,0.0007
+P094,principal,respondible,huelga,vectorial,v1,1.0,CT-467|CT-498|CT-497|CT-511|CT-513,0.80122,0.0003
+P094,principal,respondible,huelga,hibrido,v1,1.0,CT-467|CT-498|CT-505|CT-513|CT-511,0.03279,0.0009
+P094,principal,respondible,huelga,bm25,v2,1.0,CT-467|CT-505|CT-507|CT-508|CT-498,11.84986,0.0007
+P094,principal,respondible,huelga,vectorial,v2,1.0,CT-467|CT-498|CT-497|CT-511|CT-513,0.80122,0.0003
+P094,principal,respondible,huelga,hibrido,v2,1.0,CT-467|CT-498|CT-505|CT-513|CT-511,0.03279,0.001
+P094,principal,respondible,huelga,rerank,v2,1.0,CT-467|CT-511|CT-505|CT-497|CT-513,0.99673,0.0011
+P095,principal,respondible,prescripción,bm25,no,14.0,CT-74|CT-369|CT-176|CRE-43|CT-384,9.68934,0.0009
+P095,principal,respondible,prescripción,vectorial,no,,CT-176|CT-152|CT-60|CT-152.1|CT-54,0.67249,0.0004
+P095,principal,respondible,prescripción,hibrido,no,,CT-176|CT-60|CT-43|CT-74|CT-76,0.03227,0.0018
+P095,principal,respondible,prescripción,rerank,no,,CT-176|CT-74|CT-369|CT-504|CT-57,0.19069,0.0017
+P095,principal,respondible,prescripción,bm25,v1,1.0,CT-635|CT-403|CT-637|CT-74|CT-636,16.59983,0.0012
+P095,principal,respondible,prescripción,vectorial,v1,1.0,CT-635|CT-403|CT-176|CT-636|CT-195.2,0.66637,0.0004
+P095,principal,respondible,prescripción,hibrido,v1,1.0,CT-635|CT-403|CT-636|CT-176|CT-637,0.03279,0.0016
+P095,principal,respondible,prescripción,bm25,v2,1.0,CT-635|CT-403|CT-637|CT-74|CT-636,16.59983,0.0012
+P095,principal,respondible,prescripción,vectorial,v2,1.0,CT-635|CT-403|CT-176|CT-636|CT-195.2,0.66637,0.0006
+P095,principal,respondible,prescripción,hibrido,v2,1.0,CT-635|CT-403|CT-636|CT-176|CT-637,0.03279,0.0016
+P095,principal,respondible,prescripción,rerank,v2,1.0,CT-635|CT-403|CT-636|CT-637|CT-176,0.7053,0.0017
+P096,principal,respondible,trabajo del hogar,bm25,no,1.0,CT-262|CT-262.1|CT-265|CT-266|CRE-333,14.57128,0.0007
+P096,principal,respondible,trabajo del hogar,vectorial,no,3.0,CT-143|CT-368|CT-262|CT-262.1|CT-103.1,0.52136,0.0006
+P096,principal,respondible,trabajo del hogar,hibrido,no,1.0,CT-262|CT-262.1|CT-368|CT-266|CT-143,0.03227,0.0011
+P096,principal,respondible,trabajo del hogar,rerank,no,1.0,CT-262|CT-368|CT-266|CT-367|CT-143,0.98734,0.0017
+P096,principal,respondible,trabajo del hogar,bm25,v1,1.0,CT-262|CT-268|CRE-333|CT-270|CT-551,24.68924,0.0019
+P096,principal,respondible,trabajo del hogar,vectorial,v1,2.0,CT-272|CT-262|CT-143|CT-368|CT-262.1,0.53852,0.0005
+P096,principal,respondible,trabajo del hogar,hibrido,v1,1.0,CT-262|CT-272|CT-268|CT-262.1|CT-270,0.03252,0.0017
+P096,principal,respondible,trabajo del hogar,bm25,v2,1.0,CT-262|CT-268|CRE-333|CT-270|CT-551,24.68924,0.0012
+P096,principal,respondible,trabajo del hogar,vectorial,v2,2.0,CT-272|CT-262|CT-143|CT-368|CT-262.1,0.53852,0.0003
+P096,principal,respondible,trabajo del hogar,hibrido,v2,1.0,CT-262|CT-272|CT-268|CT-262.1|CT-270,0.03252,0.0016
+P096,principal,respondible,trabajo del hogar,rerank,v2,1.0,CT-262|CT-368|CT-272|CRE-333|CT-268.inn1,0.98291,0.0018
+P097,principal,respondible,constitución,bm25,no,2.0,CT-2|CRE-33|CRE-325|CRE-34|CRE-332,8.38569,0.0007
+P097,principal,respondible,constitución,vectorial,no,2.0,CRE-326|CRE-33|CRE-325|CRE-332|CRE-331,0.73247,0.0003
+P097,principal,respondible,constitución,hibrido,no,1.0,CRE-33|CRE-325|CT-2|CRE-332|CRE-326,0.03226,0.0011
+P097,principal,respondible,constitución,rerank,no,2.0,CRE-326|CRE-33|CRE-325|CRE-329|CT-2,0.98957,0.0012
+P097,principal,respondible,constitución,bm25,v1,2.0,CT-2|CRE-33|CRE-325|CRE-34|CRE-332,8.38569,0.0007
+P097,principal,respondible,constitución,vectorial,v1,2.0,CRE-326|CRE-33|CRE-325|CRE-332|CRE-331,0.73247,0.0003
+P097,principal,respondible,constitución,hibrido,v1,1.0,CRE-33|CRE-325|CT-2|CRE-332|CRE-326,0.03226,0.0011
+P097,principal,respondible,constitución,bm25,v2,2.0,CT-2|CRE-33|CRE-325|CRE-34|CRE-332,8.38569,0.001
+P097,principal,respondible,constitución,vectorial,v2,2.0,CRE-326|CRE-33|CRE-325|CRE-332|CRE-331,0.73247,0.0007
+P097,principal,respondible,constitución,hibrido,v2,1.0,CRE-33|CRE-325|CT-2|CRE-332|CRE-326,0.03226,0.0014
+P097,principal,respondible,constitución,rerank,v2,2.0,CRE-326|CRE-33|CRE-325|CRE-329|CT-2,0.98957,0.0013
+P098,principal,respondible,constitución,bm25,no,1.0,CRE-331|CT-46.1|CT-545|CRE-332|CT-139,14.08254,0.0008
+P098,principal,respondible,constitución,vectorial,no,2.0,CT-46.1|CRE-331|CRE-332|CRE-327|CRE-33,0.66097,0.0003
+P098,principal,respondible,constitución,hibrido,no,1.0,CRE-331|CT-46.1|CRE-332|CRE-333|CT-545,0.03252,0.0011
+P098,principal,respondible,constitución,rerank,no,1.0,CRE-331|CT-46.1|CRE-332|CRE-329|CT-545,0.9899,0.0012
+P098,principal,respondible,constitución,bm25,v1,1.0,CRE-331|CT-46.1|CT-545|CRE-332|CT-139,14.08254,0.0009
+P098,principal,respondible,constitución,vectorial,v1,2.0,CT-46.1|CRE-331|CRE-332|CRE-327|CRE-33,0.66097,0.0003
+P098,principal,respondible,constitución,hibrido,v1,1.0,CRE-331|CT-46.1|CRE-332|CRE-333|CT-545,0.03252,0.0012
+P098,principal,respondible,constitución,bm25,v2,1.0,CRE-331|CT-46.1|CT-545|CRE-332|CT-139,14.08254,0.0009
+P098,principal,respondible,constitución,vectorial,v2,2.0,CT-46.1|CRE-331|CRE-332|CRE-327|CRE-33,0.66097,0.0003
+P098,principal,respondible,constitución,hibrido,v2,1.0,CRE-331|CT-46.1|CRE-332|CRE-333|CT-545,0.03252,0.0012
+P098,principal,respondible,constitución,rerank,v2,1.0,CRE-331|CT-46.1|CRE-332|CRE-329|CT-545,0.9899,0.0012
+P099,principal,respondible,constitución,bm25,no,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,20.1048,0.0008
+P099,principal,respondible,constitución,vectorial,no,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-353,0.7201,0.0003
+P099,principal,respondible,constitución,hibrido,no,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,0.03279,0.0012
+P099,principal,respondible,constitución,rerank,no,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CRE-34,0.99978,0.0019
+P099,principal,respondible,constitución,bm25,v1,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,20.1048,0.001
+P099,principal,respondible,constitución,vectorial,v1,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-353,0.7201,0.0004
+P099,principal,respondible,constitución,hibrido,v1,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,0.03279,0.0012
+P099,principal,respondible,constitución,bm25,v2,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,20.1048,0.0008
+P099,principal,respondible,constitución,vectorial,v2,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-353,0.7201,0.0004
+P099,principal,respondible,constitución,hibrido,v2,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CT-356,0.03279,0.0012
+P099,principal,respondible,constitución,rerank,v2,1.0,CRE-369|CRE-367|CRE-370|CRE-371|CRE-34,0.99978,0.0015
+P100,principal,respondible,remuneración,bm25,no,1.0,CT-79|CT-82|CT-80|CT-632|CT-49,12.89212,0.0008
+P100,principal,respondible,remuneración,vectorial,no,1.0,CT-79|CT-281|CT-394|CT-117|CRE-328,0.70999,0.0003
+P100,principal,respondible,remuneración,hibrido,no,1.0,CT-79|CT-82|CT-80|CT-394|CT-39,0.03279,0.0012
+P100,principal,respondible,remuneración,rerank,no,1.0,CT-79|CRE-326|CT-80|CT-394|CT-82,0.99894,0.0011
+P100,principal,respondible,remuneración,bm25,v1,1.0,CT-79|CT-82|CT-80|CT-632|CT-49,12.89212,0.0007
+P100,principal,respondible,remuneración,vectorial,v1,1.0,CT-79|CT-281|CT-394|CT-117|CRE-328,0.70999,0.0003
+P100,principal,respondible,remuneración,hibrido,v1,1.0,CT-79|CT-82|CT-80|CT-394|CT-39,0.03279,0.0011
+P100,principal,respondible,remuneración,bm25,v2,1.0,CT-79|CT-82|CT-80|CT-632|CT-49,12.89212,0.0008
+P100,principal,respondible,remuneración,vectorial,v2,1.0,CT-79|CT-281|CT-394|CT-117|CRE-328,0.70999,0.0004
+P100,principal,respondible,remuneración,hibrido,v2,1.0,CT-79|CT-82|CT-80|CT-394|CT-39,0.03279,0.0016
+P100,principal,respondible,remuneración,rerank,v2,1.0,CT-79|CRE-326|CT-80|CT-394|CT-82,0.99894,0.0016
+T001,principal,trampa_cercana,seguridad social,bm25,no,,CRE-369|CT-403|CRE-371|CT-368|CT-102,9.29273,0.0009
+T001,principal,trampa_cercana,seguridad social,vectorial,no,,CT-216|CT-34.3|CT-382|CT-217|CRE-371,0.55283,0.0003
+T001,principal,trampa_cercana,seguridad social,hibrido,no,,CRE-371|CT-368|CT-403|CT-367|CRE-369,0.03126,0.0012
+T001,principal,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-216|CRE-369|CT-403|CT-112,0.03845,0.0015
+T001,principal,trampa_cercana,seguridad social,bm25,v1,,CRE-369|CT-403|CRE-371|CT-368|CT-102,9.29273,0.001
+T001,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-216|CT-34.3|CT-382|CT-217|CRE-371,0.55283,0.0004
+T001,principal,trampa_cercana,seguridad social,hibrido,v1,,CRE-371|CT-368|CT-403|CT-367|CRE-369,0.03126,0.0014
+T001,principal,trampa_cercana,seguridad social,bm25,v2,,CRE-369|CT-403|CRE-371|CT-368|CT-102,9.29273,0.0009
+T001,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-216|CT-34.3|CT-382|CT-217|CRE-371,0.55283,0.0004
+T001,principal,trampa_cercana,seguridad social,hibrido,v2,,CRE-371|CT-368|CT-403|CT-367|CRE-369,0.03126,0.0014
+T001,principal,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-216|CRE-369|CT-403|CT-112,0.03845,0.0013
+T002,principal,trampa_cercana,seguridad social,bm25,no,,CT-34.3|CT-95|CT-318|CT-103.1|CT-98,11.72606,0.0009
+T002,principal,trampa_cercana,seguridad social,vectorial,no,,CT-34.3|CT-368|CT-97|CT-367|CT-131,0.6523,0.0004
+T002,principal,trampa_cercana,seguridad social,hibrido,no,,CT-34.3|CT-368|CT-95|CT-103.1|CT-213,0.03279,0.0018
+T002,principal,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-95|CT-113|CRE-371|CT-97,0.68047,0.0016
+T002,principal,trampa_cercana,seguridad social,bm25,v1,,CT-95|CT-34.3|CT-81|CT-80|CT-117,16.90127,0.0012
+T002,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-34.3|CT-368|CT-97|CT-112|CT-131,0.65498,0.0003
+T002,principal,trampa_cercana,seguridad social,hibrido,v1,,CT-34.3|CT-95|CT-81|CT-117|CT-90,0.03252,0.0018
+T002,principal,trampa_cercana,seguridad social,bm25,v2,,CT-95|CT-34.3|CT-81|CT-80|CT-117,16.90127,0.0012
+T002,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-34.3|CT-368|CT-97|CT-112|CT-131,0.65498,0.0006
+T002,principal,trampa_cercana,seguridad social,hibrido,v2,,CT-34.3|CT-95|CT-81|CT-117|CT-90,0.03252,0.0016
+T002,principal,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-95|CT-113|CT-81|CT-80,0.82679,0.0019
+T003,principal,trampa_lejana,tributos,bm25,no,,CT-1|CT-518|CT-103.1|CT-117|CT-514,5.75796,0.0004
+T003,principal,trampa_lejana,tributos,vectorial,no,,CT-117|CT-103.1|CT-395|CT-318|CT-367,0.47204,0.0003
+T003,principal,trampa_lejana,tributos,hibrido,no,,CT-117|CT-103.1|CT-1|CT-514|CT-518,0.03202,0.0008
+T003,principal,trampa_lejana,tributos,rerank,no,,CT-103.1|CT-112|CT-117|CT-102|CT-202,0.0018,0.0008
+T003,principal,trampa_lejana,tributos,bm25,v1,,CT-1|CT-518|CT-103.1|CT-117|CT-514,5.75796,0.0004
+T003,principal,trampa_lejana,tributos,vectorial,v1,,CT-117|CT-103.1|CT-395|CT-318|CT-367,0.47204,0.0003
+T003,principal,trampa_lejana,tributos,hibrido,v1,,CT-117|CT-103.1|CT-1|CT-514|CT-518,0.03202,0.0009
+T003,principal,trampa_lejana,tributos,bm25,v2,,CT-1|CT-518|CT-103.1|CT-117|CT-514,5.75796,0.0006
+T003,principal,trampa_lejana,tributos,vectorial,v2,,CT-117|CT-103.1|CT-395|CT-318|CT-367,0.47204,0.0005
+T003,principal,trampa_lejana,tributos,hibrido,v2,,CT-117|CT-103.1|CT-1|CT-514|CT-518,0.03202,0.0008
+T003,principal,trampa_lejana,tributos,rerank,v2,,CT-103.1|CT-112|CT-117|CT-102|CT-202,0.0018,0.0011
+T004,principal,trampa_lejana,trámites,bm25,no,,CT-193|CT-417|CT-13|CT-33|CT-171,6.27189,0.0005
+T004,principal,trampa_lejana,trámites,vectorial,no,,CT-104|CT-105.1|CT-97|CT-193|CT-106,0.46709,0.0003
+T004,principal,trampa_lejana,trámites,hibrido,no,,CT-193|CT-104|CT-417|CT-105.1|CT-13,0.03202,0.0009
+T004,principal,trampa_lejana,trámites,rerank,no,,CT-474|CT-198|CT-103|CT-193|CT-15,0.00112,0.001
+T004,principal,trampa_lejana,trámites,bm25,v1,,CT-193|CT-417|CT-13|CT-33|CT-171,6.27189,0.0005
+T004,principal,trampa_lejana,trámites,vectorial,v1,,CT-104|CT-105.1|CT-97|CT-193|CT-106,0.46709,0.0003
+T004,principal,trampa_lejana,trámites,hibrido,v1,,CT-193|CT-104|CT-417|CT-105.1|CT-13,0.03202,0.0008
+T004,principal,trampa_lejana,trámites,bm25,v2,,CT-193|CT-417|CT-13|CT-33|CT-171,6.27189,0.0005
+T004,principal,trampa_lejana,trámites,vectorial,v2,,CT-104|CT-105.1|CT-97|CT-193|CT-106,0.46709,0.0003
+T004,principal,trampa_lejana,trámites,hibrido,v2,,CT-193|CT-104|CT-417|CT-105.1|CT-13,0.03202,0.0008
+T004,principal,trampa_lejana,trámites,rerank,v2,,CT-474|CT-198|CT-103|CT-193|CT-15,0.00112,0.0009
+T005,principal,trampa_cercana,sector público,bm25,no,,CT-351|CT-118|CT-69|CT-224|CT-70,11.46989,0.0008
+T005,principal,trampa_cercana,sector público,vectorial,no,,CT-69|CT-65|CT-71|CT-50|CT-53,0.53663,0.0003
+T005,principal,trampa_cercana,sector público,hibrido,no,,CT-69|CT-75|CT-71|CT-351|CT-74,0.03227,0.0011
+T005,principal,trampa_cercana,sector público,rerank,no,,CT-69|CT-224|CT-65|CT-268.inn1|CT-50,0.05621,0.0012
+T005,principal,trampa_cercana,sector público,bm25,v1,,CT-69|CT-72|CT-224|CT-75|CT-338,22.52625,0.0011
+T005,principal,trampa_cercana,sector público,vectorial,v1,,CT-69|CT-65|CT-53|CT-72|CT-50,0.59194,0.0004
+T005,principal,trampa_cercana,sector público,hibrido,v1,,CT-69|CT-72|CT-75|CT-74|CT-65,0.03279,0.0021
+T005,principal,trampa_cercana,sector público,bm25,v2,,CT-69|CT-72|CT-224|CT-75|CT-338,22.52625,0.0012
+T005,principal,trampa_cercana,sector público,vectorial,v2,,CT-69|CT-65|CT-53|CT-72|CT-50,0.59194,0.0004
+T005,principal,trampa_cercana,sector público,hibrido,v2,,CT-69|CT-72|CT-75|CT-74|CT-65,0.03279,0.0015
+T005,principal,trampa_cercana,sector público,rerank,v2,,CT-69|CT-65|CT-224|CT-268.inn1|CT-72,0.665,0.002
+T006,principal,trampa_cercana,seguridad social,bm25,no,,CRE-369|CT-432|CT-80|CT-178|CT-395,8.42782,0.0007
+T006,principal,trampa_cercana,seguridad social,vectorial,no,,CT-34.3|CT-368|CT-367|CT-208|CT-143,0.60017,0.0002
+T006,principal,trampa_cercana,seguridad social,hibrido,no,,CT-432|CT-368|CT-208|CT-395|CT-143,0.03128,0.0009
+T006,principal,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-113|CRE-369|CT-395|CT-368,0.28879,0.001
+T006,principal,trampa_cercana,seguridad social,bm25,v1,,CRE-369|CT-432|CT-80|CT-178|CT-395,8.42782,0.0006
+T006,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-34.3|CT-368|CT-367|CT-208|CT-143,0.60017,0.0008
+T006,principal,trampa_cercana,seguridad social,hibrido,v1,,CT-432|CT-368|CT-208|CT-395|CT-143,0.03128,0.001
+T006,principal,trampa_cercana,seguridad social,bm25,v2,,CRE-369|CT-432|CT-80|CT-178|CT-395,8.42782,0.0007
+T006,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-34.3|CT-368|CT-367|CT-208|CT-143,0.60017,0.0003
+T006,principal,trampa_cercana,seguridad social,hibrido,v2,,CT-432|CT-368|CT-208|CT-395|CT-143,0.03128,0.001
+T006,principal,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-113|CRE-369|CT-395|CT-368,0.28879,0.0014
+T007,principal,trampa_lejana,tributos,bm25,no,,CT-104|CT-108|CT-112|CT-262|CT-100,12.74814,0.0012
+T007,principal,trampa_lejana,tributos,vectorial,no,,CT-104|CT-131|CT-34.3|CT-207|CT-108,0.54846,0.0004
+T007,principal,trampa_lejana,tributos,hibrido,no,,CT-104|CT-108|CT-112|CT-34.3|CT-100,0.03279,0.0013
+T007,principal,trampa_lejana,tributos,rerank,no,,CT-104|CT-108|CT-103.1|CT-100|CT-133.1,0.01491,0.0013
+T007,principal,trampa_lejana,tributos,bm25,v1,,CT-104|CT-108|CT-112|CT-262|CT-100,12.74814,0.0008
+T007,principal,trampa_lejana,tributos,vectorial,v1,,CT-104|CT-131|CT-34.3|CT-207|CT-108,0.54846,0.0003
+T007,principal,trampa_lejana,tributos,hibrido,v1,,CT-104|CT-108|CT-112|CT-34.3|CT-100,0.03279,0.0011
+T007,principal,trampa_lejana,tributos,bm25,v2,,CT-104|CT-108|CT-112|CT-262|CT-100,12.74814,0.0007
+T007,principal,trampa_lejana,tributos,vectorial,v2,,CT-104|CT-131|CT-34.3|CT-207|CT-108,0.54846,0.0003
+T007,principal,trampa_lejana,tributos,hibrido,v2,,CT-104|CT-108|CT-112|CT-34.3|CT-100,0.03279,0.0011
+T007,principal,trampa_lejana,tributos,rerank,v2,,CT-104|CT-108|CT-103.1|CT-100|CT-133.1,0.01491,0.0011
+T008,principal,trampa_lejana,migración,bm25,no,,CT-154|CT-150|CT-3|CT-318|CT-303,9.16975,0.0006
+T008,principal,trampa_lejana,migración,vectorial,no,,CT-318|CT-420|CT-43|CT-408|CT-20,0.56004,0.0002
+T008,principal,trampa_lejana,migración,hibrido,no,,CT-318|CT-143|CT-420|CT-154|CT-214,0.03202,0.0009
+T008,principal,trampa_lejana,migración,rerank,no,,CRE-329|CT-152|CT-318|CT-43|CT-20,0.01452,0.001
+T008,principal,trampa_lejana,migración,bm25,v1,,CT-154|CT-150|CT-3|CT-318|CT-303,9.16975,0.0007
+T008,principal,trampa_lejana,migración,vectorial,v1,,CT-318|CT-420|CT-43|CT-408|CT-20,0.56004,0.0003
+T008,principal,trampa_lejana,migración,hibrido,v1,,CT-318|CT-143|CT-420|CT-154|CT-214,0.03202,0.001
+T008,principal,trampa_lejana,migración,bm25,v2,,CT-154|CT-150|CT-3|CT-318|CT-303,9.16975,0.0008
+T008,principal,trampa_lejana,migración,vectorial,v2,,CT-318|CT-420|CT-43|CT-408|CT-20,0.56004,0.0008
+T008,principal,trampa_lejana,migración,hibrido,v2,,CT-318|CT-143|CT-420|CT-154|CT-214,0.03202,0.0014
+T008,principal,trampa_lejana,migración,rerank,v2,,CRE-329|CT-152|CT-318|CT-43|CT-20,0.01452,0.0013
+T009,principal,trampa_lejana,tránsito,bm25,no,,CT-329|CT-559|CT-633|CT-278|CT-629,5.56399,0.0008
+T009,principal,trampa_lejana,tránsito,vectorial,no,,CT-628|CT-588|CT-397|CT-55|CT-632,0.53368,0.0003
+T009,principal,trampa_lejana,tránsito,hibrido,no,,CT-628|CT-278|CT-632|CT-107|CT-156,0.03132,0.001
+T009,principal,trampa_lejana,tránsito,rerank,no,,CT-397|CT-42.4|CT-628|CT-632|CT-44,0.004,0.0012
+T009,principal,trampa_lejana,tránsito,bm25,v1,,CT-633|CT-631|CT-628|CT-629|CT-627,13.48204,0.0013
+T009,principal,trampa_lejana,tránsito,vectorial,v1,,CT-628|CT-632|CT-547|CT-42.4|CT-588,0.56674,0.0003
+T009,principal,trampa_lejana,tránsito,hibrido,v1,,CT-628|CT-632|CT-627|CT-156|CT-42.4,0.03227,0.0017
+T009,principal,trampa_lejana,tránsito,bm25,v2,,CT-633|CT-278|CT-629|CT-628|CT-156,10.20194,0.0008
+T009,principal,trampa_lejana,tránsito,vectorial,v2,,CT-628|CT-397|CT-588|CT-632|CT-278,0.54214,0.0003
+T009,principal,trampa_lejana,tránsito,hibrido,v2,,CT-628|CT-278|CT-632|CT-107|CT-156,0.03202,0.0012
+T009,principal,trampa_lejana,tránsito,rerank,v2,,CT-42.4|CT-397|CT-628|CT-44|CT-632,0.00504,0.0014
+T010,principal,trampa_lejana,otro país,bm25,no,,CT-69|CT-70|CT-72|CT-75|CT-74,9.45197,0.0007
+T010,principal,trampa_lejana,otro país,vectorial,no,,CT-69|CT-65|CT-75|CT-71|CT-73,0.59848,0.0003
+T010,principal,trampa_lejana,otro país,hibrido,no,,CT-69|CT-75|CT-72|CT-73|CT-71,0.03279,0.0015
+T010,principal,trampa_lejana,otro país,rerank,no,,CT-65|CT-69|CT-224|CT-268.inn1|CT-50,0.03641,0.0014
+T010,principal,trampa_lejana,otro país,bm25,v1,,CT-69|CT-72|CT-75|CT-338|CT-74,22.52625,0.001
+T010,principal,trampa_lejana,otro país,vectorial,v1,,CT-69|CT-65|CT-72|CT-75|CT-50,0.6541,0.0003
+T010,principal,trampa_lejana,otro país,hibrido,v1,,CT-69|CT-72|CT-75|CT-73|CT-74,0.03279,0.0019
+T010,principal,trampa_lejana,otro país,bm25,v2,,CT-69|CT-72|CT-75|CT-338|CT-74,22.52625,0.001
+T010,principal,trampa_lejana,otro país,vectorial,v2,,CT-69|CT-65|CT-72|CT-75|CT-50,0.6541,0.0003
+T010,principal,trampa_lejana,otro país,hibrido,v2,,CT-69|CT-72|CT-75|CT-73|CT-74,0.03279,0.0015
+T010,principal,trampa_lejana,otro país,rerank,v2,,CT-69|CT-65|CT-268.inn1|CT-72|CT-50,0.56762,0.0015
+T011,principal,trampa_lejana,trámites,bm25,no,,CRE-333|CT-63|CT-47.2|CT-430|CT-155,9.35432,0.0006
+T011,principal,trampa_lejana,trámites,vectorial,no,,CT-266|CT-63|CT-227|CT-118|CT-538,0.57592,0.0003
+T011,principal,trampa_lejana,trámites,hibrido,no,,CT-63|CT-266|CT-540|CT-118|CT-47.2,0.03226,0.001
+T011,principal,trampa_lejana,trámites,rerank,no,,CT-47.2|CT-515|CT-47.1|CT-63|CT-539,0.12692,0.0012
+T011,principal,trampa_lejana,trámites,bm25,v1,,CRE-333|CT-63|CT-47.2|CT-430|CT-155,9.35432,0.0007
+T011,principal,trampa_lejana,trámites,vectorial,v1,,CT-266|CT-63|CT-227|CT-118|CT-538,0.57592,0.0003
+T011,principal,trampa_lejana,trámites,hibrido,v1,,CT-63|CT-266|CT-540|CT-118|CT-47.2,0.03226,0.0016
+T011,principal,trampa_lejana,trámites,bm25,v2,,CRE-333|CT-63|CT-47.2|CT-430|CT-155,9.35432,0.001
+T011,principal,trampa_lejana,trámites,vectorial,v2,,CT-266|CT-63|CT-227|CT-118|CT-538,0.57592,0.0005
+T011,principal,trampa_lejana,trámites,hibrido,v2,,CT-63|CT-266|CT-540|CT-118|CT-47.2,0.03226,0.0011
+T011,principal,trampa_lejana,trámites,rerank,v2,,CT-47.2|CT-515|CT-47.1|CT-63|CT-539,0.12692,0.0012
+T012,principal,trampa_cercana,familia,bm25,no,,CT-91|CT-217|CT-382|CT-216|CT-219,12.72648,0.0007
+T012,principal,trampa_cercana,familia,vectorial,no,,CT-381|CT-337|CT-268|CT-34.3|CT-133,0.49187,0.0003
+T012,principal,trampa_cercana,familia,hibrido,no,,CT-381|CT-91|CT-152|CT-382|CT-216,0.03009,0.001
+T012,principal,trampa_cercana,familia,rerank,no,,CRE-66|CT-152|CRE-328|CT-381|CT-216,0.00278,0.001
+T012,principal,trampa_cercana,familia,bm25,v1,,CT-91|CT-217|CT-382|CT-216|CT-219,12.72648,0.0007
+T012,principal,trampa_cercana,familia,vectorial,v1,,CT-381|CT-337|CT-268|CT-34.3|CT-133,0.49187,0.0007
+T012,principal,trampa_cercana,familia,hibrido,v1,,CT-381|CT-91|CT-152|CT-382|CT-216,0.03009,0.001
+T012,principal,trampa_cercana,familia,bm25,v2,,CT-91|CT-217|CT-382|CT-216|CT-219,12.72648,0.0007
+T012,principal,trampa_cercana,familia,vectorial,v2,,CT-381|CT-337|CT-268|CT-34.3|CT-133,0.49187,0.0003
+T012,principal,trampa_cercana,familia,hibrido,v2,,CT-381|CT-91|CT-152|CT-382|CT-216,0.03009,0.001
+T012,principal,trampa_cercana,familia,rerank,v2,,CRE-66|CT-152|CRE-328|CT-381|CT-216,0.00278,0.0011
+T013,principal,trampa_cercana,seguridad social,bm25,no,,CT-448|CT-368|CT-143|CT-432|CT-354,6.22492,0.0006
+T013,principal,trampa_cercana,seguridad social,vectorial,no,,CT-34.3|CT-143|CT-368|CT-367|CT-448,0.46356,0.0003
+T013,principal,trampa_cercana,seguridad social,hibrido,no,,CT-368|CT-143|CT-448|CT-34.3|CT-367,0.032,0.0013
+T013,principal,trampa_cercana,seguridad social,rerank,no,,CT-143|CT-34.3|CT-368|CT-412|CT-367,0.00524,0.0017
+T013,principal,trampa_cercana,seguridad social,bm25,v1,,CT-448|CT-368|CT-143|CT-432|CT-354,6.22492,0.0009
+T013,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-34.3|CT-143|CT-368|CT-367|CT-448,0.46356,0.0004
+T013,principal,trampa_cercana,seguridad social,hibrido,v1,,CT-368|CT-143|CT-448|CT-34.3|CT-367,0.032,0.001
+T013,principal,trampa_cercana,seguridad social,bm25,v2,,CT-448|CT-368|CT-143|CT-432|CT-354,6.22492,0.0007
+T013,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-34.3|CT-143|CT-368|CT-367|CT-448,0.46356,0.0003
+T013,principal,trampa_cercana,seguridad social,hibrido,v2,,CT-368|CT-143|CT-448|CT-34.3|CT-367,0.032,0.0009
+T013,principal,trampa_cercana,seguridad social,rerank,v2,,CT-143|CT-34.3|CT-368|CT-412|CT-367,0.00524,0.001
+T014,principal,trampa_lejana,tributos,bm25,no,,CT-104|CT-108|CT-112|CT-219|CT-402,11.26414,0.0008
+T014,principal,trampa_lejana,tributos,vectorial,no,,CT-104|CT-105|CT-444|CT-227|CT-514,0.4779,0.0007
+T014,principal,trampa_lejana,tributos,hibrido,no,,CT-104|CT-108|CT-402|CT-105|CT-375,0.03279,0.0012
+T014,principal,trampa_lejana,tributos,rerank,no,,CT-104|CT-106|CT-105|CT-375|CT-107,0.03556,0.0013
+T014,principal,trampa_lejana,tributos,bm25,v1,,CT-104|CT-108|CT-112|CT-219|CT-402,11.26414,0.0009
+T014,principal,trampa_lejana,tributos,vectorial,v1,,CT-104|CT-105|CT-444|CT-227|CT-514,0.4779,0.0003
+T014,principal,trampa_lejana,tributos,hibrido,v1,,CT-104|CT-108|CT-402|CT-105|CT-375,0.03279,0.0011
+T014,principal,trampa_lejana,tributos,bm25,v2,,CT-104|CT-108|CT-112|CT-219|CT-402,11.26414,0.0008
+T014,principal,trampa_lejana,tributos,vectorial,v2,,CT-104|CT-105|CT-444|CT-227|CT-514,0.4779,0.0003
+T014,principal,trampa_lejana,tributos,hibrido,v2,,CT-104|CT-108|CT-402|CT-105|CT-375,0.03279,0.0014
+T014,principal,trampa_lejana,tributos,rerank,v2,,CT-104|CT-106|CT-105|CT-375|CT-107,0.03556,0.0018
+T015,principal,trampa_cercana,seguridad social,bm25,no,,CT-34.3|CRE-332|CT-237|CT-368|CT-33,10.25562,0.001
+T015,principal,trampa_cercana,seguridad social,vectorial,no,,CT-34.3|CT-368|CT-143|CT-367|CRE-371,0.5533,0.0003
+T015,principal,trampa_cercana,seguridad social,hibrido,no,,CT-34.3|CT-368|CT-143|CT-152.1|CT-367,0.03279,0.0013
+T015,principal,trampa_cercana,seguridad social,rerank,no,,CRE-369|CT-34.3|CRE-371|CT-95|CT-152,0.20093,0.0014
+T015,principal,trampa_cercana,seguridad social,bm25,v1,,CT-34.3|CRE-332|CT-237|CT-368|CT-33,10.25562,0.0009
+T015,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-34.3|CT-368|CT-143|CT-367|CRE-371,0.5533,0.0003
+T015,principal,trampa_cercana,seguridad social,hibrido,v1,,CT-34.3|CT-368|CT-143|CT-152.1|CT-367,0.03279,0.0014
+T015,principal,trampa_cercana,seguridad social,bm25,v2,,CT-34.3|CRE-332|CT-237|CT-368|CT-33,10.25562,0.0009
+T015,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-34.3|CT-368|CT-143|CT-367|CRE-371,0.5533,0.0003
+T015,principal,trampa_cercana,seguridad social,hibrido,v2,,CT-34.3|CT-368|CT-143|CT-152.1|CT-367,0.03279,0.0017
+T015,principal,trampa_cercana,seguridad social,rerank,v2,,CRE-369|CT-34.3|CRE-371|CT-95|CT-152,0.20093,0.0014
+T016,principal,trampa_lejana,salud,bm25,no,,CT-263|CT-150|CT-154|CT-3|CT-225,7.00453,0.0007
+T016,principal,trampa_lejana,salud,vectorial,no,,CT-363|CT-430|CT-141|CT-412|CRE-369,0.49737,0.0003
+T016,principal,trampa_lejana,salud,hibrido,no,,CT-154|CT-42|CT-263|CT-363|CT-150,0.02587,0.0012
+T016,principal,trampa_lejana,salud,rerank,no,,CT-429|CT-430|CT-263|CRE-369|CT-141,0.00149,0.0016
+T016,principal,trampa_lejana,salud,bm25,v1,,CT-263|CT-150|CT-154|CT-3|CT-225,7.00453,0.0008
+T016,principal,trampa_lejana,salud,vectorial,v1,,CT-363|CT-430|CT-141|CT-412|CRE-369,0.49737,0.0004
+T016,principal,trampa_lejana,salud,hibrido,v1,,CT-154|CT-42|CT-263|CT-363|CT-150,0.02587,0.0011
+T016,principal,trampa_lejana,salud,bm25,v2,,CT-263|CT-150|CT-154|CT-3|CT-225,7.00453,0.0007
+T016,principal,trampa_lejana,salud,vectorial,v2,,CT-363|CT-430|CT-141|CT-412|CRE-369,0.49737,0.0003
+T016,principal,trampa_lejana,salud,hibrido,v2,,CT-154|CT-42|CT-263|CT-363|CT-150,0.02587,0.001
+T016,principal,trampa_lejana,salud,rerank,v2,,CT-429|CT-430|CT-263|CRE-369|CT-141,0.00149,0.0011
+T017,principal,trampa_lejana,sector público,bm25,no,,,,0.0004
+T017,principal,trampa_lejana,sector público,vectorial,no,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.43732,0.0003
+T017,principal,trampa_lejana,sector público,hibrido,no,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.01639,0.0007
+T017,principal,trampa_lejana,sector público,rerank,no,,CT-133|CT-132|CRE-328|CT-113|CT-80,0.00062,0.0009
+T017,principal,trampa_lejana,sector público,bm25,v1,,,,0.0004
+T017,principal,trampa_lejana,sector público,vectorial,v1,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.43732,0.0003
+T017,principal,trampa_lejana,sector público,hibrido,v1,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.01639,0.0006
+T017,principal,trampa_lejana,sector público,bm25,v2,,,,0.0004
+T017,principal,trampa_lejana,sector público,vectorial,v2,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.43732,0.0003
+T017,principal,trampa_lejana,sector público,hibrido,v2,,CT-131|CT-34.3|CT-97.1|CT-132|CRE-328,0.01639,0.0007
+T017,principal,trampa_lejana,sector público,rerank,v2,,CT-133|CT-132|CRE-328|CT-113|CT-80,0.00062,0.0009
+T018,principal,trampa_lejana,trámites,bm25,no,,CT-275|CT-271|CT-147|CT-456|CT-144,10.2288,0.0007
+T018,principal,trampa_lejana,trámites,vectorial,no,,CT-275|CT-444|CT-42|CT-103.1|CT-147,0.41209,0.0003
+T018,principal,trampa_lejana,trámites,hibrido,no,,CT-275|CT-444|CT-147|CT-456|CT-442,0.03279,0.001
+T018,principal,trampa_lejana,trámites,rerank,no,,CT-275|CT-444|CT-456|CT-442|CT-147,0.0008,0.0015
+T018,principal,trampa_lejana,trámites,bm25,v1,,CT-275|CT-271|CT-147|CT-456|CT-144,10.2288,0.0008
+T018,principal,trampa_lejana,trámites,vectorial,v1,,CT-275|CT-444|CT-42|CT-103.1|CT-147,0.41209,0.0004
+T018,principal,trampa_lejana,trámites,hibrido,v1,,CT-275|CT-444|CT-147|CT-456|CT-442,0.03279,0.0012
+T018,principal,trampa_lejana,trámites,bm25,v2,,CT-275|CT-271|CT-147|CT-456|CT-144,10.2288,0.0007
+T018,principal,trampa_lejana,trámites,vectorial,v2,,CT-275|CT-444|CT-42|CT-103.1|CT-147,0.41209,0.0003
+T018,principal,trampa_lejana,trámites,hibrido,v2,,CT-275|CT-444|CT-147|CT-456|CT-442,0.03279,0.0011
+T018,principal,trampa_lejana,trámites,rerank,v2,,CT-275|CT-444|CT-456|CT-442|CT-147,0.0008,0.0013
+T019,principal,trampa_cercana,seguridad social,bm25,no,,CT-432|CT-80|CT-395|CT-368|CT-143,8.05012,0.0007
+T019,principal,trampa_cercana,seguridad social,vectorial,no,,CT-368|CT-367|CT-34.3|CT-303|CT-143,0.51696,0.0003
+T019,principal,trampa_cercana,seguridad social,hibrido,no,,CT-368|CT-143|CT-367|CT-395|CT-397,0.03202,0.0009
+T019,principal,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-113|CT-430|CT-395|CT-403,0.0129,0.0011
+T019,principal,trampa_cercana,seguridad social,bm25,v1,,CT-432|CT-80|CT-395|CT-368|CT-143,8.05012,0.0007
+T019,principal,trampa_cercana,seguridad social,vectorial,v1,,CT-368|CT-367|CT-34.3|CT-303|CT-143,0.51696,0.0003
+T019,principal,trampa_cercana,seguridad social,hibrido,v1,,CT-368|CT-143|CT-367|CT-395|CT-397,0.03202,0.001
+T019,principal,trampa_cercana,seguridad social,bm25,v2,,CT-432|CT-80|CT-395|CT-368|CT-143,8.05012,0.0007
+T019,principal,trampa_cercana,seguridad social,vectorial,v2,,CT-368|CT-367|CT-34.3|CT-303|CT-143,0.51696,0.0003
+T019,principal,trampa_cercana,seguridad social,hibrido,v2,,CT-368|CT-143|CT-367|CT-395|CT-397,0.03202,0.0012
+T019,principal,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-113|CT-430|CT-395|CT-403,0.0129,0.0014
+T020,principal,trampa_cercana,remuneración,bm25,no,,CT-34.3|CT-19|CT-97.1|CT-280|CT-117,18.58886,0.0014
+T020,principal,trampa_cercana,remuneración,vectorial,no,,CT-117|CT-126|CT-281|CT-131|CT-279,0.59215,0.0004
+T020,principal,trampa_cercana,remuneración,hibrido,no,,CT-117|CT-34.3|CT-281|CT-280|CT-132,0.03178,0.0016
+T020,principal,trampa_cercana,remuneración,rerank,no,,CT-117|CT-34.3|CT-131|CT-81|CT-281,0.25802,0.0014
+T020,principal,trampa_cercana,remuneración,bm25,v1,,CT-34.3|CT-19|CT-97.1|CT-280|CT-117,18.58886,0.0009
+T020,principal,trampa_cercana,remuneración,vectorial,v1,,CT-117|CT-126|CT-281|CT-131|CT-279,0.59215,0.0006
+T020,principal,trampa_cercana,remuneración,hibrido,v1,,CT-117|CT-34.3|CT-281|CT-280|CT-132,0.03178,0.0014
+T020,principal,trampa_cercana,remuneración,bm25,v2,,CT-34.3|CT-19|CT-97.1|CT-280|CT-117,18.58886,0.001
+T020,principal,trampa_cercana,remuneración,vectorial,v2,,CT-117|CT-126|CT-281|CT-131|CT-279,0.59215,0.0003
+T020,principal,trampa_cercana,remuneración,hibrido,v2,,CT-117|CT-34.3|CT-281|CT-280|CT-132,0.03178,0.0013
+T020,principal,trampa_cercana,remuneración,rerank,v2,,CT-117|CT-34.3|CT-131|CT-81|CT-281,0.25802,0.0014
+N001,nuevas,respondible,despido,bm25,no,5.0,CT-369|CT-258|CT-127|CT-403|CT-188,11.07364,0.001
+N001,nuevas,respondible,despido,vectorial,no,1.0,CT-188|CT-185|CT-179|CT-60|CT-59,0.56085,0.0003
+N001,nuevas,respondible,despido,hibrido,no,1.0,CT-188|CT-369|CT-370|CT-371|CT-172,0.03178,0.0016
+N001,nuevas,respondible,despido,rerank,no,1.0,CT-188|CT-185|CT-370|CT-42|CT-371,0.04857,0.002
+N001,nuevas,respondible,despido,bm25,v1,1.0,CT-188|CT-302|CT-369|CT-370|CT-88,18.75783,0.0019
+N001,nuevas,respondible,despido,vectorial,v1,1.0,CT-188|CT-373|CT-95|CT-190|CT-370,0.69172,0.0004
+N001,nuevas,respondible,despido,hibrido,v1,1.0,CT-188|CT-370|CT-455|CT-95|CT-369,0.03279,0.0023
+N001,nuevas,respondible,despido,bm25,v2,1.0,CT-188|CT-302|CT-369|CT-370|CT-88,18.75783,0.0018
+N001,nuevas,respondible,despido,vectorial,v2,1.0,CT-188|CT-373|CT-95|CT-190|CT-370,0.69172,0.0006
+N001,nuevas,respondible,despido,hibrido,v2,1.0,CT-188|CT-370|CT-455|CT-95|CT-369,0.03279,0.0021
+N001,nuevas,respondible,despido,rerank,v2,1.0,CT-188|CT-195.3|CT-455|CT-534|CT-265,0.85074,0.0022
+N002,nuevas,respondible,décimos,bm25,no,4.0,CT-357|CT-65|CT-247.inn1|CT-111|CT-83,7.59414,0.0008
+N002,nuevas,respondible,décimos,vectorial,no,1.0,CT-111|CT-113|CT-112|CT-131|CT-71,0.70361,0.0002
+N002,nuevas,respondible,décimos,hibrido,no,1.0,CT-111|CT-131|CT-87|CT-83|CT-196,0.03202,0.0011
+N002,nuevas,respondible,décimos,rerank,no,1.0,CT-111|CT-112|CT-113|CT-131|CT-82,0.78796,0.0018
+N002,nuevas,respondible,décimos,bm25,v1,2.0,CT-112|CT-111|CT-357|CT-95|CT-83,9.99037,0.0013
+N002,nuevas,respondible,décimos,vectorial,v1,1.0,CT-111|CT-113|CT-112|CT-131|CT-114,0.74417,0.0004
+N002,nuevas,respondible,décimos,hibrido,v1,1.0,CT-111|CT-112|CT-131|CT-95|CT-87,0.03252,0.0015
+N002,nuevas,respondible,décimos,bm25,v2,1.0,CT-111|CT-112|CT-357|CT-95|CT-113,28.91891,0.0014
+N002,nuevas,respondible,décimos,vectorial,v2,1.0,CT-111|CT-113|CT-112|CT-114|CT-131,0.76938,0.0005
+N002,nuevas,respondible,décimos,hibrido,v2,1.0,CT-111|CT-112|CT-113|CT-131|CT-95,0.03279,0.0019
+N002,nuevas,respondible,décimos,rerank,v2,1.0,CT-111|CT-112|CT-95|CT-113|CT-131,0.9783,0.002
+N003,nuevas,respondible,horas extra,bm25,no,7.0,CT-150|CT-52|CT-50|CT-268.inn1|CT-65,8.45744,0.0006
+N003,nuevas,respondible,horas extra,vectorial,no,3.0,CT-52|CT-53|CT-55|CT-268.inn1|CT-67,0.61175,0.0003
+N003,nuevas,respondible,horas extra,hibrido,no,4.0,CT-52|CT-268.inn1|CT-50|CT-55|CT-150,0.03252,0.0009
+N003,nuevas,respondible,horas extra,rerank,no,1.0,CT-55|CT-268.inn1|CT-53|CT-67|CT-52,0.59717,0.0009
+N003,nuevas,respondible,horas extra,bm25,v1,7.0,CT-150|CT-52|CT-50|CT-268.inn1|CT-65,8.45744,0.0006
+N003,nuevas,respondible,horas extra,vectorial,v1,3.0,CT-52|CT-53|CT-55|CT-268.inn1|CT-67,0.61175,0.0003
+N003,nuevas,respondible,horas extra,hibrido,v1,4.0,CT-52|CT-268.inn1|CT-50|CT-55|CT-150,0.03252,0.001
+N003,nuevas,respondible,horas extra,bm25,v2,7.0,CT-150|CT-52|CT-50|CT-268.inn1|CT-65,8.45744,0.0008
+N003,nuevas,respondible,horas extra,vectorial,v2,3.0,CT-52|CT-53|CT-55|CT-268.inn1|CT-67,0.61175,0.0006
+N003,nuevas,respondible,horas extra,hibrido,v2,4.0,CT-52|CT-268.inn1|CT-50|CT-55|CT-150,0.03252,0.0013
+N003,nuevas,respondible,horas extra,rerank,v2,1.0,CT-55|CT-268.inn1|CT-53|CT-67|CT-52,0.59717,0.0013
+N004,nuevas,respondible,paternidad,bm25,no,13.0,CT-152.1|CT-152.3|CT-46|CT-65|CT-69,8.56266,0.001
+N004,nuevas,respondible,paternidad,vectorial,no,1.0,CT-152|CT-152.1|CT-152.2|CT-50|CT-69,0.67235,0.0003
+N004,nuevas,respondible,paternidad,hibrido,no,3.0,CT-152.1|CT-69|CT-152|CT-268.inn1|CT-50,0.03252,0.0013
+N004,nuevas,respondible,paternidad,rerank,no,1.0,CT-152|CT-152.1|CT-42|CT-152.2|CT-69,0.21207,0.0015
+N004,nuevas,respondible,paternidad,bm25,v1,13.0,CT-152.1|CT-152.3|CT-46|CT-65|CT-69,8.56266,0.0011
+N004,nuevas,respondible,paternidad,vectorial,v1,1.0,CT-152|CT-152.1|CT-152.2|CT-50|CT-69,0.67235,0.0007
+N004,nuevas,respondible,paternidad,hibrido,v1,3.0,CT-152.1|CT-69|CT-152|CT-268.inn1|CT-50,0.03252,0.0016
+N004,nuevas,respondible,paternidad,bm25,v2,13.0,CT-152.1|CT-152.3|CT-46|CT-65|CT-69,8.56266,0.0011
+N004,nuevas,respondible,paternidad,vectorial,v2,1.0,CT-152|CT-152.1|CT-152.2|CT-50|CT-69,0.67235,0.0004
+N004,nuevas,respondible,paternidad,hibrido,v2,3.0,CT-152.1|CT-69|CT-152|CT-268.inn1|CT-50,0.03252,0.0017
+N004,nuevas,respondible,paternidad,rerank,v2,1.0,CT-152|CT-152.1|CT-42|CT-152.2|CT-69,0.21207,0.002
+N005,nuevas,respondible,vacaciones,bm25,no,1.0,CT-69|CT-139|CT-75|CT-70|CT-72,13.01775,0.0013
+N005,nuevas,respondible,vacaciones,vectorial,no,1.0,CT-69|CT-75|CT-72|CT-136|CT-71,0.66932,0.0004
+N005,nuevas,respondible,vacaciones,hibrido,no,1.0,CT-69|CT-75|CT-72|CT-73|CT-76,0.03279,0.0012
+N005,nuevas,respondible,vacaciones,rerank,no,1.0,CT-69|CT-65|CT-75|CT-73|CT-268.inn1,0.48051,0.0012
+N005,nuevas,respondible,vacaciones,bm25,v1,1.0,CT-69|CT-72|CT-75|CT-338|CT-74,26.09203,0.0011
+N005,nuevas,respondible,vacaciones,vectorial,v1,1.0,CT-69|CT-75|CT-72|CT-65|CT-50,0.71161,0.0003
+N005,nuevas,respondible,vacaciones,hibrido,v1,1.0,CT-69|CT-72|CT-75|CT-74|CT-76,0.03279,0.0017
+N005,nuevas,respondible,vacaciones,bm25,v2,1.0,CT-69|CT-72|CT-75|CT-338|CT-74,26.09203,0.0013
+N005,nuevas,respondible,vacaciones,vectorial,v2,1.0,CT-69|CT-75|CT-72|CT-65|CT-50,0.71161,0.0003
+N005,nuevas,respondible,vacaciones,hibrido,v2,1.0,CT-69|CT-72|CT-75|CT-74|CT-76,0.03279,0.0015
+N005,nuevas,respondible,vacaciones,rerank,v2,1.0,CT-69|CT-65|CT-268.inn1|CT-72|CT-75,0.92557,0.0016
+N006,nuevas,respondible,obligaciones,bm25,no,,CT-33|CT-623|CT-126|CT-302|CT-534,12.38471,0.0008
+N006,nuevas,respondible,obligaciones,vectorial,no,8.0,CT-108|CT-400|CT-90|CT-88|CT-85,0.63967,0.0003
+N006,nuevas,respondible,obligaciones,hibrido,no,20.0,CT-207|CT-88|CT-90|CT-31|CT-95,0.02899,0.0012
+N006,nuevas,respondible,obligaciones,rerank,no,1.0,CT-44|CT-400|CT-90|CT-33|CT-108,0.70608,0.0018
+N006,nuevas,respondible,obligaciones,bm25,v1,,CT-126|CT-33|CT-80|CT-302|CT-117,15.30393,0.0015
+N006,nuevas,respondible,obligaciones,vectorial,v1,7.0,CT-90|CT-108|CT-400|CT-88|CT-95,0.66307,0.0004
+N006,nuevas,respondible,obligaciones,hibrido,v1,,CT-90|CT-88|CT-80|CT-95|CT-116,0.03089,0.0016
+N006,nuevas,respondible,obligaciones,bm25,v2,,CT-126|CT-33|CT-80|CT-302|CT-117,15.30393,0.0012
+N006,nuevas,respondible,obligaciones,vectorial,v2,7.0,CT-90|CT-108|CT-400|CT-88|CT-95,0.66307,0.0003
+N006,nuevas,respondible,obligaciones,hibrido,v2,,CT-90|CT-88|CT-80|CT-95|CT-116,0.03089,0.002
+N006,nuevas,respondible,obligaciones,rerank,v2,,CT-90|CT-400|CT-80|CT-95|CT-33,0.12985,0.002
+N007,nuevas,respondible,riesgos,bm25,no,,CT-395|CT-368|CT-367|CT-80|CT-461,17.54134,0.0009
+N007,nuevas,respondible,riesgos,vectorial,no,1.0,CT-353|CT-376|CT-368|CT-379|CT-367,0.66452,0.0003
+N007,nuevas,respondible,riesgos,hibrido,no,9.0,CT-368|CT-367|CT-376|CT-395|CT-379,0.032,0.0014
+N007,nuevas,respondible,riesgos,rerank,no,6.0,CT-368|CT-367|CT-402|CT-395|CT-376,0.89859,0.0014
+N007,nuevas,respondible,riesgos,bm25,v1,,CT-395|CT-368|CT-367|CT-80|CT-461,17.54134,0.001
+N007,nuevas,respondible,riesgos,vectorial,v1,1.0,CT-353|CT-376|CT-368|CT-379|CT-367,0.66452,0.0004
+N007,nuevas,respondible,riesgos,hibrido,v1,9.0,CT-368|CT-367|CT-376|CT-395|CT-379,0.032,0.0017
+N007,nuevas,respondible,riesgos,bm25,v2,,CT-395|CT-368|CT-367|CT-80|CT-461,17.54134,0.0011
+N007,nuevas,respondible,riesgos,vectorial,v2,1.0,CT-353|CT-376|CT-368|CT-379|CT-367,0.66452,0.0004
+N007,nuevas,respondible,riesgos,hibrido,v2,9.0,CT-368|CT-367|CT-376|CT-395|CT-379,0.032,0.0013
+N007,nuevas,respondible,riesgos,rerank,v2,6.0,CT-368|CT-367|CT-402|CT-395|CT-376,0.89859,0.0015
+N008,nuevas,respondible,horas extra,bm25,no,2.0,CT-47.2|CT-55|CT-475|CT-454|CT-230,8.33993,0.0008
+N008,nuevas,respondible,horas extra,vectorial,no,1.0,CT-55|CT-47|CT-47.2|CT-50|CT-48,0.67272,0.0003
+N008,nuevas,respondible,horas extra,hibrido,no,1.0,CT-55|CT-47.2|CT-47|CT-60|CT-47.1,0.03252,0.0011
+N008,nuevas,respondible,horas extra,rerank,no,1.0,CT-55|CT-47.2|CT-47|CT-48|CT-47.1,0.53779,0.0011
+N008,nuevas,respondible,horas extra,bm25,v1,1.0,CT-55|CT-47|CT-60|CT-327|CT-71,26.0004,0.0011
+N008,nuevas,respondible,horas extra,vectorial,v1,1.0,CT-55|CT-60|CT-47|CT-58|CT-47.2,0.77387,0.0005
+N008,nuevas,respondible,horas extra,hibrido,v1,1.0,CT-55|CT-47|CT-60|CT-47.2|CT-327,0.03279,0.0015
+N008,nuevas,respondible,horas extra,bm25,v2,1.0,CT-55|CT-47|CT-60|CT-327|CT-71,26.0004,0.0011
+N008,nuevas,respondible,horas extra,vectorial,v2,1.0,CT-55|CT-60|CT-47|CT-58|CT-47.2,0.77387,0.0003
+N008,nuevas,respondible,horas extra,hibrido,v2,1.0,CT-55|CT-47|CT-60|CT-47.2|CT-327,0.03279,0.0017
+N008,nuevas,respondible,horas extra,rerank,v2,1.0,CT-55|CT-47|CT-224|CT-60|CT-47.2,0.95922,0.0021
+N009,nuevas,respondible,desahucio,bm25,no,,CT-299|CT-97|CT-139|CT-421|CT-637,6.61775,0.0009
+N009,nuevas,respondible,desahucio,vectorial,no,,CT-391|CT-216|CT-382|CRE-328|CT-390,0.60235,0.0003
+N009,nuevas,respondible,desahucio,hibrido,no,7.0,CT-69|CT-188|CT-637|CT-216|CT-382,0.02901,0.0011
+N009,nuevas,respondible,desahucio,rerank,no,5.0,CT-216|CT-195.3|CT-188|CT-391|CT-185,0.01969,0.0012
+N009,nuevas,respondible,desahucio,bm25,v1,1.0,CT-185|CT-184|CT-624|CT-170|CT-193,15.16886,0.0012
+N009,nuevas,respondible,desahucio,vectorial,v1,2.0,CT-184|CT-185|CT-190|CT-195.3|CT-188,0.67922,0.0004
+N009,nuevas,respondible,desahucio,hibrido,v1,1.0,CT-185|CT-184|CT-624|CT-190|CT-193,0.03252,0.0018
+N009,nuevas,respondible,desahucio,bm25,v2,1.0,CT-185|CT-184|CT-624|CT-170|CT-193,15.16886,0.0012
+N009,nuevas,respondible,desahucio,vectorial,v2,2.0,CT-184|CT-185|CT-190|CT-195.3|CT-188,0.67922,0.0003
+N009,nuevas,respondible,desahucio,hibrido,v2,1.0,CT-185|CT-184|CT-624|CT-190|CT-193,0.03252,0.0016
+N009,nuevas,respondible,desahucio,rerank,v2,1.0,CT-185|CT-184|CT-624|CT-188|CT-193,0.68627,0.0022
+N010,nuevas,respondible,sindicatos,bm25,no,1.0,CT-187|CT-105.1|CT-163|CT-175|CT-636,11.41434,0.0007
+N010,nuevas,respondible,sindicatos,vectorial,no,1.0,CT-187|CT-452|CT-32|CT-463|CT-163,0.6291,0.0004
+N010,nuevas,respondible,sindicatos,hibrido,no,1.0,CT-187|CT-163|CT-452|CT-32|CT-175,0.03279,0.0014
+N010,nuevas,respondible,sindicatos,rerank,no,2.0,CT-452|CT-187|CT-195.1|CT-233|CT-32,0.86668,0.0012
+N010,nuevas,respondible,sindicatos,bm25,v1,1.0,CT-187|CT-105.1|CT-163|CT-175|CT-636,11.94455,0.0008
+N010,nuevas,respondible,sindicatos,vectorial,v1,1.0,CT-187|CT-452|CT-32|CT-233|CT-163,0.64671,0.0003
+N010,nuevas,respondible,sindicatos,hibrido,v1,1.0,CT-187|CT-163|CT-452|CT-32|CT-233,0.03279,0.0011
+N010,nuevas,respondible,sindicatos,bm25,v2,1.0,CT-187|CT-105.1|CT-163|CT-175|CT-636,11.94455,0.0008
+N010,nuevas,respondible,sindicatos,vectorial,v2,1.0,CT-187|CT-452|CT-32|CT-233|CT-163,0.64671,0.0003
+N010,nuevas,respondible,sindicatos,hibrido,v2,1.0,CT-187|CT-163|CT-452|CT-32|CT-233,0.03279,0.0012
+N010,nuevas,respondible,sindicatos,rerank,v2,2.0,CT-452|CT-187|CT-233|CT-32|CT-44,0.93597,0.0013
+N011,nuevas,respondible,prescripción,bm25,no,5.0,CT-163|CT-175|CT-233|CT-32|CT-636,9.77767,0.0008
+N011,nuevas,respondible,prescripción,vectorial,no,12.0,CT-54|CT-172|CT-59|CT-188|CT-60,0.64099,0.0003
+N011,nuevas,respondible,prescripción,hibrido,no,5.0,CT-163|CT-54|CT-175|CT-172|CT-636,0.03089,0.0011
+N011,nuevas,respondible,prescripción,rerank,no,6.0,CT-175|CT-233|CT-172|CT-32|CT-163,0.76706,0.0013
+N011,nuevas,respondible,prescripción,bm25,v1,5.0,CT-163|CT-175|CT-233|CT-32|CT-636,9.77767,0.0008
+N011,nuevas,respondible,prescripción,vectorial,v1,12.0,CT-54|CT-172|CT-59|CT-188|CT-60,0.64099,0.0003
+N011,nuevas,respondible,prescripción,hibrido,v1,5.0,CT-163|CT-54|CT-175|CT-172|CT-636,0.03089,0.0013
+N011,nuevas,respondible,prescripción,bm25,v2,5.0,CT-163|CT-175|CT-233|CT-32|CT-636,9.77767,0.0011
+N011,nuevas,respondible,prescripción,vectorial,v2,12.0,CT-54|CT-172|CT-59|CT-188|CT-60,0.64099,0.0004
+N011,nuevas,respondible,prescripción,hibrido,v2,5.0,CT-163|CT-54|CT-175|CT-172|CT-636,0.03089,0.0014
+N011,nuevas,respondible,prescripción,rerank,v2,6.0,CT-175|CT-233|CT-172|CT-32|CT-163,0.76706,0.0013
+N012,nuevas,respondible,contratos,bm25,no,1.0,CT-157|CT-158|CT-168|CT-532|CT-19,7.04542,0.0005
+N012,nuevas,respondible,contratos,vectorial,no,1.0,CT-157|CT-168|CT-158|CT-15|CT-258,0.75052,0.0003
+N012,nuevas,respondible,contratos,hibrido,no,1.0,CT-157|CT-158|CT-168|CT-19|CT-14,0.03279,0.0009
+N012,nuevas,respondible,contratos,rerank,no,1.0,CT-157|CT-168|CT-158|CT-19|CT-14,0.99826,0.001
+N012,nuevas,respondible,contratos,bm25,v1,1.0,CT-157|CT-158|CT-168|CT-532|CT-19,7.04542,0.0005
+N012,nuevas,respondible,contratos,vectorial,v1,1.0,CT-157|CT-168|CT-158|CT-15|CT-258,0.75052,0.0003
+N012,nuevas,respondible,contratos,hibrido,v1,1.0,CT-157|CT-158|CT-168|CT-19|CT-14,0.03279,0.0009
+N012,nuevas,respondible,contratos,bm25,v2,1.0,CT-157|CT-158|CT-168|CT-532|CT-19,7.04542,0.0005
+N012,nuevas,respondible,contratos,vectorial,v2,1.0,CT-157|CT-168|CT-158|CT-15|CT-258,0.75052,0.0003
+N012,nuevas,respondible,contratos,hibrido,v2,1.0,CT-157|CT-158|CT-168|CT-19|CT-14,0.03279,0.001
+N012,nuevas,respondible,contratos,rerank,v2,1.0,CT-157|CT-168|CT-158|CT-19|CT-14,0.99826,0.0011
+N013,nuevas,respondible,maternidad,bm25,no,2.0,CRE-43|CT-92|CT-90|CT-127|CT-369,8.52595,0.0007
+N013,nuevas,respondible,maternidad,vectorial,no,1.0,CT-92|CT-153|CT-90|CT-152|CT-154,0.69654,0.0003
+N013,nuevas,respondible,maternidad,hibrido,no,1.0,CT-92|CT-90|CT-152|CT-154|CRE-43,0.03252,0.001
+N013,nuevas,respondible,maternidad,rerank,no,1.0,CT-92|CT-152|CT-90|CT-154|CT-153,0.90697,0.0011
+N013,nuevas,respondible,maternidad,bm25,v1,2.0,CT-90|CT-92|CT-80|CT-117|CT-126,15.30857,0.0012
+N013,nuevas,respondible,maternidad,vectorial,v1,1.0,CT-92|CT-90|CT-153|CT-152|CT-154,0.70639,0.0006
+N013,nuevas,respondible,maternidad,hibrido,v1,2.0,CT-90|CT-92|CT-83|CT-96|CT-95,0.03252,0.0018
+N013,nuevas,respondible,maternidad,bm25,v2,2.0,CT-90|CT-92|CT-80|CT-117|CT-126,15.30857,0.0011
+N013,nuevas,respondible,maternidad,vectorial,v2,1.0,CT-92|CT-90|CT-153|CT-152|CT-154,0.70639,0.0003
+N013,nuevas,respondible,maternidad,hibrido,v2,2.0,CT-90|CT-92|CT-83|CT-96|CT-95,0.03252,0.0014
+N013,nuevas,respondible,maternidad,rerank,v2,1.0,CT-92|CT-90|CT-152|CT-80|CT-153,0.93782,0.0016
+N014,nuevas,respondible,trabajo del hogar,bm25,no,,CT-54|CT-419|CT-144|CT-158|CRE-33,6.86947,0.0009
+N014,nuevas,respondible,trabajo del hogar,vectorial,no,1.0,CT-268|CT-268.inn1|CT-263|CT-262|CT-262.1,0.66879,0.0005
+N014,nuevas,respondible,trabajo del hogar,hibrido,no,9.0,CRE-33|CT-42|CRE-332|CRE-43|CT-93,0.02967,0.0012
+N014,nuevas,respondible,trabajo del hogar,rerank,no,1.0,CT-268|CT-42|CT-268.inn1|CT-262|CRE-326,0.50626,0.0012
+N014,nuevas,respondible,trabajo del hogar,bm25,v1,1.0,CT-268|CT-551|CT-272|CT-270|CRE-333,17.14317,0.0012
+N014,nuevas,respondible,trabajo del hogar,vectorial,v1,1.0,CT-268|CT-268.inn1|CT-263|CT-262|CT-262.1,0.68697,0.0003
+N014,nuevas,respondible,trabajo del hogar,hibrido,v1,1.0,CT-268|CT-268.inn1|CT-270|CT-262|CT-272,0.03279,0.0019
+N014,nuevas,respondible,trabajo del hogar,bm25,v2,1.0,CT-268|CT-551|CT-272|CT-270|CRE-333,17.14317,0.0015
+N014,nuevas,respondible,trabajo del hogar,vectorial,v2,1.0,CT-268|CT-268.inn1|CT-263|CT-262|CT-262.1,0.68697,0.0006
+N014,nuevas,respondible,trabajo del hogar,hibrido,v2,1.0,CT-268|CT-268.inn1|CT-270|CT-262|CT-272,0.03279,0.0019
+N014,nuevas,respondible,trabajo del hogar,rerank,v2,1.0,CT-268|CT-268.inn1|CT-262|CT-272|CT-42,0.68388,0.0018
+N015,nuevas,respondible,sindicatos,bm25,no,1.0,CT-452|CT-442|CT-444|CT-440|CT-445,10.58583,0.0006
+N015,nuevas,respondible,sindicatos,vectorial,no,2.0,CT-440|CT-452|CT-32|CT-187|CT-513,0.65573,0.0008
+N015,nuevas,respondible,sindicatos,hibrido,no,1.0,CT-452|CT-440|CT-447|CT-442|CT-513,0.03252,0.001
+N015,nuevas,respondible,sindicatos,rerank,no,1.0,CT-452|CT-187|CT-440|CT-32|CT-447,0.98572,0.0011
+N015,nuevas,respondible,sindicatos,bm25,v1,1.0,CT-452|CT-440|CT-447|CT-442|CT-444,21.41624,0.0011
+N015,nuevas,respondible,sindicatos,vectorial,v1,2.0,CT-440|CT-452|CT-32|CT-187|CT-465,0.66827,0.0003
+N015,nuevas,respondible,sindicatos,hibrido,v1,1.0,CT-452|CT-440|CT-447|CT-442|CT-451,0.03252,0.0017
+N015,nuevas,respondible,sindicatos,bm25,v2,1.0,CT-452|CT-442|CT-444|CT-440|CT-445,18.79063,0.0011
+N015,nuevas,respondible,sindicatos,vectorial,v2,2.0,CT-440|CT-452|CT-243|CT-447|CT-187,0.70977,0.0003
+N015,nuevas,respondible,sindicatos,hibrido,v2,1.0,CT-452|CT-440|CT-447|CT-442|CT-443,0.03252,0.0015
+N015,nuevas,respondible,sindicatos,rerank,v2,1.0,CT-452|CT-440|CT-447|CT-451|CT-32,0.99469,0.0021
+N016,nuevas,respondible,desahucio,bm25,no,3.0,CT-46.1|CT-254|CT-624|CT-184|CT-545,5.90636,0.0009
+N016,nuevas,respondible,desahucio,vectorial,no,1.0,CT-184|CT-634|CT-235|CT-173|CT-172,0.54155,0.0004
+N016,nuevas,respondible,desahucio,hibrido,no,1.0,CT-184|CT-624|CT-173|CT-488|CT-46.1,0.03202,0.001
+N016,nuevas,respondible,desahucio,rerank,no,3.0,CT-46.1|CT-42|CT-184|CT-624|CT-545,0.04693,0.0011
+N016,nuevas,respondible,desahucio,bm25,v1,1.0,CT-184|CT-624|CT-185|CT-170|CT-193,16.11255,0.0011
+N016,nuevas,respondible,desahucio,vectorial,v1,1.0,CT-184|CT-624|CT-185|CT-634|CT-193,0.68326,0.0003
+N016,nuevas,respondible,desahucio,hibrido,v1,1.0,CT-184|CT-624|CT-185|CT-193|CT-170,0.03279,0.0015
+N016,nuevas,respondible,desahucio,bm25,v2,1.0,CT-184|CT-624|CT-185|CT-170|CT-193,16.11255,0.0011
+N016,nuevas,respondible,desahucio,vectorial,v2,1.0,CT-184|CT-624|CT-185|CT-634|CT-193,0.68326,0.0004
+N016,nuevas,respondible,desahucio,hibrido,v2,1.0,CT-184|CT-624|CT-185|CT-193|CT-170,0.03279,0.0015
+N016,nuevas,respondible,desahucio,rerank,v2,1.0,CT-184|CT-624|CT-185|CT-170|CT-193,0.63043,0.0017
+N017,nuevas,respondible,contratos,bm25,no,7.0,CT-273|CT-206|CT-415|CT-68|CT-151,8.70809,0.0008
+N017,nuevas,respondible,contratos,vectorial,no,1.0,CT-16.inn1|CT-274|CT-46|CT-275|CT-90,0.60356,0.0003
+N017,nuevas,respondible,contratos,hibrido,no,1.0,CT-16.inn1|CT-274|CT-46|CT-42|CT-273,0.03132,0.0013
+N017,nuevas,respondible,contratos,rerank,no,1.0,CT-16.inn1|CT-42|CT-274|CT-275|CT-278,0.78765,0.0019
+N017,nuevas,respondible,contratos,bm25,v1,7.0,CT-273|CT-206|CT-415|CT-68|CT-151,8.70809,0.0013
+N017,nuevas,respondible,contratos,vectorial,v1,1.0,CT-16.inn1|CT-274|CT-46|CT-275|CT-90,0.60356,0.0004
+N017,nuevas,respondible,contratos,hibrido,v1,1.0,CT-16.inn1|CT-274|CT-46|CT-42|CT-273,0.03132,0.0013
+N017,nuevas,respondible,contratos,bm25,v2,7.0,CT-273|CT-206|CT-415|CT-68|CT-151,8.70809,0.0008
+N017,nuevas,respondible,contratos,vectorial,v2,1.0,CT-16.inn1|CT-274|CT-46|CT-275|CT-90,0.60356,0.0003
+N017,nuevas,respondible,contratos,hibrido,v2,1.0,CT-16.inn1|CT-274|CT-46|CT-42|CT-273,0.03132,0.0012
+N017,nuevas,respondible,contratos,rerank,v2,1.0,CT-16.inn1|CT-42|CT-274|CT-275|CT-278,0.78765,0.0014
+N018,nuevas,respondible,fondo de reserva,bm25,no,3.0,CT-203|CT-211|CT-196|CT-205|CT-199,11.88672,0.0006
+N018,nuevas,respondible,fondo de reserva,vectorial,no,1.0,CT-196|CT-199|CT-197|CT-200|CT-201,0.6784,0.0003
+N018,nuevas,respondible,fondo de reserva,hibrido,no,1.0,CT-196|CT-203|CT-199|CT-197|CT-200,0.03227,0.0009
+N018,nuevas,respondible,fondo de reserva,rerank,no,1.0,CT-196|CT-197|CT-203|CT-200|CT-216,0.92313,0.001
+N018,nuevas,respondible,fondo de reserva,bm25,v1,3.0,CT-203|CT-211|CT-196|CT-205|CT-199,11.88672,0.0006
+N018,nuevas,respondible,fondo de reserva,vectorial,v1,1.0,CT-196|CT-199|CT-197|CT-200|CT-201,0.6784,0.0003
+N018,nuevas,respondible,fondo de reserva,hibrido,v1,1.0,CT-196|CT-203|CT-199|CT-197|CT-200,0.03227,0.0009
+N018,nuevas,respondible,fondo de reserva,bm25,v2,3.0,CT-203|CT-211|CT-196|CT-205|CT-199,11.88672,0.0006
+N018,nuevas,respondible,fondo de reserva,vectorial,v2,1.0,CT-196|CT-199|CT-197|CT-200|CT-201,0.6784,0.0003
+N018,nuevas,respondible,fondo de reserva,hibrido,v2,1.0,CT-196|CT-203|CT-199|CT-197|CT-200,0.03227,0.0009
+N018,nuevas,respondible,fondo de reserva,rerank,v2,1.0,CT-196|CT-197|CT-203|CT-200|CT-216,0.92313,0.0012
+N019,nuevas,respondible,remuneración,bm25,no,1.0,CT-133.1|CT-99|CT-139|CT-426|CT-340,11.35508,0.0013
+N019,nuevas,respondible,remuneración,vectorial,no,1.0,CT-133.1|CT-44|CT-90|CT-547|CT-130,0.68816,0.0004
+N019,nuevas,respondible,remuneración,hibrido,no,1.0,CT-133.1|CT-130|CT-90|CT-36|CT-81,0.03279,0.0012
+N019,nuevas,respondible,remuneración,rerank,no,1.0,CT-133.1|CT-90|CT-36|CT-81|CT-47.1,0.96963,0.0011
+N019,nuevas,respondible,remuneración,bm25,v1,1.0,CT-133.1|CT-80|CT-117|CT-126|CT-99,16.76924,0.0011
+N019,nuevas,respondible,remuneración,vectorial,v1,1.0,CT-133.1|CT-90|CT-44|CT-130|CT-97.1,0.70852,0.0003
+N019,nuevas,respondible,remuneración,hibrido,v1,1.0,CT-133.1|CT-90|CT-130|CT-117|CT-81,0.03279,0.0015
+N019,nuevas,respondible,remuneración,bm25,v2,1.0,CT-133.1|CT-80|CT-117|CT-126|CT-99,16.76924,0.0011
+N019,nuevas,respondible,remuneración,vectorial,v2,1.0,CT-133.1|CT-90|CT-44|CT-130|CT-97.1,0.70852,0.0003
+N019,nuevas,respondible,remuneración,hibrido,v2,1.0,CT-133.1|CT-90|CT-130|CT-117|CT-81,0.03279,0.0015
+N019,nuevas,respondible,remuneración,rerank,v2,1.0,CT-133.1|CT-81|CT-90|CT-117|CT-95,0.9768,0.0017
+N020,nuevas,respondible,remuneración,bm25,no,1.0,CT-86|CT-96|CT-279|CT-280|CT-87,6.22125,0.0005
+N020,nuevas,respondible,remuneración,vectorial,no,1.0,CT-86|CT-96|CT-87|CT-111|CT-281,0.68075,0.0007
+N020,nuevas,respondible,remuneración,hibrido,no,1.0,CT-86|CT-96|CT-87|CT-279|CT-80,0.03279,0.0009
+N020,nuevas,respondible,remuneración,rerank,no,1.0,CT-86|CT-96|CT-80|CT-281|CT-42,0.99576,0.0011
+N020,nuevas,respondible,remuneración,bm25,v1,1.0,CT-86|CT-96|CT-280|CT-279|CT-80,13.87906,0.0014
+N020,nuevas,respondible,remuneración,vectorial,v1,1.0,CT-86|CT-96|CT-80|CT-95|CT-82,0.70727,0.0004
+N020,nuevas,respondible,remuneración,hibrido,v1,1.0,CT-86|CT-96|CT-80|CT-87|CT-281,0.03279,0.0014
+N020,nuevas,respondible,remuneración,bm25,v2,1.0,CT-86|CT-96|CT-280|CT-279|CT-80,13.87906,0.0009
+N020,nuevas,respondible,remuneración,vectorial,v2,1.0,CT-86|CT-96|CT-80|CT-95|CT-82,0.70727,0.0003
+N020,nuevas,respondible,remuneración,hibrido,v2,1.0,CT-86|CT-96|CT-80|CT-87|CT-281,0.03279,0.0013
+N020,nuevas,respondible,remuneración,rerank,v2,1.0,CT-86|CT-80|CT-96|CT-281|CT-81,0.99586,0.0013
+T021,nuevas,trampa_cercana,seguridad social,bm25,no,,CT-34.3|CT-368|CT-143|CT-171|CT-216,13.91771,0.0005
+T021,nuevas,trampa_cercana,seguridad social,vectorial,no,,CT-34.3|CT-368|CT-367|CT-143|CRE-371,0.57236,0.0003
+T021,nuevas,trampa_cercana,seguridad social,hibrido,no,,CT-34.3|CT-368|CT-143|CT-367|CRE-371,0.03279,0.0009
+T021,nuevas,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-42|CT-216|CT-95|CT-113,0.97357,0.0009
+T021,nuevas,trampa_cercana,seguridad social,bm25,v1,,CT-34.3|CT-368|CT-171|CT-216|CT-34.4,14.60461,0.0007
+T021,nuevas,trampa_cercana,seguridad social,vectorial,v1,,CT-34.3|CT-368|CT-367|CT-42|CT-202,0.6557,0.0003
+T021,nuevas,trampa_cercana,seguridad social,hibrido,v1,,CT-34.3|CT-368|CT-216|CT-367|CT-143,0.03279,0.001
+T021,nuevas,trampa_cercana,seguridad social,bm25,v2,,CT-34.3|CT-368|CT-171|CT-216|CT-34.4,14.60461,0.0007
+T021,nuevas,trampa_cercana,seguridad social,vectorial,v2,,CT-34.3|CT-368|CT-367|CT-42|CT-202,0.6557,0.0003
+T021,nuevas,trampa_cercana,seguridad social,hibrido,v2,,CT-34.3|CT-368|CT-216|CT-367|CT-143,0.03279,0.001
+T021,nuevas,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-216|CT-42|CT-95|CRE-371,0.98875,0.0011
+T022,nuevas,trampa_lejana,otro país,bm25,no,,CT-336|CT-128|CT-337|CT-133|CT-107,8.79883,0.0006
+T022,nuevas,trampa_lejana,otro país,vectorial,no,,CT-133|CT-81|CT-281|CT-336|CT-126,0.57917,0.0004
+T022,nuevas,trampa_lejana,otro país,hibrido,no,,CT-336|CT-133|CT-81|CT-337|CT-128,0.03202,0.0014
+T022,nuevas,trampa_lejana,otro país,rerank,no,,CT-133|CT-81|CT-128|CT-336|CT-279,0.06298,0.0012
+T022,nuevas,trampa_lejana,otro país,bm25,v1,,CT-336|CT-128|CT-337|CT-133|CT-107,8.79883,0.0006
+T022,nuevas,trampa_lejana,otro país,vectorial,v1,,CT-133|CT-81|CT-281|CT-336|CT-126,0.57917,0.0003
+T022,nuevas,trampa_lejana,otro país,hibrido,v1,,CT-336|CT-133|CT-81|CT-337|CT-128,0.03202,0.0009
+T022,nuevas,trampa_lejana,otro país,bm25,v2,,CT-336|CT-128|CT-337|CT-133|CT-107,8.79883,0.0005
+T022,nuevas,trampa_lejana,otro país,vectorial,v2,,CT-133|CT-81|CT-281|CT-336|CT-126,0.57917,0.0003
+T022,nuevas,trampa_lejana,otro país,hibrido,v2,,CT-336|CT-133|CT-81|CT-337|CT-128,0.03202,0.001
+T022,nuevas,trampa_lejana,otro país,rerank,v2,,CT-133|CT-81|CT-128|CT-336|CT-279,0.06298,0.001
+T023,nuevas,trampa_cercana,sector público,bm25,no,,CT-69|CT-70|CT-72|CT-75|CT-74,9.45197,0.0005
+T023,nuevas,trampa_cercana,sector público,vectorial,no,,CT-69|CT-65|CT-71|CT-72|CT-76,0.59206,0.0003
+T023,nuevas,trampa_cercana,sector público,hibrido,no,,CT-69|CT-72|CT-75|CT-76|CT-71,0.03279,0.0009
+T023,nuevas,trampa_cercana,sector público,rerank,no,,CT-65|CT-69|CT-50|CT-70|CT-268.inn1,0.04677,0.001
+T023,nuevas,trampa_cercana,sector público,bm25,v1,,CT-69|CT-72|CT-75|CT-338|CT-74,22.52625,0.0009
+T023,nuevas,trampa_cercana,sector público,vectorial,v1,,CT-69|CT-65|CT-72|CT-75|CT-50,0.65009,0.0003
+T023,nuevas,trampa_cercana,sector público,hibrido,v1,,CT-69|CT-72|CT-75|CT-74|CT-76,0.03279,0.0012
+T023,nuevas,trampa_cercana,sector público,bm25,v2,,CT-69|CT-72|CT-75|CT-338|CT-74,22.52625,0.001
+T023,nuevas,trampa_cercana,sector público,vectorial,v2,,CT-69|CT-65|CT-72|CT-75|CT-50,0.65009,0.0003
+T023,nuevas,trampa_cercana,sector público,hibrido,v2,,CT-69|CT-72|CT-75|CT-74|CT-76,0.03279,0.0013
+T023,nuevas,trampa_cercana,sector público,rerank,v2,,CT-69|CT-65|CT-268.inn1|CT-72|CT-50,0.47488,0.0019
+T024,nuevas,trampa_lejana,trámites,bm25,no,,CT-291|CT-569|CT-482|CT-536|CT-105.1,4.69995,0.0007
+T024,nuevas,trampa_lejana,trámites,vectorial,no,,CT-420|CT-419|CT-443|CRE-66|CT-141,0.49143,0.0003
+T024,nuevas,trampa_lejana,trámites,hibrido,no,,CT-443|CT-447|CT-42.1|CT-440|CRE-329,0.02939,0.001
+T024,nuevas,trampa_lejana,trámites,rerank,no,,CT-420|CT-443|CT-518|CT-319|CT-141,0.0004,0.0011
+T024,nuevas,trampa_lejana,trámites,bm25,v1,,CT-291|CT-569|CT-482|CT-536|CT-105.1,4.69995,0.0006
+T024,nuevas,trampa_lejana,trámites,vectorial,v1,,CT-420|CT-419|CT-443|CRE-66|CT-141,0.49143,0.0003
+T024,nuevas,trampa_lejana,trámites,hibrido,v1,,CT-443|CT-447|CT-42.1|CT-440|CRE-329,0.02939,0.0011
+T024,nuevas,trampa_lejana,trámites,bm25,v2,,CT-291|CT-569|CT-482|CT-536|CT-105.1,4.69995,0.0007
+T024,nuevas,trampa_lejana,trámites,vectorial,v2,,CT-420|CT-419|CT-443|CRE-66|CT-141,0.49143,0.0003
+T024,nuevas,trampa_lejana,trámites,hibrido,v2,,CT-443|CT-447|CT-42.1|CT-440|CRE-329,0.02939,0.0011
+T024,nuevas,trampa_lejana,trámites,rerank,v2,,CT-420|CT-443|CT-518|CT-319|CT-141,0.0004,0.0011
+T025,nuevas,trampa_cercana,seguridad social,bm25,no,,CT-80|CT-217|CT-382|CT-395|CT-368,7.65289,0.0007
+T025,nuevas,trampa_cercana,seguridad social,vectorial,no,,CT-367|CT-368|CT-370|CT-303|CT-34.3,0.53703,0.0003
+T025,nuevas,trampa_cercana,seguridad social,hibrido,no,,CT-368|CT-395|CT-382|CT-367|CT-34.3,0.03151,0.0009
+T025,nuevas,trampa_cercana,seguridad social,rerank,no,,CT-34.3|CT-113|CRE-369|CT-395|CT-216,0.03953,0.0011
+T025,nuevas,trampa_cercana,seguridad social,bm25,v1,,CT-80|CT-217|CT-382|CT-395|CT-368,7.65289,0.0007
+T025,nuevas,trampa_cercana,seguridad social,vectorial,v1,,CT-367|CT-368|CT-370|CT-303|CT-34.3,0.53703,0.0003
+T025,nuevas,trampa_cercana,seguridad social,hibrido,v1,,CT-368|CT-395|CT-382|CT-367|CT-34.3,0.03151,0.0011
+T025,nuevas,trampa_cercana,seguridad social,bm25,v2,,CT-80|CT-217|CT-382|CT-395|CT-368,7.65289,0.0009
+T025,nuevas,trampa_cercana,seguridad social,vectorial,v2,,CT-367|CT-368|CT-370|CT-303|CT-34.3,0.53703,0.0005
+T025,nuevas,trampa_cercana,seguridad social,hibrido,v2,,CT-368|CT-395|CT-382|CT-367|CT-34.3,0.03151,0.0012
+T025,nuevas,trampa_cercana,seguridad social,rerank,v2,,CT-34.3|CT-113|CRE-369|CT-395|CT-216,0.03953,0.0012

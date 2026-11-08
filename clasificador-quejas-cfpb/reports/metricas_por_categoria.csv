@@ -1,0 +1,25 @@
+enfoque,categoria,etiqueta,precision,exhaustividad,f1,soporte
+1. TF-IDF + LR (25.722 ej.),reporte_credito,Reporte y burós de crédito,0.7872340425531915,0.74,0.7628865979381443,50
+1. TF-IDF + LR (25.722 ej.),cobranza_deudas,Cobranza de deudas,0.9,0.72,0.8,50
+1. TF-IDF + LR (25.722 ej.),hipotecas,Hipotecas y préstamos de vivienda,0.8823529411764706,0.9,0.8910891089108911,50
+1. TF-IDF + LR (25.722 ej.),tarjetas_credito,Tarjetas de crédito y prepago,0.82,0.82,0.82,50
+1. TF-IDF + LR (25.722 ej.),cuentas_bancarias,Cuentas bancarias y transferencias,0.7962962962962963,0.86,0.8269230769230769,50
+1. TF-IDF + LR (25.722 ej.),prestamos_consumo,"Préstamos estudiantiles, auto y consumo",0.7931034482758621,0.92,0.8518518518518519,50
+3. bge-m3 + LR (1.800 ej.),reporte_credito,Reporte y burós de crédito,0.8048780487804879,0.66,0.7252747252747253,50
+3. bge-m3 + LR (1.800 ej.),cobranza_deudas,Cobranza de deudas,0.8536585365853658,0.7,0.7692307692307693,50
+3. bge-m3 + LR (1.800 ej.),hipotecas,Hipotecas y préstamos de vivienda,0.88,0.88,0.88,50
+3. bge-m3 + LR (1.800 ej.),tarjetas_credito,Tarjetas de crédito y prepago,0.7241379310344828,0.84,0.7777777777777778,50
+3. bge-m3 + LR (1.800 ej.),cuentas_bancarias,Cuentas bancarias y transferencias,0.7818181818181819,0.86,0.819047619047619,50
+3. bge-m3 + LR (1.800 ej.),prestamos_consumo,"Préstamos estudiantiles, auto y consumo",0.7818181818181819,0.86,0.819047619047619,50
+4. LLM zero-shot (qwen2.5:7b),reporte_credito,Reporte y burós de crédito,0.46938775510204084,0.92,0.6216216216216216,50
+4. LLM zero-shot (qwen2.5:7b),cobranza_deudas,Cobranza de deudas,0.6756756756756757,0.5,0.5747126436781609,50
+4. LLM zero-shot (qwen2.5:7b),hipotecas,Hipotecas y préstamos de vivienda,0.8863636363636364,0.78,0.8297872340425532,50
+4. LLM zero-shot (qwen2.5:7b),tarjetas_credito,Tarjetas de crédito y prepago,0.7222222222222222,0.52,0.6046511627906976,50
+4. LLM zero-shot (qwen2.5:7b),cuentas_bancarias,Cuentas bancarias y transferencias,0.782608695652174,0.72,0.75,50
+4. LLM zero-shot (qwen2.5:7b),prestamos_consumo,"Préstamos estudiantiles, auto y consumo",0.8974358974358975,0.7,0.7865168539325843,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",reporte_credito,Reporte y burós de crédito,0.6612903225806451,0.82,0.7321428571428571,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cobranza_deudas,Cobranza de deudas,0.8529411764705882,0.58,0.6904761904761905,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",hipotecas,Hipotecas y préstamos de vivienda,0.9166666666666666,0.88,0.8979591836734694,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",tarjetas_credito,Tarjetas de crédito y prepago,0.8863636363636364,0.78,0.8297872340425532,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",cuentas_bancarias,Cuentas bancarias y transferencias,0.8333333333333334,0.8,0.8163265306122449,50
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",prestamos_consumo,"Préstamos estudiantiles, auto y consumo",0.734375,0.94,0.8245614035087719,50

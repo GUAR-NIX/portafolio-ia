@@ -1,0 +1,11 @@
+metrica,v1,v2,diferencia_v2_menos_v1
+respuesta_correcta,0.8409,0.9318,0.0909
+llm_seleccion_turno1,0.9167,0.8611,-0.0556
+llm_seleccion_exacta,0.9167,0.9444,0.0277
+llm_args_perfectos,0.7778,0.8611,0.0833
+llm_se_abstuvo_ood,0.75,0.375,-0.375
+abstencion_correcta_ood,1.0,1.0,0.0
+falsa_abstencion_dominio,0.0,0.0,0.0
+fidelidad_texto_llm,0.8056,0.7639,-0.0417
+pasos_llm_medios,1.89,2.11,0.22
+latencia_media_s,36.05,49.22,13.17

@@ -1,0 +1,17 @@
+[project]
+name = "rag_laboral"
+version = "1.0.0"
+description = "Asistente RAG híbrido (BM25 + bge-m3 + RRF + re-ranking) sobre el Código del Trabajo del Ecuador, con citas verificadas y rechazo, evaluado con preguntas hechas a mano"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]

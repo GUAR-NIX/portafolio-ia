@@ -1,0 +1,451 @@
+id,metodo,plantilla,condicion,faltantes,ruc_emisor,razon_social_emisor,numero_factura,numero_autorizacion,fecha_emision,cliente_nombre,cliente_identificacion,subtotal,descuento,iva,total,items_real,items_pred,items_ok,items_f1,campos_ok,factura_perfecta
+FAC_001,regex,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_006,regex,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_011,regex,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_071,regex,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,5,0.5555555555555556,11,False
+FAC_002,regex,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,regex,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_004,regex,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,regex,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,8,0,0,0.0,3,False
+FAC_017,regex,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_028,regex,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,False,True,3,1,1,0.5,9,False
+FAC_059,regex,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_010,regex,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,True,False,False,4,0,0,0.0,3,False
+FAC_022,regex,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_043,regex,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,regex,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_040,regex,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_027,regex,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,7,7,0.9333333333333333,11,False
+FAC_048,regex,C_ticket,escaneada/girada,completa,True,False,True,False,True,True,False,True,True,False,True,10,8,8,0.888888888888889,7,False
+FAC_069,regex,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,0,0,0.0,11,False
+FAC_060,regex,E_compacta,digital,con faltantes,False,False,True,True,False,False,True,False,True,False,False,3,0,0,0.0,4,False
+FAC_091,regex,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_052,regex,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,regex,C_ticket,escaneada/girada,completa,True,False,True,False,True,False,True,True,False,False,True,10,7,6,0.7058823529411764,6,False
+FAC_084,regex,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,False,True,True,3,0,0,0.0,10,False
+FAC_085,regex,E_compacta,digital,con faltantes,False,False,True,True,False,True,False,False,False,False,False,1,0,0,0.0,3,False
+FAC_121,regex,A_ride_sri,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,4,4,4,1.0,10,False
+FAC_122,regex,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,False,True,9,5,5,0.7142857142857143,10,False
+FAC_058,regex,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,False,False,8,4,4,0.6666666666666666,8,False
+FAC_104,regex,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,0,0,0.0,11,False
+FAC_100,regex,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,5,0,0,0.0,2,False
+FAC_126,regex,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,regex,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_078,regex,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_129,regex,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,False,3,0,0,0.0,10,False
+FAC_155,regex,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,False,False,False,6,0,0,0.0,2,False
+FAC_131,regex,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,4,3,0.6666666666666665,11,False
+FAC_162,regex,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_108,regex,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_144,regex,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_180,regex,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,8,0,0,0.0,3,False
+FAC_141,regex,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_177,regex,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,1,1,0.6666666666666666,11,False
+FAC_148,regex,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_164,regex,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,regex,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,True,False,False,10,0,0,0.0,3,False
+FAC_161,regex,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_182,regex,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_168,regex,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_179,regex,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_195,regex,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,False,False,False,3,0,0,0.0,2,False
+FAC_001,llm_1,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_006,llm_1,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_011,llm_1,A_ride_sri,digital,completa,True,False,True,True,True,False,True,True,True,True,True,9,9,9,1.0,9,False
+FAC_071,llm_1,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_002,llm_1,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,llm_1,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,0,0.0,11,False
+FAC_004,llm_1,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,llm_1,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_017,llm_1,B_moderna,digital,completa,True,True,True,True,True,False,True,True,True,True,True,4,4,4,1.0,10,False
+FAC_028,llm_1,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,False,True,True,True,3,3,1,0.3333333333333333,9,False
+FAC_059,llm_1,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_010,llm_1,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_022,llm_1,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_043,llm_1,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,llm_1,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_040,llm_1,E_compacta,digital,completa,True,True,True,True,True,False,True,True,True,True,True,2,2,2,1.0,10,False
+FAC_027,llm_1,B_moderna,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,8,8,8,1.0,10,False
+FAC_048,llm_1,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,10,10,10,1.0,10,False
+FAC_069,llm_1,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,0,0.0,11,False
+FAC_060,llm_1,E_compacta,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_091,llm_1,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_052,llm_1,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,llm_1,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_084,llm_1,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_085,llm_1,E_compacta,digital,con faltantes,True,True,True,True,True,False,True,True,True,True,True,1,1,1,1.0,10,False
+FAC_121,llm_1,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_122,llm_1,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_058,llm_1,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_104,llm_1,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_100,llm_1,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_126,llm_1,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,llm_1,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_078,llm_1,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_129,llm_1,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_155,llm_1,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,2,0.3333333333333333,11,False
+FAC_131,llm_1,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,4,0.8000000000000002,11,False
+FAC_162,llm_1,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_108,llm_1,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_144,llm_1,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_180,llm_1,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_141,llm_1,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_177,llm_1,B_moderna,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,2,2,2,1.0,10,False
+FAC_148,llm_1,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_164,llm_1,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,llm_1,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_161,llm_1,A_ride_sri,digital,con faltantes,True,False,True,True,True,False,True,True,True,True,True,6,6,6,1.0,9,False
+FAC_182,llm_1,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_168,llm_1,C_ticket,digital,con faltantes,True,False,True,True,True,True,True,True,True,True,True,9,9,9,1.0,10,False
+FAC_179,llm_1,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_195,llm_1,E_compacta,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,3,3,3,1.0,10,False
+FAC_001,llm,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_006,llm,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_011,llm,A_ride_sri,digital,completa,True,False,True,True,True,False,True,True,True,True,True,9,9,9,1.0,9,False
+FAC_071,llm,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_002,llm,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,llm,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,0,0.0,11,False
+FAC_004,llm,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,llm,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_017,llm,B_moderna,digital,completa,True,True,True,True,True,False,True,True,True,True,True,4,4,4,1.0,10,False
+FAC_028,llm,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,False,True,True,True,3,3,1,0.3333333333333333,9,False
+FAC_059,llm,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_010,llm,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_022,llm,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_043,llm,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,llm,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_040,llm,E_compacta,digital,completa,True,True,True,True,True,False,True,True,True,True,True,2,2,2,1.0,10,False
+FAC_027,llm,B_moderna,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,8,8,8,1.0,10,False
+FAC_048,llm,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,10,10,10,1.0,10,False
+FAC_069,llm,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,0,0.0,11,False
+FAC_060,llm,E_compacta,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_091,llm,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_052,llm,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,llm,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_084,llm,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_085,llm,E_compacta,digital,con faltantes,True,True,True,True,True,False,True,True,True,True,True,1,1,1,1.0,10,False
+FAC_121,llm,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_122,llm,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_058,llm,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_104,llm,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_100,llm,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_126,llm,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,llm,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_078,llm,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_129,llm,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_155,llm,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,2,0.3333333333333333,11,False
+FAC_131,llm,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,4,0.8000000000000002,11,False
+FAC_162,llm,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_108,llm,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_144,llm,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_180,llm,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_141,llm,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_177,llm,B_moderna,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,2,2,2,1.0,10,False
+FAC_148,llm,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_164,llm,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,llm,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_161,llm,A_ride_sri,digital,con faltantes,True,False,True,True,True,False,True,True,True,True,True,6,6,6,1.0,9,False
+FAC_182,llm,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_168,llm,C_ticket,digital,con faltantes,True,False,True,True,True,True,True,True,True,True,True,9,9,9,1.0,10,False
+FAC_179,llm,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_195,llm,E_compacta,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,3,3,3,1.0,10,False
+FAC_001,llm_rep,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_006,llm_rep,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_011,llm_rep,A_ride_sri,digital,completa,True,False,True,True,True,False,True,True,True,True,True,9,9,9,1.0,9,False
+FAC_071,llm_rep,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_002,llm_rep,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,llm_rep,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_004,llm_rep,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,llm_rep,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_017,llm_rep,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_028,llm_rep,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,False,True,True,True,3,3,1,0.3333333333333333,9,False
+FAC_059,llm_rep,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_010,llm_rep,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_022,llm_rep,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_043,llm_rep,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,llm_rep,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_040,llm_rep,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_027,llm_rep,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_048,llm_rep,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,10,10,10,1.0,10,False
+FAC_069,llm_rep,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_060,llm_rep,E_compacta,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_091,llm_rep,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_052,llm_rep,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,llm_rep,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_084,llm_rep,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_085,llm_rep,E_compacta,digital,con faltantes,True,True,True,True,True,False,True,True,True,True,True,1,1,1,1.0,10,False
+FAC_121,llm_rep,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_122,llm_rep,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_058,llm_rep,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_104,llm_rep,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_100,llm_rep,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_126,llm_rep,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,llm_rep,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_078,llm_rep,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_129,llm_rep,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_155,llm_rep,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,2,0.3333333333333333,11,False
+FAC_131,llm_rep,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,4,0.8000000000000002,11,False
+FAC_162,llm_rep,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_108,llm_rep,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_144,llm_rep,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_180,llm_rep,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_141,llm_rep,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_177,llm_rep,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_148,llm_rep,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_164,llm_rep,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,llm_rep,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_161,llm_rep,A_ride_sri,digital,con faltantes,True,False,True,True,True,False,True,True,True,True,True,6,6,6,1.0,9,False
+FAC_182,llm_rep,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_168,llm_rep,C_ticket,digital,con faltantes,True,False,True,True,True,True,True,True,True,True,True,9,9,9,1.0,10,False
+FAC_179,llm_rep,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_195,llm_rep,E_compacta,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,3,3,3,1.0,10,False
+FAC_001,cascada,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_006,cascada,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_011,cascada,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_071,cascada,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_002,cascada,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,cascada,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_004,cascada,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,cascada,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_017,cascada,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_028,cascada,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,False,True,True,True,3,3,1,0.3333333333333333,9,False
+FAC_059,cascada,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_010,cascada,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_022,cascada,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_043,cascada,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,cascada,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_040,cascada,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_027,cascada,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_048,cascada,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,10,10,10,1.0,10,False
+FAC_069,cascada,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_060,cascada,E_compacta,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_091,cascada,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_052,cascada,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,cascada,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_084,cascada,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_085,cascada,E_compacta,digital,con faltantes,True,True,True,True,True,False,True,True,True,True,True,1,1,1,1.0,10,False
+FAC_121,cascada,A_ride_sri,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,4,4,4,1.0,10,False
+FAC_122,cascada,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_058,cascada,C_ticket,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_104,cascada,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_100,cascada,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_126,cascada,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,cascada,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_078,cascada,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_129,cascada,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_155,cascada,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,2,0.3333333333333333,11,False
+FAC_131,cascada,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,4,0.8000000000000002,11,False
+FAC_162,cascada,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_108,cascada,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_144,cascada,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_180,cascada,E_compacta,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_141,cascada,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_177,cascada,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_148,cascada,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_164,cascada,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,cascada,E_compacta,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_161,cascada,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_182,cascada,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_168,cascada,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_179,cascada,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_195,cascada,E_compacta,escaneada/girada,completa,True,True,True,True,True,False,True,True,True,True,True,3,3,3,1.0,10,False
+FAC_001,regex_200,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_002,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_003,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_004,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_005,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,8,0,0,0.0,3,False
+FAC_006,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_007,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_008,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_009,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_010,regex_200,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,True,False,False,4,0,0,0.0,3,False
+FAC_011,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_012,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_013,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_014,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_015,regex_200,E_compacta,digital,con faltantes,False,False,True,True,False,False,True,False,True,False,False,2,0,0,0.0,4,False
+FAC_016,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_017,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_018,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_019,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_020,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_021,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_022,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_023,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_024,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_025,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,3,0,0,0.0,3,False
+FAC_026,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_027,regex_200,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,7,7,0.9333333333333333,11,False
+FAC_028,regex_200,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,False,True,3,1,1,0.5,9,False
+FAC_029,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_030,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,5,0,0,0.0,3,False
+FAC_031,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_032,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_033,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_034,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_035,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,6,0,0,0.0,3,False
+FAC_036,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_037,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_038,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_039,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_040,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_041,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_042,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_043,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_044,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_045,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,8,0,0,0.0,2,False
+FAC_046,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_047,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_048,regex_200,C_ticket,escaneada/girada,completa,True,False,True,False,True,True,False,True,True,False,True,10,8,8,0.888888888888889,7,False
+FAC_049,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_050,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,10,0,0,0.0,2,False
+FAC_051,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_052,regex_200,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_053,regex_200,C_ticket,escaneada/girada,completa,True,False,True,False,True,False,True,True,False,False,True,10,7,6,0.7058823529411764,6,False
+FAC_054,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_055,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,7,0,0,0.0,3,False
+FAC_056,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_057,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_058,regex_200,C_ticket,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,False,False,8,4,4,0.6666666666666666,8,False
+FAC_059,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_060,regex_200,E_compacta,digital,con faltantes,False,False,True,True,False,False,True,False,True,False,False,3,0,0,0.0,4,False
+FAC_061,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,3,0.375,11,False
+FAC_062,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_063,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_064,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_065,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,9,0,0,0.0,3,False
+FAC_066,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_067,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_068,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_069,regex_200,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,0,0,0.0,11,False
+FAC_070,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,1,0,0,0.0,3,False
+FAC_071,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,5,0.5555555555555556,11,False
+FAC_072,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_073,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_074,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_075,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,4,0,0,0.0,2,False
+FAC_076,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_077,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_078,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_079,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_080,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,8,0,0,0.0,3,False
+FAC_081,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_082,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_083,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_084,regex_200,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,False,True,True,3,0,0,0.0,10,False
+FAC_085,regex_200,E_compacta,digital,con faltantes,False,False,True,True,False,True,False,False,False,False,False,1,0,0,0.0,3,False
+FAC_086,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_087,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_088,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_089,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_090,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,2,0,0,0.0,2,False
+FAC_091,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_092,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_093,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_094,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_095,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,4,0,0,0.0,3,False
+FAC_096,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,7,0.875,11,False
+FAC_097,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_098,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_099,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_100,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,5,0,0,0.0,2,False
+FAC_101,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_102,regex_200,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_103,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_104,regex_200,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,0,0,0.0,11,False
+FAC_105,regex_200,E_compacta,digital,con faltantes,False,False,True,True,False,True,False,False,False,False,False,5,0,0,0.0,3,False
+FAC_106,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_107,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_108,regex_200,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_109,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_110,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,10,0,0,0.0,3,False
+FAC_111,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,False,True,4,3,1,0.28571428571428575,10,False
+FAC_112,regex_200,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_113,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_114,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_115,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,10,0,0,0.0,3,False
+FAC_116,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_117,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_118,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_119,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_120,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_121,regex_200,A_ride_sri,escaneada/girada,completa,True,False,True,True,True,True,True,True,True,True,True,4,4,4,1.0,10,False
+FAC_122,regex_200,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,False,True,9,5,5,0.7142857142857143,10,False
+FAC_123,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_124,regex_200,D_servicios,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_125,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,4,0,0,0.0,3,False
+FAC_126,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_127,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_128,regex_200,C_ticket,escaneada/girada,completa,True,False,True,False,True,True,True,True,True,False,True,8,5,5,0.7692307692307693,8,False
+FAC_129,regex_200,D_servicios,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,False,3,0,0,0.0,10,False
+FAC_130,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,1,0,0,0.0,3,False
+FAC_131,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,4,3,0.6666666666666665,11,False
+FAC_132,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_133,regex_200,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_134,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_135,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_136,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_137,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_138,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_139,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_140,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,2,0,0,0.0,3,False
+FAC_141,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_142,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_143,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_144,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_145,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,6,0,0,0.0,3,False
+FAC_146,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_147,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_148,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_149,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_150,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,4,0,0,0.0,2,False
+FAC_151,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,12,12,12,1.0,11,True
+FAC_152,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_153,regex_200,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_154,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_155,regex_200,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,False,False,False,6,0,0,0.0,2,False
+FAC_156,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,4,0.8000000000000002,11,False
+FAC_157,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_158,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_159,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_160,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,7,0,0,0.0,3,False
+FAC_161,regex_200,A_ride_sri,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_162,regex_200,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_163,regex_200,C_ticket,escaneada/girada,con faltantes,True,True,True,True,True,True,True,True,True,False,True,8,6,5,0.7142857142857143,10,False
+FAC_164,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_165,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,4,0,0,0.0,3,False
+FAC_166,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,0,0.0,11,False
+FAC_167,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_168,regex_200,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,9,9,9,1.0,11,True
+FAC_169,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_170,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,3,0,0,0.0,3,False
+FAC_171,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,11,11,11,1.0,11,True
+FAC_172,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_173,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,11,11,11,1.0,11,True
+FAC_174,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_175,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,7,0,0,0.0,3,False
+FAC_176,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,8,8,8,1.0,11,True
+FAC_177,regex_200,B_moderna,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,2,1,1,0.6666666666666666,11,False
+FAC_178,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_179,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_180,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,8,0,0,0.0,3,False
+FAC_181,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_182,regex_200,B_moderna,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_183,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,6,6,6,1.0,11,True
+FAC_184,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_185,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,True,False,False,6,0,0,0.0,3,False
+FAC_186,regex_200,A_ride_sri,escaneada/girada,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,6,0.8571428571428571,11,False
+FAC_187,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,7,7,7,1.0,11,True
+FAC_188,regex_200,C_ticket,digital,con faltantes,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_189,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,3,3,3,1.0,11,True
+FAC_190,regex_200,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,True,False,False,10,0,0,0.0,3,False
+FAC_191,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_192,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_193,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,2,2,2,1.0,11,True
+FAC_194,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,5,5,5,1.0,11,True
+FAC_195,regex_200,E_compacta,escaneada/girada,completa,False,False,True,True,False,False,False,False,False,False,False,3,0,0,0.0,2,False
+FAC_196,regex_200,A_ride_sri,digital,completa,True,True,True,True,True,True,True,True,True,True,True,1,1,1,1.0,11,True
+FAC_197,regex_200,B_moderna,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_198,regex_200,C_ticket,digital,completa,True,True,True,True,True,True,True,True,True,True,True,10,10,10,1.0,11,True
+FAC_199,regex_200,D_servicios,digital,completa,True,True,True,True,True,True,True,True,True,True,True,4,4,4,1.0,11,True
+FAC_200,regex_200,E_compacta,digital,completa,False,False,True,True,False,False,False,False,False,False,False,3,0,0,0.0,2,False

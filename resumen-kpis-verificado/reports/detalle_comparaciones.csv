@@ -1,0 +1,279 @@
+conjunto,enfoque,version,pais,seccion,clausula,tipo,indicador,dice,real,correcta,variacion,brecha
+validacion,estructurado,v1,ARG,hallazgo_1,"El PIB de Argentina creció un 2,4% en 2023, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v1,ARG,hallazgo_2,"El PIB per cápita aumentó un 2,1%,",frente_al_anio_anterior,pib_pc,sube,sube,True,2.146,
+validacion,estructurado,v1,ARG,riesgo_1,"superando significativamente la mediana regional (inflacion,ARG,2023,variacion,61.1) y colocándose en el primer lugar de la región (inflacion,ARG,ranking,1)",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,estructurado,v1,CHL,hallazgo_3,"La inflación en Chile se redujo a 7,6% en 2023, mejorando su posición en la región a la cuarta posición.",frente_al_anio_anterior,inflacion,baja,baja,True,-4.062,
+validacion,estructurado,v1,CHL,hallazgo_4,"El desempleo en Chile aumentó a 9,0% en 2023,",frente_al_anio_anterior,desempleo,sube,sube,True,0.764,
+validacion,estructurado,v1,CHL,riesgo_1,"La brecha en el saldo de cuenta corriente se amplió a -3,1% en 2023,",frente_al_anio_anterior,cuenta_corriente,sube,sube,True,5.770,
+validacion,estructurado,v1,PER,hallazgo_1,"El PIB de Perú creció un 8,9% en 2023, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v1,PER,hallazgo_1,"superando la mediana regional en 159,4%",frente_a_region,pib_usd,arriba,arriba,True,,159.367
+validacion,estructurado,v1,PER,riesgo_1,"La brecha en el saldo de cuenta corriente se amplió,",frente_al_anio_anterior,cuenta_corriente,sube,sube,True,4.568,
+validacion,estructurado,v1,PER,riesgo_2,pero sigue siendo superior a la mediana regional,frente_a_region,desempleo,arriba,abajo,False,,-0.776
+validacion,estructurado,v1,GTM,hallazgo_1,"El PIB de Guatemala creció un 9,1% en 2023, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v1,GTM,hallazgo_3,"El desempleo en Guatemala disminuyó a 2,3%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.707,
+validacion,estructurado,v1,GTM,riesgo_1,"superando ligeramente la mediana regional (inflacion, GTM, mediana_region, 5.5)",frente_a_region,inflacion,arriba,arriba,True,,0.679
+validacion,estructurado,v1,PRY,hallazgo_1,"superando la mediana regional en 2,1 puntos.",frente_a_region,crecimiento,arriba,arriba,True,,2.112
+validacion,estructurado,v1,PRY,hallazgo_2,"Las exportaciones aumentaron significativamente, representando el 42,3% del PIB,",frente_al_anio_anterior,exportaciones,sube,sube,True,7.858,
+validacion,estructurado,v1,PRY,hallazgo_2,"superando la mediana regional en 13,9 puntos.",frente_a_region,exportaciones,arriba,arriba,True,,13.942
+validacion,estructurado,v1,PRY,hallazgo_3,"La brecha en el saldo de cuenta corriente se redujo a 0,3% del PIB, mejorando 6,7 puntos respecto al año anterior.",frente_al_anio_anterior,cuenta_corriente,baja,sube,False,6.737,
+validacion,estructurado,v1,PRY,riesgo_1,"El desempleo se redujo a 5,8%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.961,
+validacion,estructurado,v1,PRY,riesgo_1,pero sigue siendo superior a la mediana regional.,frente_a_region,desempleo,arriba,arriba,True,,0.119
+validacion,estructurado,v1,PRY,riesgo_2,"La inflación se redujo a 4,6%,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.134,
+validacion,estructurado,v1,PRY,riesgo_2,pero aún se sitúa por encima de la mediana regional.,frente_a_region,inflacion,arriba,abajo,False,,-0.896
+validacion,verificado,v1,ARG,hallazgo_1,"El PIB de Argentina creció un 2,4% en 2023, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v1,ARG,hallazgo_2,"El PIB per cápita aumentó un 2,1%,",frente_al_anio_anterior,pib_pc,sube,sube,True,2.146,
+validacion,verificado,v1,ARG,riesgo_1,"superando significativamente la mediana regional (inflacion,ARG,2023,variacion,61.1) y colocándose en el primer lugar de la región (inflacion,ARG,ranking,1)",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,verificado,v1,CHL,hallazgo_3,"La inflación en Chile se redujo a 7,6% en 2023, mejorando su posición en la región a la cuarta posición.",frente_al_anio_anterior,inflacion,baja,baja,True,-4.062,
+validacion,verificado,v1,CHL,hallazgo_4,"El desempleo en Chile aumentó a 9,0% en 2023,",frente_al_anio_anterior,desempleo,sube,sube,True,0.764,
+validacion,verificado,v1,CHL,riesgo_1,"La brecha en el saldo de cuenta corriente se amplió a -3,1% en 2023,",frente_al_anio_anterior,cuenta_corriente,sube,sube,True,5.770,
+validacion,verificado,v1,PER,hallazgo_1,"El PIB de Perú creció un 8,9% en 2023, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v1,PER,hallazgo_1,"superando la mediana regional en 159,4%",frente_a_region,pib_usd,arriba,arriba,True,,159.367
+validacion,verificado,v1,PER,riesgo_1,"La brecha en el saldo de cuenta corriente se amplió,",frente_al_anio_anterior,cuenta_corriente,sube,sube,True,4.568,
+validacion,verificado,v1,PER,riesgo_2,pero sigue siendo superior a la mediana regional,frente_a_region,desempleo,arriba,abajo,False,,-0.776
+validacion,verificado,v1,GTM,hallazgo_1,"El PIB de Guatemala creció un 9,1% en 2023, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v1,GTM,hallazgo_3,"El desempleo en Guatemala disminuyó a 2,3%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.707,
+validacion,verificado,v1,GTM,riesgo_1,"superando ligeramente la mediana regional (inflacion, GTM, mediana_region, 5.5)",frente_a_region,inflacion,arriba,arriba,True,,0.679
+validacion,verificado,v1,PRY,hallazgo_1,"superando la mediana regional en 2,1 puntos.",frente_a_region,crecimiento,arriba,arriba,True,,2.112
+validacion,verificado,v1,PRY,hallazgo_2,"Las exportaciones aumentaron significativamente, representando el 42,3% del PIB,",frente_al_anio_anterior,exportaciones,sube,sube,True,7.858,
+validacion,verificado,v1,PRY,hallazgo_2,"superando la mediana regional en 13,9 puntos.",frente_a_region,exportaciones,arriba,arriba,True,,13.942
+validacion,verificado,v1,PRY,hallazgo_3,"La brecha en el saldo de cuenta corriente se redujo a 0,3% del PIB, mejorando 6,7 puntos respecto al año anterior.",frente_al_anio_anterior,cuenta_corriente,baja,sube,False,6.737,
+validacion,verificado,v1,PRY,riesgo_1,"El desempleo se redujo a 5,8%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.961,
+validacion,verificado,v1,PRY,riesgo_1,pero sigue siendo superior a la mediana regional.,frente_a_region,desempleo,arriba,arriba,True,,0.119
+validacion,verificado,v1,PRY,riesgo_2,"La inflación se redujo a 4,6%,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.134,
+validacion,verificado,v1,PRY,riesgo_2,pero aún se sitúa por encima de la mediana regional.,frente_a_region,inflacion,arriba,abajo,False,,-0.896
+validacion,estructurado,v2,ARG,hallazgo_2,superando la mediana regional por mucho.,frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,estructurado,v2,ARG,hallazgo_3,"El desempleo disminuyó ligeramente,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.666,
+validacion,estructurado,v2,ARG,hallazgo_3,pero aún se mantiene por encima de la mediana regional.,frente_a_region,desempleo,arriba,arriba,True,,0.465
+validacion,estructurado,v2,ARG,hallazgo_4,"las importaciones se redujeron, afectando negativamente el saldo de cuenta corriente.",frente_al_anio_anterior,cuenta_corriente,baja,baja,True,-2.817,
+validacion,estructurado,v2,ARG,hallazgo_5,"La inversión extranjera directa aumentó,",frente_al_anio_anterior,ied,sube,sube,True,1.646,
+validacion,estructurado,v2,CHL,hallazgo_1,"El PIB de Chile creció un 11,5% en 2023, situándose en",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v2,CHL,hallazgo_2,"El PIB per cápita aumentó un 10,9% en 2023,",frente_al_anio_anterior,pib_pc,sube,sube,True,10.925,
+validacion,estructurado,v2,CHL,hallazgo_2,"superando a la mediana regional por 128,8%.",frente_a_region,pib_pc,arriba,arriba,True,,128.798
+validacion,estructurado,v2,CHL,hallazgo_3,"La inflación en Chile disminuyó a 7,6% en 2023, mejorando su posición en la región.",frente_al_anio_anterior,inflacion,baja,baja,True,-4.062,
+validacion,estructurado,v2,PER,hallazgo_1,"El PIB de Perú creció 8,9 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v2,PER,hallazgo_1,"superando la mediana regional en 159,4 %",frente_a_region,pib_usd,arriba,arriba,True,,159.367
+validacion,estructurado,v2,PER,hallazgo_3,"La inflación en Perú disminuyó a 6,5 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-1.878,
+validacion,estructurado,v2,PER,hallazgo_3,"superando la mediana regional en 0,9 pp",frente_a_region,inflacion,arriba,arriba,True,,0.928
+validacion,estructurado,v2,PER,riesgo_1,"Las importaciones disminuyeron significativamente,",frente_al_anio_anterior,importaciones,baja,baja,True,-4.716,
+validacion,estructurado,v2,GTM,hallazgo_1,"El PIB de Guatemala creció 9,1 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v2,GTM,hallazgo_1,"superando la mediana regional en 0,9 %.",frente_a_region,pib_usd,arriba,arriba,True,,0.929
+validacion,estructurado,v2,GTM,hallazgo_3,"El desempleo en Guatemala disminuyó a 2,3 %, mejorando su posición en la región a la 18a posición.",frente_al_anio_anterior,desempleo,baja,baja,True,-0.707,
+validacion,estructurado,v2,GTM,riesgo_2,"El alto nivel de deuda externa de Guatemala (25,1 % del INB) podría ser un riesgo si la economía no crece a un ritmo similar o superior a la mediana regional.",frente_a_region,deuda_externa,arriba,abajo,False,,-15.707
+validacion,estructurado,v2,PRY,hallazgo_1,"El PIB de Paraguay creció un 3,1 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,estructurado,v2,PRY,hallazgo_1,"superando la mediana regional en 61,2 %",frente_a_region,crecimiento,arriba,arriba,True,,2.112
+validacion,estructurado,v2,PRY,hallazgo_3,"La inflación disminuyó a 4,6 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.134,
+validacion,estructurado,v2,PRY,hallazgo_3,"superando la mediana regional en 0,9 pp",frente_a_region,inflacion,arriba,abajo,False,,-0.896
+validacion,verificado,v2,ARG,hallazgo_1,"El PIB de Argentina creció a un ritmo de 2,4 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v2,ARG,hallazgo_1,"superando la mediana regional de 103,3 mil millones de USD, con una brecha del 528,5 %.",frente_a_region,pib_usd,arriba,arriba,True,,528.483
+validacion,verificado,v2,ARG,hallazgo_2,"El PIB per cápita aumentó a 14.262 USD en 2023,",frente_al_anio_anterior,pib_pc,sube,sube,True,2.146,
+validacion,verificado,v2,ARG,hallazgo_2,"superando la mediana regional de 7.466 USD, con una brecha del 91,0 %.",frente_a_region,pib_pc,arriba,arriba,True,,91.029
+validacion,verificado,v2,ARG,hallazgo_4,"superando la mediana regional de 5,5 %, con una brecha del 128,0 %.",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,verificado,v2,ARG,hallazgo_5,"El desempleo disminuyó a 6,1 % en 2023,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.666,
+validacion,verificado,v2,ARG,hallazgo_5,"manteniéndose por encima de la mediana regional de 5,7 %, con una brecha del 0,5 %.",frente_a_region,desempleo,arriba,arriba,True,,0.465
+validacion,verificado,v2,CHL,hallazgo_1,"El PIB de Chile creció un 11,5% en 2023, situándose en",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v2,CHL,hallazgo_2,"El PIB per cápita aumentó un 10,9% en 2023,",frente_al_anio_anterior,pib_pc,sube,sube,True,10.925,
+validacion,verificado,v2,CHL,hallazgo_2,"superando a la mediana regional por 128,8%.",frente_a_region,pib_pc,arriba,arriba,True,,128.798
+validacion,verificado,v2,CHL,hallazgo_3,"La inflación en Chile disminuyó a 7,6% en 2023, mejorando su posición en la región.",frente_al_anio_anterior,inflacion,baja,baja,True,-4.062,
+validacion,verificado,v2,PER,hallazgo_1,"El PIB de Perú creció 8,9 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v2,PER,hallazgo_1,"superando la mediana regional en 159,4 %",frente_a_region,pib_usd,arriba,arriba,True,,159.367
+validacion,verificado,v2,PER,hallazgo_3,"La inflación en Perú disminuyó a 6,5 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-1.878,
+validacion,verificado,v2,PER,hallazgo_3,"superando la mediana regional en 0,9 pp",frente_a_region,inflacion,arriba,arriba,True,,0.928
+validacion,verificado,v2,PER,riesgo_1,"Las importaciones disminuyeron significativamente,",frente_al_anio_anterior,importaciones,baja,baja,True,-4.716,
+validacion,verificado,v2,GTM,hallazgo_1,"El PIB de Guatemala creció 9,1 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v2,GTM,hallazgo_1,"superando la mediana regional en 0,9 %.",frente_a_region,pib_usd,arriba,arriba,True,,0.929
+validacion,verificado,v2,GTM,hallazgo_3,"El desempleo en Guatemala disminuyó a 2,3 %, mejorando su posición en la región a la 18a posición.",frente_al_anio_anterior,desempleo,baja,baja,True,-0.707,
+validacion,verificado,v2,GTM,riesgo_2,"El alto nivel de deuda externa de Guatemala (25,1 % del INB) podría ser un riesgo si la economía no crece a un ritmo similar o superior a la mediana regional.",frente_a_region,deuda_externa,arriba,abajo,False,,-15.707
+validacion,verificado,v2,PRY,hallazgo_2,"La inflación disminuyó a 4,6 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.134,
+validacion,verificado,v2,PRY,hallazgo_2,"superando la mediana regional en 0,9 pp",frente_a_region,inflacion,arriba,abajo,False,,-0.896
+validacion,verificado,v2,PRY,hallazgo_3,"El PIB de Paraguay creció un 3,1 % en 2023, superando la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,verificado,v2,PRY,hallazgo_3,"superando la mediana regional en 61,2 %",frente_a_region,crecimiento,arriba,arriba,True,,2.112
+validacion,libre,v1,ARG,linea_3,"- **Crecimiento Económico**: El PIB de Argentina creció un 2,4% en 2023, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,libre,v1,ARG,linea_4,"superando significativamente la mediana regional (5,5%),",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,libre,v1,ARG,linea_5,"- **Inversión Extranjera Directa**: La IED aumentó a 4,0% del PIB, posicionándose como el quinto país con mayor aporte en la región, reflejando cierto atractivo para inversores internacionales.",frente_al_anio_anterior,ied,sube,sube,True,1.646,
+validacion,libre,v1,ARG,linea_8,"- **Inflación**: La inflación del 133,5% es significativamente superior a la mediana regional,",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,libre,v1,CHL,linea_3,"- **Crecimiento Económico**: El PIB de Chile creció un 11,5% en 2023, posicionándose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,libre,v1,CHL,linea_4,"- **Desempeño Social**: El PIB per cápita aumentó un 10,9% a 17.082 USD,",frente_al_anio_anterior,pib_pc,sube,sube,True,10.925,
+validacion,libre,v1,CHL,linea_5,"- **Inflación Controlada**: La inflación disminuyó a 7,6%,",frente_al_anio_anterior,inflacion,baja,baja,True,-4.062,
+validacion,libre,v1,CHL,linea_6,"- **Brechas Positivas**: Chile superó la mediana regional en varios indicadores, destacando en el PIB per cápita y",frente_a_region,pib_pc,arriba,arriba,True,,128.798
+validacion,libre,v1,CHL,linea_11,- **Diversificación de Importaciones**: Aumentar la diversificación de importaciones para reducir la dependencia y mejorar la competitividad.,frente_al_anio_anterior,importaciones,sube,baja,False,-9.710,
+validacion,libre,v1,PER,linea_3,"- **Crecimiento Económico**: El PIB de Perú creció un 8,9% en 2023, situándose en",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,libre,v1,PER,linea_4,"- **Inflación Controlada**: La inflación se redujo a 6,5%,",frente_al_anio_anterior,inflacion,baja,baja,True,-1.878,
+validacion,libre,v1,PER,linea_7,"- **Desaceleración de las Importaciones**: Las importaciones disminuyeron significativamente, representando un 23,7% del PIB,",frente_al_anio_anterior,importaciones,baja,baja,True,-4.716,
+validacion,libre,v1,PER,linea_8,"- **Brecha en las Exportaciones**: A pesar de que las exportaciones representan un 27,2% del PIB, esta cifra se sitúa por debajo de la mediana regional,",frente_a_region,exportaciones,abajo,abajo,True,,-1.145
+validacion,libre,v1,GTM,linea_3,"- **Crecimiento Económico**: El PIB de Guatemala creció un 9,1% en 2023, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+validacion,libre,v1,GTM,linea_3,"superando la mediana de la región (103,3 mil millones de USD),",frente_a_region,pib_usd,arriba,arriba,True,,0.929
+validacion,libre,v1,GTM,linea_4,"- **Inflación Controlada**: La inflación se redujo a 6,2%,",frente_al_anio_anterior,inflacion,baja,baja,True,-0.679,
+validacion,libre,v1,GTM,linea_4,"manteniéndose por encima de la mediana regional (5,5%),",frente_a_region,inflacion,arriba,arriba,True,,0.679
+validacion,libre,v1,GTM,linea_5,"- **Desempleo Bajo**: El desempleo se redujo a 2,3%, mejorando significativamente su posición en la región (5,7%) y situándose en el puesto 18.",frente_al_anio_anterior,desempleo,baja,baja,True,-0.707,
+validacion,libre,v1,GTM,linea_8,"- **Deuda Externa**: La deuda externa total se redujo a 25,1% del INB,",frente_al_anio_anterior,deuda_externa,baja,baja,True,-1.955,
+validacion,libre,v1,GTM,linea_10,- **Fomentar Exportaciones**: Aumentar las exportaciones para mejorar el saldo de cuenta corriente y reducir la dependencia de las importaciones.,frente_al_anio_anterior,importaciones,sube,baja,False,-3.785,
+validacion,libre,v1,PRY,linea_4,"- **Exportaciones**: Las exportaciones aumentaron significativamente, representando el 42,3% del PIB,",frente_al_anio_anterior,exportaciones,sube,sube,True,7.858,
+validacion,libre,v1,PRY,linea_5,aunque aún se encuentra por debajo de la mediana regional.,frente_a_region,cuenta_corriente,abajo,arriba,False,,1.611
+validacion,libre,v1,PRY,linea_7,"- **Dependencia de las Exportaciones**: Aunque las exportaciones aumentaron, Paraguay sigue siendo altamente dependiente de este sector,",frente_al_anio_anterior,exportaciones,sube,sube,True,7.858,
+validacion,libre,v1,PRY,linea_9,- **Diversificación Económica**: Aumentar la diversificación de las exportaciones para reducir la vulnerabilidad a fluctuaciones económicas.,frente_al_anio_anterior,exportaciones,sube,sube,True,7.858,
+validacion,plantilla,-,ARG,riesgo_1,"Inflación de 133,5 % en 2023, 128,0 pp por encima de la mediana regional (5,5 %).",frente_a_region,inflacion,arriba,arriba,True,,127.961
+validacion,plantilla,-,ARG,riesgo_2,"Crecimiento del PIB real de -1,9 % en 2023, 5,0 pp por debajo de la mediana regional (3,2 %).",frente_a_region,crecimiento,abajo,abajo,True,,-5.030
+validacion,plantilla,-,CHL,riesgo_1,"Cuenta corriente (% del PIB) de -3,1 % en 2023, 1,8 pp por debajo de la mediana regional (-1,3 %).",frente_a_region,cuenta_corriente,abajo,abajo,True,,-1.778
+validacion,plantilla,-,CHL,riesgo_2,"Crecimiento del PIB real de 0,7 % en 2023, 2,5 pp por debajo de la mediana regional (3,2 %).",frente_a_region,crecimiento,abajo,abajo,True,,-2.497
+validacion,plantilla,-,PER,riesgo_1,"Crecimiento del PIB real de -0,4 % en 2023, 3,5 pp por debajo de la mediana regional (3,2 %).",frente_a_region,crecimiento,abajo,abajo,True,,-3.525
+validacion,plantilla,-,PER,riesgo_2,"Pobreza extrema de 5,9 % en 2023, 2,2 pp por encima de la mediana regional (3,8 %).",frente_a_region,pobreza,arriba,arriba,True,,2.150
+validacion,plantilla,-,GTM,riesgo_1,"Pobreza extrema de 9,7 % en 2023, 5,9 pp por encima de la mediana regional (3,8 %).",frente_a_region,pobreza,arriba,arriba,True,,5.950
+validacion,plantilla,-,GTM,riesgo_2,"Inversión extranjera directa (% del PIB) de 1,6 % en 2023, 0,9 pp por debajo de la mediana regional (2,4 %).",frente_a_region,ied,abajo,abajo,True,,-0.866
+validacion,plantilla,-,PRY,riesgo_1,"Deuda externa (% del INB) de 64,1 % en 2023, 23,3 pp por encima de la mediana regional (40,8 %).",frente_a_region,deuda_externa,arriba,arriba,True,,23.301
+validacion,plantilla,-,PRY,riesgo_2,"Desempleo de 5,8 % en 2023, 0,1 pp por encima de la mediana regional (5,7 %).",frente_a_region,desempleo,arriba,arriba,True,,0.119
+prueba,libre,v1,ECU,linea_7,"- **Inflación**: Aunque la inflación disminuyó a 1,5%, sigue siendo superior a la mediana regional,",frente_a_region,inflacion,arriba,abajo,False,,-2.750
+prueba,libre,v1,ECU,linea_8,"pero sigue siendo significativamente inferior a la mediana regional,",frente_a_region,desempleo,abajo,abajo,True,,-1.863
+prueba,libre,v1,BOL,linea_3,lo que indica un rendimiento bajo en comparación con la mediana regional.,frente_al_anio_anterior,pib_pc,baja,sube,False,3.426,
+prueba,libre,v1,BOL,linea_5,"- **Inflación**: La inflación se elevó a 5,1%,",frente_al_anio_anterior,inflacion,sube,sube,True,2.523,
+prueba,libre,v1,BOL,linea_5,"superando la mediana regional en 0,8 puntos porcentuales,",frente_a_region,inflacion,arriba,arriba,True,,0.802
+prueba,libre,v1,BOL,linea_5,lo que sugiere un aumento en los costos de vida.,frente_al_anio_anterior,inflacion,sube,sube,True,2.523,
+prueba,libre,v1,BOL,linea_7,"- **Deuda externa**: La deuda externa total se redujo a 32,5% del INB,",frente_al_anio_anterior,deuda_externa,baja,baja,True,-4.646,
+prueba,libre,v1,BRA,linea_4,"- **Desempleo:** La tasa de desempleo disminuyó a 6,8%, posicionándose en el séptimo lugar en la región, reflejando un mejoramiento en la situación laboral.",frente_al_anio_anterior,desempleo,baja,baja,True,-1.146,
+prueba,libre,v1,BRA,linea_7,"- **Saldo de cuenta corriente:** La brecha en el saldo de cuenta corriente se amplió a -3,0% del PIB,",frente_al_anio_anterior,cuenta_corriente,sube,baja,False,-1.757,
+prueba,libre,v1,BRA,linea_8,"- **Inversión extranjera directa:** Aunque la IED aumentó a 3,4% del PIB, sigue siendo inferior a la mediana regional,",frente_a_region,ied,abajo,arriba,False,,0.958
+prueba,libre,v1,COL,linea_3,"- **Crecimiento Económico**: El PIB de Colombia creció un 14,6% en 2024, posicionándose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,libre,v1,COL,linea_4,"- **Inflación Controlada**: La inflación disminuyó a 6,6%,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.127,
+prueba,libre,v1,COL,linea_5,"- **Reducción de la Deuda Externa**: La deuda externa total se redujo a 49,2% del INB, mejorando su posición en la región y reduciendo la brecha.",frente_al_anio_anterior,deuda_externa,baja,baja,True,-5.766,
+prueba,libre,v1,COL,linea_10,- **Fomentar la Inversión Extranjera**: Aumentar la inversión extranjera directa para mejorar la competitividad y,frente_al_anio_anterior,ied,sube,baja,False,-1.323,
+prueba,libre,v1,CRI,linea_3,"- **Crecimiento Económico**: El PIB de Costa Rica creció un 10,5% en 2024, superando a la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,libre,v1,CRI,linea_3,"superando a la mediana de la región,",frente_a_region,crecimiento,arriba,arriba,True,,0.710
+prueba,libre,v1,CRI,linea_4,"- **Desempeño Económico**: El PIB per cápita aumentó un 10,0%,",frente_al_anio_anterior,pib_pc,sube,sube,True,9.991,
+prueba,libre,v1,CRI,linea_5,"mientras que las importaciones se redujeron a 32,3% del PIB, mejorando la balanza comercial.",frente_al_anio_anterior,importaciones,baja,baja,True,-1.019,
+prueba,libre,v1,CRI,linea_7,"- **Inflación**: A pesar de la baja inflación del -0,4%, Costa Rica se sitúa en el último puesto de la región,",frente_al_anio_anterior,inflacion,baja,baja,True,-0.938,
+prueba,libre,v1,CRI,linea_8,"- **Inversión Extranjera Directa**: La inversión extranjera directa disminuyó a 5,6% del PIB,",frente_al_anio_anterior,ied,baja,baja,True,-0.469,
+prueba,libre,v1,DOM,linea_3,"superando la mediana de la región (3,4%), posicionándose en el segundo lugar.",frente_a_region,crecimiento,arriba,arriba,True,,1.581
+prueba,libre,v1,DOM,linea_4,"- **Inflación Controlada**: La inflación se redujo a 3,3%, mejorando su posición en la región y manteniendo un nivel bajo.",frente_al_anio_anterior,inflacion,baja,baja,True,-1.483,
+prueba,libre,v1,DOM,linea_5,"- **Desempleo Estable**: El desempleo se redujo a 5,3%, igualando la mediana regional, reflejando estabilidad en el mercado laboral.",frente_al_anio_anterior,desempleo,baja,baja,True,-0.243,
+prueba,libre,v1,DOM,linea_7,"- **Brecha en Exportaciones**: Las exportaciones representan solo 22,8% del PIB, 6,9 pp por debajo de la mediana regional,",frente_a_region,exportaciones,abajo,abajo,True,,-6.923
+prueba,libre,v1,HND,linea_3,"- **Crecimiento Económico**: El PIB de Honduras creció un 7,6% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,libre,v1,HND,linea_3,"superando la mediana de la región,",frente_a_region,crecimiento,arriba,arriba,True,,0.260
+prueba,libre,v1,HND,linea_4,"- **Inflación Controlada**: La inflación disminuyó a 4,6%, mejorando su posición en la región y reduciendo la brecha con la mediana.",frente_al_anio_anterior,inflacion,baja,baja,True,-2.057,
+prueba,libre,v1,HND,linea_5,"- **Desempleo**: La tasa de desempleo disminuyó a 4,9%, mejorando su posición y reduciendo la brecha con la mediana de la región.",frente_al_anio_anterior,desempleo,baja,baja,True,-1.160,
+prueba,libre,v1,MEX,linea_4,"- **Inflación Controlada**: La inflación se redujo a 4,7%,",frente_al_anio_anterior,inflacion,baja,baja,True,-0.806,
+prueba,libre,v1,MEX,linea_5,"- **Desempleo Bajo**: El desempleo disminuyó a 2,7%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.087,
+prueba,libre,v1,MEX,linea_8,"- **Deuda Externa**: La deuda externa total se redujo a 32,9% del INB,",frente_al_anio_anterior,deuda_externa,baja,baja,True,-1.180,
+prueba,libre,v1,NIC,linea_3,"- **Crecimiento Económico**: El PIB de Nicaragua creció un 10,6% en 2024, superando a la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,libre,v1,NIC,linea_3,"superando a la mediana de la región, destacando como el país con el mayor crecimiento en América Latina.",frente_a_region,crecimiento,arriba,arriba,True,,0.208
+prueba,libre,v1,NIC,linea_4,"- **Inflación Controlada**: La inflación disminuyó a 4,6%, mejorando su posición en la región y reduciendo la brecha con la mediana.",frente_al_anio_anterior,inflacion,baja,baja,True,-3.763,
+prueba,libre,v1,PAN,linea_3,"aunque este fue menor que el promedio regional de 3,4%,",frente_a_region,crecimiento,abajo,abajo,True,,-0.625
+prueba,libre,v1,PAN,linea_4,"- **Desempleo**: El desempleo aumentó a 8,5%,",frente_al_anio_anterior,desempleo,sube,sube,True,1.907,
+prueba,libre,v1,PAN,linea_4,"superando la mediana regional en 3,1 puntos porcentuales,",frente_a_region,desempleo,arriba,arriba,True,,3.135
+prueba,libre,v1,PAN,linea_5,"- **Inflación Baja**: La inflación se redujo a 0,7%, mejorando significativamente respecto al año anterior y situándose en el puesto 16 de 17 países.",frente_al_anio_anterior,inflacion,baja,baja,True,-0.796,
+prueba,libre,v1,PAN,linea_7,"- **Desempleo Persistente**: El aumento del desempleo a 8,5% representa un riesgo para la estabilidad social y económica, especialmente dado que supera la mediana regional.",frente_a_region,desempleo,arriba,arriba,True,,3.135
+prueba,libre,v1,SLV,linea_3,"- **Crecimiento Económico:** El PIB de El Salvador creció un 3,9% en 2024, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,libre,v1,SLV,linea_3,"manteniéndose por encima de la mediana regional,",frente_a_region,crecimiento,arriba,abajo,False,,-0.782
+prueba,libre,v1,SLV,linea_4,"- **Inflación Baja:** La inflación se redujo a 0,9%, una caída significativa de 3,2 puntos porcentuales respecto al año anterior,",frente_al_anio_anterior,inflacion,baja,baja,True,-3.192,
+prueba,libre,v1,SLV,linea_4,y se sitúa por debajo de la mediana regional.,frente_a_region,inflacion,abajo,abajo,True,,-3.444
+prueba,libre,v1,SLV,linea_5,"- **Exportaciones:** Las exportaciones aumentaron a 32,7% del PIB, mejorando su posición en la región y contribuyendo positivamente al crecimiento económico.",frente_al_anio_anterior,exportaciones,sube,sube,True,3.868,
+prueba,libre,v1,URY,linea_4,"superando la mediana regional en un 195,1%, posicionándose en el primer lugar entre los 18 países comparados.",frente_a_region,pib_pc,arriba,arriba,True,,195.053
+prueba,libre,v1,URY,linea_5,"- **Inflación Controlada**: La inflación se redujo a 4,8%, mejorando 1,0 punto porcentual respecto al año anterior y manteniéndose por debajo de la mediana regional (4,3%).",frente_a_region,inflacion,abajo,arriba,False,,0.551
+prueba,estructurado,v1,ECU,hallazgo_1,"El PIB de Ecuador creció un 2,5% en 2024, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,estructurado,v1,ECU,hallazgo_1,"manteniéndose por encima de la mediana regional (116,9 mil millones de USD),",frente_a_region,pib_usd,arriba,arriba,True,,5.912
+prueba,estructurado,v1,BOL,hallazgo_1,"El PIB de Bolivia creció un 4,9% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,estructurado,v1,BOL,hallazgo_1,"superando la mediana regional (-53,0%)",frente_a_region,pib_usd,arriba,abajo,False,,-53.049
+prueba,estructurado,v1,BOL,hallazgo_2,"La inflación en Bolivia aumentó a 5,1%,",frente_al_anio_anterior,inflacion,sube,sube,True,2.523,
+prueba,estructurado,v1,BOL,hallazgo_2,"superando ligeramente la mediana regional (4,3%)",frente_a_region,inflacion,arriba,arriba,True,,0.802
+prueba,estructurado,v1,BOL,hallazgo_4,"La deuda externa de Bolivia se redujo a 32,5% del INB, mejorando su posición en la región",frente_al_anio_anterior,deuda_externa,baja,baja,True,-4.646,
+prueba,estructurado,v1,BRA,hallazgo_3,"El desempleo en Brasil disminuyó a 6,8% en 2024, mejorando su posición en la región y reduciendo la brecha con la mediana regional.",frente_al_anio_anterior,desempleo,baja,baja,True,-1.146,
+prueba,estructurado,v1,BRA,riesgo_1,"La brecha en el saldo de cuenta corriente de Brasil se amplió significativamente,",frente_al_anio_anterior,cuenta_corriente,sube,baja,False,-1.757,
+prueba,estructurado,v1,BRA,riesgo_2,La baja inversión extranjera directa y,frente_al_anio_anterior,ied,baja,sube,False,0.526,
+prueba,estructurado,v1,COL,hallazgo_1,"El PIB de Colombia creció un 14,6% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,estructurado,v1,COL,hallazgo_1,"superando la mediana regional en 259,7% (pib_usd, COL, 2024, variación, 14,6, mediana_region, 116,9, brecha_region, 259,7).",frente_a_region,pib_usd,arriba,arriba,True,,259.740
+prueba,estructurado,v1,COL,hallazgo_2,"La inflación en Colombia disminuyó a 6,6% en 2024,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.127,
+prueba,estructurado,v1,COL,hallazgo_2,"superando a la mediana regional en 2,3 puntos (inflacion, COL, 2024, variacion, -5.1, mediana_region, 4.3, brecha_region, 2.3).",frente_a_region,inflacion,arriba,arriba,True,,2.311
+prueba,estructurado,v1,CRI,hallazgo_1,"El PIB per cápita de Costa Rica supera la mediana regional en un 128,8% (pib_pc, CRI, 2024, brecha_region, 128,8)",frente_a_region,pib_pc,arriba,arriba,True,,128.838
+prueba,estructurado,v1,DOM,hallazgo_1,"superando la mediana regional en 1,6 puntos porcentuales.",frente_a_region,crecimiento,arriba,arriba,True,,1.581
+prueba,estructurado,v1,DOM,hallazgo_3,"La inflación disminuyó a 3,3%, mejorando la situación comparada con la mediana regional.",frente_al_anio_anterior,inflacion,baja,baja,True,-1.483,
+prueba,estructurado,v1,HND,hallazgo_1,"El PIB de Honduras creció un 7,6% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,estructurado,v1,HND,hallazgo_1,"superando la mediana regional (-68,4%) y mejorando su posición en el ranking de 16 a 15.",frente_a_region,pib_usd,arriba,abajo,False,,-68.364
+prueba,estructurado,v1,HND,hallazgo_2,"superando la mediana regional en 23,1 puntos y manteniendo el primer puesto en el ranking.",frente_a_region,remesas,arriba,arriba,True,,23.062
+prueba,estructurado,v1,HND,hallazgo_3,"El desempleo en Honduras disminuyó a 4,9%, mejorando su posición en el ranking de 13 a 12,",frente_al_anio_anterior,desempleo,baja,baja,True,-1.160,
+prueba,estructurado,v1,HND,hallazgo_3,"pero aún se encuentra por encima de la mediana regional (5,3%).",frente_a_region,desempleo,arriba,abajo,False,,-0.406
+prueba,estructurado,v1,HND,hallazgo_4,"La inflación en Honduras se redujo a 4,6%, mejorando su posición en el ranking de 7 a 6,",frente_al_anio_anterior,inflacion,baja,baja,True,-2.057,
+prueba,estructurado,v1,HND,hallazgo_4,"y se mantuvo por debajo de la mediana regional (4,3%).",frente_a_region,inflacion,abajo,arriba,False,,0.309
+prueba,estructurado,v1,HND,riesgo_2,"superior a la mediana regional (2,1%), representa un riesgo para la estabilidad social y económica del país.",frente_a_region,pobreza,arriba,arriba,True,,13.600
+prueba,estructurado,v1,MEX,hallazgo_2,"la inflación se redujo a 4,7% (inflacion, MEX, 2024, valor, 47) manteniéndose por encima de la mediana regional (4,3%) (inflacion, LAT, 2024, mediana_region, 43) y",frente_a_region,inflacion,arriba,arriba,True,,0.425
+prueba,estructurado,v1,MEX,hallazgo_3,"Las exportaciones de bienes y servicios aumentaron a 37,3% del PIB,",frente_al_anio_anterior,exportaciones,sube,sube,True,1.136,
+prueba,estructurado,v1,MEX,hallazgo_3,"las importaciones se incrementaron a 38,1% (importaciones, MEX, 2024, valor, 381), con una brecha positiva de 7,6 pp (importaciones, LAT, 2024, brecha_region, 76) en comparación con la mediana regional.",frente_al_anio_anterior,importaciones,sube,sube,True,0.551,
+prueba,estructurado,v1,MEX,riesgo_1,"El desempleo en México disminuyó a 2,7%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.087,
+prueba,estructurado,v1,MEX,riesgo_1,"pero sigue siendo el país con el desempleo más bajo de la región (desempleo, MEX, 2024, valor, 27),",frente_al_anio_anterior,desempleo,baja,baja,True,-0.087,
+prueba,estructurado,v1,NIC,hallazgo_1,"El PIB de Nicaragua creció un 10,6% en 2024, superando a la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,estructurado,v1,NIC,hallazgo_1,"superando a la mediana regional (-83,1%)",frente_a_region,pib_usd,arriba,abajo,False,,-83.150
+prueba,estructurado,v1,NIC,riesgo_1,"El desempleo aumentó a 5,0%,",frente_al_anio_anterior,desempleo,sube,sube,True,0.282,
+prueba,estructurado,v1,NIC,riesgo_1,"manteniéndose por encima de la mediana regional (5,3%)",frente_a_region,desempleo,arriba,abajo,False,,-0.336
+prueba,estructurado,v1,PAN,hallazgo_1,"superando la mediana regional en un 132,6% (pib_pc,PAN,2024,mediana_region,8239,132,6)",frente_a_region,pib_pc,arriba,arriba,True,,132.576
+prueba,estructurado,v1,PAN,hallazgo_4,"El desempleo aumentó a 8,5%,",frente_al_anio_anterior,desempleo,sube,sube,True,1.907,
+prueba,estructurado,v1,SLV,hallazgo_1,"El Salvador experimentó un crecimiento económico moderado con un PIB real del 2,6 %, ligeramente por debajo de la mediana regional (3,4 %).",frente_a_region,crecimiento,abajo,abajo,True,,-0.782
+prueba,estructurado,v1,SLV,hallazgo_2,"superando la mediana regional (2,7 %).",frente_a_region,remesas,arriba,arriba,True,,21.654
+prueba,estructurado,v1,SLV,hallazgo_3,"El desempleo se mantuvo en 3,3 %, mejorando ligeramente respecto al año anterior (3,0 %) y situándose por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,abajo,False,,-2.055
+prueba,estructurado,v1,SLV,hallazgo_5,"manteniéndose por debajo de la mediana regional (8,239 USD).",frente_a_region,pib_pc,abajo,abajo,True,,-33.204
+prueba,estructurado,v1,SLV,riesgo_1,"La inflación se redujo a 0,9 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-3.192,
+prueba,estructurado,v1,SLV,riesgo_2,"El déficit en la cuenta corriente se amplió a -2,8 %,",frente_al_anio_anterior,cuenta_corriente,baja,baja,True,-1.023,
+prueba,estructurado,v1,URY,hallazgo_1,"Uruguay registra el PIB per cápita más alto de la región, con un 195,1% sobre la mediana de América Latina.",frente_a_region,pib_pc,arriba,arriba,True,,195.053
+prueba,estructurado,v1,URY,hallazgo_3,"La inflación se sitúa por debajo de la mediana regional, con una brecha positiva de 0,6 puntos.",frente_a_region,inflacion,abajo,arriba,False,,0.551
+prueba,verificado,v1,ECU,hallazgo_1,"El PIB de Ecuador creció un 2,5% en 2024, manteniéndose",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,verificado,v1,ECU,hallazgo_1,"manteniéndose por encima de la mediana regional (116,9 mil millones de USD),",frente_a_region,pib_usd,arriba,arriba,True,,5.912
+prueba,verificado,v1,BOL,hallazgo_1,"El PIB de Bolivia creció un 4,9% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,verificado,v1,BOL,hallazgo_1,"superando la mediana regional (-53,0%)",frente_a_region,pib_usd,arriba,abajo,False,,-53.049
+prueba,verificado,v1,BOL,hallazgo_2,"La inflación en Bolivia aumentó a 5,1%,",frente_al_anio_anterior,inflacion,sube,sube,True,2.523,
+prueba,verificado,v1,BOL,hallazgo_2,"superando ligeramente la mediana regional (4,3%)",frente_a_region,inflacion,arriba,arriba,True,,0.802
+prueba,verificado,v1,BOL,hallazgo_4,"La deuda externa de Bolivia se redujo a 32,5% del INB, mejorando su posición en la región",frente_al_anio_anterior,deuda_externa,baja,baja,True,-4.646,
+prueba,verificado,v1,BRA,hallazgo_3,"El desempleo en Brasil disminuyó a 6,8% en 2024, mejorando su posición en la región y reduciendo la brecha con la mediana regional.",frente_al_anio_anterior,desempleo,baja,baja,True,-1.146,
+prueba,verificado,v1,BRA,riesgo_1,"La brecha en el saldo de cuenta corriente de Brasil se amplió significativamente,",frente_al_anio_anterior,cuenta_corriente,sube,baja,False,-1.757,
+prueba,verificado,v1,BRA,riesgo_2,La baja inversión extranjera directa y,frente_al_anio_anterior,ied,baja,sube,False,0.526,
+prueba,verificado,v1,COL,hallazgo_1,"El PIB de Colombia creció un 14,6% en 2024, superando la m",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,verificado,v1,COL,hallazgo_1,"superando la mediana regional en 259,7% (pib_usd, COL, 2024, variación, 14,6, mediana_region, 116,9, brecha_region, 259,7).",frente_a_region,pib_usd,arriba,arriba,True,,259.740
+prueba,verificado,v1,COL,hallazgo_2,"La inflación en Colombia disminuyó a 6,6% en 2024,",frente_al_anio_anterior,inflacion,baja,baja,True,-5.127,
+prueba,verificado,v1,COL,hallazgo_2,"superando a la mediana regional en 2,3 puntos (inflacion, COL, 2024, variacion, -5.1, mediana_region, 4.3, brecha_region, 2.3).",frente_a_region,inflacion,arriba,arriba,True,,2.311
+prueba,verificado,v1,CRI,hallazgo_1,"El PIB per cápita de Costa Rica supera la mediana regional en un 128,8% (pib_pc, CRI, 2024, brecha_region, 128,8)",frente_a_region,pib_pc,arriba,arriba,True,,128.838
+prueba,verificado,v1,DOM,hallazgo_1,"superando la mediana regional en 1,6 puntos porcentuales.",frente_a_region,crecimiento,arriba,arriba,True,,1.581
+prueba,verificado,v1,DOM,hallazgo_3,"La inflación disminuyó a 3,3%, mejorando la situación comparada con la mediana regional.",frente_al_anio_anterior,inflacion,baja,baja,True,-1.483,
+prueba,verificado,v1,HND,hallazgo_1,"superando la mediana regional (3,4%) y mejorando su posición en el ranking de 3 a 2.",frente_a_region,crecimiento,arriba,arriba,True,,0.260
+prueba,verificado,v1,HND,hallazgo_2,"superando la mediana regional en 23,1 puntos y manteniendo el puesto 2 de 18 en el ranking.",frente_a_region,remesas,arriba,arriba,True,,23.062
+prueba,verificado,v1,HND,hallazgo_3,"El desempleo en Honduras disminuyó a 6,1%, mejorando su posición en el ranking de 13 a 12,",frente_al_anio_anterior,desempleo,baja,baja,True,-1.160,
+prueba,verificado,v1,HND,hallazgo_3,"pero aún se encuentra por encima de la mediana regional (5,3%).",frente_a_region,desempleo,arriba,abajo,False,,-0.406
+prueba,verificado,v1,HND,hallazgo_4,"La inflación en Honduras se redujo a 4,6%, mejorando su posición en el ranking de 7 a 6,",frente_al_anio_anterior,inflacion,baja,baja,True,-2.057,
+prueba,verificado,v1,HND,hallazgo_4,"y se mantuvo por debajo de la mediana regional (4,3%).",frente_a_region,inflacion,abajo,arriba,False,,0.309
+prueba,verificado,v1,HND,riesgo_2,"superior a la mediana regional (2,1%), representa un riesgo para la estabilidad social y económica del país.",frente_a_region,pobreza,arriba,arriba,True,,13.600
+prueba,verificado,v1,MEX,hallazgo_2,"la inflación se redujo a 4,7% (inflacion, MEX, 2024, valor, 47) manteniéndose por encima de la mediana regional (4,3%) (inflacion, LAT, 2024, mediana_region, 43)",frente_a_region,inflacion,arriba,arriba,True,,0.425
+prueba,verificado,v1,MEX,hallazgo_3,"Las exportaciones de bienes y servicios aumentaron a 37,3% del PIB,",frente_al_anio_anterior,exportaciones,sube,sube,True,1.136,
+prueba,verificado,v1,MEX,riesgo_1,"El desempleo en México disminuyó a 2,7%,",frente_al_anio_anterior,desempleo,baja,baja,True,-0.087,
+prueba,verificado,v1,MEX,riesgo_1,"pero sigue siendo el país con el desempleo más bajo de la región (desempleo, MEX, 2024, valor, 27)",frente_al_anio_anterior,desempleo,baja,baja,True,-0.087,
+prueba,verificado,v1,NIC,hallazgo_1,"El PIB de Nicaragua creció un 10,6% en 2024, superando a la",pib_nominal_como_crecimiento,pib_usd,crecimiento,variación en USD corrientes,False,,
+prueba,verificado,v1,NIC,hallazgo_1,"superando a la mediana regional (-83,1%)",frente_a_region,pib_usd,arriba,abajo,False,,-83.150
+prueba,verificado,v1,NIC,riesgo_1,"El desempleo aumentó a 5,0%,",frente_al_anio_anterior,desempleo,sube,sube,True,0.282,
+prueba,verificado,v1,NIC,riesgo_1,"manteniéndose por encima de la mediana regional (5,3%)",frente_a_region,desempleo,arriba,abajo,False,,-0.336
+prueba,verificado,v1,PAN,hallazgo_1,"superando la mediana regional en un 132,6% (pib_pc,PAN,2024,mediana_region,8239,132,6)",frente_a_region,pib_pc,arriba,arriba,True,,132.576
+prueba,verificado,v1,PAN,hallazgo_4,"El desempleo aumentó a 8,5%,",frente_al_anio_anterior,desempleo,sube,sube,True,1.907,
+prueba,verificado,v1,SLV,hallazgo_1,"El Salvador experimentó un crecimiento económico moderado con un PIB real del 2,6 %, ligeramente por debajo de la mediana regional (3,4 %).",frente_a_region,crecimiento,abajo,abajo,True,,-0.782
+prueba,verificado,v1,SLV,hallazgo_2,"superando la mediana regional (2,7 %).",frente_a_region,remesas,arriba,arriba,True,,21.654
+prueba,verificado,v1,SLV,hallazgo_3,"El desempleo se mantuvo en 3,3 %, mejorando ligeramente respecto al año anterior (3,0 %) y situándose por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,abajo,False,,-2.055
+prueba,verificado,v1,SLV,hallazgo_5,"manteniéndose por debajo de la mediana regional (8,239 USD).",frente_a_region,pib_pc,abajo,abajo,True,,-33.204
+prueba,verificado,v1,SLV,riesgo_1,"La inflación se redujo a 0,9 %,",frente_al_anio_anterior,inflacion,baja,baja,True,-3.192,
+prueba,verificado,v1,SLV,riesgo_2,"El déficit en la cuenta corriente se amplió a -2,8 %,",frente_al_anio_anterior,cuenta_corriente,baja,baja,True,-1.023,
+prueba,verificado,v1,URY,hallazgo_1,"Uruguay registra el PIB per cápita más alto de la región, con un 195,1% sobre la mediana de América Latina.",frente_a_region,pib_pc,arriba,arriba,True,,195.053
+prueba,verificado,v1,URY,hallazgo_3,"La inflación se sitúa por debajo de la mediana regional, con una brecha positiva de 0,6 puntos.",frente_a_region,inflacion,abajo,arriba,False,,0.551
+prueba,plantilla,-,ECU,riesgo_1,"Pobreza extrema de 7,3 % en 2024, 5,2 pp por encima de la mediana regional (2,1 %).",frente_a_region,pobreza,arriba,arriba,True,,5.200
+prueba,plantilla,-,ECU,riesgo_2,"Crecimiento del PIB real de -1,9 % en 2024, 5,3 pp por debajo de la mediana regional (3,4 %).",frente_a_region,crecimiento,abajo,abajo,True,,-5.317
+prueba,plantilla,-,BOL,riesgo_1,"Crecimiento del PIB real de -1,1 % en 2024, 4,5 pp por debajo de la mediana regional (3,4 %).",frente_a_region,crecimiento,abajo,abajo,True,,-4.496
+prueba,plantilla,-,BOL,riesgo_2,"Inversión extranjera directa (% del PIB) de 0,7 % en 2024, 1,8 pp por debajo de la mediana regional (2,4 %).",frente_a_region,ied,abajo,abajo,True,,-1.780
+prueba,plantilla,-,BRA,riesgo_1,"Cuenta corriente (% del PIB) de -3,0 % en 2024, 2,1 pp por debajo de la mediana regional (-0,9 %).",frente_a_region,cuenta_corriente,abajo,abajo,True,,-2.095
+prueba,plantilla,-,BRA,riesgo_2,"Pobreza extrema de 3,0 % en 2024, 0,9 pp por encima de la mediana regional (2,1 %).",frente_a_region,pobreza,arriba,arriba,True,,0.900
+prueba,plantilla,-,COL,riesgo_1,"Pobreza extrema de 8,5 % en 2024, 6,4 pp por encima de la mediana regional (2,1 %).",frente_a_region,pobreza,arriba,arriba,True,,6.400
+prueba,plantilla,-,COL,riesgo_2,"Desempleo de 9,6 % en 2024, 4,3 pp por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,arriba,True,,4.303
+prueba,plantilla,-,CRI,riesgo_1,"Desempleo de 6,9 % en 2024, 1,6 pp por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,arriba,True,,1.620
+prueba,plantilla,-,CRI,riesgo_2,"Índice de Gini de 45,8 en 2024, 2,2 pp por encima de la mediana regional (43,6).",frente_a_region,gini,arriba,arriba,True,,2.200
+prueba,plantilla,-,DOM,riesgo_1,"Cuenta corriente (% del PIB) de -3,0 % en 2024, 2,1 pp por debajo de la mediana regional (-0,9 %).",frente_a_region,cuenta_corriente,abajo,abajo,True,,-2.089
+prueba,plantilla,-,DOM,riesgo_2,"Deuda externa (% del INB) de 45,3 % en 2024, 3,5 pp por encima de la mediana regional (41,8 %).",frente_a_region,deuda_externa,arriba,arriba,True,,3.510
+prueba,plantilla,-,HND,riesgo_1,"Pobreza extrema de 15,7 % en 2024, 13,6 pp por encima de la mediana regional (2,1 %).",frente_a_region,pobreza,arriba,arriba,True,,13.600
+prueba,plantilla,-,HND,riesgo_2,"Cuenta corriente (% del PIB) de -4,3 % en 2024, 3,4 pp por debajo de la mediana regional (-0,9 %).",frente_a_region,cuenta_corriente,abajo,abajo,True,,-3.422
+prueba,plantilla,-,MEX,riesgo_1,"Crecimiento del PIB real de 1,4 % en 2024, 2,0 pp por debajo de la mediana regional (3,4 %).",frente_a_region,crecimiento,abajo,abajo,True,,-2.022
+prueba,plantilla,-,MEX,riesgo_2,"Inflación de 4,7 % en 2024, 0,4 pp por encima de la mediana regional (4,3 %).",frente_a_region,inflacion,arriba,arriba,True,,0.425
+prueba,plantilla,-,NIC,riesgo_1,"Deuda externa (% del INB) de 82,8 % en 2024, 41,0 pp por encima de la mediana regional (41,8 %).",frente_a_region,deuda_externa,arriba,arriba,True,,40.991
+prueba,plantilla,-,NIC,riesgo_2,"Inflación de 4,6 % en 2024, 0,3 pp por encima de la mediana regional (4,3 %).",frente_a_region,inflacion,arriba,arriba,True,,0.327
+prueba,plantilla,-,PAN,riesgo_1,"Desempleo de 8,5 % en 2024, 3,1 pp por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,arriba,True,,3.135
+prueba,plantilla,-,PAN,riesgo_2,"Pobreza extrema de 3,1 % en 2024, 1,0 pp por encima de la mediana regional (2,1 %).",frente_a_region,pobreza,arriba,arriba,True,,1.000
+prueba,plantilla,-,SLV,riesgo_1,"Cuenta corriente (% del PIB) de -2,8 % en 2024, 1,9 pp por debajo de la mediana regional (-0,9 %).",frente_a_region,cuenta_corriente,abajo,abajo,True,,-1.872
+prueba,plantilla,-,SLV,riesgo_2,"Deuda externa (% del INB) de 75,4 % en 2024, 33,6 pp por encima de la mediana regional (41,8 %).",frente_a_region,deuda_externa,arriba,arriba,True,,33.570
+prueba,plantilla,-,URY,riesgo_1,"Inversión extranjera directa (% del PIB) de -4,8 % en 2024, 7,2 pp por debajo de la mediana regional (2,4 %).",frente_a_region,ied,abajo,abajo,True,,-7.218
+prueba,plantilla,-,URY,riesgo_2,"Desempleo de 8,2 % en 2024, 2,9 pp por encima de la mediana regional (5,3 %).",frente_a_region,desempleo,arriba,arriba,True,,2.893

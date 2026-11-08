@@ -1,0 +1,23 @@
+# Subconjunto descargado de Amazon Reviews 2023 (55 mil reseñas), menciones de las 55 mil y logs locales: se
+# regeneran con  python descargar_datos.py  y  python -m resenas.aplicar
+data/raw/
+
+# SÍ se versionan (permiten pruebas, evaluación y app sin Ollama ni descargas):
+#   data/etiquetas/ (etiquetas de 700 reseñas + índice con ids y huellas; el texto se reconstruye en data/raw/ y NO
+#   se versiona por la licencia de los datos), tests/datos/ (8 reseñas de prueba), data/grabacion_llm.jsonl (440 respuestas del LLM),
+#   data/embeddings_etiquetadas.npz (12 MB), data/modelo_clasico.joblib (8 MB), data/modelo_embeddings.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.pytest_tmp*/
+
+# Editores y sistema
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini

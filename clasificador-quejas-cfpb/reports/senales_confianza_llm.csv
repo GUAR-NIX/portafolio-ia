@@ -1,0 +1,9 @@
+llm,senal,auroc_acierto_vs_error,pct_con_senal_maxima
+4. LLM zero-shot (qwen2.5:7b),Probabilidad de la ficha (logprobs del LLM),0.6123837722715704,66.33333333333333
+4. LLM zero-shot (qwen2.5:7b),Acuerdo zero-shot = few-shot,0.7554153031011376,79.33333333333333
+4. LLM zero-shot (qwen2.5:7b),Acuerdo LLM = TF-IDF,0.8315412186379927,68.33333333333333
+4. LLM zero-shot (qwen2.5:7b),Probabilidad calibrada de TF-IDF,0.6095267778297231,12.666666666666668
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",Probabilidad de la ficha (logprobs del LLM),0.6618750000000001,65.33333333333333
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",Acuerdo zero-shot = few-shot,0.56875,79.33333333333333
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",Acuerdo LLM = TF-IDF,0.7625,80.33333333333333
+"5. LLM few-shot (qwen2.5:7b, 6 ej.)",Probabilidad calibrada de TF-IDF,0.7054166666666667,12.666666666666668

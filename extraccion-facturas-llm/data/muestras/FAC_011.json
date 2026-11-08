@@ -1,0 +1,69 @@
+{
+ "ruc_emisor": "2132075470001",
+ "razon_social_emisor": "VALERIA MATEO VILLACÍS VALENCIA",
+ "numero_factura": "001-002-000071732",
+ "numero_autorizacion": "1511202501213207547000120010020000717329826695113",
+ "fecha_emision": "2025-11-15",
+ "cliente_nombre": "Lucía Verónica Andrade Valencia",
+ "cliente_identificacion": "1408847919",
+ "items": [
+  {
+   "descripcion": "Calculadora científica",
+   "cantidad": 50,
+   "precio_unitario": 26.09,
+   "total": 1304.5
+  },
+  {
+   "descripcion": "Grapadora metálica",
+   "cantidad": 1,
+   "precio_unitario": 7.17,
+   "total": 7.17
+  },
+  {
+   "descripcion": "Sobres manila oficio (paquete x 25)",
+   "cantidad": 20,
+   "precio_unitario": 5.68,
+   "total": 113.6
+  },
+  {
+   "descripcion": "Esfero azul (caja x 12)",
+   "cantidad": 3,
+   "precio_unitario": 3.96,
+   "total": 11.88
+  },
+  {
+   "descripcion": "Cinta adhesiva transparente",
+   "cantidad": 1,
+   "precio_unitario": 1.09,
+   "total": 1.09
+  },
+  {
+   "descripcion": "Marcadores permanentes (set x 4)",
+   "cantidad": 1,
+   "precio_unitario": 3.82,
+   "total": 3.82
+  },
+  {
+   "descripcion": "Tóner láser negro",
+   "cantidad": 1,
+   "precio_unitario": 65.32,
+   "total": 65.32
+  },
+  {
+   "descripcion": "Resma papel bond A4 75 g",
+   "cantidad": 3,
+   "precio_unitario": 5.02,
+   "total": 15.06
+  },
+  {
+   "descripcion": "Carpeta archivadora lomo ancho",
+   "cantidad": 6,
+   "precio_unitario": 2.96,
+   "total": 17.76
+  }
+ ],
+ "subtotal": 1540.2,
+ "descuento": 0.0,
+ "iva": 231.03,
+ "total": 1771.23
+}

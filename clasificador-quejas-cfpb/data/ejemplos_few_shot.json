@@ -1,0 +1,38 @@
+[
+  {
+    "id_queja": "1865897",
+    "categoria": "reporte_credito",
+    "urgente": false,
+    "texto_corto": "I made a request for [REDACTED] to remove the credit inquiry from my equifax credit report and [REDACTED] agreed to send a request to equifax to suppress the inquiry so that it will not appear on my credit report or be used in the calculation of my credit score, however equifax has not removed the inquiry from my credit report."
+  },
+  {
+    "id_queja": "1559015",
+    "categoria": "cobranza_deudas",
+    "urgente": true,
+    "texto_corto": "Portfolio Recovery Associates sued me in Colorado court without proper notice of a court date or verifying the credit card debt. They told me it was a valid debt and I had to pay. I ended up paying something like {$5000.00} to them since they garnished my wages and I just saw the CFPB article about Portfolio Recovery Associates illegal activities by [REDACTED] so I want my {$5000.00} refunded."
+  },
+  {
+    "id_queja": "2037018",
+    "categoria": "hipotecas",
+    "urgente": true,
+    "texto_corto": "I did a loan modification on my mortgage 8 years ago. I was aware of the increase in the interest over the time period. I did start back at 30 years. I now have a [REDACTED] dollar balloon payment after I pay off my mortgage. How is this legal? I have lived in the home for 28 Years and I the company has and will get plenty of money. This balloon will put me over what the home is worth."
+  },
+  {
+    "id_queja": "1554133",
+    "categoria": "tarjetas_credito",
+    "urgente": false,
+    "texto_corto": "I have a Bank Of America Credit card and they do not allow you to set a automatic payment of the minimum due. You must set a predetermined amount. I called them because I got a late fee and there reason is you need to look at your statement each month and pick an amount. So I did not look at my statements for two months and got charged a late fee. I called them and they refused to fix it."
+  },
+  {
+    "id_queja": "2387745",
+    "categoria": "cuentas_bancarias",
+    "urgente": false,
+    "texto_corto": "I deposit a {$6.00} check to my BB & T checking account and the bank mistake it for a {$6000.00} check and credit me {$100.00} to my account. not knowing i use the {$100.00} and now I been hit with overdraft fee."
+  },
+  {
+    "id_queja": "2302719",
+    "categoria": "prestamos_consumo",
+    "urgente": false,
+    "texto_corto": "I had loans that went into repayment at [REDACTED] different times. When the [REDACTED] loan went into repayment, the monthly payment was way more than I could afford. I wanted to apply for the income based repayment plan. The representative from Navient said that she would put my loans on forbearance for 2 months until the results came back from the income based repayment plan. She did n't help me at all and my loans were in forbearance for a year!"
+  }
+]

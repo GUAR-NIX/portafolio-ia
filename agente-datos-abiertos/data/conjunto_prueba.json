@@ -1,0 +1,1764 @@
+[
+  {
+    "id_pregunta": "T01",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Cómo evolucionó el crecimiento económico de Bolivia de 2016 a 2020?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BOL",
+          "indicador": "crecimiento_pib_pct",
+          "anio_inicio": 2016,
+          "anio_fin": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      4.26,
+      -12.72
+    ]
+  },
+  {
+    "id_pregunta": "T02",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Necesito la inflación de Argentina para los años 2021 y 2022.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "ARG",
+          "indicador": "inflacion_anual_pct",
+          "anio_inicio": 2021,
+          "anio_fin": 2022
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      48.41,
+      72.43
+    ]
+  },
+  {
+    "id_pregunta": "T03",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Dame la esperanza de vida de México entre 2015 y 2019.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "MEX",
+          "indicador": "esperanza_vida_anios",
+          "anio_inicio": 2015,
+          "anio_fin": 2019
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      74.43,
+      74.53
+    ]
+  },
+  {
+    "id_pregunta": "T04",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Qué tan alto fue el desempleo en Brasil de 2019 a 2021?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BRA",
+          "indicador": "desempleo_pct",
+          "anio_inicio": 2019,
+          "anio_fin": 2021
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      11.94,
+      13.16
+    ]
+  },
+  {
+    "id_pregunta": "T05",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Muéstrame el índice de Gini de Paraguay entre 2017 y 2021.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "PRY",
+          "indicador": "indice_gini",
+          "anio_inicio": 2017,
+          "anio_fin": 2021
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      48.5,
+      42.9
+    ]
+  },
+  {
+    "id_pregunta": "T06",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Qué porcentaje de los mexicanos usaba internet en 2020?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "MEX",
+          "indicador": "usuarios_internet_pct",
+          "anio_inicio": 2020,
+          "anio_fin": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      71.49
+    ]
+  },
+  {
+    "id_pregunta": "T07",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Consulta el PIB per cápita de Estados Unidos en 2010 y 2011.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "USA",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2010,
+          "anio_fin": 2011
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial"
+    ],
+    "cifras_referencia": [
+      48642.63,
+      50024.88
+    ]
+  },
+  {
+    "id_pregunta": "T08",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Cuánto llovió en Lima durante 2021?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Lima",
+          "fecha_inicio": "2021-01-01",
+          "fecha_fin": "2021-12-31",
+          "variable": "precipitacion_mm"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Lima",
+            "anio": 2021
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      17.5
+    ]
+  },
+  {
+    "id_pregunta": "T09",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Cuál fue la temperatura más baja registrada en Bogotá entre enero y junio de 2022?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Bogotá",
+          "fecha_inicio": "2022-01-01",
+          "fecha_fin": "2022-06-30",
+          "variable": "temp_min_c"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      4.1
+    ]
+  },
+  {
+    "id_pregunta": "T10",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Resumen del clima de Montevideo en 2020.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "resumen_climatico_anual_ciudad",
+        "argumentos": {
+          "ciudad": "Montevideo",
+          "anio": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "resumen_climatico_anual_ciudad"
+    ],
+    "cifras_referencia": [
+      17.08,
+      767.3
+    ]
+  },
+  {
+    "id_pregunta": "T11",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Qué tan fuerte sopló el viento en Asunción en 2022? Dame la ráfaga máxima del año.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Asunción",
+          "fecha_inicio": "2022-01-01",
+          "fecha_fin": "2022-12-31",
+          "variable": "viento_max_kmh"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Asunción",
+            "anio": 2022
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      41.5
+    ]
+  },
+  {
+    "id_pregunta": "T12",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "Temperatura media de San José (Costa Rica) en 2021.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "San José",
+          "fecha_inicio": "2021-01-01",
+          "fecha_fin": "2021-12-31",
+          "variable": "temp_media_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "San José",
+            "anio": 2021
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      19.63
+    ]
+  },
+  {
+    "id_pregunta": "T13",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Cuál fue la radiación solar promedio en Guayaquil entre 2020-03-01 y 2020-08-31?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Guayaquil",
+          "fecha_inicio": "2020-03-01",
+          "fecha_fin": "2020-08-31",
+          "variable": "radiacion_solar_mj_m2"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      17.35
+    ]
+  },
+  {
+    "id_pregunta": "T14",
+    "conjunto": "prueba",
+    "categoria": "simple_1hop",
+    "pregunta": "¿Cuál fue el pico de calor en Ciudad de México en 2023?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Ciudad de México",
+          "fecha_inicio": "2023-01-01",
+          "fecha_fin": "2023-12-31",
+          "variable": "temp_max_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Ciudad de México",
+            "anio": 2023
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      33.9
+    ]
+  },
+  {
+    "id_pregunta": "T15",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Ordena de mayor a menor la esperanza de vida de Argentina, Uruguay, Chile y Paraguay en 2019.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "ARG",
+            "URY",
+            "CHL",
+            "PRY"
+          ],
+          "indicador": "esperanza_vida_anios",
+          "anio": 2019
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      80.32,
+      73.67
+    ]
+  },
+  {
+    "id_pregunta": "T16",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "¿Quién tuvo más inflación en 2021: Brasil, Colombia o Perú?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "BRA",
+            "COL",
+            "PER"
+          ],
+          "indicador": "inflacion_anual_pct",
+          "anio": 2021
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      8.3,
+      3.5
+    ]
+  },
+  {
+    "id_pregunta": "T17",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Compara el PIB per cápita de México y Costa Rica en 2023.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "MEX",
+            "CRI"
+          ],
+          "indicador": "pib_per_capita_usd",
+          "anio": 2023
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      17140.77,
+      13830.84
+    ]
+  },
+  {
+    "id_pregunta": "T18",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Entre Ecuador, Bolivia y Paraguay, ¿cuál tuvo mayor desempleo en 2023?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "ECU",
+            "BOL",
+            "PRY"
+          ],
+          "indicador": "desempleo_pct",
+          "anio": 2023
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      5.79,
+      3.02
+    ]
+  },
+  {
+    "id_pregunta": "T19",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Compara el uso de internet en 2021 en Argentina, Brasil, México y Colombia.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "ARG",
+            "BRA",
+            "MEX",
+            "COL"
+          ],
+          "indicador": "usuarios_internet_pct",
+          "anio": 2021
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      87.15,
+      73.03
+    ]
+  },
+  {
+    "id_pregunta": "T20",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Crecimiento del PIB en 2023: Estados Unidos frente a México y Brasil.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "USA",
+            "MEX",
+            "BRA"
+          ],
+          "indicador": "crecimiento_pib_pct",
+          "anio": 2023
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      3.24,
+      2.93
+    ]
+  },
+  {
+    "id_pregunta": "T21",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "¿Qué país tenía más energía renovable en 2020, Ecuador o Colombia?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "ECU",
+            "COL"
+          ],
+          "indicador": "energias_renovables_pct",
+          "anio": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      32.0,
+      20.2
+    ]
+  },
+  {
+    "id_pregunta": "T22",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Compara la desigualdad (Gini) de Chile, México y Ecuador en 2020.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "CHL",
+            "MEX",
+            "ECU"
+          ],
+          "indicador": "indice_gini",
+          "anio": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      47.3,
+      44.6
+    ]
+  },
+  {
+    "id_pregunta": "T23",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Ranking de PIB per cápita 2021 para Uruguay, Chile, Argentina, Perú y Bolivia.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "URY",
+            "CHL",
+            "ARG",
+            "PER",
+            "BOL"
+          ],
+          "indicador": "pib_per_capita_usd",
+          "anio": 2021
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      17881.81,
+      4010.76
+    ]
+  },
+  {
+    "id_pregunta": "T24",
+    "conjunto": "prueba",
+    "categoria": "comparativa_paises",
+    "pregunta": "Compara el desempleo de Estados Unidos y Chile en 2020.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "comparar_paises_indicador",
+        "argumentos": {
+          "codigos_paises": [
+            "USA",
+            "CHL"
+          ],
+          "indicador": "desempleo_pct",
+          "anio": 2020
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "comparar_paises_indicador"
+    ],
+    "cifras_referencia": [
+      10.93,
+      8.05
+    ]
+  },
+  {
+    "id_pregunta": "T25",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Para México en 2022, dame la inflación y la precipitación total de Ciudad de México en ese año.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "MEX",
+          "indicador": "inflacion_anual_pct",
+          "anio_inicio": 2022,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Ciudad de México",
+          "fecha_inicio": "2022-01-01",
+          "fecha_fin": "2022-12-31",
+          "variable": "precipitacion_mm"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "MEX",
+            "indicador": "inflacion_anual_pct",
+            "anio_inicio": 2022,
+            "anio_fin": 2022
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Ciudad de México",
+            "anio": 2022
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      7.9,
+      997.1
+    ]
+  },
+  {
+    "id_pregunta": "T26",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "¿Cuál fue el desempleo de Argentina en 2021 y la temperatura media de Buenos Aires ese año?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "ARG",
+          "indicador": "desempleo_pct",
+          "anio_inicio": 2021,
+          "anio_fin": 2021
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Buenos Aires",
+          "fecha_inicio": "2021-01-01",
+          "fecha_fin": "2021-12-31",
+          "variable": "temp_media_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "ARG",
+            "indicador": "desempleo_pct",
+            "anio_inicio": 2021,
+            "anio_fin": 2021
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Buenos Aires",
+            "anio": 2021
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      8.74,
+      17.51
+    ]
+  },
+  {
+    "id_pregunta": "T27",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Colombia 2023: crecimiento del PIB y resumen climático de Bogotá.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "COL",
+          "indicador": "crecimiento_pib_pct",
+          "anio_inicio": 2023,
+          "anio_fin": 2023
+        }
+      },
+      {
+        "herramienta": "resumen_climatico_anual_ciudad",
+        "argumentos": {
+          "ciudad": "Bogotá",
+          "anio": 2023
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "resumen_climatico_anual_ciudad"
+    ],
+    "cifras_referencia": [
+      0.84,
+      13.46,
+      1040.0
+    ]
+  },
+  {
+    "id_pregunta": "T28",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Ecuador en 2020: esperanza de vida y lluvia acumulada en Guayaquil.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "ECU",
+          "indicador": "esperanza_vida_anios",
+          "anio_inicio": 2020,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Guayaquil",
+          "fecha_inicio": "2020-01-01",
+          "fecha_fin": "2020-12-31",
+          "variable": "precipitacion_mm"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "ECU",
+            "indicador": "esperanza_vida_anios",
+            "anio_inicio": 2020,
+            "anio_fin": 2020
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Guayaquil",
+            "anio": 2020
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      72.0,
+      826.7
+    ]
+  },
+  {
+    "id_pregunta": "T29",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Para Perú en 2024, ¿cuál fue la inflación y la temperatura máxima de Lima?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "PER",
+          "indicador": "inflacion_anual_pct",
+          "anio_inicio": 2024,
+          "anio_fin": 2024
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Lima",
+          "fecha_inicio": "2024-01-01",
+          "fecha_fin": "2024-12-31",
+          "variable": "temp_max_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "PER",
+            "indicador": "inflacion_anual_pct",
+            "anio_inicio": 2024,
+            "anio_fin": 2024
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Lima",
+            "anio": 2024
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      2.01,
+      28.0
+    ]
+  },
+  {
+    "id_pregunta": "T30",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Uruguay 2021: porcentaje de energía renovable y radiación solar media en Montevideo.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "URY",
+          "indicador": "energias_renovables_pct",
+          "anio_inicio": 2021,
+          "anio_fin": 2021
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Montevideo",
+          "fecha_inicio": "2021-01-01",
+          "fecha_fin": "2021-12-31",
+          "variable": "radiacion_solar_mj_m2"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "URY",
+            "indicador": "energias_renovables_pct",
+            "anio_inicio": 2021,
+            "anio_fin": 2021
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Montevideo",
+            "anio": 2021
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      57.8,
+      17.45
+    ]
+  },
+  {
+    "id_pregunta": "T31",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Costa Rica en 2022: PIB per cápita y resumen climático de San José.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "CRI",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2022,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "resumen_climatico_anual_ciudad",
+        "argumentos": {
+          "ciudad": "San José",
+          "anio": 2022
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "resumen_climatico_anual_ciudad"
+    ],
+    "cifras_referencia": [
+      13971.76,
+      19.41,
+      3686.7
+    ]
+  },
+  {
+    "id_pregunta": "T32",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "¿Cuánto creció la economía de Chile en 2022 y cuánto llovió en Santiago ese año?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "CHL",
+          "indicador": "crecimiento_pib_pct",
+          "anio_inicio": 2022,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "Santiago",
+          "fecha_inicio": "2022-01-01",
+          "fecha_fin": "2022-12-31",
+          "variable": "precipitacion_mm"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "CHL",
+            "indicador": "crecimiento_pib_pct",
+            "anio_inicio": 2022,
+            "anio_fin": 2022
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "Santiago",
+            "anio": 2022
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      2.06,
+      303.6
+    ]
+  },
+  {
+    "id_pregunta": "T33",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Bolivia 2023: usuarios de internet y temperatura mínima en La Paz.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BOL",
+          "indicador": "usuarios_internet_pct",
+          "anio_inicio": 2023,
+          "anio_fin": 2023
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "La Paz",
+          "fecha_inicio": "2023-01-01",
+          "fecha_fin": "2023-12-31",
+          "variable": "temp_min_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "BOL",
+            "indicador": "usuarios_internet_pct",
+            "anio_inicio": 2023,
+            "anio_fin": 2023
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "La Paz",
+            "anio": 2023
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      77.3,
+      -4.1
+    ]
+  },
+  {
+    "id_pregunta": "T34",
+    "conjunto": "prueba",
+    "categoria": "cruce_clima_economia",
+    "pregunta": "Brasil en 2020: desempleo y temperatura media de São Paulo.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BRA",
+          "indicador": "desempleo_pct",
+          "anio_inicio": 2020,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "consultar_clima_historico_ciudad",
+        "argumentos": {
+          "ciudad": "São Paulo",
+          "fecha_inicio": "2020-01-01",
+          "fecha_fin": "2020-12-31",
+          "variable": "temp_media_c"
+        }
+      }
+    ],
+    "alternativas": [
+      [
+        {
+          "herramienta": "consultar_indicador_banco_mundial",
+          "argumentos": {
+            "codigo_pais": "BRA",
+            "indicador": "desempleo_pct",
+            "anio_inicio": 2020,
+            "anio_fin": 2020
+          }
+        },
+        {
+          "herramienta": "resumen_climatico_anual_ciudad",
+          "argumentos": {
+            "ciudad": "São Paulo",
+            "anio": 2020
+          }
+        }
+      ]
+    ],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "consultar_clima_historico_ciudad"
+    ],
+    "cifras_referencia": [
+      13.7,
+      19.26
+    ]
+  },
+  {
+    "id_pregunta": "T35",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "¿En qué porcentaje cambió el PIB per cápita de Perú entre 2012 y 2022?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "PER",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2012,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            6519.38,
+            7353.75
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      6519.38,
+      7353.75,
+      12.8
+    ]
+  },
+  {
+    "id_pregunta": "T36",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "Calcula la variación porcentual de la esperanza de vida de Bolivia de 2000 a 2020.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BOL",
+          "indicador": "esperanza_vida_anios",
+          "anio_inicio": 2000,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            62.06,
+            62.91
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      62.06,
+      62.91,
+      1.37
+    ]
+  },
+  {
+    "id_pregunta": "T37",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "¿Cuánto aumentó, en porcentaje, el uso de internet en Ecuador entre 2010 y 2020?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "ECU",
+          "indicador": "usuarios_internet_pct",
+          "anio_inicio": 2010,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            29.03,
+            70.7
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      29.03,
+      70.7,
+      143.54
+    ]
+  },
+  {
+    "id_pregunta": "T38",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "Variación porcentual del PIB per cápita de Argentina entre 2017 y 2023.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "ARG",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2017,
+          "anio_fin": 2023
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            14532.5,
+            14261.85
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      14532.5,
+      14261.85,
+      -1.86
+    ]
+  },
+  {
+    "id_pregunta": "T39",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "¿Cuál fue el cambio porcentual del desempleo en Colombia entre 2019 y 2021?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "COL",
+          "indicador": "desempleo_pct",
+          "anio_inicio": 2019,
+          "anio_fin": 2021
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            10.28,
+            13.9
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      10.28,
+      13.9,
+      35.21
+    ]
+  },
+  {
+    "id_pregunta": "T40",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "Calcula cuánto varió porcentualmente el PIB per cápita de Paraguay de 2005 a 2015.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "PRY",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2005,
+          "anio_fin": 2015
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            1970.87,
+            5879.34
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      1970.87,
+      5879.34,
+      198.31
+    ]
+  },
+  {
+    "id_pregunta": "T41",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "¿Qué tanto creció en porcentaje el PIB per cápita de Brasil entre 2020 y 2022?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "BRA",
+          "indicador": "pib_per_capita_usd",
+          "anio_inicio": 2020,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            7074.19,
+            9281.33
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      7074.19,
+      9281.33,
+      31.2
+    ]
+  },
+  {
+    "id_pregunta": "T42",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "Variación porcentual de la energía renovable en Chile entre 2000 y 2020.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "CHL",
+          "indicador": "energias_renovables_pct",
+          "anio_inicio": 2000,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            31.4,
+            26.7
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      31.4,
+      26.7,
+      -14.97
+    ]
+  },
+  {
+    "id_pregunta": "T43",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "¿Cuánto cambió porcentualmente la esperanza de vida en Perú de 1990 a 2020?",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "PER",
+          "indicador": "esperanza_vida_anios",
+          "anio_inicio": 1990,
+          "anio_fin": 2020
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            63.98,
+            73.83
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      63.98,
+      73.83,
+      15.4
+    ]
+  },
+  {
+    "id_pregunta": "T44",
+    "conjunto": "prueba",
+    "categoria": "calculo_variacion",
+    "pregunta": "Calcula la variación porcentual de la inflación de Estados Unidos entre 2020 y 2022.",
+    "debe_abstenerse": false,
+    "llamadas_esperadas": [
+      {
+        "herramienta": "consultar_indicador_banco_mundial",
+        "argumentos": {
+          "codigo_pais": "USA",
+          "indicador": "inflacion_anual_pct",
+          "anio_inicio": 2020,
+          "anio_fin": 2022
+        }
+      },
+      {
+        "herramienta": "calcular_correlacion_o_cambio",
+        "argumentos": {
+          "valores_x": [
+            1.23,
+            8.0
+          ],
+          "valores_y": null,
+          "operacion": "variacion_porcentual"
+        }
+      }
+    ],
+    "alternativas": [],
+    "herramientas_esperadas": [
+      "consultar_indicador_banco_mundial",
+      "calcular_correlacion_o_cambio"
+    ],
+    "cifras_referencia": [
+      1.23,
+      8.0,
+      550.41
+    ]
+  },
+  {
+    "id_pregunta": "T45",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Cuál era la población total de Ecuador en 2022?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T46",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Qué tasa de pobreza tuvo Bolivia en 2021?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T47",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Temperatura media de Cuenca (Ecuador) en 2023.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T48",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "PIB per cápita de Venezuela en 2022.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T49",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Qué temperatura hará mañana en Lima?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T50",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Cuál fue la inflación de Perú en 1985?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T51",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Proyección del desempleo de Colombia para 2027.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T52",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Cuánto llovió en Guayaquil en 2010?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T53",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Compara la deuda pública de Argentina y Brasil en 2022.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T54",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Nivel de PM2.5 (calidad del aire) en Santiago en 2023.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T55",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Quién ganó las elecciones presidenciales de Ecuador en 2023?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T56",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Humedad relativa promedio de Bogotá en 2022.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T57",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "¿Cuántos turistas visitaron Costa Rica en 2019?",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T58",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Precio promedio del petróleo WTI en 2023.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T59",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Temperatura media de Toronto en 2021.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  },
+  {
+    "id_pregunta": "T60",
+    "conjunto": "prueba",
+    "categoria": "fuera_dominio",
+    "pregunta": "Escribe un poema sobre la lluvia de Quito.",
+    "debe_abstenerse": true,
+    "llamadas_esperadas": [],
+    "alternativas": [],
+    "herramientas_esperadas": [],
+    "cifras_referencia": []
+  }
+]

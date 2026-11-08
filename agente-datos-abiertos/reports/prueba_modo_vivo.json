@@ -1,0 +1,204 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuánta precipitación acumulada en milímetros se registró en Guayaquil entre 2023-01-01 y 2023-12-31?",
+      "instantanea": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_clima_historico_ciudad",
+            "argumentos": {
+              "ciudad": "Guayaquil",
+              "fecha_inicio": "2023-01-01",
+              "fecha_fin": "2023-12-31",
+              "variable": "precipitacion_mm"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "En Guayaquil (ECU), entre 2023-01-01 y 2023-12-31, Precipitación acumulada (mm) fue de 1559.20 mm (promedio mensual 129.93 mm, máximo mensual 493.60 en 2023-03 y mínimo mensual 0.00 en 2023-09).",
+        "n_pasos_llm": 2
+      },
+      "vivo": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_clima_historico_ciudad",
+            "argumentos": {
+              "ciudad": "Guayaquil",
+              "fecha_inicio": "2023-01-01",
+              "fecha_fin": "2023-12-31",
+              "variable": "precipitacion_mm"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "En Guayaquil (ECU), entre 2023-01-01 y 2023-12-31, Precipitación acumulada (mm) fue de 1558.50 mm (promedio mensual 129.87 mm, máximo mensual 492.30 en 2023-03 y mínimo mensual 0.00 en 2023-09).",
+        "n_pasos_llm": 2
+      }
+    },
+    {
+      "pregunta": "Compara el PIB per cápita de México y Costa Rica en 2023.",
+      "instantanea": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "comparar_paises_indicador",
+            "argumentos": {
+              "codigos_paises": [
+                "MEX",
+                "CRI"
+              ],
+              "indicador": "pib_per_capita_usd",
+              "anio": 2023
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "Comparativa 2023 de PIB per cápita (USD actuales) (NY.GDP.PCAP.CD): Costa Rica (CRI): 17140.77 USD, México (MEX): 13830.84 USD. Lidera Costa Rica (17140.77) frente a México (13830.84), con una brecha de 3309.93 USD y promedio grupal de 15485.81 USD.",
+        "n_pasos_llm": 2
+      },
+      "vivo": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "comparar_paises_indicador",
+            "argumentos": {
+              "codigos_paises": [
+                "MEX",
+                "CRI"
+              ],
+              "indicador": "pib_per_capita_usd",
+              "anio": 2023
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "Comparativa 2023 de PIB per cápita (USD actuales) (NY.GDP.PCAP.CD): Costa Rica (CRI): 17140.77 USD, México (MEX): 13830.84 USD. Lidera Costa Rica (17140.77) frente a México (13830.84), con una brecha de 3309.93 USD y promedio grupal de 15485.81 USD.",
+        "n_pasos_llm": 2
+      }
+    },
+    {
+      "pregunta": "¿En qué porcentaje cambió el PIB per cápita de Perú entre 2012 y 2022?",
+      "instantanea": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_indicador_banco_mundial",
+            "argumentos": {
+              "codigo_pais": "PER",
+              "indicador": "pib_per_capita_usd",
+              "anio_inicio": 2012,
+              "anio_fin": 2022
+            }
+          },
+          {
+            "herramienta": "calcular_correlacion_o_cambio",
+            "argumentos": {
+              "valores_x": [
+                6519.38,
+                7353.75
+              ],
+              "valores_y": null,
+              "operacion": "variacion_porcentual"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Perú (PER) registró [2012: 6519.38 USD, 2013: 6746.80 USD, 2014: 6667.13 USD, 2015: 6231.71 USD, 2016: 6217.04 USD, 2017: 6736.17 USD, 2018: 6978.49 USD, 2019: 7037.01 USD, 2020: 6133.33 USD, 2021: 6828.53 USD, 2022: 7353.75 USD] (inicial 6519.38, final 7353.75, promedio 6677.21 USD). Cálculo determinista: al pasar de 6519.38 a 7353.75, el cambio absoluto es 834.37 y la variación porcentual exacta es 12.80 %.",
+        "n_pasos_llm": 3
+      },
+      "vivo": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_indicador_banco_mundial",
+            "argumentos": {
+              "codigo_pais": "PER",
+              "indicador": "pib_per_capita_usd",
+              "anio_inicio": 2012,
+              "anio_fin": 2022
+            }
+          },
+          {
+            "herramienta": "calcular_correlacion_o_cambio",
+            "argumentos": {
+              "valores_x": [
+                6519.38,
+                7353.75
+              ],
+              "valores_y": null,
+              "operacion": "variacion_porcentual"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Perú (PER) registró [2012: 6519.38 USD, 2013: 6746.80 USD, 2014: 6667.13 USD, 2015: 6231.71 USD, 2016: 6217.04 USD, 2017: 6736.17 USD, 2018: 6978.49 USD, 2019: 7037.01 USD, 2020: 6133.33 USD, 2021: 6828.53 USD, 2022: 7353.75 USD] (inicial 6519.38, final 7353.75, promedio 6677.21 USD). Cálculo determinista: al pasar de 6519.38 a 7353.75, el cambio absoluto es 834.37 y la variación porcentual exacta es 12.80 %.",
+        "n_pasos_llm": 3
+      }
+    },
+    {
+      "pregunta": "¿Cuál fue la precipitación acumulada en milímetros en Quito entre 1995-01-01 y 1995-12-31 según Open-Meteo?",
+      "instantanea": {
+        "se_abstuvo": true,
+        "llamadas": [],
+        "errores": [
+          "Error de validación en 'consultar_clima_historico_ciudad': : Value error, Rango de fechas (1995-01-01 a 1995-12-31) fuera de cobertura. El clima histórico en el modo 'instantanea' cubre de 2020-01-01 a 2024-12-31."
+        ],
+        "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+        "n_pasos_llm": 2
+      },
+      "vivo": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_clima_historico_ciudad",
+            "argumentos": {
+              "ciudad": "Quito",
+              "fecha_inicio": "1995-01-01",
+              "fecha_fin": "1995-12-31",
+              "variable": "precipitacion_mm"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "En Quito (ECU), entre 1995-01-01 y 1995-12-31, Precipitación acumulada (mm) fue de 2860.40 mm (promedio mensual 238.37 mm, máximo mensual 340.90 en 1995-11 y mínimo mensual 156.40 en 1995-02).",
+        "n_pasos_llm": 2
+      }
+    },
+    {
+      "pregunta": "¿Cuánto llovió en Guayaquil en 2010?",
+      "instantanea": {
+        "se_abstuvo": true,
+        "llamadas": [],
+        "errores": [
+          "Error de validación en 'consultar_clima_historico_ciudad': : Value error, Rango de fechas (2010-01-01 a 2010-12-31) fuera de cobertura. El clima histórico en el modo 'instantanea' cubre de 2020-01-01 a 2024-12-31."
+        ],
+        "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+        "n_pasos_llm": 2
+      },
+      "vivo": {
+        "se_abstuvo": false,
+        "llamadas": [
+          {
+            "herramienta": "consultar_clima_historico_ciudad",
+            "argumentos": {
+              "ciudad": "Guayaquil",
+              "fecha_inicio": "2010-01-01",
+              "fecha_fin": "2010-12-31",
+              "variable": "precipitacion_mm"
+            }
+          }
+        ],
+        "errores": [],
+        "respuesta_final": "En Guayaquil (ECU), entre 2010-01-01 y 2010-12-31, Precipitación acumulada (mm) fue de 2161.60 mm (promedio mensual 180.13 mm, máximo mensual 465.30 en 2010-03 y mínimo mensual 30.90 en 2010-11).",
+        "n_pasos_llm": 2
+      }
+    }
+  ],
+  "estadisticas_cliente_http": {
+    "aciertos_cache": 4,
+    "peticiones_red": 2,
+    "reintentos": 0
+  }
+}

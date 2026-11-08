@@ -1,0 +1,21 @@
+{
+ "ruc_emisor": "1592671472001",
+ "razon_social_emisor": "Ferretería Cumbayá S.A.S.",
+ "numero_factura": "002-001-000051010",
+ "numero_autorizacion": "2204202501159267147200120020010000510101964392911",
+ "fecha_emision": "2025-04-22",
+ "cliente_nombre": "María Ana Zambrano Chávez",
+ "cliente_identificacion": "1941933192",
+ "items": [
+  {
+   "descripcion": "Llave de paso 1/2 pulgada",
+   "cantidad": 25,
+   "precio_unitario": 6.84,
+   "total": 171.0
+  }
+ ],
+ "subtotal": 171.0,
+ "descuento": 0.0,
+ "iva": 25.65,
+ "total": 196.65
+}

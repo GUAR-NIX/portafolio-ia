@@ -1,0 +1,81 @@
+# Conjunto en español: 80 reseñas en español del mismo subconjunto (clientes hispanohablantes en Amazon EE. UU.)
+R011403 | 0 | sonido-: El parlante micrófono se me enreda en la barba
+R024310 | + | proteccion+: Protege súper la pantalla de tu teléfono ; calidad+: Súper buena calidad ; facilidad_uso+: fácil de poner
+R041236 | - | calidad-: Pésima Cinta para pegarla se despega al instante
+R026658 | + | proteccion+: a soportado varias caídas de alturas superiores a los 1,5 metros ; calidad+: La mica transparente trasera es muy resistente
+R026214 | + | facilidad_uso+: es muy fácil de instalar ; pantalla+: no tengo problemas para escribir con el
+R037211 | + | envio+: Llego en las fechas establecidas y físicamente esta en perfecto estado
+R017662 | + | diseno0: me lo imagine mas pequeño ; ajuste+: es conodo ; sonido+: buen audio
+R026414 | - | ajuste-: Este no es tamaño de mi teléfono
+R044821 | + | calidad+: excelente calidad
+R006142 | + |
+R024260 | + | envio+: El teléfono llegó perfecto, como nuevo, en su caja ; precio+: Pagué 150, cuando aquí está a 270 ; ajuste+: lo uso en Ecuador y funciona perfecto el chip
+R039763 | + |
+R035712 | 0 | sonido-: se escuchaba muy bajo
+R005505 | + | calidad+: Muy buena calidad ; facilidad_uso+: fácil instalación
+R044244 | + | diseno0: me hubiera gustado que este forrado de nailon
+R024748 | 0 | diseno+: Buen diseño ; carga-: No es muy potente
+R021927 | - | envio-: El teléfono llegó con la caja abierta ; carga-: No llegaron ni el cargador ni los audífonos
+R039520 | 0 | pantalla-: siempre se humedece y no logro poder tocar la pantalla
+R044689 | + | proteccion+: protege muy bien celular y sus cámaras ; facilidad_uso+: De fácil de instalar
+R020686 | + |
+R009877 | + | envio-: Llego con un pequeño desperfecto
+R021808 | + |
+R034864 | + |
+R043943 | + |
+R004544 | + | calidad+: ha resultado resistente
+R046195 | + | diseno+: Me encantan los colores
+R041022 | + | diseno+: es muy lindo ; carga+: carga rapido mi telefono
+R009074 | + | diseno+: Es práctico y cómodo
+R021080 | - | calidad-: hoy 1 de mayo del 2021 no funcionó más ; precio-: Súper mala inversión
+R029137 | + | envio+: trajo dos protectores de pantallas
+R044702 | + | facilidad_uso+: fácil de instalar
+R025433 | + |
+R025487 | + | precio+: Excelente Inversión
+R043976 | + | carga+: Carga súper rápido ; calidad+: Excelente material
+R010613 | + | carga+: carga muy bien y rápido
+R006930 | + | calidad+: se ve muy duradero
+R054339 | + | ajuste+: esta estable y no se mueve de su lugar
+R024219 | + |
+R024975 | + | bateria+: Muy larga duración de batería ; pantalla-: la pantalla LCD no tan buena
+R020488 | - | carga-: No llegó con adaptador americano para cargar el dispositivo
+R020531 | + |
+R035228 | + |
+R037892 | + | precio+: Muy buen teléfono calidad precio
+R050853 | + | ajuste+: mantiene el teléfono estable
+R012819 | + | diseno+: Muy linda ; proteccion+: Muy segura
+R025530 | + | calidad+: es de suprema calidad
+R020600 | + | diseno0: el color "blanco" no es blanco ; precio+: Buena calidad por poco precio ; ajuste+: funciona perfecto para el Operador
+R022414 | + | precio+: Buena compra para el precio ; calidad0: Tiene pocas fallas
+R026817 | + |
+R016088 | + | calidad+: Es buena calidad
+R047434 | + | diseno+: ligeros ; facilidad_uso+: Fáciles de usar ; bateria+: dura muchísimo la carga
+R036132 | + | calidad+: buena calidad ; pantalla0: la imagen en la pantalla pierde un poco de calidad
+R020931 | + | diseno+: Me agrada su aspecto ; bateria+: durabilidad de la batería
+R021018 | - | sonido-: las llamadas se cortan a los 3 minutos ; pantalla-: problemas tactiles en la pantalla ; calidad-: me comenzo a dar problemas un mes despues de comprarlo
+R021850 | + | precio+: a un buen precio
+R024758 | + | diseno+: prácticamente ni se nota ; carga+: Carga bastante rapido
+R025002 | + | calidad+: llevo usándolo varios años
+R025151 | - | carga-: Para carga no me sirven ; calidad-: Se calientan
+R025488 | + | calidad+: Ellos tienen más de un año utilizándolo y están en muy buenas condiciones ; precio+: La foto es decente considerando el precio
+R051557 | + |
+R021501 | + | ajuste+: Es súper cómoda ; diseno+: luce súper con mi iPhone rose gold
+R026406 | + | proteccion+: Proteje muy bien la pantalla ; precio+: Además de barato
+R044750 | + | facilidad_uso+: Es muy fácil de instalar
+R027323 | 0 | ajuste+: se te adapta el oído ; sonido-: prácticamente no cancela ningún ruido
+R012616 | + | calidad+: Resistente y excelente calidad ; proteccion+: resistente para la pantalla del reloj
+R026471 | + | calidad+: Luce resistente ; facilidad_uso+: fue fácil instalarla
+R052274 | + | ajuste+: Muy excelente adhesión ; facilidad_uso+: fácil de instalar
+R047607 | + | calidad+: Es fuerte y de buena calidad
+R034699 | + | ajuste+: El diseño es bastante cómodo ; bateria+: la batería dura bastante ; sonido+: el sonido es de buena calidad ; facilidad_uso+: no se Batalla nada en conectarse a los teléfonos
+R004787 | - | envio-: Salió uno quebrado
+R011489 | - | ajuste-: No funciona en Ecuador
+R026795 | + | ajuste+: funciona perfecto allá sin tener que desbloquearlo ; bateria+: La batería dura lo esperado ; pantalla+: la pantalla tiene un brillo bonito
+R035687 | + |
+R009478 | + | calidad+: Muy buena calidad
+R020578 | + | facilidad_uso-: no logro registrar mi huella
+R042543 | - | carga-: No traia el cargador ; calidad-: se reiniciaba solito ; sonido-: una de las dos bocinas no servia
+R020536 | - | carga-: no me llego ni el el cargador ni los audiculares
+R023729 | + | facilidad_uso+: Muy fácil de usar ; calidad+: resistente ; ajuste+: se adapta perfectamente al teléfono
+R047536 | + |
+R020962 | + | precio+: Gran precio por el producto

@@ -1,0 +1,3487 @@
+{
+  "proyecto": "IA_06_agente_datos_abiertos",
+  "modelo_llm": "qwen2.5:7b",
+  "version_prompt_elegida": "v2",
+  "n_validacion": 44,
+  "n_prueba": 60,
+  "datos_instantanea": {
+    "observaciones_banco_mundial": 3178,
+    "registros_diarios_open_meteo": 21924
+  },
+  "resumen_enfoques": [
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "etiqueta": "1 · LLM sin herramientas",
+      "version_prompt": "",
+      "n_preguntas": 44,
+      "n_dominio": 36,
+      "n_fuera_dominio": 8,
+      "respuesta_correcta": 0.1818,
+      "respuesta_correcta_dominio": 0.0,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.3333,
+      "llm_seleccion_turno1": null,
+      "llm_seleccion_exacta": null,
+      "llm_f1_herramientas": null,
+      "llm_exactitud_args": null,
+      "llm_args_perfectos": null,
+      "llm_se_abstuvo_ood": null,
+      "sistema_seleccion_exacta": 0.0,
+      "sistema_exactitud_args": 0.0,
+      "fidelidad_respuesta_final": 0.0417,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": 1.4722,
+      "pasos_llm_medios": 1.0,
+      "pasos_llm_medios_dominio": 1.0,
+      "latencia_media_s": 8.93,
+      "latencia_mediana_s": 8.82,
+      "latencia_p90_s": 13.48,
+      "tokens_prompt_medio": 191.2,
+      "tokens_salida_medio": 33.6,
+      "respuesta_correcta_ic95_inf": 0.0682,
+      "respuesta_correcta_ic95_sup": 0.2955,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6756,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": null,
+      "llm_seleccion_exacta_ic95_sup": null,
+      "llm_seleccion_exacta_ic95_metodo": null,
+      "llm_args_perfectos_ic95_inf": null,
+      "llm_args_perfectos_ic95_sup": null,
+      "llm_args_perfectos_ic95_metodo": null
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "etiqueta": "2 · Enrutador por reglas (sin LLM)",
+      "version_prompt": "",
+      "n_preguntas": 44,
+      "n_dominio": 36,
+      "n_fuera_dominio": 8,
+      "respuesta_correcta": 0.6364,
+      "respuesta_correcta_dominio": 0.5556,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.0,
+      "llm_seleccion_turno1": null,
+      "llm_seleccion_exacta": null,
+      "llm_f1_herramientas": null,
+      "llm_exactitud_args": null,
+      "llm_args_perfectos": null,
+      "llm_se_abstuvo_ood": null,
+      "sistema_seleccion_exacta": 0.5556,
+      "sistema_exactitud_args": 0.7778,
+      "fidelidad_respuesta_final": 0.8056,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": null,
+      "pasos_llm_medios": 0.0,
+      "pasos_llm_medios_dominio": 0.0,
+      "latencia_media_s": 0.0,
+      "latencia_mediana_s": 0.0,
+      "latencia_p90_s": 0.0,
+      "tokens_prompt_medio": 0.0,
+      "tokens_salida_medio": 0.0,
+      "respuesta_correcta_ic95_inf": 0.5,
+      "respuesta_correcta_ic95_sup": 0.7727,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6756,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": null,
+      "llm_seleccion_exacta_ic95_sup": null,
+      "llm_seleccion_exacta_ic95_metodo": null,
+      "llm_args_perfectos_ic95_inf": null,
+      "llm_args_perfectos_ic95_sup": null,
+      "llm_args_perfectos_ic95_metodo": null
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "etiqueta": "3 · ReAct en texto (LLM, 1 turno)",
+      "version_prompt": "",
+      "n_preguntas": 44,
+      "n_dominio": 36,
+      "n_fuera_dominio": 8,
+      "respuesta_correcta": 0.5455,
+      "respuesta_correcta_dominio": 0.4444,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.3611,
+      "llm_seleccion_turno1": 0.4444,
+      "llm_seleccion_exacta": 0.4444,
+      "llm_f1_herramientas": 0.5556,
+      "llm_exactitud_args": 0.5278,
+      "llm_args_perfectos": 0.4444,
+      "llm_se_abstuvo_ood": 1.0,
+      "sistema_seleccion_exacta": 0.4444,
+      "sistema_exactitud_args": 0.5278,
+      "fidelidad_respuesta_final": 0.5556,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": null,
+      "pasos_llm_medios": 1.0,
+      "pasos_llm_medios_dominio": 1.0,
+      "latencia_media_s": 10.78,
+      "latencia_mediana_s": 11.3,
+      "latencia_p90_s": 12.62,
+      "tokens_prompt_medio": 345.2,
+      "tokens_salida_medio": 56.1,
+      "respuesta_correcta_ic95_inf": 0.3864,
+      "respuesta_correcta_ic95_sup": 0.6818,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6756,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": 0.2778,
+      "llm_seleccion_exacta_ic95_sup": 0.6111,
+      "llm_seleccion_exacta_ic95_metodo": "bootstrap",
+      "llm_args_perfectos_ic95_inf": 0.2778,
+      "llm_args_perfectos_ic95_sup": 0.6111,
+      "llm_args_perfectos_ic95_metodo": "bootstrap"
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "etiqueta": "4 · Agente tool-calling · prompt v1",
+      "version_prompt": "v1",
+      "n_preguntas": 44,
+      "n_dominio": 36,
+      "n_fuera_dominio": 8,
+      "respuesta_correcta": 0.8409,
+      "respuesta_correcta_dominio": 0.8056,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.0,
+      "llm_seleccion_turno1": 0.9167,
+      "llm_seleccion_exacta": 0.9167,
+      "llm_f1_herramientas": 0.9676,
+      "llm_exactitud_args": 0.9097,
+      "llm_args_perfectos": 0.7778,
+      "llm_se_abstuvo_ood": 0.75,
+      "sistema_seleccion_exacta": 0.7778,
+      "sistema_exactitud_args": 0.8889,
+      "fidelidad_respuesta_final": 0.9352,
+      "fidelidad_texto_llm": 0.8056,
+      "cifras_sin_respaldo_texto_llm_media": 0.0556,
+      "pasos_llm_medios": 1.89,
+      "pasos_llm_medios_dominio": 2.03,
+      "latencia_media_s": 36.05,
+      "latencia_mediana_s": 36.01,
+      "latencia_p90_s": 46.65,
+      "tokens_prompt_medio": 2139.2,
+      "tokens_salida_medio": 137.3,
+      "respuesta_correcta_ic95_inf": 0.7273,
+      "respuesta_correcta_ic95_sup": 0.9318,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6756,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": 0.8056,
+      "llm_seleccion_exacta_ic95_sup": 1.0,
+      "llm_seleccion_exacta_ic95_metodo": "bootstrap",
+      "llm_args_perfectos_ic95_inf": 0.6111,
+      "llm_args_perfectos_ic95_sup": 0.9167,
+      "llm_args_perfectos_ic95_metodo": "bootstrap"
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "etiqueta": "4 · Agente tool-calling · prompt v2",
+      "version_prompt": "v2",
+      "n_preguntas": 44,
+      "n_dominio": 36,
+      "n_fuera_dominio": 8,
+      "respuesta_correcta": 0.9318,
+      "respuesta_correcta_dominio": 0.9167,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.0,
+      "llm_seleccion_turno1": 0.8611,
+      "llm_seleccion_exacta": 0.9444,
+      "llm_f1_herramientas": 0.9815,
+      "llm_exactitud_args": 0.9792,
+      "llm_args_perfectos": 0.8611,
+      "llm_se_abstuvo_ood": 0.375,
+      "sistema_seleccion_exacta": 0.8611,
+      "sistema_exactitud_args": 0.9583,
+      "fidelidad_respuesta_final": 0.9722,
+      "fidelidad_texto_llm": 0.7639,
+      "cifras_sin_respaldo_texto_llm_media": 0.0556,
+      "pasos_llm_medios": 2.11,
+      "pasos_llm_medios_dominio": 2.22,
+      "latencia_media_s": 49.22,
+      "latencia_mediana_s": 49.41,
+      "latencia_p90_s": 63.04,
+      "tokens_prompt_medio": 3477.5,
+      "tokens_salida_medio": 146.7,
+      "respuesta_correcta_ic95_inf": 0.8409,
+      "respuesta_correcta_ic95_sup": 1.0,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6756,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": 0.8611,
+      "llm_seleccion_exacta_ic95_sup": 1.0,
+      "llm_seleccion_exacta_ic95_metodo": "bootstrap",
+      "llm_args_perfectos_ic95_inf": 0.75,
+      "llm_args_perfectos_ic95_sup": 0.9722,
+      "llm_args_perfectos_ic95_metodo": "bootstrap"
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "etiqueta": "1 · LLM sin herramientas",
+      "version_prompt": "",
+      "n_preguntas": 60,
+      "n_dominio": 44,
+      "n_fuera_dominio": 16,
+      "respuesta_correcta": 0.2333,
+      "respuesta_correcta_dominio": 0.0,
+      "abstencion_correcta_ood": 0.875,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.5227,
+      "llm_seleccion_turno1": null,
+      "llm_seleccion_exacta": null,
+      "llm_f1_herramientas": null,
+      "llm_exactitud_args": null,
+      "llm_args_perfectos": null,
+      "llm_se_abstuvo_ood": null,
+      "sistema_seleccion_exacta": 0.0,
+      "sistema_exactitud_args": 0.0,
+      "fidelidad_respuesta_final": 0.0,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": 0.6818,
+      "pasos_llm_medios": 1.0,
+      "pasos_llm_medios_dominio": 1.0,
+      "latencia_media_s": 7.96,
+      "latencia_mediana_s": 7.65,
+      "latencia_p90_s": 11.88,
+      "tokens_prompt_medio": 174.6,
+      "tokens_salida_medio": 22.7,
+      "respuesta_correcta_ic95_inf": 0.1333,
+      "respuesta_correcta_ic95_sup": 0.35,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.6875,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "bootstrap",
+      "llm_seleccion_exacta_ic95_inf": null,
+      "llm_seleccion_exacta_ic95_sup": null,
+      "llm_seleccion_exacta_ic95_metodo": null,
+      "llm_args_perfectos_ic95_inf": null,
+      "llm_args_perfectos_ic95_sup": null,
+      "llm_args_perfectos_ic95_metodo": null
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "etiqueta": "2 · Enrutador por reglas (sin LLM)",
+      "version_prompt": "",
+      "n_preguntas": 60,
+      "n_dominio": 44,
+      "n_fuera_dominio": 16,
+      "respuesta_correcta": 0.6,
+      "respuesta_correcta_dominio": 0.4545,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.0682,
+      "llm_seleccion_turno1": null,
+      "llm_seleccion_exacta": null,
+      "llm_f1_herramientas": null,
+      "llm_exactitud_args": null,
+      "llm_args_perfectos": null,
+      "llm_se_abstuvo_ood": null,
+      "sistema_seleccion_exacta": 0.4773,
+      "sistema_exactitud_args": 0.6932,
+      "fidelidad_respuesta_final": 0.7121,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": null,
+      "pasos_llm_medios": 0.0,
+      "pasos_llm_medios_dominio": 0.0,
+      "latencia_media_s": 0.0,
+      "latencia_mediana_s": 0.0,
+      "latencia_p90_s": 0.0,
+      "tokens_prompt_medio": 0.0,
+      "tokens_salida_medio": 0.0,
+      "respuesta_correcta_ic95_inf": 0.4667,
+      "respuesta_correcta_ic95_sup": 0.7167,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.8064,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": null,
+      "llm_seleccion_exacta_ic95_sup": null,
+      "llm_seleccion_exacta_ic95_metodo": null,
+      "llm_args_perfectos_ic95_inf": null,
+      "llm_args_perfectos_ic95_sup": null,
+      "llm_args_perfectos_ic95_metodo": null
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "etiqueta": "3 · ReAct en texto (LLM, 1 turno)",
+      "version_prompt": "",
+      "n_preguntas": 60,
+      "n_dominio": 44,
+      "n_fuera_dominio": 16,
+      "respuesta_correcta": 0.4667,
+      "respuesta_correcta_dominio": 0.3409,
+      "abstencion_correcta_ood": 0.8125,
+      "ejecuto_herramienta_ood": 0.0625,
+      "falsa_abstencion_dominio": 0.4091,
+      "llm_seleccion_turno1": 0.3636,
+      "llm_seleccion_exacta": 0.3636,
+      "llm_f1_herramientas": 0.5,
+      "llm_exactitud_args": 0.4527,
+      "llm_args_perfectos": 0.3409,
+      "llm_se_abstuvo_ood": 0.8125,
+      "sistema_seleccion_exacta": 0.3409,
+      "sistema_exactitud_args": 0.4375,
+      "fidelidad_respuesta_final": 0.4546,
+      "fidelidad_texto_llm": null,
+      "cifras_sin_respaldo_texto_llm_media": null,
+      "pasos_llm_medios": 1.0,
+      "pasos_llm_medios_dominio": 1.0,
+      "latencia_media_s": 11.65,
+      "latencia_mediana_s": 13.04,
+      "latencia_p90_s": 14.86,
+      "tokens_prompt_medio": 328.6,
+      "tokens_salida_medio": 50.4,
+      "respuesta_correcta_ic95_inf": 0.3333,
+      "respuesta_correcta_ic95_sup": 0.5833,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.625,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "bootstrap",
+      "llm_seleccion_exacta_ic95_inf": 0.2273,
+      "llm_seleccion_exacta_ic95_sup": 0.5,
+      "llm_seleccion_exacta_ic95_metodo": "bootstrap",
+      "llm_args_perfectos_ic95_inf": 0.2045,
+      "llm_args_perfectos_ic95_sup": 0.4778,
+      "llm_args_perfectos_ic95_metodo": "bootstrap"
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "etiqueta": "4 · Agente tool-calling",
+      "version_prompt": "v2",
+      "n_preguntas": 60,
+      "n_dominio": 44,
+      "n_fuera_dominio": 16,
+      "respuesta_correcta": 0.95,
+      "respuesta_correcta_dominio": 0.9318,
+      "abstencion_correcta_ood": 1.0,
+      "ejecuto_herramienta_ood": 0.0,
+      "falsa_abstencion_dominio": 0.0682,
+      "llm_seleccion_turno1": 0.7727,
+      "llm_seleccion_exacta": 0.9545,
+      "llm_f1_herramientas": 0.9545,
+      "llm_exactitud_args": 0.9545,
+      "llm_args_perfectos": 0.9545,
+      "llm_se_abstuvo_ood": 0.5625,
+      "sistema_seleccion_exacta": 0.9318,
+      "sistema_exactitud_args": 0.9318,
+      "fidelidad_respuesta_final": 0.9318,
+      "fidelidad_texto_llm": 0.8068,
+      "cifras_sin_respaldo_texto_llm_media": 0.0455,
+      "pasos_llm_medios": 1.95,
+      "pasos_llm_medios_dominio": 2.14,
+      "latencia_media_s": 31.63,
+      "latencia_mediana_s": 31.4,
+      "latencia_p90_s": 44.21,
+      "tokens_prompt_medio": 3121.5,
+      "tokens_salida_medio": 111.9,
+      "respuesta_correcta_ic95_inf": 0.8833,
+      "respuesta_correcta_ic95_sup": 1.0,
+      "respuesta_correcta_ic95_metodo": "bootstrap",
+      "abstencion_correcta_ic95_inf": 0.8064,
+      "abstencion_correcta_ic95_sup": 1.0,
+      "abstencion_correcta_ic95_metodo": "wilson",
+      "llm_seleccion_exacta_ic95_inf": 0.8864,
+      "llm_seleccion_exacta_ic95_sup": 1.0,
+      "llm_seleccion_exacta_ic95_metodo": "bootstrap",
+      "llm_args_perfectos_ic95_inf": 0.8864,
+      "llm_args_perfectos_ic95_sup": 1.0,
+      "llm_args_perfectos_ic95_metodo": "bootstrap"
+    }
+  ],
+  "atribucion_llm_vs_codigo": [
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Elige la combinación exacta de herramientas en el 1.er turno",
+      "valor": 0.8611
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Elige la combinación exacta de herramientas (todos los turnos)",
+      "valor": 0.9444
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Herramientas y argumentos exactos (año, país, ciudad, cifras)",
+      "valor": 0.8611
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Exactitud media de argumentos",
+      "valor": 0.9792
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Se abstiene solo (no llama herramientas) fuera de dominio",
+      "valor": 0.375
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Abstención final fuera de dominio (tras Pydantic + anclaje)",
+      "valor": 1.0
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Falsa abstención en dominio (anclaje/validación demasiado estrictos)",
+      "valor": 0.0
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Fidelidad numérica del texto que redacta el LLM",
+      "valor": 0.7639
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Fidelidad de la respuesta final (plantilla: por construcción)",
+      "valor": 0.9722
+    },
+    {
+      "conjunto": "validacion",
+      "version_prompt": "v2",
+      "responsable": "Sistema",
+      "etapa": "Respuesta correcta (todas las preguntas)",
+      "valor": 0.9318
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Elige la combinación exacta de herramientas en el 1.er turno",
+      "valor": 0.7727
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Elige la combinación exacta de herramientas (todos los turnos)",
+      "valor": 0.9545
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Herramientas y argumentos exactos (año, país, ciudad, cifras)",
+      "valor": 0.9545
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Exactitud media de argumentos",
+      "valor": 0.9545
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Se abstiene solo (no llama herramientas) fuera de dominio",
+      "valor": 0.5625
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Abstención final fuera de dominio (tras Pydantic + anclaje)",
+      "valor": 1.0
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Falsa abstención en dominio (anclaje/validación demasiado estrictos)",
+      "valor": 0.0682
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "LLM",
+      "etapa": "Fidelidad numérica del texto que redacta el LLM",
+      "valor": 0.8068
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "Código",
+      "etapa": "Fidelidad de la respuesta final (plantilla: por construcción)",
+      "valor": 0.9318
+    },
+    {
+      "conjunto": "prueba",
+      "version_prompt": "v2",
+      "responsable": "Sistema",
+      "etapa": "Respuesta correcta (todas las preguntas)",
+      "valor": 0.95
+    }
+  ],
+  "mejora_prompt_validacion": [
+    {
+      "metrica": "respuesta_correcta",
+      "v1": 0.8409,
+      "v2": 0.9318,
+      "diferencia_v2_menos_v1": 0.0909
+    },
+    {
+      "metrica": "llm_seleccion_turno1",
+      "v1": 0.9167,
+      "v2": 0.8611,
+      "diferencia_v2_menos_v1": -0.0556
+    },
+    {
+      "metrica": "llm_seleccion_exacta",
+      "v1": 0.9167,
+      "v2": 0.9444,
+      "diferencia_v2_menos_v1": 0.0277
+    },
+    {
+      "metrica": "llm_args_perfectos",
+      "v1": 0.7778,
+      "v2": 0.8611,
+      "diferencia_v2_menos_v1": 0.0833
+    },
+    {
+      "metrica": "llm_se_abstuvo_ood",
+      "v1": 0.75,
+      "v2": 0.375,
+      "diferencia_v2_menos_v1": -0.375
+    },
+    {
+      "metrica": "abstencion_correcta_ood",
+      "v1": 1.0,
+      "v2": 1.0,
+      "diferencia_v2_menos_v1": 0.0
+    },
+    {
+      "metrica": "falsa_abstencion_dominio",
+      "v1": 0.0,
+      "v2": 0.0,
+      "diferencia_v2_menos_v1": 0.0
+    },
+    {
+      "metrica": "fidelidad_texto_llm",
+      "v1": 0.8056,
+      "v2": 0.7639,
+      "diferencia_v2_menos_v1": -0.0417
+    },
+    {
+      "metrica": "pasos_llm_medios",
+      "v1": 1.89,
+      "v2": 2.11,
+      "diferencia_v2_menos_v1": 0.22
+    },
+    {
+      "metrica": "latencia_media_s",
+      "v1": 36.05,
+      "v2": 49.22,
+      "diferencia_v2_menos_v1": 13.17
+    }
+  ],
+  "desempeno_por_categoria": [
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "simple_1hop",
+      "n": 12,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 8.7881
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "comparativa_paises",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 11.8061
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "cruce_clima_economia",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 11.1408
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "calculo_variacion",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 8.3268
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "fuera_dominio",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 4.6458
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "simple_1hop",
+      "n": 12,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0005
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "comparativa_paises",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0004
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "cruce_clima_economia",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0004
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "calculo_variacion",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0004
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "fuera_dominio",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0003
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "categoria": "simple_1hop",
+      "n": 12,
+      "respuesta_correcta": 0.6667,
+      "llm_seleccion_exacta": 0.6667,
+      "llm_args_perfectos": 0.6667,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 11.8822
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "categoria": "comparativa_paises",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 10.8288
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "categoria": "cruce_clima_economia",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": 0.0,
+      "llm_args_perfectos": 0.0,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 13.4447
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "categoria": "calculo_variacion",
+      "n": 8,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": 0.0,
+      "llm_args_perfectos": 0.0,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 11.3985
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "react_texto",
+      "categoria": "fuera_dominio",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 5.7788
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "categoria": "simple_1hop",
+      "n": 12,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 36.9118
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "categoria": "comparativa_paises",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 36.0989
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "categoria": "cruce_clima_economia",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 0.875,
+      "llm_args_perfectos": 0.875,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 44.8483
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "categoria": "calculo_variacion",
+      "n": 8,
+      "respuesta_correcta": 0.125,
+      "llm_seleccion_exacta": 0.75,
+      "llm_args_perfectos": 0.125,
+      "pasos_llm_medios": 2.125,
+      "latencia_media_s": 43.8725
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v1",
+      "categoria": "fuera_dominio",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.25,
+      "latencia_media_s": 18.0604
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "categoria": "simple_1hop",
+      "n": 12,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 0.8333,
+      "llm_args_perfectos": 0.8333,
+      "pasos_llm_medios": 2.1667,
+      "latencia_media_s": 45.6959
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "categoria": "comparativa_paises",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 42.0257
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "categoria": "cruce_clima_economia",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 56.8106
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "categoria": "calculo_variacion",
+      "n": 8,
+      "respuesta_correcta": 0.625,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 0.625,
+      "pasos_llm_medios": 2.75,
+      "latencia_media_s": 66.0416
+    },
+    {
+      "conjunto": "validacion",
+      "clave_enfoque": "agente_v2",
+      "categoria": "fuera_dominio",
+      "n": 8,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.625,
+      "latencia_media_s": 37.315
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "simple_1hop",
+      "n": 14,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 6.7863
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "comparativa_paises",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 9.1227
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "cruce_clima_economia",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 12.0191
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "calculo_variacion",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 7.8181
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "zeroshot_sin_tools",
+      "categoria": "fuera_dominio",
+      "n": 16,
+      "respuesta_correcta": 0.875,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 5.8024
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "simple_1hop",
+      "n": 14,
+      "respuesta_correcta": 0.7143,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0003
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "comparativa_paises",
+      "n": 10,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0003
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "cruce_clima_economia",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0003
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "calculo_variacion",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0003
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "enrutador_reglas",
+      "categoria": "fuera_dominio",
+      "n": 16,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 0.0,
+      "latencia_media_s": 0.0002
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "categoria": "simple_1hop",
+      "n": 14,
+      "respuesta_correcta": 0.6429,
+      "llm_seleccion_exacta": 0.6429,
+      "llm_args_perfectos": 0.6429,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 12.7562
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "categoria": "comparativa_paises",
+      "n": 10,
+      "respuesta_correcta": 0.6,
+      "llm_seleccion_exacta": 0.7,
+      "llm_args_perfectos": 0.6,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 11.2706
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "categoria": "cruce_clima_economia",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": 0.0,
+      "llm_args_perfectos": 0.0,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 13.9872
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "categoria": "calculo_variacion",
+      "n": 10,
+      "respuesta_correcta": 0.0,
+      "llm_seleccion_exacta": 0.0,
+      "llm_args_perfectos": 0.0,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 13.9404
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "react_texto",
+      "categoria": "fuera_dominio",
+      "n": 16,
+      "respuesta_correcta": 0.8125,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.0,
+      "latencia_media_s": 8.0422
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "categoria": "simple_1hop",
+      "n": 14,
+      "respuesta_correcta": 0.9286,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 33.4412
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "categoria": "comparativa_paises",
+      "n": 10,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 32.7024
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "categoria": "cruce_clima_economia",
+      "n": 10,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": 1.0,
+      "llm_args_perfectos": 1.0,
+      "pasos_llm_medios": 2.0,
+      "latencia_media_s": 39.8891
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "categoria": "calculo_variacion",
+      "n": 10,
+      "respuesta_correcta": 0.8,
+      "llm_seleccion_exacta": 0.8,
+      "llm_args_perfectos": 0.8,
+      "pasos_llm_medios": 2.6,
+      "latencia_media_s": 39.74
+    },
+    {
+      "conjunto": "prueba",
+      "clave_enfoque": "agente",
+      "categoria": "fuera_dominio",
+      "n": 16,
+      "respuesta_correcta": 1.0,
+      "llm_seleccion_exacta": null,
+      "llm_args_perfectos": null,
+      "pasos_llm_medios": 1.4375,
+      "latencia_media_s": 19.1431
+    }
+  ],
+  "trazas_agente_prueba": [
+    {
+      "id_pregunta": "T01",
+      "pregunta": "¿Cómo evolucionó el crecimiento económico de Bolivia de 2016 a 2020?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "anio_inicio": 2016,
+                "anio_fin": 2020,
+                "codigo_pais": "BOL",
+                "indicador": "crecimiento_pib_pct"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "BOL",
+                "indicador": "crecimiento_pib_pct",
+                "anio_inicio": 2016,
+                "anio_fin": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El crecimiento del PIB de Bolivia varió desde un máximo del 4.26% en 2016 hasta un mínimo del -12.72% en 2020, pasando por 4.2% en 2017, 2.87% en 2018 y 1.51% en 2019.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.MKTP.KD.ZG), Crecimiento del PIB real anual (%) en Bolivia (BOL) registró [2016: 4.26 %, 2017: 4.20 %, 2018: 2.87 %, 2019: 1.51 %, 2020: -12.72 %] (inicial 4.26, final -12.72, promedio 0.02 %).",
+      "texto_llm": "El crecimiento del PIB de Bolivia varió desde un máximo del 4.26% en 2016 hasta un mínimo del -12.72% en 2020, pasando por 4.2% en 2017, 2.87% en 2018 y 1.51% en 2019."
+    },
+    {
+      "id_pregunta": "T02",
+      "pregunta": "Necesito la inflación de Argentina para los años 2021 y 2022.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2022,
+                "codigo_pais": "ARG"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "ARG",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La inflación de Argentina en 2021 fue del 48.41% y en 2022 fue del 72.43%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (FP.CPI.TOTL.ZG), Inflación anual al consumidor (%) en Argentina (ARG) registró [2021: 48.41 %, 2022: 72.43 %] (inicial 48.41, final 72.43, promedio 60.42 %).",
+      "texto_llm": "La inflación de Argentina en 2021 fue del 48.41% y en 2022 fue del 72.43%."
+    },
+    {
+      "id_pregunta": "T03",
+      "pregunta": "Dame la esperanza de vida de México entre 2015 y 2019.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "MEX",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 2015,
+                "anio_fin": 2019
+              },
+              "argumentos_validados": {
+                "codigo_pais": "MEX",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 2015,
+                "anio_fin": 2019
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La esperanza de vida en México varió de 74.43 años en 2015 a 74.53 años en 2019.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SP.DYN.LE00.IN), Esperanza de vida al nacer (años) en México (MEX) registró [2015: 74.43 años, 2016: 74.38 años, 2017: 74.26 años, 2018: 74.30 años, 2019: 74.53 años] (inicial 74.43, final 74.53, promedio 74.38 años).",
+      "texto_llm": "La esperanza de vida en México varió de 74.43 años en 2015 a 74.53 años en 2019."
+    },
+    {
+      "id_pregunta": "T04",
+      "pregunta": "¿Qué tan alto fue el desempleo en Brasil de 2019 a 2021?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "BRA",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2019,
+                "anio_fin": 2021
+              },
+              "argumentos_validados": {
+                "codigo_pais": "BRA",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2019,
+                "anio_fin": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El desempleo en Brasil fue del 11.94% en 2019, 13.7% en 2020 y 13.16% en 2021.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SL.UEM.TOTL.ZS), Desempleo total (% de la fuerza laboral) en Brasil (BRA) registró [2019: 11.94 %, 2020: 13.70 %, 2021: 13.16 %] (inicial 11.94, final 13.16, promedio 12.93 %).",
+      "texto_llm": "El desempleo en Brasil fue del 11.94% en 2019, 13.7% en 2020 y 13.16% en 2021."
+    },
+    {
+      "id_pregunta": "T05",
+      "pregunta": "Muéstrame el índice de Gini de Paraguay entre 2017 y 2021.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "indice_gini",
+                "anio_inicio": 2017,
+                "anio_fin": 2021,
+                "codigo_pais": "PRY"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "PRY",
+                "indicador": "indice_gini",
+                "anio_inicio": 2017,
+                "anio_fin": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El índice de Gini de Paraguay varió de 48.5 puntos en 2017 a 42.9 puntos en 2021.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SI.POV.GINI), Índice de Gini (0-100) en Paraguay (PRY) registró [2017: 48.50 puntos, 2018: 46.00 puntos, 2019: 45.70 puntos, 2020: 43.50 puntos, 2021: 42.90 puntos] (inicial 48.50, final 42.90, promedio 45.32 puntos).",
+      "texto_llm": "El índice de Gini de Paraguay varió de 48.5 puntos en 2017 a 42.9 puntos en 2021."
+    },
+    {
+      "id_pregunta": "T06",
+      "pregunta": "¿Qué porcentaje de los mexicanos usaba internet en 2020?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2020,
+                "anio_fin": 2020,
+                "codigo_pais": "MEX"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "MEX",
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2020,
+                "anio_fin": 2020
+              },
+              "exito": false,
+              "error_tipo": "anclaje",
+              "mensaje_error": "ERROR de anclaje: los países ['MEX'] no aparecen en la pregunta."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La respuesta a tu pregunta no se encuentra dentro del rango de años y países que pueden proporcionar estas herramientas.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La respuesta a tu pregunta no se encuentra dentro del rango de años y países que pueden proporcionar estas herramientas."
+    },
+    {
+      "id_pregunta": "T07",
+      "pregunta": "Consulta el PIB per cápita de Estados Unidos en 2010 y 2011.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "anio_fin": 2011,
+                "codigo_pais": "USA",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2010
+              },
+              "argumentos_validados": {
+                "codigo_pais": "USA",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2010,
+                "anio_fin": 2011
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El PIB per cápita de Estados Unidos en 2010 fue de 48,642.63 USD y en 2011 ascendió a 50,024.88 USD.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Estados Unidos (USA) registró [2010: 48642.63 USD, 2011: 50024.88 USD] (inicial 48642.63, final 50024.88, promedio 49333.75 USD).",
+      "texto_llm": "El PIB per cápita de Estados Unidos en 2010 fue de 48,642.63 USD y en 2011 ascendió a 50,024.88 USD."
+    },
+    {
+      "id_pregunta": "T08",
+      "pregunta": "¿Cuánto llovió en Lima durante 2021?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Lima",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "argumentos_validados": {
+                "ciudad": "Lima",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "Lima recibió una precipitación acumulada de 17.5 mm durante el año 2021.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En Lima (PER), entre 2021-01-01 y 2021-12-31, Precipitación acumulada (mm) fue de 17.50 mm (promedio mensual 1.46 mm, máximo mensual 4.30 en 2021-01 y mínimo mensual 0.00 en 2021-07).",
+      "texto_llm": "Lima recibió una precipitación acumulada de 17.5 mm durante el año 2021."
+    },
+    {
+      "id_pregunta": "T09",
+      "pregunta": "¿Cuál fue la temperatura más baja registrada en Bogotá entre enero y junio de 2022?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "fecha_fin": "2022-06-30",
+                "variable": "temp_min_c",
+                "ciudad": "Bogotá",
+                "fecha_inicio": "2022-01-01"
+              },
+              "argumentos_validados": {
+                "ciudad": "Bogotá",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-06-30",
+                "variable": "temp_min_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La temperatura más baja registrada en Bogotá entre enero y junio de 2022 fue de 4.1°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En Bogotá (COL), entre 2022-01-01 y 2022-06-30, Temperatura mínima extrema (°C) fue de 4.10 °C (promedio mensual 5.08 °C, máximo mensual 5.90 en 2022-03 y mínimo mensual 4.10 en 2022-01).",
+      "texto_llm": "La temperatura más baja registrada en Bogotá entre enero y junio de 2022 fue de 4.1°C."
+    },
+    {
+      "id_pregunta": "T10",
+      "pregunta": "Resumen del clima de Montevideo en 2020.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "resumen_climatico_anual_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Montevideo",
+                "anio": 2020
+              },
+              "argumentos_validados": {
+                "ciudad": "Montevideo",
+                "anio": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El resumen climático de Montevideo en 2020 muestra una temperatura media anual de 17.08°C, una temperatura máxima de 33.6°C, una temperatura mínima de 3.2°C, una precipitación acumulada de 767.3 mm, una radiación solar de 17.85 MJ/m², un viento máximo de 50.3 km/h y",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Resumen climático de Open-Meteo para Montevideo (URY) en 2020: temperatura media de 17.08 °C (máxima 33.60 °C, mínima 3.20 °C), precipitación acumulada de 767.30 mm en 83 días de lluvia, radiación solar media de 17.85 MJ/m² y viento máximo de 50.30 km/h.",
+      "texto_llm": "El resumen climático de Montevideo en 2020 muestra una temperatura media anual de 17.08°C, una temperatura máxima de 33.6°C, una temperatura mínima de 3.2°C, una precipitación acumulada de 767.3 mm, una radiación solar de 17.85 MJ/m², un viento máximo de 50.3 km/h y"
+    },
+    {
+      "id_pregunta": "T11",
+      "pregunta": "¿Qué tan fuerte sopló el viento en Asunción en 2022? Dame la ráfaga máxima del año.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "variable": "viento_max_kmh",
+                "ciudad": "Asunción",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31"
+              },
+              "argumentos_validados": {
+                "ciudad": "Asunción",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31",
+                "variable": "viento_max_kmh"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La ráfaga máxima del viento en Asunción durante el año 2022 fue de 41.5 km/h.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En Asunción (PRY), entre 2022-01-01 y 2022-12-31, Velocidad máxima del viento (km/h) fue de 41.50 km/h (promedio mensual 32.95 km/h, máximo mensual 41.50 en 2022-10 y mínimo mensual 24.00 en 2022-12).",
+      "texto_llm": "La ráfaga máxima del viento en Asunción durante el año 2022 fue de 41.5 km/h."
+    },
+    {
+      "id_pregunta": "T12",
+      "pregunta": "Temperatura media de San José (Costa Rica) en 2021.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "San José",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "temp_media_c"
+              },
+              "argumentos_validados": {
+                "ciudad": "San José",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "temp_media_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La temperatura media en San José (Costa Rica) en 2021 fue de 19.63°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En San José (CRI), entre 2021-01-01 y 2021-12-31, Temperatura media diaria (°C) fue de 19.63 °C (promedio mensual 19.64 °C, máximo mensual 20.17 en 2021-04 y mínimo mensual 18.98 en 2021-01).",
+      "texto_llm": "La temperatura media en San José (Costa Rica) en 2021 fue de 19.63°C."
+    },
+    {
+      "id_pregunta": "T13",
+      "pregunta": "¿Cuál fue la radiación solar promedio en Guayaquil entre 2020-03-01 y 2020-08-31?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Guayaquil",
+                "fecha_inicio": "2020-03-01",
+                "fecha_fin": "2020-08-31",
+                "variable": "radiacion_solar_mj_m2"
+              },
+              "argumentos_validados": {
+                "ciudad": "Guayaquil",
+                "fecha_inicio": "2020-03-01",
+                "fecha_fin": "2020-08-31",
+                "variable": "radiacion_solar_mj_m2"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La radiación solar promedio en Guayaquil entre el 1 de marzo de 2020 y el 31 de agosto de 2020 fue de 17.35 MJ/m².",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En Guayaquil (ECU), entre 2020-03-01 y 2020-08-31, Radiación solar media diaria (MJ/m²) fue de 17.35 MJ/m² (promedio mensual 17.35 MJ/m², máximo mensual 19.28 en 2020-08 y mínimo mensual 15.82 en 2020-06).",
+      "texto_llm": "La radiación solar promedio en Guayaquil entre el 1 de marzo de 2020 y el 31 de agosto de 2020 fue de 17.35 MJ/m²."
+    },
+    {
+      "id_pregunta": "T14",
+      "pregunta": "¿Cuál fue el pico de calor en Ciudad de México en 2023?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Ciudad de México",
+                "fecha_inicio": "2023-01-01",
+                "fecha_fin": "2023-12-31",
+                "variable": "temp_max_c"
+              },
+              "argumentos_validados": {
+                "ciudad": "Ciudad de México",
+                "fecha_inicio": "2023-01-01",
+                "fecha_fin": "2023-12-31",
+                "variable": "temp_max_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El pico de calor en Ciudad de México en 2023 fue de 33.9°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "En Ciudad de México (MEX), entre 2023-01-01 y 2023-12-31, Temperatura máxima extrema (°C) fue de 33.90 °C (promedio mensual 28.43 °C, máximo mensual 33.90 en 2023-06 y mínimo mensual 23.90 en 2023-12).",
+      "texto_llm": "El pico de calor en Ciudad de México en 2023 fue de 33.9°C."
+    },
+    {
+      "id_pregunta": "T15",
+      "pregunta": "Ordena de mayor a menor la esperanza de vida de Argentina, Uruguay, Chile y Paraguay en 2019.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "ARG",
+                  "URY",
+                  "CHL",
+                  "PRY"
+                ],
+                "indicador": "esperanza_vida_anios",
+                "anio": 2019
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "ARG",
+                  "URY",
+                  "CHL",
+                  "PRY"
+                ],
+                "indicador": "esperanza_vida_anios",
+                "anio": 2019
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La esperanza de vida en 2019, ordenada de mayor a menor, es la siguiente: Chile con 80.32 años, Uruguay con 77.5 años, Argentina con 76.85 años y Paraguay con 73.67 años.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2019 de Esperanza de vida al nacer (años) (SP.DYN.LE00.IN): Chile (CHL): 80.32 años, Uruguay (URY): 77.50 años, Argentina (ARG): 76.85 años, Paraguay (PRY): 73.67 años. Lidera Chile (80.32) frente a Paraguay (73.67), con una brecha de 6.65 años y promedio grupal de 77.08 años.",
+      "texto_llm": "La esperanza de vida en 2019, ordenada de mayor a menor, es la siguiente: Chile con 80.32 años, Uruguay con 77.5 años, Argentina con 76.85 años y Paraguay con 73.67 años."
+    },
+    {
+      "id_pregunta": "T16",
+      "pregunta": "¿Quién tuvo más inflación en 2021: Brasil, Colombia o Perú?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "BRA",
+                  "COL",
+                  "PER"
+                ],
+                "indicador": "inflacion_anual_pct",
+                "anio": 2021
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "BRA",
+                  "COL",
+                  "PER"
+                ],
+                "indicador": "inflacion_anual_pct",
+                "anio": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2021, Brasil tuvo la mayor inflación con un 8.3%, seguido de Perú con un 4.27% y Colombia con un 3.5%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2021 de Inflación anual al consumidor (%) (FP.CPI.TOTL.ZG): Brasil (BRA): 8.30 %, Perú (PER): 4.27 %, Colombia (COL): 3.50 %. Lidera Brasil (8.30) frente a Colombia (3.50), con una brecha de 4.80 % y promedio grupal de 5.36 %.",
+      "texto_llm": "En 2021, Brasil tuvo la mayor inflación con un 8.3%, seguido de Perú con un 4.27% y Colombia con un 3.5%."
+    },
+    {
+      "id_pregunta": "T17",
+      "pregunta": "Compara el PIB per cápita de México y Costa Rica en 2023.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "MEX",
+                  "CRI"
+                ],
+                "indicador": "pib_per_capita_usd",
+                "anio": 2023
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "MEX",
+                  "CRI"
+                ],
+                "indicador": "pib_per_capita_usd",
+                "anio": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2023, el PIB per cápita en Costa Rica fue de $17,140.77 USD, mientras que en México fue de $13,830.84 USD. Costa Rica lideró en este indicador.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2023 de PIB per cápita (USD actuales) (NY.GDP.PCAP.CD): Costa Rica (CRI): 17140.77 USD, México (MEX): 13830.84 USD. Lidera Costa Rica (17140.77) frente a México (13830.84), con una brecha de 3309.93 USD y promedio grupal de 15485.81 USD.",
+      "texto_llm": "En 2023, el PIB per cápita en Costa Rica fue de $17,140.77 USD, mientras que en México fue de $13,830.84 USD. Costa Rica lideró en este indicador."
+    },
+    {
+      "id_pregunta": "T18",
+      "pregunta": "Entre Ecuador, Bolivia y Paraguay, ¿cuál tuvo mayor desempleo en 2023?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "ECU",
+                  "BOL",
+                  "PRY"
+                ],
+                "indicador": "desempleo_pct",
+                "anio": 2023
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "ECU",
+                  "BOL",
+                  "PRY"
+                ],
+                "indicador": "desempleo_pct",
+                "anio": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2023, Paraguay tuvo el mayor desempleo con un 5.79%, seguido de Ecuador con un 3.51% y Bolivia con un 3.02%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2023 de Desempleo total (% de la fuerza laboral) (SL.UEM.TOTL.ZS): Paraguay (PRY): 5.79 %, Ecuador (ECU): 3.51 %, Bolivia (BOL): 3.02 %. Lidera Paraguay (5.79) frente a Bolivia (3.02), con una brecha de 2.77 % y promedio grupal de 4.11 %.",
+      "texto_llm": "En 2023, Paraguay tuvo el mayor desempleo con un 5.79%, seguido de Ecuador con un 3.51% y Bolivia con un 3.02%."
+    },
+    {
+      "id_pregunta": "T19",
+      "pregunta": "Compara el uso de internet en 2021 en Argentina, Brasil, México y Colombia.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "ARG",
+                  "BRA",
+                  "MEX",
+                  "COL"
+                ],
+                "indicador": "usuarios_internet_pct",
+                "anio": 2021
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "ARG",
+                  "BRA",
+                  "MEX",
+                  "COL"
+                ],
+                "indicador": "usuarios_internet_pct",
+                "anio": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2021, el uso de internet en Argentina fue del 87.15%, Brasil del 80.69%, México del 75.63% y Colombia del 73.03%. El país líder fue Argentina, seguido por Brasil, México y Colombia. La brecha entre el líder y el último es de 14.12 puntos porcentuales.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2021 de Usuarios de Internet (% de la población) (IT.NET.USER.ZS): Argentina (ARG): 87.15 %, Brasil (BRA): 80.69 %, México (MEX): 75.63 %, Colombia (COL): 73.03 %. Lidera Argentina (87.15) frente a Colombia (73.03), con una brecha de 14.12 % y promedio grupal de 79.12 %.",
+      "texto_llm": "En 2021, el uso de internet en Argentina fue del 87.15%, Brasil del 80.69%, México del 75.63% y Colombia del 73.03%. El país líder fue Argentina, seguido por Brasil, México y Colombia. La brecha entre el líder y el último es de 14.12 puntos porcentuales."
+    },
+    {
+      "id_pregunta": "T20",
+      "pregunta": "Crecimiento del PIB en 2023: Estados Unidos frente a México y Brasil.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "USA",
+                  "MEX",
+                  "BRA"
+                ],
+                "indicador": "crecimiento_pib_pct",
+                "anio": 2023
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "USA",
+                  "MEX",
+                  "BRA"
+                ],
+                "indicador": "crecimiento_pib_pct",
+                "anio": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El crecimiento del PIB en 2023 fue mayor en Brasil (3.24%) y México (3.11%), superando a Estados Unidos (2.93%).",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2023 de Crecimiento del PIB real anual (%) (NY.GDP.MKTP.KD.ZG): Brasil (BRA): 3.24 %, México (MEX): 3.11 %, Estados Unidos (USA): 2.93 %. Lidera Brasil (3.24) frente a Estados Unidos (2.93), con una brecha de 0.31 % y promedio grupal de 3.09 %.",
+      "texto_llm": "El crecimiento del PIB en 2023 fue mayor en Brasil (3.24%) y México (3.11%), superando a Estados Unidos (2.93%)."
+    },
+    {
+      "id_pregunta": "T21",
+      "pregunta": "¿Qué país tenía más energía renovable en 2020, Ecuador o Colombia?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "ECU",
+                  "COL"
+                ],
+                "indicador": "energias_renovables_pct",
+                "anio": 2020
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "ECU",
+                  "COL"
+                ],
+                "indicador": "energias_renovables_pct",
+                "anio": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2020, Colombia tenía un porcentaje de energía renovable del 32.0%, mientras que Ecuador tenía el 20.2%. Por lo tanto, Colombia tenía más energía renovable en comparación con Ecuador ese año.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2020 de Consumo de energía renovable (% del total) (EG.FEC.RNEW.ZS): Colombia (COL): 32.00 %, Ecuador (ECU): 20.20 %. Lidera Colombia (32.00) frente a Ecuador (20.20), con una brecha de 11.80 % y promedio grupal de 26.10 %.",
+      "texto_llm": "En 2020, Colombia tenía un porcentaje de energía renovable del 32.0%, mientras que Ecuador tenía el 20.2%. Por lo tanto, Colombia tenía más energía renovable en comparación con Ecuador ese año."
+    },
+    {
+      "id_pregunta": "T22",
+      "pregunta": "Compara la desigualdad (Gini) de Chile, México y Ecuador en 2020.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "anio": 2020,
+                "codigos_paises": [
+                  "CHL",
+                  "MEX",
+                  "ECU"
+                ],
+                "indicador": "indice_gini"
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "CHL",
+                  "MEX",
+                  "ECU"
+                ],
+                "indicador": "indice_gini",
+                "anio": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2020, el ranking de desigualdad (Gini) fue: Ecuador con 47.3 puntos, Chile con 47.0 puntos y México con 44.6 puntos. El líder fue México y la brecha entre los países fue menor de 3 puntos.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2020 de Índice de Gini (0-100) (SI.POV.GINI): Ecuador (ECU): 47.30 puntos, Chile (CHL): 47.00 puntos, México (MEX): 44.60 puntos. Lidera Ecuador (47.30) frente a México (44.60), con una brecha de 2.70 puntos y promedio grupal de 46.30 puntos.",
+      "texto_llm": "En 2020, el ranking de desigualdad (Gini) fue: Ecuador con 47.3 puntos, Chile con 47.0 puntos y México con 44.6 puntos. El líder fue México y la brecha entre los países fue menor de 3 puntos."
+    },
+    {
+      "id_pregunta": "T23",
+      "pregunta": "Ranking de PIB per cápita 2021 para Uruguay, Chile, Argentina, Perú y Bolivia.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "indicador": "pib_per_capita_usd",
+                "anio": 2021,
+                "codigos_paises": [
+                  "URY",
+                  "CHL",
+                  "ARG",
+                  "PER",
+                  "BOL"
+                ]
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "URY",
+                  "CHL",
+                  "ARG",
+                  "PER",
+                  "BOL"
+                ],
+                "indicador": "pib_per_capita_usd",
+                "anio": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El ranking de PIB per cápita en 2021 para Uruguay, Chile, Argentina, Perú y Bolivia es el siguiente: Uruguay lidera con $17,881.81 USD, seguido de Chile con $16,216.18 USD, Argentina con $10,738.02 USD, Perú con $6,828.53 USD y Bolivia cierra el ranking",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2021 de PIB per cápita (USD actuales) (NY.GDP.PCAP.CD): Uruguay (URY): 17881.81 USD, Chile (CHL): 16216.18 USD, Argentina (ARG): 10738.02 USD, Perú (PER): 6828.53 USD, Bolivia (BOL): 4010.76 USD. Lidera Uruguay (17881.81) frente a Bolivia (4010.76), con una brecha de 13871.05 USD y promedio grupal de 11135.06 USD.",
+      "texto_llm": "El ranking de PIB per cápita en 2021 para Uruguay, Chile, Argentina, Perú y Bolivia es el siguiente: Uruguay lidera con $17,881.81 USD, seguido de Chile con $16,216.18 USD, Argentina con $10,738.02 USD, Perú con $6,828.53 USD y Bolivia cierra el ranking"
+    },
+    {
+      "id_pregunta": "T24",
+      "pregunta": "Compara el desempleo de Estados Unidos y Chile en 2020.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "codigos_paises": [
+                  "USA",
+                  "CHL"
+                ],
+                "indicador": "desempleo_pct",
+                "anio": 2020
+              },
+              "argumentos_validados": {
+                "codigos_paises": [
+                  "USA",
+                  "CHL"
+                ],
+                "indicador": "desempleo_pct",
+                "anio": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2020, el desempleo en Chile fue del 10.93%, mientras que en Estados Unidos fue del 8.05%. Chile lideró en desempleo con una brecha del 2.88 puntos porcentuales respecto a Estados Unidos.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Comparativa 2020 de Desempleo total (% de la fuerza laboral) (SL.UEM.TOTL.ZS): Chile (CHL): 10.93 %, Estados Unidos (USA): 8.05 %. Lidera Chile (10.93) frente a Estados Unidos (8.05), con una brecha de 2.88 % y promedio grupal de 9.49 %.",
+      "texto_llm": "En 2020, el desempleo en Chile fue del 10.93%, mientras que en Estados Unidos fue del 8.05%. Chile lideró en desempleo con una brecha del 2.88 puntos porcentuales respecto a Estados Unidos."
+    },
+    {
+      "id_pregunta": "T25",
+      "pregunta": "Para México en 2022, dame la inflación y la precipitación total de Ciudad de México en ese año.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "MEX",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "argumentos_validados": {
+                "codigo_pais": "MEX",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Ciudad de México",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "argumentos_validados": {
+                "ciudad": "Ciudad de México",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "Para México en 2022, la inflación anual fue del 7.9%. La precipitación total en Ciudad de México durante ese año fue de 997.1 mm.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (FP.CPI.TOTL.ZG), Inflación anual al consumidor (%) en México (MEX) registró [2022: 7.90 %]. En Ciudad de México (MEX), entre 2022-01-01 y 2022-12-31, Precipitación acumulada (mm) fue de 997.10 mm (promedio mensual 83.09 mm, máximo mensual 238.20 en 2022-08 y mínimo mensual 6.80 en 2022-11).",
+      "texto_llm": "Para México en 2022, la inflación anual fue del 7.9%. La precipitación total en Ciudad de México durante ese año fue de 997.1 mm."
+    },
+    {
+      "id_pregunta": "T26",
+      "pregunta": "¿Cuál fue el desempleo de Argentina en 2021 y la temperatura media de Buenos Aires ese año?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "ARG",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2021
+              },
+              "argumentos_validados": {
+                "codigo_pais": "ARG",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "resumen_climatico_anual_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Buenos Aires",
+                "anio": 2021
+              },
+              "argumentos_validados": {
+                "ciudad": "Buenos Aires",
+                "anio": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El desempleo en Argentina en 2021 fue del 8.74%. La temperatura media de Buenos Aires ese mismo año fue de 17.51°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SL.UEM.TOTL.ZS), Desempleo total (% de la fuerza laboral) en Argentina (ARG) registró [2021: 8.74 %]. Resumen climático de Open-Meteo para Buenos Aires (ARG) en 2021: temperatura media de 17.51 °C (máxima 35.70 °C, mínima 1.60 °C), precipitación acumulada de 1004.80 mm en 83 días de lluvia, radiación solar media de 17.73 MJ/m² y viento máximo de 49.10 km/h.",
+      "texto_llm": "El desempleo en Argentina en 2021 fue del 8.74%. La temperatura media de Buenos Aires ese mismo año fue de 17.51°C."
+    },
+    {
+      "id_pregunta": "T27",
+      "pregunta": "Colombia 2023: crecimiento del PIB y resumen climático de Bogotá.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "COL",
+                "indicador": "crecimiento_pib_pct",
+                "anio_inicio": 2023,
+                "anio_fin": 2023
+              },
+              "argumentos_validados": {
+                "codigo_pais": "COL",
+                "indicador": "crecimiento_pib_pct",
+                "anio_inicio": 2023,
+                "anio_fin": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "resumen_climatico_anual_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Bogotá",
+                "anio": 2023
+              },
+              "argumentos_validados": {
+                "ciudad": "Bogotá",
+                "anio": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El crecimiento del PIB de Colombia en 2023 fue del 0.84%. En Bogotá, el resumen climático para el mismo año mostró una temperatura media de 13.46°C, una máxima de 24.3°C, una mínima de 1.3°C, precipitación acumulada de 1040.0 mm, radiación solar de 20.2 MJ",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.MKTP.KD.ZG), Crecimiento del PIB real anual (%) en Colombia (COL) registró [2023: 0.84 %]. Resumen climático de Open-Meteo para Bogotá (COL) en 2023: temperatura media de 13.46 °C (máxima 24.30 °C, mínima 1.30 °C), precipitación acumulada de 1040.00 mm en 185 días de lluvia, radiación solar media de 20.20 MJ/m² y viento máximo de 23.80 km/h.",
+      "texto_llm": "El crecimiento del PIB de Colombia en 2023 fue del 0.84%. En Bogotá, el resumen climático para el mismo año mostró una temperatura media de 13.46°C, una máxima de 24.3°C, una mínima de 1.3°C, precipitación acumulada de 1040.0 mm, radiación solar de 20.2 MJ"
+    },
+    {
+      "id_pregunta": "T28",
+      "pregunta": "Ecuador en 2020: esperanza de vida y lluvia acumulada en Guayaquil.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "ECU",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 2020,
+                "anio_fin": 2020
+              },
+              "argumentos_validados": {
+                "codigo_pais": "ECU",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 2020,
+                "anio_fin": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Guayaquil",
+                "fecha_inicio": "2020-01-01",
+                "fecha_fin": "2020-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "argumentos_validados": {
+                "ciudad": "Guayaquil",
+                "fecha_inicio": "2020-01-01",
+                "fecha_fin": "2020-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En Ecuador en 2020, la esperanza de vida fue de 72 años y la lluvia acumulada en Guayaquil fue de 826.7 mm.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SP.DYN.LE00.IN), Esperanza de vida al nacer (años) en Ecuador (ECU) registró [2020: 72.00 años]. En Guayaquil (ECU), entre 2020-01-01 y 2020-12-31, Precipitación acumulada (mm) fue de 826.70 mm (promedio mensual 68.89 mm, máximo mensual 253.50 en 2020-03 y mínimo mensual 0.00 en 2020-09).",
+      "texto_llm": "En Ecuador en 2020, la esperanza de vida fue de 72 años y la lluvia acumulada en Guayaquil fue de 826.7 mm."
+    },
+    {
+      "id_pregunta": "T29",
+      "pregunta": "Para Perú en 2024, ¿cuál fue la inflación y la temperatura máxima de Lima?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2024,
+                "anio_fin": 2024,
+                "codigo_pais": "PER"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "PER",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2024,
+                "anio_fin": 2024
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Lima",
+                "fecha_inicio": "2024-01-01",
+                "fecha_fin": "2024-12-31",
+                "variable": "temp_max_c"
+              },
+              "argumentos_validados": {
+                "ciudad": "Lima",
+                "fecha_inicio": "2024-01-01",
+                "fecha_fin": "2024-12-31",
+                "variable": "temp_max_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2024, la inflación en Perú fue del 2.01% y la temperatura máxima promedio en Lima fue de 28°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (FP.CPI.TOTL.ZG), Inflación anual al consumidor (%) en Perú (PER) registró [2024: 2.01 %]. En Lima (PER), entre 2024-01-01 y 2024-12-31, Temperatura máxima extrema (°C) fue de 28.00 °C (promedio mensual 23.08 °C, máximo mensual 28.00 en 2024-02 y mínimo mensual 18.80 en 2024-08).",
+      "texto_llm": "En 2024, la inflación en Perú fue del 2.01% y la temperatura máxima promedio en Lima fue de 28°C."
+    },
+    {
+      "id_pregunta": "T30",
+      "pregunta": "Uruguay 2021: porcentaje de energía renovable y radiación solar media en Montevideo.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "URY",
+                "indicador": "energias_renovables_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2021
+              },
+              "argumentos_validados": {
+                "codigo_pais": "URY",
+                "indicador": "energias_renovables_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Montevideo",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "radiacion_solar_mj_m2"
+              },
+              "argumentos_validados": {
+                "ciudad": "Montevideo",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "radiacion_solar_mj_m2"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2021, el porcentaje de energía renovable en Uruguay fue del 57.8%. La radiación solar media en Montevideo fue de 17.45 MJ/m².",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (EG.FEC.RNEW.ZS), Consumo de energía renovable (% del total) en Uruguay (URY) registró [2021: 57.80 %]. En Montevideo (URY), entre 2021-01-01 y 2021-12-31, Radiación solar media diaria (MJ/m²) fue de 17.45 MJ/m² (promedio mensual 17.46 MJ/m², máximo mensual 28.85 en 2021-12 y mínimo mensual 7.74 en 2021-06).",
+      "texto_llm": "En 2021, el porcentaje de energía renovable en Uruguay fue del 57.8%. La radiación solar media en Montevideo fue de 17.45 MJ/m²."
+    },
+    {
+      "id_pregunta": "T31",
+      "pregunta": "Costa Rica en 2022: PIB per cápita y resumen climático de San José.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2022,
+                "anio_fin": 2022,
+                "codigo_pais": "CRI"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "CRI",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "resumen_climatico_anual_ciudad",
+              "argumentos_llm": {
+                "ciudad": "San José",
+                "anio": 2022
+              },
+              "argumentos_validados": {
+                "ciudad": "San José",
+                "anio": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "El PIB per cápita de Costa Rica en 2022 fue de 13,971.76 USD. El resumen climático de San José en 2022 mostró una temperatura media de 19.41°C, una máxima de 29.0°C, una mínima de 12.7°C, precipitación acumulada de 3,686.7 mm,",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Costa Rica (CRI) registró [2022: 13971.76 USD]. Resumen climático de Open-Meteo para San José (CRI) en 2022: temperatura media de 19.41 °C (máxima 29.00 °C, mínima 12.70 °C), precipitación acumulada de 3686.70 mm en 246 días de lluvia, radiación solar media de 18.79 MJ/m² y viento máximo de 22.50 km/h.",
+      "texto_llm": "El PIB per cápita de Costa Rica en 2022 fue de 13,971.76 USD. El resumen climático de San José en 2022 mostró una temperatura media de 19.41°C, una máxima de 29.0°C, una mínima de 12.7°C, precipitación acumulada de 3,686.7 mm,"
+    },
+    {
+      "id_pregunta": "T32",
+      "pregunta": "¿Cuánto creció la economía de Chile en 2022 y cuánto llovió en Santiago ese año?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "CHL",
+                "indicador": "crecimiento_pib_pct",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "argumentos_validados": {
+                "codigo_pais": "CHL",
+                "indicador": "crecimiento_pib_pct",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31",
+                "variable": "precipitacion_mm",
+                "ciudad": "Santiago"
+              },
+              "argumentos_validados": {
+                "ciudad": "Santiago",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "La economía de Chile creció un 2.06% en 2022 y llovió 303.6 mm en Santiago ese mismo año.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.MKTP.KD.ZG), Crecimiento del PIB real anual (%) en Chile (CHL) registró [2022: 2.06 %]. En Santiago (CHL), entre 2022-01-01 y 2022-12-31, Precipitación acumulada (mm) fue de 303.60 mm (promedio mensual 25.30 mm, máximo mensual 123.80 en 2022-07 y mínimo mensual 0.00 en 2022-01).",
+      "texto_llm": "La economía de Chile creció un 2.06% en 2022 y llovió 303.6 mm en Santiago ese mismo año."
+    },
+    {
+      "id_pregunta": "T33",
+      "pregunta": "Bolivia 2023: usuarios de internet y temperatura mínima en La Paz.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "BOL",
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2023,
+                "anio_fin": 2023
+              },
+              "argumentos_validados": {
+                "codigo_pais": "BOL",
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2023,
+                "anio_fin": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "La Paz",
+                "fecha_inicio": "2023-01-01",
+                "fecha_fin": "2023-12-31",
+                "variable": "temp_min_c"
+              },
+              "argumentos_validados": {
+                "ciudad": "La Paz",
+                "fecha_inicio": "2023-01-01",
+                "fecha_fin": "2023-12-31",
+                "variable": "temp_min_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2023, el porcentaje de usuarios de internet en Bolivia fue del 77.3%. La temperatura mínima en La Paz fue de -4.1°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (IT.NET.USER.ZS), Usuarios de Internet (% de la población) en Bolivia (BOL) registró [2023: 77.30 %]. En La Paz (BOL), entre 2023-01-01 y 2023-12-31, Temperatura mínima extrema (°C) fue de -4.10 °C (promedio mensual 0.39 °C, máximo mensual 4.10 en 2023-11 y mínimo mensual -4.10 en 2023-06).",
+      "texto_llm": "En 2023, el porcentaje de usuarios de internet en Bolivia fue del 77.3%. La temperatura mínima en La Paz fue de -4.1°C."
+    },
+    {
+      "id_pregunta": "T34",
+      "pregunta": "Brasil en 2020: desempleo y temperatura media de São Paulo.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2020,
+                "anio_fin": 2020,
+                "codigo_pais": "BRA"
+              },
+              "argumentos_validados": {
+                "codigo_pais": "BRA",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2020,
+                "anio_fin": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            },
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "fecha_fin": "2020-12-31",
+                "variable": "temp_media_c",
+                "ciudad": "São Paulo",
+                "fecha_inicio": "2020-01-01"
+              },
+              "argumentos_validados": {
+                "ciudad": "São Paulo",
+                "fecha_inicio": "2020-01-01",
+                "fecha_fin": "2020-12-31",
+                "variable": "temp_media_c"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "En 2020, el desempleo en Brasil fue del 13.7% y la temperatura media en São Paulo fue de 19.26°C.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SL.UEM.TOTL.ZS), Desempleo total (% de la fuerza laboral) en Brasil (BRA) registró [2020: 13.70 %]. En São Paulo (BRA), entre 2020-01-01 y 2020-12-31, Temperatura media diaria (°C) fue de 19.26 °C (promedio mensual 19.26 °C, máximo mensual 21.65 en 2020-01 y mínimo mensual 16.18 en 2020-05).",
+      "texto_llm": "En 2020, el desempleo en Brasil fue del 13.7% y la temperatura media en São Paulo fue de 19.26°C."
+    },
+    {
+      "id_pregunta": "T35",
+      "pregunta": "¿En qué porcentaje cambió el PIB per cápita de Perú entre 2012 y 2022?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "PER",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2012,
+                "anio_fin": 2022
+              },
+              "argumentos_validados": {
+                "codigo_pais": "PER",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2012,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  6519.38,
+                  7353.75
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  6519.38,
+                  7353.75
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "El PIB per cápita de Perú aumentó en un 12.8% entre 2012 y 2022.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Perú (PER) registró [2012: 6519.38 USD, 2013: 6746.80 USD, 2014: 6667.13 USD, 2015: 6231.71 USD, 2016: 6217.04 USD, 2017: 6736.17 USD, 2018: 6978.49 USD, 2019: 7037.01 USD, 2020: 6133.33 USD, 2021: 6828.53 USD, 2022: 7353.75 USD] (inicial 6519.38, final 7353.75, promedio 6677.21 USD). Cálculo determinista: al pasar de 6519.38 a 7353.75, el cambio absoluto es 834.37 y la variación porcentual exacta es 12.80 %.",
+      "texto_llm": "El PIB per cápita de Perú aumentó en un 12.8% entre 2012 y 2022."
+    },
+    {
+      "id_pregunta": "T36",
+      "pregunta": "Calcula la variación porcentual de la esperanza de vida de Bolivia de 2000 a 2020.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La información solicitada se encuentra fuera del rango de años proporcionado por las herramientas disponibles (1990-2024).",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La información solicitada se encuentra fuera del rango de años proporcionado por las herramientas disponibles (1990-2024)."
+    },
+    {
+      "id_pregunta": "T37",
+      "pregunta": "¿Cuánto aumentó, en porcentaje, el uso de internet en Ecuador entre 2010 y 2020?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "ECU",
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2010,
+                "anio_fin": 2020
+              },
+              "argumentos_validados": {
+                "codigo_pais": "ECU",
+                "indicador": "usuarios_internet_pct",
+                "anio_inicio": 2010,
+                "anio_fin": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  29.03,
+                  70.7
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  29.03,
+                  70.7
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "El uso de internet en Ecuador aumentó en promedio un 143.54% entre 2010 y 2020.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (IT.NET.USER.ZS), Usuarios de Internet (% de la población) en Ecuador (ECU) registró [2010: 29.03 %, 2011: 31.37 %, 2012: 35.14 %, 2013: 40.28 %, 2014: 45.59 %, 2015: 48.94 %, 2016: 54.06 %, 2017: 55.80 %, 2018: 57.50 %, 2019: 59.20 %, 2020: 70.70 %] (inicial 29.03, final 70.70, promedio 47.96 %). Cálculo determinista: al pasar de 29.03 a 70.70, el cambio absoluto es 41.67 y la variación porcentual exacta es 143.54 %.",
+      "texto_llm": "El uso de internet en Ecuador aumentó en promedio un 143.54% entre 2010 y 2020."
+    },
+    {
+      "id_pregunta": "T38",
+      "pregunta": "Variación porcentual del PIB per cápita de Argentina entre 2017 y 2023.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "ARG",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2017,
+                "anio_fin": 2023
+              },
+              "argumentos_validados": {
+                "codigo_pais": "ARG",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2017,
+                "anio_fin": 2023
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  14532.5,
+                  14261.85
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  14532.5,
+                  14261.85
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "La variación porcentual del PIB per cápita de Argentina entre 2017 y 2023 es una disminución del 1.86%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Argentina (ARG) registró [2017: 14532.50 USD, 2018: 11752.80 USD, 2019: 9955.97 USD, 2020: 8535.60 USD, 2021: 10738.02 USD, 2022: 13962.19 USD, 2023: 14261.85 USD] (inicial 14532.50, final 14261.85, promedio 11962.70 USD). Cálculo determinista: al pasar de 14532.50 a 14261.85, el cambio absoluto es -270.65 y la variación porcentual exacta es -1.86 %.",
+      "texto_llm": "La variación porcentual del PIB per cápita de Argentina entre 2017 y 2023 es una disminución del 1.86%."
+    },
+    {
+      "id_pregunta": "T39",
+      "pregunta": "¿Cuál fue el cambio porcentual del desempleo en Colombia entre 2019 y 2021?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "COL",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2019,
+                "anio_fin": 2021
+              },
+              "argumentos_validados": {
+                "codigo_pais": "COL",
+                "indicador": "desempleo_pct",
+                "anio_inicio": 2019,
+                "anio_fin": 2021
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  10.28,
+                  13.9
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  10.28,
+                  13.9
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "El cambio porcentual del desempleo en Colombia entre 2019 y 2021 fue de un aumento del 35.21%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SL.UEM.TOTL.ZS), Desempleo total (% de la fuerza laboral) en Colombia (COL) registró [2019: 10.28 %, 2020: 15.98 %, 2021: 13.90 %] (inicial 10.28, final 13.90, promedio 13.39 %). Cálculo determinista: al pasar de 10.28 a 13.90, el cambio absoluto es 3.62 y la variación porcentual exacta es 35.21 %.",
+      "texto_llm": "El cambio porcentual del desempleo en Colombia entre 2019 y 2021 fue de un aumento del 35.21%."
+    },
+    {
+      "id_pregunta": "T40",
+      "pregunta": "Calcula cuánto varió porcentualmente el PIB per cápita de Paraguay de 2005 a 2015.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "PRY",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2005,
+                "anio_fin": 2015
+              },
+              "argumentos_validados": {
+                "codigo_pais": "PRY",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2005,
+                "anio_fin": 2015
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "operacion": "variacion_porcentual",
+                "valores_x": [
+                  1970.87,
+                  5879.34
+                ],
+                "valores_y": []
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  1970.87,
+                  5879.34
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "El PIB per cápita de Paraguay varió un 198.31% de 2005 a 2015.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Paraguay (PRY) registró [2005: 1970.87 USD, 2006: 2439.43 USD, 2007: 3211.94 USD, 2008: 4384.95 USD, 2009: 3941.85 USD, 2010: 4750.96 USD, 2011: 5805.40 USD, 2012: 5642.17 USD, 2013: 6435.68 USD, 2014: 6652.25 USD, 2015: 5879.34 USD] (inicial 1970.87, final 5879.34, promedio 4646.80 USD). Cálculo determinista: al pasar de 1970.87 a 5879.34, el cambio absoluto es 3908.47 y la variación porcentual exacta es 198.31 %.",
+      "texto_llm": "El PIB per cápita de Paraguay varió un 198.31% de 2005 a 2015."
+    },
+    {
+      "id_pregunta": "T41",
+      "pregunta": "¿Qué tanto creció en porcentaje el PIB per cápita de Brasil entre 2020 y 2022?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "BRA",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2020,
+                "anio_fin": 2022
+              },
+              "argumentos_validados": {
+                "codigo_pais": "BRA",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2020,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  7074.19,
+                  9281.33
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  7074.19,
+                  9281.33
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "El PIB per cápita de Brasil creció un 31.2% entre 2020 y 2022.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (NY.GDP.PCAP.CD), PIB per cápita (USD actuales) en Brasil (BRA) registró [2020: 7074.19 USD, 2021: 7972.54 USD, 2022: 9281.33 USD] (inicial 7074.19, final 9281.33, promedio 8109.35 USD). Cálculo determinista: al pasar de 7074.19 a 9281.33, el cambio absoluto es 2207.14 y la variación porcentual exacta es 31.20 %.",
+      "texto_llm": "El PIB per cápita de Brasil creció un 31.2% entre 2020 y 2022."
+    },
+    {
+      "id_pregunta": "T42",
+      "pregunta": "Variación porcentual de la energía renovable en Chile entre 2000 y 2020.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La información solicitada se refiere a años fuera del rango proporcionado por las herramientas disponibles (1990-2024).",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La información solicitada se refiere a años fuera del rango proporcionado por las herramientas disponibles (1990-2024)."
+    },
+    {
+      "id_pregunta": "T43",
+      "pregunta": "¿Cuánto cambió porcentualmente la esperanza de vida en Perú de 1990 a 2020?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "PER",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 1990,
+                "anio_fin": 2020
+              },
+              "argumentos_validados": {
+                "codigo_pais": "PER",
+                "indicador": "esperanza_vida_anios",
+                "anio_inicio": 1990,
+                "anio_fin": 2020
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  63.98,
+                  73.83
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  63.98,
+                  73.83
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "La esperanza de vida en Perú aumentó un 15.4% entre 1990 y 2020, pasando de 63.98 años a 73.83 años.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (SP.DYN.LE00.IN), Esperanza de vida al nacer (años) en Perú (PER) registró [1990: 63.98 años, 1991: 64.25 años, 1992: 65.03 años, 1993: 65.73 años, 1994: 66.54 años, 1995: 67.22 años, 1996: 67.85 años, 1997: 68.32 años, 1998: 68.72 años, 1999: 69.30 años, 2000: 69.82 años, 2001: 70.31 años, 2002: 70.81 años, 2003: 71.28 años, 2004: 71.45 años, 2005: 71.99 años, 2006: 72.34 años, 2007: 72.75 años, 2008: 72.74 años, 2009: 72.63 años, 2010: 72.89 años, 2011: 73.33 años, 2012: 73.98 años, 2013: 74.59 años, 2014: 75.26 años, 2015: 75.73 años, 2016: 75.95 años, 2017: 75.96 años, 2018: 76.02 años, 2019: 76.28 años, 2020: 73.83 años] (inicial 63.98, final 73.83, promedio 71.19 años). Cálculo determinista: al pasar de 63.98 a 73.83, el cambio absoluto es 9.85 y la variación porcentual exacta es 15.40 %.",
+      "texto_llm": "La esperanza de vida en Perú aumentó un 15.4% entre 1990 y 2020, pasando de 63.98 años a 73.83 años."
+    },
+    {
+      "id_pregunta": "T44",
+      "pregunta": "Calcula la variación porcentual de la inflación de Estados Unidos entre 2020 y 2022.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "anio_fin": 2022,
+                "codigo_pais": "USA",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2020
+              },
+              "argumentos_validados": {
+                "codigo_pais": "USA",
+                "indicador": "inflacion_anual_pct",
+                "anio_inicio": 2020,
+                "anio_fin": 2022
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "calcular_correlacion_o_cambio",
+              "argumentos_llm": {
+                "valores_x": [
+                  1.23,
+                  8
+                ],
+                "operacion": "variacion_porcentual"
+              },
+              "argumentos_validados": {
+                "valores_x": [
+                  1.23,
+                  8.0
+                ],
+                "valores_y": null,
+                "operacion": "variacion_porcentual"
+              },
+              "exito": true,
+              "error_tipo": null,
+              "mensaje_error": null
+            }
+          ]
+        },
+        {
+          "paso": 3,
+          "texto_llm": "La variación porcentual de la inflación en Estados Unidos entre 2020 y 2022 fue de 550.41%.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "Según el Banco Mundial (FP.CPI.TOTL.ZG), Inflación anual al consumidor (%) en Estados Unidos (USA) registró [2020: 1.23 %, 2021: 4.70 %, 2022: 8.00 %] (inicial 1.23, final 8.00, promedio 4.64 %). Cálculo determinista: al pasar de 1.23 a 8.00, el cambio absoluto es 6.77 y la variación porcentual exacta es 550.41 %.",
+      "texto_llm": "La variación porcentual de la inflación en Estados Unidos entre 2020 y 2022 fue de 550.41%."
+    },
+    {
+      "id_pregunta": "T45",
+      "pregunta": "¿Cuál era la población total de Ecuador en 2022?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta proporcionada solo cubre indicadores económicos y climáticos, no la población total de un país.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta proporcionada solo cubre indicadores económicos y climáticos, no la población total de un país."
+    },
+    {
+      "id_pregunta": "T46",
+      "pregunta": "¿Qué tasa de pobreza tuvo Bolivia en 2021?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "BOL",
+                "indicador": "pobreza_extrema_pct",
+                "anio_inicio": 2021,
+                "anio_fin": 2021
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_indicador_banco_mundial': indicador: Value error, Indicador 'pobreza_extrema_pct' no soportado. Indicadores válidos: ['crecimiento_pib_pct', 'desempleo_pct', 'energias_renovables_pct', 'esperanza_vida_anios', 'indice_gini', 'inflacion_anual_pct', 'pib_per_capita_usd', 'usuarios_internet_pct'] (o sus códigos WDI: ['NY.GDP.PCAP.CD', 'NY.GDP.MKTP.KD.ZG', 'FP.CPI.TOTL.ZG', 'SL.UEM.TOTL.ZS', 'EG.FEC.RNEW.ZS', 'SP.DYN.LE00.IN', 'IT.NET.USER.ZS', 'SI.POV.GINI'])."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION"
+    },
+    {
+      "id_pregunta": "T47",
+      "pregunta": "Temperatura media de Cuenca (Ecuador) en 2023.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Cuenca",
+                "fecha_inicio": "2023-01-01",
+                "fecha_fin": "2023-12-31",
+                "variable": "temp_media_c"
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_clima_historico_ciudad': ciudad: Value error, Ciudad 'Cuenca' no disponible en el catálogo climático. Ciudades soportadas: ['Asunción', 'Bogotá', 'Buenos Aires', 'Ciudad de México', 'Guayaquil', 'La Paz', 'Lima', 'Montevideo', 'Quito', 'San José', 'Santiago', 'São Paulo']."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION"
+    },
+    {
+      "id_pregunta": "T48",
+      "pregunta": "PIB per cápita de Venezuela en 2022.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_indicador_banco_mundial",
+              "argumentos_llm": {
+                "codigo_pais": "VEN",
+                "indicador": "pib_per_capita_usd",
+                "anio_inicio": 2022,
+                "anio_fin": 2022
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_indicador_banco_mundial': codigo_pais: Value error, País 'VEN' no reconocido en el catálogo. Usa uno de los códigos ISO3 válidos: ['ARG', 'BOL', 'BRA', 'CHL', 'COL', 'CRI', 'ECU', 'MEX', 'PER', 'PRY', 'URY', 'USA']."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La herramienta no reconoce el código país 'VEN' para Venezuela. Por favor, verifica el código y vuelve a intentarlo.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta no reconoce el código país 'VEN' para Venezuela. Por favor, verifica el código y vuelve a intentarlo."
+    },
+    {
+      "id_pregunta": "T49",
+      "pregunta": "¿Qué temperatura hará mañana en Lima?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta para consultar el clima no puede predecir el tiempo para fechas futuras. Te recomiendo consultar un servicio meteorológico en tiempo real.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta para consultar el clima no puede predecir el tiempo para fechas futuras. Te recomiendo consultar un servicio meteorológico en tiempo real."
+    },
+    {
+      "id_pregunta": "T50",
+      "pregunta": "¿Cuál fue la inflación de Perú en 1985?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. El indicador de inflación anual no cubre el año 1985, solo dispone de datos desde 1990 hasta 2024.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. El indicador de inflación anual no cubre el año 1985, solo dispone de datos desde 1990 hasta 2024."
+    },
+    {
+      "id_pregunta": "T51",
+      "pregunta": "Proyección del desempleo de Colombia para 2027.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta disponible solo proporciona datos hasta 2024 y no se puede hacer proyecciones futuras.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta disponible solo proporciona datos hasta 2024 y no se puede hacer proyecciones futuras."
+    },
+    {
+      "id_pregunta": "T52",
+      "pregunta": "¿Cuánto llovió en Guayaquil en 2010?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Guayaquil",
+                "fecha_inicio": "2010-01-01",
+                "fecha_fin": "2010-12-31",
+                "variable": "precipitacion_mm"
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_clima_historico_ciudad': : Value error, Rango de fechas (2010-01-01 a 2010-12-31) fuera de cobertura. El clima histórico en el modo 'instantanea' cubre de 2020-01-01 a 2024-12-31."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La herramienta no cubre el rango de fechas solicitado.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta no cubre el rango de fechas solicitado."
+    },
+    {
+      "id_pregunta": "T53",
+      "pregunta": "Compara la deuda pública de Argentina y Brasil en 2022.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "comparar_paises_indicador",
+              "argumentos_llm": {
+                "indicador": "deuda_publica_pib_pct",
+                "anio": 2022,
+                "codigos_paises": [
+                  "ARG",
+                  "BRA"
+                ]
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'comparar_paises_indicador': indicador: Value error, Indicador 'deuda_publica_pib_pct' no soportado. Indicadores válidos: ['crecimiento_pib_pct', 'desempleo_pct', 'energias_renovables_pct', 'esperanza_vida_anios', 'indice_gini', 'inflacion_anual_pct', 'pib_per_capita_usd', 'usuarios_internet_pct'] (o sus códigos WDI: ['NY.GDP.PCAP.CD', 'NY.GDP.MKTP.KD.ZG', 'FP.CPI.TOTL.ZG', 'SL.UEM.TOTL.ZS', 'EG.FEC.RNEW.ZS', 'SP.DYN.LE00.IN', 'IT.NET.USER.ZS', 'SI.POV.GINI'])."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La herramienta no soporta el indicador de deuda pública sobre PIB. Los indicadores válidos son crecimiento PIB, desempleo, energías renovables, esperanza de vida, índice Gini, inflación anual y PIB per cápita en dólares y usuarios de internet.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta no soporta el indicador de deuda pública sobre PIB. Los indicadores válidos son crecimiento PIB, desempleo, energías renovables, esperanza de vida, índice Gini, inflación anual y PIB per cápita en dólares y usuarios de internet."
+    },
+    {
+      "id_pregunta": "T54",
+      "pregunta": "Nivel de PM2.5 (calidad del aire) en Santiago en 2023.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta disponible para clima histórico no cubre el nivel de PM2.5 (calidad del aire).",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta disponible para clima histórico no cubre el nivel de PM2.5 (calidad del aire)."
+    },
+    {
+      "id_pregunta": "T55",
+      "pregunta": "¿Quién ganó las elecciones presidenciales de Ecuador en 2023?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. Las herramientas proporcionadas no pueden responder sobre resultados electorales, solo datos económicos y climáticos.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. Las herramientas proporcionadas no pueden responder sobre resultados electorales, solo datos económicos y climáticos."
+    },
+    {
+      "id_pregunta": "T56",
+      "pregunta": "Humedad relativa promedio de Bogotá en 2022.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "variable": "humedad_relativa_promedio",
+                "ciudad": "Bogotá",
+                "fecha_inicio": "2022-01-01",
+                "fecha_fin": "2022-12-31"
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_clima_historico_ciudad': variable: Value error, Variable climática 'humedad_relativa_promedio' no reconocida. Variables válidas: ['precipitacion_mm', 'radiacion_solar_mj_m2', 'temp_max_c', 'temp_media_c', 'temp_min_c', 'viento_max_kmh']."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La herramienta no reconoce la variable 'humedad_relativa_promedio' para la ciudad de Bogotá.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta no reconoce la variable 'humedad_relativa_promedio' para la ciudad de Bogotá."
+    },
+    {
+      "id_pregunta": "T57",
+      "pregunta": "¿Cuántos turistas visitaron Costa Rica en 2019?",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta disponible para datos del Banco Mundial no cubre el número de turistas por país.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta disponible para datos del Banco Mundial no cubre el número de turistas por país."
+    },
+    {
+      "id_pregunta": "T58",
+      "pregunta": "Precio promedio del petróleo WTI en 2023.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La herramienta indicadores del Banco Mundial no proporciona información sobre el precio del petróleo WTI.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La herramienta indicadores del Banco Mundial no proporciona información sobre el precio del petróleo WTI."
+    },
+    {
+      "id_pregunta": "T59",
+      "pregunta": "Temperatura media de Toronto en 2021.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "",
+          "llamadas": [
+            {
+              "herramienta": "consultar_clima_historico_ciudad",
+              "argumentos_llm": {
+                "ciudad": "Toronto",
+                "fecha_inicio": "2021-01-01",
+                "fecha_fin": "2021-12-31",
+                "variable": "temp_media_c"
+              },
+              "argumentos_validados": null,
+              "exito": false,
+              "error_tipo": "validacion_pydantic",
+              "mensaje_error": "Error de validación en 'consultar_clima_historico_ciudad': ciudad: Value error, Ciudad 'Toronto' no disponible en el catálogo climático. Ciudades soportadas: ['Asunción', 'Bogotá', 'Buenos Aires', 'Ciudad de México', 'Guayaquil', 'La Paz', 'Lima', 'Montevideo', 'Quito', 'San José', 'Santiago', 'São Paulo']."
+            }
+          ]
+        },
+        {
+          "paso": 2,
+          "texto_llm": "ABSTENCION. La ciudad de Toronto no está incluida en las herramientas disponibles para consultar el clima.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La ciudad de Toronto no está incluida en las herramientas disponibles para consultar el clima."
+    },
+    {
+      "id_pregunta": "T60",
+      "pregunta": "Escribe un poema sobre la lluvia de Quito.",
+      "pasos": [
+        {
+          "paso": 1,
+          "texto_llm": "ABSTENCION. La solicitud no se puede atender con las herramientas proporcionadas, ya que no incluyen la capacidad para generar poesía.",
+          "llamadas": []
+        }
+      ],
+      "respuesta_final": "ABSTENCIÓN: No puedo responder a esta consulta porque solicita datos, países, fechas o indicadores fuera del catálogo del Banco Mundial (1990-2024) y Open-Meteo (2020-2024) disponible en el modo 'instantanea'.",
+      "texto_llm": "ABSTENCION. La solicitud no se puede atender con las herramientas proporcionadas, ya que no incluyen la capacidad para generar poesía."
+    }
+  ],
+  "figuras_generadas": [
+    "reports/figures/01_cobertura_datos_banco_mundial_y_clima.png",
+    "reports/figures/02_validacion_vs_prueba.png",
+    "reports/figures/03_atribucion_llm_vs_codigo.png",
+    "reports/figures/04_respuesta_correcta_por_categoria.png",
+    "reports/figures/05_mejora_prompt_validacion.png",
+    "reports/figures/06_latencia_y_pasos_por_pregunta.png",
+    "reports/figures/07_cruce_real_clima_economia_latam.png"
+  ]
+}

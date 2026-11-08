@@ -1,0 +1,107 @@
+{
+  "descripcion": "Hallazgos que un analista consideraría imprescindibles en cada informe. Armada a mano a partir de la capa de KPIs (anomalías, extremos del ranking, brechas grandes con la región y los indicadores clave de coyuntura), antes de ver las salidas del LLM en prueba. Un hallazgo queda cubierto si el titular, los hallazgos o los riesgos del informe mencionan su indicador.",
+  "informes": {
+    "ARG|2023": [
+      {"indicador": "inflacion", "nota": "inflación de 133,5 %, la más alta de la región (+61,1 pp)"},
+      {"indicador": "crecimiento", "nota": "contracción de 1,9 %, último puesto de 18"},
+      {"indicador": "exportaciones", "nota": "exportaciones de 12,8 % del PIB, las más bajas de la región"},
+      {"indicador": "cuenta_corriente", "nota": "déficit de cuenta corriente de 3,4 % del PIB"}
+    ],
+    "CHL|2023": [
+      {"indicador": "crecimiento", "nota": "crecimiento de 0,7 %, puesto 16 de 18"},
+      {"indicador": "desempleo", "nota": "desempleo de 9,0 %, segundo más alto"},
+      {"indicador": "inflacion", "nota": "inflación de 7,6 %, baja 4,1 pp pero sobre la mediana"},
+      {"indicador": "cuenta_corriente", "nota": "el déficit externo se reduce 5,8 pp (anomalía)"}
+    ],
+    "PER|2023": [
+      {"indicador": "crecimiento", "nota": "contracción de 0,4 %, puesto 17 de 18"},
+      {"indicador": "pobreza", "nota": "pobreza extrema de 5,9 %, sube 1,1 pp"},
+      {"indicador": "importaciones", "nota": "importaciones caen 4,7 pp del PIB (anomalía)"},
+      {"indicador": "inflacion", "nota": "inflación de 6,5 %, sobre la mediana regional"}
+    ],
+    "GTM|2023": [
+      {"indicador": "remesas", "nota": "remesas de 19,2 % del PIB, 16,4 pp sobre la mediana"},
+      {"indicador": "pobreza", "nota": "pobreza extrema de 9,7 %, segunda más alta"},
+      {"indicador": "cuenta_corriente", "nota": "superávit de cuenta corriente de 3,1 %, segundo de la región"},
+      {"indicador": "crecimiento", "nota": "crecimiento de 3,5 %, sobre la mediana regional"}
+    ],
+    "PRY|2023": [
+      {"indicador": "crecimiento", "nota": "crecimiento de 5,3 %, segundo de la región"},
+      {"indicador": "exportaciones", "nota": "exportaciones suben 7,9 pp a 42,3 % del PIB (anomalía)"},
+      {"indicador": "deuda_externa", "nota": "deuda externa de 64,1 % del INB, tercera más alta"},
+      {"indicador": "inflacion", "nota": "inflación baja 5,1 pp a 4,6 %"}
+    ],
+    "ECU|2024": [
+      {"indicador": "crecimiento", "nota": "contracción de 1,9 %, último puesto de 18"},
+      {"indicador": "cuenta_corriente", "nota": "superávit de cuenta corriente de 5,7 %, el más alto"},
+      {"indicador": "pobreza", "nota": "pobreza extrema sube 2,6 pp a 7,3 %, tercera más alta"},
+      {"indicador": "ied", "nota": "IED de 0,4 % del PIB, puesto 16 de 18"}
+    ],
+    "BOL|2024": [
+      {"indicador": "crecimiento", "nota": "contracción de 1,1 %, cae 3,6 pp"},
+      {"indicador": "inflacion", "nota": "inflación sube 2,5 pp a 5,1 %, tercera más alta"},
+      {"indicador": "ied", "nota": "IED de 0,7 % del PIB, puesto 15 de 18"},
+      {"indicador": "cuenta_corriente", "nota": "déficit de cuenta corriente de 1,3 %, empeora 1,2 pp"}
+    ],
+    "BRA|2024": [
+      {"indicador": "pib_usd", "nota": "mayor economía de la región (2,19 billones de USD)"},
+      {"indicador": "gini", "nota": "Gini de 50,3, segundo más desigual"},
+      {"indicador": "desempleo", "nota": "desempleo baja 1,2 pp a 6,8 %"},
+      {"indicador": "cuenta_corriente", "nota": "déficit de cuenta corriente de 3,0 %, puesto 16 de 18"}
+    ],
+    "COL|2024": [
+      {"indicador": "desempleo", "nota": "desempleo de 9,6 %, el más alto de la región"},
+      {"indicador": "gini", "nota": "Gini de 54,4, el más desigual"},
+      {"indicador": "inflacion", "nota": "inflación baja 5,1 pp a 6,6 %, segunda más alta"},
+      {"indicador": "crecimiento", "nota": "crecimiento de 1,5 %, bajo la mediana (3,4 %)"}
+    ],
+    "CRI|2024": [
+      {"indicador": "inflacion", "nota": "deflación de 0,4 %, la inflación más baja"},
+      {"indicador": "crecimiento", "nota": "crecimiento de 4,1 %, cuarto de la región"},
+      {"indicador": "ied", "nota": "IED de 5,6 % del PIB, segunda más alta"},
+      {"indicador": "pib_pc", "nota": "PIB per cápita de 18.850 USD, tercero de la región"}
+    ],
+    "DOM|2024": [
+      {"indicador": "crecimiento", "nota": "crecimiento de 5,0 %, segundo de la región"},
+      {"indicador": "remesas", "nota": "remesas de 9,1 % del PIB"},
+      {"indicador": "ied", "nota": "IED de 3,6 % del PIB, cuarta más alta"},
+      {"indicador": "cuenta_corriente", "nota": "déficit de cuenta corriente de 3,0 %"}
+    ],
+    "HND|2024": [
+      {"indicador": "remesas", "nota": "remesas de 25,7 % del PIB, segundas más altas"},
+      {"indicador": "pobreza", "nota": "pobreza extrema de 15,7 %, la más alta"},
+      {"indicador": "cuenta_corriente", "nota": "déficit de cuenta corriente de 4,3 %, el mayor"},
+      {"indicador": "pib_pc", "nota": "PIB per cápita de 3.416 USD, puesto 17 de 18"}
+    ],
+    "MEX|2024": [
+      {"indicador": "crecimiento", "nota": "crecimiento de 1,4 %, cae 1,8 pp, puesto 15 de 18"},
+      {"indicador": "pib_usd", "nota": "segunda economía de la región"},
+      {"indicador": "desempleo", "nota": "desempleo de 2,7 %, segundo más bajo"},
+      {"indicador": "exportaciones", "nota": "exportaciones de 37,3 % del PIB, quinto de la región"}
+    ],
+    "NIC|2024": [
+      {"indicador": "remesas", "nota": "remesas de 26,6 % del PIB, las más altas"},
+      {"indicador": "deuda_externa", "nota": "deuda externa de 82,8 % del INB, la más alta"},
+      {"indicador": "pib_pc", "nota": "PIB per cápita de 2.848 USD, el más bajo"},
+      {"indicador": "ied", "nota": "IED de 6,9 % del PIB, la más alta"}
+    ],
+    "PAN|2024": [
+      {"indicador": "desempleo", "nota": "desempleo sube 1,9 pp a 8,5 % (anomalía)"},
+      {"indicador": "crecimiento", "nota": "crecimiento cae 4,4 pp a 2,7 %"},
+      {"indicador": "pib_pc", "nota": "PIB per cápita de 19.160 USD, segundo de la región"},
+      {"indicador": "exportaciones", "nota": "exportaciones de 44,4 % del PIB, las más altas"}
+    ],
+    "SLV|2024": [
+      {"indicador": "remesas", "nota": "remesas de 24,3 % del PIB, terceras más altas"},
+      {"indicador": "deuda_externa", "nota": "deuda externa de 75,4 % del INB, segunda más alta"},
+      {"indicador": "inflacion", "nota": "inflación baja 3,2 pp a 0,9 %"},
+      {"indicador": "crecimiento", "nota": "crecimiento de 2,6 %, bajo la mediana"}
+    ],
+    "URY|2024": [
+      {"indicador": "pib_pc", "nota": "PIB per cápita de 24.310 USD, el más alto"},
+      {"indicador": "ied", "nota": "IED negativa (-4,8 % del PIB), la más baja"},
+      {"indicador": "desempleo", "nota": "desempleo de 8,2 %, cuarto más alto"},
+      {"indicador": "crecimiento", "nota": "crecimiento sube 2,6 pp a 3,3 %"}
+    ]
+  }
+}

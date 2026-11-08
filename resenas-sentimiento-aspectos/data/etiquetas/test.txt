@@ -1,0 +1,321 @@
+# Conjunto test (pasada 1): etiquetado a mano siguiendo docs/GUIA_ANOTACION.md, sin ver las estrellas
+R001129 | - | calidad-: it let out some smoke and that plastic-burnt-smell ; carga-: it takes 5 hours to fully charge
+R017565 | + | pantalla+: I really like the "Anti-spy" feature ; calidad-: adhesive might not be the best
+R052128 | 0 | calidad-: Clamp to hold the phone broke within a year ; atencion+: the company sent me a new phone holder
+R054437 | + | calidad+: Its very sturdy ; facilidad_uso+: its very easy to install
+R034965 | + | envio+: llegó muy rápido
+R050301 | + | facilidad_uso+: Easy to install ; pantalla+: the watch is more responsive to touch
+R048278 | + | diseno+: I love it for my everyday work wear
+R024268 | + | precio+: Excellent quality for the price ; ajuste+: a great fit for my phone ; facilidad_uso+: It was super easy to attach
+R051427 | + | sonido+: This one is louder ; diseno+: lighter ; bateria+: the battery last longer
+R046156 | + | diseno+: There is a color to go with almost everything ; facilidad_uso+: They are super easy to change out ; ajuste+: are more secure on my arm
+R053057 | + | 
+R017922 | - | facilidad_uso-: Bluetooth stopped connecting and no longer discoverable ; precio-: Waste of money
+R027127 | + | bateria-: the battery life doesn't blast really long
+R052721 | - | pantalla-: Touch sensitivity is horrible ; precio-: Total waste of money
+R014171 | - | carga-: it gets way to hot
+R025482 | + | envio+: El producto es exactamente como el descrito
+R051743 | + | facilidad_uso+: how easy it was to install myself ; diseno+: I can't even tell I have this on
+R048209 | - | ajuste-: Does not work for apple car
+R002372 | + | calidad+: It is much sturdier than ones that come with your phone ; atencion+: they offered the option to get a little warranty
+R011781 | + | 
+R007213 | - | ajuste-: it doesn't hold phone tightly ; precio-: Not worth the investment
+R019273 | - | ajuste-: They do not stay in the port ; calidad-: they do not work
+R048319 | + | diseno+: Looks good
+R004420 | + | facilidad_uso+: easy to install and use immediately ; calidad+: It's made well and duarble
+R031943 | - | bateria-: I can only charge my iPhone 1.5 times with it ; diseno+: it is lighter than my other charger
+R037524 | - | pantalla-: the screens come out very dirty when applying
+R036539 | + | precio+: It's worth the money
+R038161 | 0 | ajuste-: i had to take the case of my iphone 6s plus because it won't fit with it
+R052425 | - | facilidad_uso-: Not a user friendly product ; precio-: Waste if money
+R052154 | - | calidad-: very poorly made ; ajuste-: Does not hold up your phone
+R002616 | + | pantalla-: The anti-glare is not the best ; precio+: great price
+R034071 | + | bateria+: I was able to charge my phone four times ; carga+: is able to charge my phone and Kobo at the same time ; sonido-: it emits an audible buzzing sound
+R021974 | + | carga+: Charges everything well
+R024277 | + | facilidad_uso+: This screen protector was so easy to put on my phone ; pantalla+: all the bubbles disappeared
+R050157 | - | envio-: permanent marks/scratches on the protectors straight out of the box ; precio0: you get 6 for same price
+R038303 | - | ajuste-: The mount covers any side mounted buttons
+R016782 | + | facilidad_uso0: you need to paste it on the table so that it does not move around
+R048360 | - | facilidad_uso-: it has been an absolutely abhorrent experience ; calidad-: they are extremely fragile and bend 99% of the time
+R048621 | - | calidad-: Discolored after using for few days
+R014903 | - | carga-: the cord is bad
+R010244 | + | diseno+: Makes it easier to travel with electronics
+R001942 | + | carga-: 3' is just to short
+R048041 | + | calidad+: Very good suction never came off
+R036927 | 0 | precio0: you get what you pay for ; calidad-: the cable that comes with the charger no longer works ; bateria+: It does give you about 2 full charges ; carga-: it takes maybe 1.5-2 hours to fully charge your phone
+R008604 | - | calidad-: It broke the same day ; ajuste-: not good for big phones
+R039139 | + | carga+: I can charge 2 or 3 items at a time ; bateria+: can charge my phone for almost a week ; diseno0: These weigh about 1lb
+R031591 | 0 | calidad0: Leather is good ; ajuste-: it is loose when I slide it into the watch ; precio0: it was fine for the price I guess
+R030032 | + | pantalla+: I love the display ; calidad+: has a premium feel quality
+R000264 | 0 | precio+: it was like a dollar so I'll keep it
+R019531 | + | calidad-: the ring on back to use as a stand. It fell off after the first week ; diseno+: love the phone case itself and the color
+R040182 | + | facilidad_uso+: Easy to install
+R023438 | + | sonido+: It sounds great, I can hear my calls perfectly ; bateria+: The battery life is wonderful
+R052897 | - | ajuste-: Doesn't work with MacBook Pro
+R047961 | 0 | calidad-: it only stayed stuck to the dash for two weeks
+R018820 | + | 
+R009960 | + | ajuste+: Fits awesome ; diseno+: looks awesome
+R004171 | + | precio+: It's a great find for the price ; bateria+: the battery lasts for a while ; sonido0: a few times where the audio was jumbled
+R038001 | - | diseno-: When I'm driving I don't need to be looking down at my cup holder
+R049787 | - | calidad-: Barely used it and it's already broken
+R001594 | 0 | atencion-: would not let me cancel. Then once I get chargers I can't return
+R012909 | + | proteccion0: LIGHT PROTECTION
+R007679 | + | carga+: the charging speed is great ; precio+: Great for price
+R051212 | - | ajuste-: Doesn't fit iPhone 11
+R025604 | - | carga-: It doesn't seem to let the MagSafe or wireless drop chargers connect properly ; calidad0: it's actually a really sturdy case ; ajuste-: The buttons are a bit hard to press
+R044977 | + | proteccion+: Protects very well
+R043927 | 0 | ajuste-: Wouldn't fit in the lighter spot for my 2006 Kia
+R018871 | - | calidad-: only lasted for four months
+R046938 | - | calidad-: it has small torn corner
+R029802 | - | ajuste-: My adapter keeps separating from the phone
+R014452 | + | carga+: Fast
+R005750 | + | sonido+: Great sound ; diseno+: in small size ; precio+: Great value
+R010513 | - | ajuste-: It does not stay on the case
+R031579 | 0 | diseno+: Cute ; facilidad_uso+: easy ; calidad-: it creaks when it moves
+R012556 | + | facilidad_uso0: A little tricky, but got it
+R027710 | - | calidad-: it was like the adhesive melted from the heat and it wouldn't stick
+R031404 | + | sonido+: The sound quality is very good ; bateria+: the battery last a very long time
+R020691 | + | envio+: Me llegó intacto ; carga-: el cargador queda flojo si lo usan en América ; ajuste-: los que probé nunca encajaron bien
+R021726 | - | calidad-: they are all pretty much not working anymore ; diseno+: they loon amazing and feel great
+R049130 | + | precio+: good price
+R004919 | + | facilidad_uso+: Easy to use ; ajuste+: fits well ; precio+: Well worth the price
+R054901 | + | sonido+: Now people aren't asking me to repeat myself and I can hear them too ; facilidad_uso+: it makes things much easier
+R039445 | - | carga-: out of e box it wouldn't charge
+R036090 | 0 | envio-: one of the two was missing the film covering the inside of the lense
+R030252 | - | carga-: Does not charge ; ajuste-: The product keeps saying it doesn't work woth my phone
+R019587 | + | precio+: The Best Bluetooth in it's price range ; sonido+: No one can tell I'm in the car or hear any back ground noise ; facilidad_uso+: Its has easy buttons to answer and mute calls with ; diseno0: It took a few days to get used to the weight
+R013884 | + | facilidad_uso+: It was very easy to install ; ajuste+: fit perfectly
+R036475 | - | diseno+: Looks great ; facilidad_uso-: If you want to use the side wheel I hope you have small fingers ; carga-: can't use aftermarket chargers without taking the Apple Watch back out of the case ; ajuste-: Band isn't as comfortable as the OEM band
+R041897 | + | carga+: charged my phone super quick
+R043635 | + | envio+: Arrived fast
+R049704 | 0 | ajuste-: It doesn't seem to fit the greatest on the vents
+R014312 | - | carga-: These chargers were just normal chargers, not fast charging ; calidad-: They also heated up to the the point where you couldn't touch them
+R012330 | - | ajuste-: the size is wrong ; precio0: it's only $6
+R015971 | 0 | ajuste-: I would like it to have a different tactile feel on the power and speaker buttons ; diseno-: Back is too slick, slides off everything
+R033876 | + | precio+: Considering the price, this is a pretty good phone ; pantalla+: the screen is massive, almost bezeless ; bateria+: The impressive aspect is the battery
+R030739 | - | facilidad_uso-: very difficult to get bubbles out ; ajuste-: camera protector would not even stick to phone
+R019688 | - | calidad-: it stopped working right after the return date was up
+R047807 | + | ajuste+: These cubes work perfectly for my iPhone 7
+R029246 | + | envio-: i ordered a green phone but instead received a red one
+R026520 | - | pantalla-: An air bubble appeared at the top right hand corner ; calidad-: it cracked
+R027594 | + | 
+R002137 | + | 
+R035377 | - | facilidad_uso-: it is easy to get off aligned ; pantalla-: causing large bubbles ; precio-: I just wasted my money
+R048234 | - | carga-: These don't charge
+R037239 | - | carga-: Phone charger not supplied with phone
+R049640 | 0 | ajuste-: Hook even stretched to the max would not fit middle vents
+R019892 | 0 | diseno-: screen protector too bulky to fit in charger ; carga-: Need to remove protector when device needs to be charged
+R002980 | + | bateria+: Keeps your phone charged all day ; carga+: Doesn't take long to charge
+R045890 | 0 | proteccion+: protege el equipo ; calidad+: Tiene buen acabado ; pantalla-: Aprueba de rayones no mucho
+R032353 | + | diseno+: Looks great on my phone
+R000551 | + | diseno+: like the size ; envio+: arrived on time
+R025858 | - | ajuste-: These adapters are SO loose
+R032938 | - | sonido+: The sound is excellent ; envio-: My first thought was this gray Bluetooth must be used
+R031641 | + | ajuste-: It's a little bit scratchy on my inner wrist ; diseno+: it looks nice ; facilidad_uso+: easy to click into watch
+R015146 | + | bateria+: Battery life is very good ; sonido+: sound quality ; ajuste+: comfort is good ; precio+: Good quality at the price point
+R035290 | + | facilidad_uso+: Application is pretty easy ; precio+: Good value for money
+R006045 | + | calidad+: Cords have been pretty good and durable ; diseno+: I like that they have a leather like cord clasp
+R046813 | - | facilidad_uso+: Applied perfectly ; pantalla-: still bubble up on the edges
+R051268 | - | calidad-: both times with in the first week the screen protector has cracked ; facilidad_uso+: Easy install tho
+R018383 | - | proteccion-: My phone cracked every time it fell even a little bit ; diseno+: Cute tho
+R018173 | - | calidad-: the color is fading ; diseno+: it was very pretty when I got it
+R043973 | + | ajuste0: I only wish it fit right down snug on the top of the outlet ; carga0: I only wish the cord(s) had retractable cord management
+R016803 | + | diseno+: it a nice sleek little stand
+R046617 | - | calidad-: Turns yellow after about 2-3 weeks ; atencion-: return window closes after 30 days
+R004890 | + | ajuste+: I is comfortable ; sonido+: comes nice and clear ; facilidad_uso+: It was easy to air with my gps
+R039214 | - | diseno-: Case feels slippery ; calidad-: dust get behind the case easily
+R033009 | - | facilidad_uso-: it kept cutting out ; sonido-: had this robot voice sound every once in a while
+R012892 | - | calidad-: scratches all over ; diseno-: hard to hold without feeling it
+R011298 | + | carga+: These chargers are super fast ; diseno-: the little blue light that's always on
+R015824 | + | sonido+: Sound quality ; bateria+: battery life great ; facilidad_uso+: Bluetooth connection to my phone is always smooth ; precio+: Great value, Great price
+R047934 | 0 | calidad-: Suction power was weaker than expected
+R054907 | 0 | sonido-: volume could be louder ; diseno-: Heavy
+R046313 | - | carga-: NOT FAST CHARGING
+R024958 | + | envio+: Product arrived sealed, complete ; calidad+: The phone is speedy ; precio+: on this budget phone
+R033639 | + | ajuste+: holds the phone securely ; diseno+: looks like part of the dashboard
+R024307 | + | facilidad_uso+: I installed it myself
+R038240 | 0 | ajuste-: it didn't fit my i phone 10 with the outer box on it
+R013134 | - | diseno-: Looks horrible with a standard Apple Watch band ; proteccion+: it is a very robust case for your watch
+R021605 | + | diseno+: I love having the different lengths ; precio+: the price was right
+R012698 | - | ajuste-: the edges would not adhere to the watch
+R051827 | + | facilidad_uso+: easy to install ; ajuste-: Camera protector doesn't fit with my case
+R046438 | - | calidad-: Both devices do not work
+R023709 | - | calidad-: Came off from side after using two months
+R004392 | 0 | ajuste-: would have preferred stronger magnets
+R051696 | 0 | precio+: Great price ; calidad-: the screen protector cracked ; proteccion+: It definitely did it job and saved my phone
+R033003 | + | facilidad_uso+: keeping the hands free while driving ; sonido+: Sound quality is top tier
+R014327 | - | calidad-: The progs fall off inside the socket
+R025128 | + | ajuste+: I had to buy an adapter to fit the battery charging cord. This worked great
+R005937 | - | sonido-: This Bluetooth has a dull sound ; bateria-: When it shows a full charge the voice say medium
+R023527 | - | sonido-: the speaker is now garbled ; calidad-: it literally fell apart ; atencion-: I've contacted Conambo for support. No response
+R016690 | + | precio+: for half the price ; carga+: the e same capability for fast charge like apple's
+R047743 | + | precio+: Price was good
+R029431 | + | calidad+: Soft and durable
+R016715 | - | calidad-: Broke after 2 months ; atencion-: Contacted Ugreen and they said they couldn't do anything
+R053330 | - | envio-: it only contained 1 screen protector ; ajuste-: The camera protectors fell off both of my son's phones ; precio-: Do NOT waste your money
+R038682 | - | ajuste-: I could not get this to stick well ; calidad+: These are made out of a nice quality silicone
+R008962 | 0 | sonido-: Volume is REALLY low
+R053857 | - | ajuste-: The portion that goes behind my ear is so thick it barely fits
+R034081 | 0 | pantalla-: En la pantalla de la batería no se ven los números
+R039913 | - | sonido-: This Bluetooth headset as poor quality sound
+R021517 | + | calidad+: Muy buena y resistente
+R048949 | 0 | ajuste-: when I skimmed down and put a pop socket on, it no longer keeps phone steady
+R051847 | 0 | facilidad_uso+: It's pretty easy to install ; calidad-: mine cracked after I dropped my phone once ; precio+: great value
+R013850 | - | pantalla-: I now have trouble unlocking my phone with Face ID
+R046655 | 0 | calidad-: It starts to turn from clear to yellow within a few months ; ajuste-: It also stretches out and barely stays on the phone ; proteccion+: it did protect it
+R000774 | - | envio-: it came refurbished headseat had scratches already on it
+R035968 | + | ajuste+: works perfectly in my vehicle ; facilidad_uso+: Very easy to install ; precio+: the cost is doable ; calidad+: Seems sturdy
+R023828 | - | calidad-: quit working within 5 days
+R007560 | 0 | ajuste-: the cut out for the camera is the wrong size ; diseno+: Looks great. Feels great ; calidad+: Seems tough enough
+R002645 | + | 
+R033515 | 0 | facilidad_uso0: This went on pretty easy after I did it the first time ; calidad-: I now have 3 spots that are lifting up
+R052958 | - | carga-: It does not always charge like it should
+R047801 | + | carga+: charges fast
+R015886 | 0 | ajuste-: I would prefer it to be more substantial so it would feel more secure on my ear
+R054958 | - | calidad-: Lasted 6 months
+R027582 | - | envio-: mine came with dents on it as if it had been used before ; ajuste+: This piece also fits well to the other mount pieces ; calidad-: THE SUCTION DIDNT WORK
+R010924 | + | 
+R025597 | + | ajuste+: Nice, slim fit ; facilidad_uso-: Buttons are a little difficult to operate
+R022606 | + | diseno-: they're too stiff
+R010940 | + | facilidad_uso+: Attaches easily ; ajuste-: it does not fit snuggly to the wall
+R020362 | - | bateria-: it barely charges my phone before it dies ; carga-: I would leave it to charge for 30 minutes and the percentages barely increases
+R053732 | - | calidad-: It literally only got a couple of drops of water on it and now it is useless ; bateria+: the battery life is amazing
+R020130 | + | ajuste+: Just put one of these on the end of your USB C cable and problem solved
+R028998 | - | ajuste-: lens cover didnt fit at all
+R045250 | 0 | calidad-: The screen protectors break/crack along the edge within a few days
+R043020 | 0 | calidad-: the design is coming off ; diseno+: it was very pretty
+R008694 | - | calidad-: Stickiness is not lasting long
+R049623 | - | ajuste-: Not working in the newer mercedes models
+R032928 | - | calidad-: Item stopped working ; sonido-: People are telling that they can't here me or I sound very low
+R046934 | + | precio+: it's a good value for the price
+R035121 | - | envio+: which looked like new ; calidad-: I couldnt make or receive phone calls
+R019592 | - | sonido-: There is no noise cancellation for background noise
+R017709 | - | carga-: after two weeks it would not charge ; bateria-: it won't hold a charge
+R008204 | - | ajuste-: It doesn't adhere to the outside edge of the phone screen
+R031974 | 0 | envio-: it took to long to arrive
+R002060 | - | ajuste-: Will NOT synch to a laptop or tablet
+R008744 | - | ajuste-: Phone falls off and won't stop moving
+R014670 | + | pantalla+: it's blackout zone is really nice so no one can see the screen
+R000778 | - | bateria-: the entire battery dies and won't hold a charge ; atencion-: won't send a replacement
+R032978 | + | precio+: Surprisingly good for its price
+R053544 | - | envio-: Only 1 came in the package
+R045757 | - | calidad-: the edges started coming off, didn't last long at all
+R039351 | + | precio+: For 30 bones ; sonido+: clear audio ; facilidad_uso+: Very easy to pair ; carga+: charging case is super handy
+R008436 | - | calidad-: Worst quality screen protector ; pantalla-: Screen freezes
+R001807 | + | ajuste0: it pulls off the vent a little
+R040304 | - | carga-: Charges very slowly and gets pretty hot ; precio-: Not worth the money
+R031978 | + | diseno+: Pretty ; facilidad_uso+: easy to put on
+R039482 | + | ajuste+: Fits my smart watch great ; proteccion+: it protects the screen
+R027724 | - | ajuste-: doesn't stick to anything
+R041751 | 0 | ajuste-: Phone slips ; facilidad_uso+: Great idea for hands free
+R047738 | + | envio+: Super quick delivery
+R020652 | - | bateria-: Battery died after 4 months ; carga-: the phone won't charge ; calidad-: had coverage issues even in populated areas of the city
+R029609 | - | ajuste-: it doesn't work for my headphones
+R053798 | - | ajuste0: The fit seems smaller ; facilidad_uso-: Doesn't always stay connected ; sonido-: half the times others can't hear ; bateria-: doesn't hold a charge worth a darn
+R020468 | - | calidad-: the phone would not turn on the screen when the power button was pressed
+R018926 | - | calidad-: Lasted just beyond the return date and died
+R010428 | + | calidad+: Glue on back is super strong, has never fallen
+R047627 | + | ajuste+: the suction cup would stick to the dashboard and support the arm and my phone
+R000246 | - | diseno-: this OTG cable has a long micro usb port
+R030081 | + | calidad+: It has a really solid feel ; pantalla+: good screen ; bateria+: decent battery life ; precio+: boxes way above its price point
+R051667 | + | facilidad_uso+: It was very easy to install ; proteccion+: help protect your Apple Watch
+R031036 | - | calidad-: it would restart randomly ; atencion-: trying to connect with someone in support from Google has been difficult
+R023951 | + | calidad+: Its working flawlessly ; atencion+: Definitely recommend purchasing from this seller
+R001750 | + | ajuste+: works really well with Samsung S6
+R051860 | + | 
+R009115 | - | sonido-: the person on the other end not being able hear me ; facilidad_uso-: a major problem with cutting-out
+R019819 | + | 
+R051998 | - | pantalla-: I can still see items on my screen when looking at it from the side
+R005680 | - | facilidad_uso-: the Bluetooth stopped auto connecting ; bateria-: The battery was weaker then advertised ; calidad-: It just stopped working ; sonido+: the sound was clear and the range was good
+R048389 | - | facilidad_uso-: I could not get the pins out to adjust the length ; ajuste-: The width was also too large for my Apple watch
+R040870 | + | bateria+: I charged my I-Phone about three times
+R033114 | - | ajuste+: is actually comfortable ; sonido-: customers said it's hard to hear me
+R038289 | - | ajuste-: Gap not big enough for iPhone XR + phone case
+R051767 | + | facilidad_uso+: Had no issue putting the screen protector on
+R043766 | - | ajuste-: Wont stick to my car
+R038743 | - | calidad-: This isn't sturdy
+R055016 | - | calidad-: Very low quality ; bateria-: short battery life ; sonido-: poor sound quality
+R008547 | + | atencion+: The seller really worked with me to resolve me issue ; ajuste+: Works great with my iPhone 8 plus and case
+R025430 | + | precio+: Exelente inversión
+R015437 | - | calidad-: the quality is bad
+R046216 | + | calidad+: They are very durable ; diseno+: the colors fit my wardrobe
+R010878 | - | calidad-: 4 months later it just simply stopped working
+R046087 | + | calidad+: These bands are good quality ; diseno+: I like the different colors
+R013899 | - | ajuste-: It's doesn't even cover the whole screen
+R034632 | + | 
+R003844 | + | 
+R001471 | + | ajuste+: Have not had any issues with getting the dreaded "device not supported" error
+R050879 | - | calidad-: a piece of junk
+R053818 | - | sonido0: sound pick-up is better ; calidad-: the build quality pails in comparison to the Galaxy Buds+ ; carga-: It's a shame it didn't use USB-C
+R020599 | + | carga-: You may consider buying 18W one for fast charging ; bateria+: The best thing is the all-day battery life ; precio+: it is worth the money
+R036975 | + | carga+: They charge the phone pretty fast compared to the car charger ; bateria+: Power bank keeps the charge for quiet sometime ; precio+: it is totally worth it ; facilidad_uso-: You need to remove the power bank end and insert it again
+R007911 | - | carga-: Once phone is charged it vibrates until you unplug
+R010877 | - | carga-: It takes a long time to charge ; ajuste-: Hard to charge through an Otter-box case
+R033268 | + | diseno+: Not a thick band just perfect ; facilidad_uso+: the interlock on the slider is genius
+R047222 | 0 | carga-: you have to really be intentional about placing it in the exact spot
+R028237 | - | diseno-: Chunky clunky & uncomfortable
+R002331 | + | atencion+: Costumer service was great and friendly
+R015879 | 0 | bateria+: It has a great batterie life ; ajuste+: it is also comfortable on the ear ; sonido-: NO ONE can hardly hear me ; facilidad_uso+: Easy to turn on and off
+R026969 | - | precio-: it was not worth the money
+R004929 | - | bateria-: The life is to short
+R000065 | - | diseno-: It's too bulky, thick ; ajuste-: It doesn't fit behind the year easily
+R044707 | - | calidad-: Camera cover cracked after installing ; facilidad_uso-: Broke before we even got it on the phone
+R052383 | + | facilidad_uso+: Love how easy it is to put on ; precio+: great price ; atencion+: Love that it comes with a lifetime warranty
+R017421 | 0 | pantalla-: You can still see screen from side unless you turn down brightness ; precio0: I guess u get what u pay for
+R040377 | + | ajuste+: Fits my note 10 plus with the Unicorn Beetle case ; carga+: still charges wirelessly
+R040446 | - | calidad-: It No longer works after a few months ; ajuste-: often opens unexpectedly which releases your phone while driving
+R028286 | - | ajuste-: it doesn't close on my wrist all the way ; diseno-: It's too stiff
+R028760 | + | proteccion+: protects the screen
+R049004 | + | ajuste+: phone is securely attached
+R033337 | - | envio-: apple watch band missing clamp
+R002113 | + | ajuste-: the earpiece is a little large and hurts my ear
+R013760 | + | facilidad_uso+: Easy to install ; proteccion+: cracked after 2 weeks but my screen is intact
+R034736 | - | facilidad_uso-: it's constantly cutting on and off. Drops calls
+R040211 | + | diseno+: it is compact and does not take a lot of space
+R017830 | - | sonido-: Not very good for noise cancellation
+R035111 | - | ajuste-: this phone is not fully unlocked
+R042282 | + | carga+: I didn't have to plug and unplug the charger ; diseno+: Very sleek, easy to travel with
+R019452 | - | ajuste-: The screen protector doesn't cover whole glass on 8 plus ; proteccion-: my Phone keeps popping out in bottom right corner
+R002059 | + | sonido+: Plantronics are the BEST in sound and reception ; ajuste+: This particular design is the best fit for me ; bateria-: the battery does not last as many hours as announced
+R011724 | - | ajuste-: I had trouble seating the watch properly on the stand
+R040258 | 0 | ajuste+: for the magnetic actuon its great ; calidad-: the suction cup is bad
+R022144 | + | ajuste0: The cord connection was a bit tight
+R012468 | - | ajuste-: too big not for iphone 11 pro
+R007094 | + | facilidad_uso+: Easy to install ; ajuste+: every time I turned a corner it fell off. Not this one ; calidad+: It is very sturdy
+R045046 | - | calidad-: they both were cracked within a week
+R040259 | + | calidad+: it lasted ; facilidad_uso+: I don't have to adjust the cellphone holder
+R028442 | 0 | calidad+: The actual build quality, fit and protection are all fine ; ajuste+: fit ; proteccion+: protection ; diseno-: it leads to overheating
+R004125 | 0 | ajuste-: Neither of the included ear pieces fits as snug ; calidad-: The rubber on the ear piece only held it's elasticity for a couple months ; sonido+: It has great sound ; facilidad_uso+: Connection was a cinch
+R037942 | - | envio-: received a Xiaomi 10 instead ; calidad-: Once a month the phone stops recognizing the sim card
+R054407 | + | facilidad_uso+: It was very easy to install ; ajuste+: has great suction power
+R036860 | - | ajuste-: They don't stick
+R041545 | - | calidad-: The bracket to the latch fell off ; precio-: Waste of money
+R029735 | - | calidad-: Made to flimsy
+R018429 | + | ajuste+: it has been the first bluetooth comfortable to my ear ; sonido+: the quality is awesome ; bateria+: Last all day when playing music
+R010917 | 0 | carga-: Often have to replace it on pad in order to initiate charging
+R038448 | + | ajuste+: This product securely held my phone in place ; facilidad_uso-: I can't turn my phone to landscape or back to portrait without using two hands
+R031604 | - | calidad-: Mine broke after 2 weeks
+R000726 | 0 | facilidad_uso0: If you are having issues getting the headset function to work under Linux
+R049811 | + | envio+: it came very quickly ; facilidad_uso+: was easy to put together ; calidad+: Very sturdy ; precio+: Good for the price ; ajuste-: the cradle isn't that deep to accommodate for a case
+R023593 | 0 | proteccion0: I was excited about the camera lens protection ; pantalla-: you'll get a glare on your pictures ; ajuste+: The screen protector fits nice ; envio+: everything is packaged well ; precio+: good enough for the price
+R036705 | - | ajuste-: First set would not stay on the back of my phone
+R038332 | 0 | facilidad_uso+: Very easy to install ; ajuste-: you must remove your phone case in order for it to fit
+R049700 | + | calidad+: Very sturdy ; facilidad_uso+: easily mountable ; ajuste+: Has very firm grip once on the vent ; envio+: Received the product in one day
+R015088 | 0 | carga-: Don't think it's fast charging ; calidad0: The cord so thin
+R052356 | - | proteccion0: Bad item only work for scratches
+R027902 | 0 | diseno+: It's just as cute in person ; proteccion-: it doesn't protect the face of the phone at all
+R041234 | - | envio-: I did not receive any of the magnetic plates ; ajuste+: The car mount itself has a very strong hold
+R039533 | - | calidad-: This product is not scratch resistant
+R001089 | - | carga-: Wouldn't charge my phone at alll
+R052799 | - | ajuste-: water goes in between screen and case ; pantalla-: touch responsiveness is not good
+R000569 | - | calidad-: Lasted a month
+R030266 | - | calidad-: just stopped working ; carga-: Stopped charging in under 24 hours
+R013965 | + | pantalla-: not always allowing touch screen effectively ; calidad-: Protection screen too fragile, easy to scratch ; facilidad_uso+: Very easy to install/uninstall ; proteccion+: good protection overall
+R032656 | + | proteccion+: Protects phone ; calidad-: the cover got a brown color tint after a couple months
+R028784 | - | calidad-: Doesn't feel Durable at all
+R012373 | + | proteccion+: Es muy bueno para proteger la pantalla del iPhone
+R041543 | + | diseno+: Everyone loves the color of this watch band ; ajuste+: Its very soft and comfortable to wear ; calidad-: the clasp finish is starting to wear off
+R022785 | - | carga-: it stopped charging ; atencion-: Return it . Per Amazon
+R040578 | + | atencion+: they very promptly responded and helped me solve my problem ; diseno+: I get compliments on it all the time
+R003267 | + | carga+: They were impressed by the speed ; bateria+: number of times they could charge their devices
+R016985 | + | facilidad_uso+: Super easy to apply ; ajuste+: Fit is good for screen

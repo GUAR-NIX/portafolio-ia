@@ -1,0 +1,144 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "consultar_indicador_banco_mundial",
+      "description": "Consulta la serie anual oficial del Banco Mundial (1990-2024) para un país (ECU, COL, PER, CHL, ARG, BRA, MEX, URY, CRI, BOL, PRY, USA) y un indicador (pib_per_capita_usd, crecimiento_pib_pct, inflacion_anual_pct, desempleo_pct, energias_renovables_pct, esperanza_vida_anios, usuarios_internet_pct, indice_gini). Úsala para UN solo país; anio_inicio y anio_fin son los años que menciona la pregunta (si dice 'en 2023', ambos son 2023). Ejemplo: {\"codigo_pais\": \"BRA\", \"indicador\": \"desempleo_pct\", \"anio_inicio\": 2015, \"anio_fin\": 2018}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "codigo_pais": {
+            "type": "string"
+          },
+          "indicador": {
+            "type": "string"
+          },
+          "anio_inicio": {
+            "default": 2018,
+            "type": "integer"
+          },
+          "anio_fin": {
+            "default": 2023,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "codigo_pais",
+          "indicador"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "comparar_paises_indicador",
+      "description": "Compara un indicador del Banco Mundial entre 2 o más países (códigos ISO3) en un año específico (1990-2024) y devuelve el ranking ordenado, el líder y la brecha. Úsala cuando la pregunta nombra 2 o más países para un mismo año, en una sola llamada. Ejemplo: {\"codigos_paises\": [\"ARG\", \"BRA\"], \"indicador\": \"desempleo_pct\", \"anio\": 2022}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "codigos_paises": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "indicador": {
+            "type": "string"
+          },
+          "anio": {
+            "default": 2022,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "codigos_paises",
+          "indicador"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "consultar_clima_historico_ciudad",
+      "description": "Consulta series climáticas históricas de Open-Meteo (2020-01-01 a 2024-12-31) para una ciudad (Quito, Guayaquil, Bogotá, Lima, Santiago, Buenos Aires, São Paulo, Ciudad de México, Montevideo, San José, La Paz, Asunción) y una variable (temp_media_c, temp_max_c, temp_min_c, precipitacion_mm, radiacion_solar_mj_m2, viento_max_kmh). Úsala para UNA variable concreta en un rango de fechas YYYY-MM-DD (un año completo = YYYY-01-01 a YYYY-12-31). Ejemplo: {\"ciudad\": \"Lima\", \"fecha_inicio\": \"2022-01-01\", \"fecha_fin\": \"2022-12-31\", \"variable\": \"precipitacion_mm\"}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ciudad": {
+            "type": "string"
+          },
+          "fecha_inicio": {
+            "type": "string"
+          },
+          "fecha_fin": {
+            "type": "string"
+          },
+          "variable": {
+            "default": "temp_media_c",
+            "type": "string"
+          }
+        },
+        "required": [
+          "ciudad",
+          "fecha_inicio",
+          "fecha_fin"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "resumen_climatico_anual_ciudad",
+      "description": "Obtiene todas las métricas climáticas anuales de Open-Meteo (temperatura media, máxima, mínima, precipitación acumulada en mm, radiación solar, viento máximo y días de lluvia) para una ciudad en un año entre 2020 y 2024. Úsala cuando piden el clima o resumen climático general de un año, no una sola variable. Ejemplo: {\"ciudad\": \"Quito\", \"anio\": 2021}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ciudad": {
+            "type": "string"
+          },
+          "anio": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ciudad",
+          "anio"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "calcular_correlacion_o_cambio",
+      "description": "Ejecuta cálculos matemáticos exactos sin error de redondeo: 'variacion_porcentual' entre dos cifras, 'diferencia', 'promedio', 'extremos' o 'correlacion' de Pearson entre dos series valores_x y valores_y. Llámala DESPUÉS de obtener los datos, copiando los valores observados; nunca calcules de memoria. Para variación porcentual: valores_x = [valor_inicial, valor_final]. Ejemplo: {\"valores_x\": [1200.0, 1500.0], \"operacion\": \"variacion_porcentual\"}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "valores_x": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          },
+          "valores_y": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "operacion": {
+            "default": "variacion_porcentual",
+            "type": "string"
+          }
+        },
+        "required": [
+          "valores_x"
+        ]
+      }
+    }
+  }
+]
